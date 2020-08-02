@@ -135,3 +135,11 @@ window.onload = function () {
     ".typewriter > .typewriter-bar { border-right: 0.07em solid #fff}";
   document.body.appendChild(css);
 };
+//hamburger-menu
+const hamburgerMenu = document.getElementById("hamburger-menu");
+const HamburgerMenuShow = () => {
+  hamburgerMenu.classList.add("hamburger-menu-show");
+};
+const HamburgerMenuClose = () => {
+  hamburgerMenu.classList.remove("hamburger-menu-show");
+};

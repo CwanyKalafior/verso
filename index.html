@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="App">
+    <div class="wrapper">
       <canvas id="noise" class="noise"></canvas>
       <nav>
         <div class="top-nav">
@@ -44,6 +44,9 @@
       <div class="mail-btn">
         <p>Zgłoś zainteresowanie</p>
       </div>
+      <div class="hamburger" onclick="HamburgerMenuShow()">
+        <i class="fas fa-bars"></i>
+      </div>
       <div class="social_languages-wrapper">
         <div class="languages">
           <div class="languages-buttoms">
@@ -66,6 +69,25 @@
           </div>
         </div>
       </div>
+      <section class="hamburger-menu" id="hamburger-menu">
+        <div id="hamburger-menu-close">
+          <i class="ham fas fa-times" onClick="HamburgerMenuClose()"></i>
+        </div>
+        <ul class="hamburger-menu-bg">
+          <li>
+            <a>Strona główna </a>
+          </li>
+          <li>
+            <a>Projekty</a>
+          </li>
+          <li>
+            <a>Pracownia </a>
+          </li>
+          <li class="burger-contact-btn" onClick="HamburgerMenuContact()">
+            <a id="contact-btn"> Kontakt </a>
+          </li>
+        </ul>
+      </section>
     </div>
     <script src="script.js"></script>
   </body>
