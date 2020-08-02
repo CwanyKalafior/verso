@@ -159,7 +159,7 @@ function contactClose() {
     contactWrapper.classList.add("goBottom");
     contactWrapper.classList.remove("goTop");
     hamburgerMenu.classList.add("goTop");
-  }, 180);
+  }, 250);
 
   setTimeout(function () {
     contactWrapper.classList.remove("goBottom");
