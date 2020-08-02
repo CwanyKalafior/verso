@@ -143,3 +143,27 @@ const HamburgerMenuShow = () => {
 const HamburgerMenuClose = () => {
   hamburgerMenu.classList.remove("hamburger-menu-show");
 };
+
+// kontakt
+const contactWrapper = document.querySelector(".contact-wrapper");
+function hamburgerMenuContact() {
+  contactWrapper.classList.add("goTop");
+  hamburgerMenu.classList.add("goHigher");
+  setTimeout(function () {
+    hamburgerMenu.classList.remove("goHigher");
+  }, 600);
+}
+function contactClose() {
+  hamburgerMenu.classList.add("goHigher");
+  setTimeout(function () {
+    contactWrapper.classList.add("goBottom");
+    contactWrapper.classList.remove("goTop");
+    hamburgerMenu.classList.add("goTop");
+  }, 180);
+
+  setTimeout(function () {
+    contactWrapper.classList.remove("goBottom");
+    hamburgerMenu.classList.remove("goHigher");
+    hamburgerMenu.classList.remove("goTop");
+  }, 650);
+}
