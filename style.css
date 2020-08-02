@@ -311,8 +311,8 @@ body {
 }
 .contact-content {
   position: absolute;
-  margin-left: 5%;
-  margin-top: 8vh;
+  /* margin-left: 5%; */
+  /* margin-top: 8vh; */
   z-index: 2;
 }
 .contact_brand-name {
@@ -324,6 +324,8 @@ body {
 .contact-authors {
   position: absolute;
   top: 10vh;
+  margin-left: 5vw;
+  margin-top: 8vh;
 }
 .contact-authors p {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
@@ -345,4 +347,6 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   font-weight: 100;
   text-decoration: none;
+  margin-left: 5vw;
+  margin-top: 8vh;
 }
