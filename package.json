@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "ajax": "0.0.4",
     "express": "^4.17.1",
     "i": "^0.3.6",
     "nodemailer": "^6.4.11",
@@ -15,6 +16,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kamil Grodzki",
+  "author": "Kamil Grodzki,Monika Woźniak",
   "license": "ISC"
 }

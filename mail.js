@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport(mailGun(auth));
    password: grupaversoczestochowa */
 
 //Seending email
-const sendMail = (name, number, email, text) => {
+const sendMail = (name, number, email, text, cb) => {
     const mailOptions = {
         from: email,
         to: 'projektgvtest@gmail.com',
@@ -35,12 +35,9 @@ const sendMail = (name, number, email, text) => {
     //Error catcher
     transporter.sendMail(mailOptions, function (err, data) {
         if (err) {
-            console.log('error in mail.js');
-            console.log(err);
+            return cb(err, null);
         }
-        else {
-            console.log('Message sent!! Check your email (projektgvtest@gmail.com)');
-        }
+        return cb(null, data);
     });
 }
 module.exports = sendMail;
