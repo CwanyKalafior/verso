@@ -31,6 +31,7 @@ function onClick() {
 }
 // swiper
 var swiper = new Swiper(".swiper-container", {
+  slidesPerView: "auto",
   lazy: {
     loadPrevNext: true,
     preloadImages: false,
@@ -40,12 +41,19 @@ var swiper = new Swiper(".swiper-container", {
     invert: true,
   },
   autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   },
   keyboard: {
     enabled: true,
   },
+  loop: true,
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: false,
+  },
+  centeredSlides: true,
+  freeMode: true,
 });
 // pogrubianie linków
 const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");
