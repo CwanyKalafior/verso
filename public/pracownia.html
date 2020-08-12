@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/pracownia.css">
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <canvas id="noise" class="noise"></canvas>
+    <nav>
+      <div class="top-nav">
+        <div class="brand-name">
+          <img src="content/verso-logo.png" alt="grupaverso" />
+        </div>
+    </nav>
+    <div class="verso-hamburger">
+      <div class="container" onclick="HamburgerMenuShow()">
+        <div class="background"></div>
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+      </div>
+    </div>
+    </nav>
+    <!-- pracownia -->
+    <div class="pracownia_container">
+      <div class="pracownia-text">
+        <span>O nas</span><br>
+      </div>
+      <div class="about_us">
+        <p>
+          Dzięki współpracy wszystkich, tworzymy nagradzane oraz pełne nietypowych rozwiazań projekty. Jesteśmy zespołem
+          osób kochających swoje zajęcie oraz podchądzących do każdego zadania z pasją. Wierzymy, że dzięki temu efekty
+          naszej pracy są wyjątkowe.<span id="readmoredots">..</span>
+          <span id="readmore"> <br>
+            <span class="about_us-text">Projektując przestrzeń zwracamy szczególną uwagę na jej funkcjonalność,
+              ergonomię oraz budżet klienta. Bardzo ważne są dla nas również aspekty wizualno-estetyczne i towarzyszące
+              przebywaniu w danym miejscu odczucia.</span>
+            <br>
+            <span class="about_us-text"> Ciągle się rozwijamy. Odrzucając stereotypy, nie zawsze przystające do
+              współczesności, nie boimy się szukać nowych, rozwiązujących indywidualne problemy, rozwiązań. Czerpiąc z
+              wiedzy i doświadczenia każdego członka zespołu, jesteśmy w stanie patrzeć na problemy z różnych
+              perspektyw, co pozwala na stworzenie propozycji odpowiadających na potrzeby wielu klientów.</span>
+            <br>
+            <span class="about_us-text"> Współpracujemy z zewnętrznymi ekspertami z zakresu architektury, projektowania
+              wnętrz, planowania urbanistycznego i krajobrazowego, designu oraz naszymi podwykonawcami.</span>
+            <br>
+            <span class="about_us-text">Równolegle do pracowni funkcjonuje szkoła rysunku architektonicznego i
+              artystycznego VERSO. Pracownia i szkoła często suplementują się wzajemnie świeżymi pomysłami, wiedzą oraz
+              konstruktywnymi uwagami.</span>
+            <br><br><br>
+          </span>
+        </p>
+        <div class="about_us-btn" onclick="readmoref()" id="readmorebtn">Dowiedz się więcej</div class="about_us-btn">
+      </div>
+      <div class="pracownia-text">
+        <span>Usługi</span><br>
+        <ul class="pracownia-text_uslugi">
+          <li>Architektura</li>
+          <li>Projektowanie wnętrz</li>
+          <li>Urbanistyka</li>
+          <li>Nadzór budowlany</li>
+          <li>Instalacje przestrzenne</li>
+          <li>Design</li>
+          <li>Planowanie krajobrazowe</li>
+        </ul>
+      </div>
+      <div class="pracownia-text">
+        <span>Co nas wyróżnia?</span><br>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/nadzauwy.webp" alt="">
+        <span>Nadzór autorski realizacji</span>
+        <p>Zadbamy o to, by wykonawcy wiernie odtworzyli zatwierdzony przez Ciebie projekt. Dzięki temu nie będziesz
+          mieć potrzeby ciągłego odwiedzania budowy, a o postępach możesz dowiadywać się online. </p>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/stawnafun.webp" alt="">
+        <span>Projektujemy stawiając na funkcjonalność.</span>
+        <p>Kształt budynku często zależy od wyników przeprowadzanych przez nas indywidualnych badań ergonomicznych,
+          które następnie wspólnie z klientem ubieramy w estetyczną formę. </p>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/zaosobstr.webp" alt="">
+        <span>Zaoszczędź sobie nie tylko stresu.</span>
+        <p>Projektując, a potem prowadząc realizację, jesteśmy w stanie zapobiegać problemom z wyprzedzeniem. Dzięki
+          temu Ty oszczędzisz swoje pieniądze, czas oraz zdrowie, nie przejmując się naprawianiem błędów
+          nieskoordynowanych wykonawców. </p>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/wynajwie.webp" alt="">
+        <span>Ty najlepiej wiesz czego potrzebujesz.</span>
+        <p>Zaproponujemy Ci wiele rozwiązań, oraz pomożemy w ich wyborze przedstając dobre i złe strony każdego z nich.
+          Nasz zespół będzie służył Ci doświadczeniem, wiedzą i umiejętnościami, by podjęte wspólnie decyzje i rezultat
+          naszej pracy jak najlepiej odpowiadał na Twoje potrzeby. </p>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/dokszako.webp" alt="">
+        <span>Dokładnie szacujemy koszta budowy.</span>
+        <p> Sposób w jaki projektujemy, znajomość podwykonawców oraz stosowanych technologii umożliwia nam precyzyjną
+          wycenę realizacji projektu.</p>
+      </div>
+      <div class="about_us">
+        <img src="content/pracownia_images/zajesospr.webp" alt="">
+        <span>Zdajemy sobie sprawę ze zmian, jakie niesie przyszłość.</span>
+        <p> Nasze projekty umożliwiają łatwe i tanie modyfikacje w przyszłości, oraz implementowanie nowych rozwiązań
+          technologicznych. Dzięki temu Twój budynek będzie mógł w mniej kosztowny sposób ewoluować razem z Tobą.</p>
+      </div> <br>
+      <div class="pracownia-text">
+        <span>Lista nagród</span><br>
+      </div>
+      <div class="about_us-info">
+        <div class="verso-arrow-up">
+          <div class="container">
+            <div class="background"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+        </div>
+        <span>Porozmawiajmy o Twoim projekcie.</span>
+        <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
+        <a href="tel:+48 502 327 654">+48 502 327 654</a></br>
+        <a href="tel:+48 502 327 654">+48 667 249 109</a></br>
+        <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
+      </div>
+      <footer>
+        <p>Designed and developed with ❤</p>
+        <p>by Jackowski Visuals</p>
+      </footer>
+    </div>
+    <!-- hamburger -->
+    <section class="hamburger-menu" id="hamburger-menu">
+      <div class="verso-close" onClick="HamburgerMenuClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <ul class="hamburger-menu-bg">
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+        <li>
+          <a href="projekty.html">Projekty</a>
+        </li>
+        <li>
+          <a class="active">Pracownia</a>
+        </li>
+        <li class="burger-contact-btn" onClick="hamburgerMenuContact()">
+          <a id="contact-btn">Kontakt</a>
+        </li>
+      </ul>
+    </section>
+    <!-- kontakt -->
+    <div class="contact-wrapper">
+      <div class="contact-circle"></div>
+      <div class="brand-name contact_brand-name">
+        <img src="content/verso-logo.png" alt="grupaverso" />
+      </div>
+      <div class="verso-close" onClick="contactClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-authors">
+          <p>Jakub Cieślik</p>
+          <a href="tel:+48 502 327 654">+48 502 327 654</a>
+          <p>Kamil Cierpioł</p>
+          <a href="tel:+48 502 327 654">+48 502 327 654</a>
+          <p>Email:</p>
+          <a href="mailto:biuro@grupaverso.com.pl" target="blank">biuro@grupaverso.com.pl</a>
+          <p>Lokalizacja biura:</p>
+          <a href="https://www.google.pl/maps/dir//Aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"
+            target="blank"><span>Aleja Wolności 27,<br>42-217 Częstochowa</span></a>
+        </div>
+        <div class="contact-data">
+          <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
+          Al. Wolności 27, 42-217 Częstochowa<br />
+          NIP: 9492218091<br />
+          REGON: 367502177<br />
+          KRS: 0000681527<br />
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="pracownia.js"></script>
+    <script src="script.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+.brand-name {
+  z-index: 3;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #28323b;
+  font-family: "Roboto", sans-serif;
+}
+.form-wrapper {
+  position: relative;
+  top: 20vh;
+  color: #eee;
+  padding-left: 6%;
+}
+.form-circle {
+  position: absolute;
+  top: -12vh;
+  left: -15vw;
+  width: 69vh;
+  height: 69vh;
+  background-color: #33414e;
+  border-radius: 50%;
+}
+label {
+  position: relative;
+  font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+input {
+  position: relative;
+  width: 90%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.form-accept {
+  display: flex;
+  margin-left: -40%;
+  padding: 5%;
+}
+.form-accept p {
+  position: relative;
+  width: 90%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: -25%;
+  margin-right: 5%;
+  font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+  letter-spacing: 0.5px;
+}
+input.form-btn {
+  position: relative;
+  top: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
+  border-bottom: 0;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 533px) and (orientation: landscape) {
+  .form-wrapper {
+    top: 17vh;
+    padding-left: 10%;
+  }
+  .form-accept {
+    padding: 0%;
+  }
+  input.form-btn {
+    top: -2vh;
+  }
+}

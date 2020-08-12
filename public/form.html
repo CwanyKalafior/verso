@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/form.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <nav>
+        <div class="top-nav">
+          <div class="brand-name">
+            <img src="content/verso-logo.png" alt="grupaverso" />
+          </div>
+        </div>
+      </nav>
+      <div class="verso-close" onClick="formClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <!-- <div class="hamburger">
+        <i class="fas fa-bars" onclick="HamburgerMenuShow()"></i>
+      </div> -->
+      <div class="form-wrapper">
+        <div class="form-circle"></div>
+        <form method="POST" action="send" id="form">
+          <div>
+            <label>
+              Imię i nazwisko:
+            </label></br>
+            <input type="text" name="name" id="name">
+          </div>
+          <div>
+            <label>
+              Numer kontaktowy:
+            </label></br>
+            <input type="text" inputmode="numeric" pattern="[0-9]*" name="number" id="number">
+          </div>
+          <div>
+            <label>
+              Adres email:
+            </label></br>
+            <input type="text" name="email" id="email">
+          </div>
+          <div>
+            <label>
+              Twoja wiadomość:
+            </label></br>
+            <input type="textarea" name="message" id="message">
+          </div>
+          <div class="form-accept">
+            <input type="radio" name="radio" id="radio" />
+            <p>
+              Akceptuję warunki określone w zapisie dotyczącym prywatności.
+            </p>
+          </div>
+          <div>
+            <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
+          </div>
+          <div id="status">
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- hamburger -->
+  <section class="hamburger-menu" id="hamburger-menu">
+    <div id="hamburger-menu-close">
+      <i class="ham fas fa-times" onClick="HamburgerMenuClose()"></i>
+    </div>
+    <ul class="hamburger-menu-bg">
+      <li>
+        <a href="index.html">Strona główna </a>
+      </li>
+      <li>
+        <a href="projekty.html">Projekty</a>
+      </li>
+      <li>
+        <a href="pracownia.html">Pracownia </a>
+      </li>
+      <li class="burger-contact-btn" onClick="hamburgerMenuContact()">
+        <a id="contact-btn"> Kontakt </a>
+      </li>
+    </ul>
+  </section>
+  <!-- kontakt -->
+  <div class="contact-wrapper">
+    <div class="contact-circle"></div>
+    <div class="brand-name contact_brand-name">
+      <img src="content/verso-logo.png" alt="grupaverso" />
+    </div>
+    <div class="contact-close" onClick="contactClose()">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="contact-content">
+      <div class="contact-authors">
+        <p>Jakub Cieślik</p>
+        <a href="tel:+48 502 327 654">+48 502 327 654</a>
+        <p>Kamil Cierpioł</p>
+        <a href="tel:+48 502 327 654">+48 502 327 654</a>
+        <p>Email:</p>
+        <a href="mailto:biuro@grupaverso.com.pl" target="blank">biuro@grupaverso.com.pl</a>
+        <p>Lokalizacja biura:</p>
+        <a
+          href="https://www.google.pl/maps/dir//aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"><span>Al.
+            Wolności 27, 42-200 Częstochowa</span></a>
+      </div>
+      <div class="contact-data">
+        <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
+        Al. Wolności 27,<br /> 42-217 Częstochowa<br />
+        NIP: 9492218091<br />
+        REGON: 367502177<br />
+        KRS: 0000681527<br />
+      </div>
+    </div>
+  </div>
+  <script src="form.js"></script>
+  <script src="https://kit.fontawesome.com/55221ecb68.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+
+    $('form').on('submit', (e) => {
+      e.preventDefault();
+
+      //Pulling data to var (or const)
+      var name = $('#name').val().trim();
+      var number = $('#number').val().trim();
+      var email = $('#email').val().trim();
+      var text = $('#message').val().trim();
+
+      //Container for data
+      const data = {
+        name,
+        number,
+        email,
+        text
+      };
+
+
+      var nameCheck = $('#name').val();
+      var numberCheck = $('#number').val();
+      var emailCheck = $('#email').val();
+      var textCheck = $('#message').val();
+      var statusEln = $('#status');
+      var checkBox = document.getElementById("radio");
+      statusEln.empty();
+
+      if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')
+        && checkBox.checked == true
+        && numberCheck.length >= 9
+        && textCheck.length > 0) {
+        //Sending data to Server
+        $.post('/email', data, function () {
+          console.log('SERVER RECEIVED OUR DATA');
+        });
+      }
+      else {
+        statusEln.append('<div class="divbutton"><p>Prosimy, uzupełnij prawidłowo wszystkie pola.</p><button class="popup">Rozumiem</button></div>')
+
+      }
+
+
+      //Email validation
+      if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')) {
+
+      }
+      else {
+        statusEln.append('<div class="divbutton"><p>Podany adres email nie jest poprawny.</p><button class="popup">Rozumiem</button></div>')
+      }
+
+      //Number validation
+      if (checkBox.checked == true) {
+
+      }
+      else {
+        statusEln.append('<div class="divbutton"><p>Musisz zaakceptować warunki przed wysłaniem zgłoszenia.</p><button class="popup">Rozumiem</button></div>')
+      }
+
+      if (numberCheck.length >= 9) {
+
+      }
+      else {
+        statusEln.append('<div class="divbutton"><p>Upewnij się, że podany numer telefonu jest prawidłowy.</p><button class="popup">Rozumiem</button></div>')
+      }
+
+      //Message validation
+      if (textCheck.length > 0) {
+
+      }
+      else {
+        statusEln.append('<div class="divbutton"><p>Uzupełnij wiadomość.</p><button class="popup">Rozumiem</button></div>')
+      }
+
+
+
+    });;
+
+    $(document).ready(function () {
+      $(document).on('mouseenter', '.divbutton', function () {
+        $(this).find(":button").show();
+      }).on('mouseleave', '.divbutton', function () {
+        $(this).find(":button").hide();
+      }).on('click', ':button', function () {
+        $(this).parent().remove();
+      });
+    });
+  </script>
+</body>
+
+</html>

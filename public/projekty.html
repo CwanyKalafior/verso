@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../node_modules/swiper/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/projekty.css">
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <canvas id="noise" class="noise"></canvas>
+    <nav>
+      <div class="top-nav">
+        <div class="brand-name">
+          <img src="content/verso-logo.png" alt="grupaverso" />
+        </div>
+    </nav>
+    <div class="verso-hamburger">
+      <div class="container" onclick="HamburgerMenuShow()">
+        <div class="background"></div>
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+      </div>
+    </div>
+    </nav>
+    <!-- pracownia -->
+    <div class="projekty_container">
+      <div class="projekty-links">
+        <span>Zrealizowane:</span><br>
+        <a href="#" class="active">Wszystkie</a>
+        <a href="#">Architektura</a>
+        <a href="#">Wnętrza</a>
+      </div>
+      <section id="sec">
+        <div class="gallery" id="gallery">
+          <img src="content/archi/kuznicakied750x400.jpg" alt="">
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska | 2019</span></p>
+          </div>
+          <img src="content/archi/kuznicakied750x400.jpg" alt="">
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska | 2019</span></p>
+          </div>
+          <img src="content/archi/kuznicakied750x400.jpg" alt="">
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska | 2019</span></p>
+          </div>
+          <img src="content/archi/kuznicakied750x400.jpg" alt="">
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska | 2019</span></p>
+          </div>
+          <img src="content/archi/kuznicakied750x400.jpg" alt="">
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska | 2019</span></p>
+          </div>
+      </section>
+      <div class="gallery-btn" id="btn" onclick="onClick()">Załaduj więcej projektów</div>
+      <div class="gallery-swiper gallery">
+        <p>W trakcie budowy:</p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="content/archi/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="content/archi/6fa490ca18a99c562a60edaf01f49a77.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="content/archi/1a46bb29da2eabc3b9965033fbb31961.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about_us-info">
+        <div class="verso-arrow-up">
+          <div class="container">
+            <div class="background"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+        </div>
+        <span>Porozmawiajmy o Twoim projekcie.</span>
+        <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
+        <a href="tel:+48 502 327 654">+48 502 327 654</a></br>
+        <a href="tel:+48 502 327 654">+48 667 249 109</a></br>
+        <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
+      </div>
+      <footer>
+        <p>Designed and developed with ❤</p>
+        <p>by Jackowski Visuals</p>
+      </footer>
+    </div>
+    <!-- hamburger -->
+    <section class="hamburger-menu" id="hamburger-menu">
+      <div class="verso-close" onClick="HamburgerMenuClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <ul class="hamburger-menu-bg">
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+        <li>
+          <a class="active">Projekty</a>
+        </li>
+        <li>
+          <a href="pracownia.html">Pracownia</a>
+        </li>
+        <li class="burger-contact-btn" onClick="hamburgerMenuContact()">
+          <a id="contact-btn">Kontakt</a>
+        </li>
+      </ul>
+    </section>
+    <!-- kontakt -->
+    <div class="contact-wrapper">
+      <div class="contact-circle"></div>
+      <div class="brand-name contact_brand-name">
+        <img src="content/verso-logo.png" alt="grupaverso" />
+      </div>
+      <div class="verso-close" onClick="contactClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-authors">
+          <p>Jakub Cieślik</p>
+          <a href="tel:+48 502 327 654">+48 502 327 654</a>
+          <p>Kamil Cierpioł</p>
+          <a href="tel:+48 502 327 654">+48 502 327 654</a>
+          <p>Email:</p>
+          <a href="mailto:biuro@grupaverso.com.pl" target="blank">biuro@grupaverso.com.pl</a>
+          <p>Lokalizacja biura:</p>
+          <a href="https://www.google.pl/maps/dir//Aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"
+            target="blank"><span>Aleja Wolności 27,<br>42-217 Częstochowa</span></a>
+        </div>
+        <div class="contact-data">
+          <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
+          Al. Wolności 27, 42-217 Częstochowa<br />
+          NIP: 9492218091<br />
+          REGON: 367502177<br />
+          KRS: 0000681527<br />
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="projekty.js"></script>
+</body>
+
+</html>

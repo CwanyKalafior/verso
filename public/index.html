@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="home">
+  <div class="wrapper">
+    <div class="home-page_container">
+      <canvas id="noise" class="noise"></canvas>
+      <nav>
+        <div class="top-nav">
+          <div class="brand-name">
+            <img src="content/verso-logo.png" alt="grupaverso" />
+          </div>
+        </div>
+      </nav>
+      <div class="midbox">
+        <div class="slogan">
+          <p>Projektujemy i tworzymy przestrzeń</p>
+          <div class="forwho">
+            <a href="" class="typewriter" data-period="2000"
+              data-type='["praktyczną i ekonomiczną.","osób pragnących więcej.","rosnącego biznesu.","w zgodzie z Naturą.","ludzi realizujących marzenia."]'>
+              <span class="typewriter-bar"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="form.html">
+        <div class="mail-btn">
+          <p>Zgłoś zainteresowanie</p>
+        </div>
+      </a>
+      <div class="verso-hamburger">
+        <div class="container" onclick="HamburgerMenuShow()">
+          <div class="background"></div>
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+        </div>
+      </div>
+      <div class="social_languages-wrapper">
+        <div class="languages">
+          <div class="languages-buttoms">
+            <a>PL</a>
+            <a>
+              <ul class="enpopup" title="">
+                <a href="www.grupaverso.com">EN</a>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <div class="social-media-bar">
+          <div class="social-media-buttoms">
+            <a href="https://www.instagram.com/grupaverso" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/grupaverso" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <section class="hamburger-menu" id="hamburger-menu">
+      <div class="verso-close" onClick="HamburgerMenuClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <ul class="hamburger-menu-bg">
+        <li>
+          <a class="active">Strona główna</a>
+        </li>
+        <li>
+          <a href="projekty.html">Projekty</a>
+        </li>
+        <li>
+          <a href="pracownia.html">Pracownia</a>
+        </li>
+        <li class="burger-contact-btn" onClick="hamburgerMenuContact()">
+          <a id="contact-btn">Kontakt</a>
+        </li>
+      </ul>
+    </section>
+    <!-- kontakt -->
+    <div class="contact-wrapper">
+      <div class="contact-circle"></div>
+      <div class="brand-name contact_brand-name">
+        <img src="content/verso-logo.png" alt="grupaverso" />
+      </div>
+      <div class="verso-close" onClick="contactClose()">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
+      </div>
+      <!-- <div class="contact-close" onClick="contactClose()">
+            <i class="fas fa-times"></i>
+          </div> -->
+      <div class="contact-content">
+        <div class="contact-authors">
+          <p>Jakub Cieślik</p>
+          <a href="tel:+48 502 327 654" target="blank">+48 502 327 654</a>
+          <p>Kamil Cierpioł</p>
+          <a href="tel:+48 502 327 654" target="blank">+48 502 327 654</a>
+          <p>Email:</p>
+          <a href="mailto:biuro@grupaverso.com.pl" target="blank">biuro@grupaverso.com.pl</a>
+          <p>Lokalizacja biura:</p>
+          <a href="https://www.google.pl/maps/dir//Aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"
+            target="blank"><span>Aleja Wolności 27,<br>42-217 Częstochowa</span></a>
+
+        </div>
+        <div class="contact-data">
+          <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
+          Al. Wolności 27, 42-217 Częstochowa<br />
+          NIP: 9492218091<br />
+          REGON: 367502177<br />
+          KRS: 0000681527<br />
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
