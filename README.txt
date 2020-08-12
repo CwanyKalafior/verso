@@ -1,3 +1,6 @@
+HOW TO INSTALL PACKS
+npm install express nodemailer nodemailer-mailgun-transport -S
+
 To start this project use: 
 	- (node server.js) - static 
 	- or (nodemon server.js)     <-------
