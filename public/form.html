@@ -162,12 +162,80 @@
           console.log('SERVER RECEIVED OUR DATA');
         });
       }
+
+
+      //All
       else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
         && checkBox.checked == false
         && numberCheck.length < 9
         && textCheck.length <= 0) {
         alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
       }
+
+
+
+      //Mail and checker
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && checkBox.checked == false) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Mail and number
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && numberCheck.length < 9) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Mail and message
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Checker and number
+      else if (checkBox.checked == false
+        && numberCheck.length < 9
+      ) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Checker and message
+      else if (checkBox.checked == false
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Number and message
+      else if (numberCheck.length < 9
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+
+
+
+      //Mail and number and message
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && numberCheck.length < 9
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Mail and checker and message
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && checkBox.checked == false
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Mail and number and checker
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && checkBox.checked == false
+        && numberCheck.length < 9) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+      //Checker and number and message
+      else if (checkBox.checked == false
+        && numberCheck.length < 9
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
+      }
+
+
+
+
       else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
         && checkBox.checked == false
         && numberCheck.length < 9
