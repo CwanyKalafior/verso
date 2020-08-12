@@ -21,7 +21,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 .home {
-  background-image: url(../content/header.jpg);
+  background-image: url(..\content\grupaVERSO-header.webp);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
