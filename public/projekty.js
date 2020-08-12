@@ -40,7 +40,7 @@ var swiper = new Swiper(".swiper-container", {
     invert: true,
   },
   autoplay: {
-    delay: 4200,
+    delay: 3000,
     disableOnInteraction: false,
   },
   keyboard: {

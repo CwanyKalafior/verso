@@ -31,6 +31,7 @@ body {
 }
 .pracownia-text_uslugi li {
   margin: 2% 1%;
+  margin-left: 5%;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
 .about_us img {
@@ -41,6 +42,11 @@ body {
   max-height: 28vh;
   margin-top: 7vh;
   margin-bottom: 1vh;
+}
+
+.about_us p {
+  padding-left: 10%;
+  /* padding-right: 10%; */
 }
 
 .about_us span,
