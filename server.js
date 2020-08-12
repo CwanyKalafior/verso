@@ -5,7 +5,7 @@ const path = require('path');
 const PORT = 8080;
 const sendMail = require('./mail');
 app.use(express.static(__dirname + '/public'));
-
+app.use(express.static(__dirname + '/content'));
 //Data parsing
 app.use(express.urlencoded({
     extended: false

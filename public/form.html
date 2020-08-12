@@ -68,9 +68,6 @@
           <div>
             <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
           </div>
-          <div id="status">
-
-          </div>
         </form>
       </div>
     </div>
@@ -154,9 +151,7 @@
       var numberCheck = $('#number').val();
       var emailCheck = $('#email').val();
       var textCheck = $('#message').val();
-      var statusEln = $('#status');
       var checkBox = document.getElementById("radio");
-      statusEln.empty();
 
       if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')
         && checkBox.checked == true
@@ -167,44 +162,36 @@
           console.log('SERVER RECEIVED OUR DATA');
         });
       }
-      else {
-        statusEln.append('<div class="divbutton"><p>Prosimy, uzupełnij prawidłowo wszystkie pola.</p><button class="popup">Rozumiem</button></div>')
-
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && checkBox.checked == false
+        && numberCheck.length < 9
+        && textCheck.length <= 0) {
+        alert("Prosimy, uzupełnij prawidłowo wszystkie pola.");
       }
-
-
-      //Email validation
-      if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')) {
-
+      else if (emailCheck.length <= 2 && !emailCheck.includes('@') && !emailCheck.includes('.')
+        && checkBox.checked == false
+        && numberCheck.length < 9
+        && textCheck.length <= 0) {
+        alert("Podany adres email nie jest poprawny.");
       }
-      else {
-        statusEln.append('<div class="divbutton"><p>Podany adres email nie jest poprawny.</p><button class="popup">Rozumiem</button></div>')
+      else if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')
+        && checkBox.checked == false
+        && numberCheck.length >= 9
+        && textCheck.length > 0) {
+        alert("Musisz zaakceptować warunki przed wysłaniem zgłoszenia.");
       }
-
-      //Number validation
-      if (checkBox.checked == true) {
-
+      else if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')
+        && checkBox.checked == true
+        && numberCheck.length < 9
+        && textCheck.length > 0) {
+        alert("Upewnij się, że podany numer telefonu jest prawidłowy.");
       }
-      else {
-        statusEln.append('<div class="divbutton"><p>Musisz zaakceptować warunki przed wysłaniem zgłoszenia.</p><button class="popup">Rozumiem</button></div>')
+      else if (emailCheck.length > 2 && emailCheck.includes('@') && emailCheck.includes('.')
+        && checkBox.checked == true
+        && numberCheck.length >= 9
+        && textCheck.length <= 0) {
+        alert("Uzupełnij wiadomość.");
       }
-
-      if (numberCheck.length >= 9) {
-
-      }
-      else {
-        statusEln.append('<div class="divbutton"><p>Upewnij się, że podany numer telefonu jest prawidłowy.</p><button class="popup">Rozumiem</button></div>')
-      }
-
-      //Message validation
-      if (textCheck.length > 0) {
-
-      }
-      else {
-        statusEln.append('<div class="divbutton"><p>Uzupełnij wiadomość.</p><button class="popup">Rozumiem</button></div>')
-      }
-
-
 
     });;
 
