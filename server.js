@@ -21,10 +21,9 @@ app.post('/email', (req, res) => {
     sendMail(name, number, email, text, function (err, data) {
         if (err) {
             console.log("Wiadomość nie została wysłana");
+            return res.status(401);
         }
-        else {
-            console.log("Wiadomość została wysłana");
-        }
+        console.log("Wiadomość została wysłana");
     });
 });
 

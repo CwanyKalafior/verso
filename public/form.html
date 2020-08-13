@@ -272,6 +272,19 @@
         $(this).parent().remove();
       });
     });
+
+    //Receive POST status
+    /*
+    $.ajax('/email', {
+      type: "post",
+      success: function (data, text) {
+        alert("Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.");
+      },
+      error: function (request, status, error) {
+        alert("Błąd. Wiadomość nie została wysłana.");
+      }
+    });
+    */
   </script>
 </body>
 
