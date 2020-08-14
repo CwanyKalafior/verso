@@ -161,6 +161,27 @@
         $.post('/email', data, function () {
           console.log('SERVER RECEIVED OUR DATA');
         });
+        //Email validation - Server
+        $.ajax({
+          url: "form.html",
+          success: function (data) {
+            alert("Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.");
+            var delay = 1;
+            setTimeout(function () { window.location = "index.html"; }, delay);
+
+          },
+          error: function (XMLHttpRequest, textStatus, errorThrown) {
+            if (XMLHttpRequest.status == 0) {
+              alert("Błąd. Wiadomość nie została wysłana. Sprawdź swoje połączenie internetowe.");
+            } else if (XMLHttpRequest.status == 404) {
+              alert("Błąd. Wiadomość nie została wysłana.");
+            } else if (XMLHttpRequest.status == 500) {
+              alert("Błąd. Wiadomość nie została wysłana.");
+            } else {
+              alert('Unknow Error.\n' + XMLHttpRequest.responseText);
+            }
+          }
+        });
       }
 
 

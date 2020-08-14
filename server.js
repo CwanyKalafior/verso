@@ -13,16 +13,21 @@ app.use(express.json());
 
 
 
-//Sending data
+//Receiving data
 app.post('/email', (req, res) => {
     const { name, number, email, text } = req.body;
     log('Data: ', req.body);
 
-    sendMail(name, number, email, text);
+    sendMail(name, number, email, text, function (err, data) {
+        if (err) {
+            console.log("Wiadomość nie została wysłana");
+        }
+        console.log("Wiadomość została wysłana");
+    });
 });
 
 
-//Receiving data from form
+//Sending data from form
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'public', 'form.html'));
 });
