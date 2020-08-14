@@ -175,10 +175,16 @@
               alert("Błąd. Wiadomość nie została wysłana. Sprawdź swoje połączenie internetowe.");
             } else if (XMLHttpRequest.status == 404) {
               alert("Błąd. Wiadomość nie została wysłana.");
+              var delay = 1;
+              setTimeout(function () { window.location = "index.html"; }, delay);
             } else if (XMLHttpRequest.status == 500) {
               alert("Błąd. Wiadomość nie została wysłana.");
+              var delay = 1;
+              setTimeout(function () { window.location = "index.html"; }, delay);
             } else {
-              alert('Unknow Error.\n' + XMLHttpRequest.responseText);
+              alert('Błąd. Wiadomość nie została wysłana.\n' + XMLHttpRequest.responseText);
+              var delay = 1;
+              setTimeout(function () { window.location = "index.html"; }, delay);
             }
           }
         });
