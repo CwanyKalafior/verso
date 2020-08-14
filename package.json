@@ -17,6 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kamil Grodzki,Monika Woźniak",
+  "author": "Michał Jackiwski,Kamil Grodzki,Monika Woźniak",
   "license": "ISC"
 }
