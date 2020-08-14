@@ -161,6 +161,23 @@
         $.post('/email', data, function () {
           console.log('SERVER RECEIVED OUR DATA');
         });
+        $.ajax({
+          url: "form.html",
+          success: function (data) {
+            alert("Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.");
+          },
+          error: function (XMLHttpRequest, textStatus, errorThrown) {
+            if (XMLHttpRequest.status == 0) {
+              alert("Błąd. Wiadomość nie została wysłana. Sprawdź swoje połączenie internetowe.");
+            } else if (XMLHttpRequest.status == 404) {
+              alert("Błąd. Wiadomość nie została wysłana.");
+            } else if (XMLHttpRequest.status == 500) {
+              alert("Błąd. Wiadomość nie została wysłana.");
+            } else {
+              alert('Unknow Error.\n' + XMLHttpRequest.responseText);
+            }
+          }
+        });
       }
 
 
@@ -272,19 +289,6 @@
         $(this).parent().remove();
       });
     });
-
-    //Receive POST status
-    /*
-    $.ajax('/email', {
-      type: "post",
-      success: function (data, text) {
-        alert("Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.");
-      },
-      error: function (request, status, error) {
-        alert("Błąd. Wiadomość nie została wysłana.");
-      }
-    });
-    */
   </script>
 </body>
 
