@@ -54,6 +54,7 @@ var swiper = new Swiper(".swiper-container", {
   },
   centeredSlides: true,
   freeMode: true,
+  spaceBetween: 30,
 });
 // pogrubianie linków
 const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");

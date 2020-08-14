@@ -1,0 +1,128 @@
+body {
+  height: auto;
+  max-height: 1000vh;
+  overflow: scroll;
+}
+.noise {
+  position: fixed;
+}
+.main-picture {
+  position: relative;
+  background-color: black;
+}
+.main-picture img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.picture-description {
+  position: relative;
+}
+.main-title {
+  position: relative;
+  top: -8vh;
+  font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
+  font-weight: 500;
+  margin-left: 5%;
+}
+.picture-description .details {
+  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  margin-left: 5%;
+}
+.description {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  font-weight: 300;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+}
+.description span {
+  display: inline-block;
+  font-weight: 500;
+}
+.description > div {
+  margin: 5%;
+  width: 40%;
+}
+div.autorzy {
+  width: 70%;
+}
+.pictures {
+  display: flex;
+  flex-direction: column;
+}
+.pictures img {
+  position: relative;
+  width: 95vw;
+  margin: 2% auto;
+}
+.case_study span {
+  display: inline-block;
+  margin: 5%;
+  font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.case_study p {
+  margin: 5%;
+  text-indent: 8%;
+  font-weight: 300;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+}
+/* realizacja button */
+a {
+  text-decoration: none;
+}
+.realizacja_btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #28323b;
+  padding: 1%;
+  width: 70vw;
+  font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
+  z-index: 999;
+}
+
+@media (min-width: 533px) and (orientation: landscape) {
+  .realizacja_btn {
+    width: 40vw;
+    padding: 0%;
+    font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+  }
+}
+
+@media (min-width: 700px) {
+  .realizacja_btn {
+    width: 40vw;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .realizacja_btn {
+    width: 30vw;
+    padding: 1%;
+  }
+}
+.realizacja_btn p {
+  color: #eee;
+  line-height: 2;
+  text-align: center;
+  font-weight: 300;
+}
+/* info */
+.about_us-info span {
+  display: inline-block;
+  width: 100vw;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: left;
+  margin-bottom: 5%;
+}
