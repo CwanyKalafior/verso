@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../../../../../node_modules/dist/css/lightbox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/style.css" />
     <link rel="stylesheet" href="../../../../css/realizacje.css" />
@@ -22,7 +23,7 @@
           <p class="details">Szczegóły:</p>
           <div class="description">
               <div class="lokalizacja"><span>Lokalizacja:</span> </br> Kuźnica</div>
-              <div class="data"><span>Data:</span> 2019</div>
+              <div class="data"><span>Zakończenie budowy:</span> </br>  2019</div>
               <div class="powierzchnia"><span>Pow.użytkowa:</span> </br> 230m²</div>
               <div class="obiekt"><span>Obiekt:</span> </br> Dom jednorodzinny</div>
               <div class="autorzy">
@@ -36,8 +37,9 @@
           </div>
         </div>
         <div class="pictures">
-            <img src="kuznicakied750x400.jpg" alt="">
-            <img src="1a.jpg" alt=""> 
+          <a href="kuznicakied750x400.jpg" data-lightbox="kuznica"><img src="kuznicakied750x400.jpg" alt="" ></a>
+            <a href="1a.jpg" data-lightbox="kuznica"><img src="1a.jpg" alt=""> </a>
+            
         </div>
       </div>
       <div class="case_study">
@@ -71,5 +73,7 @@
         <p>by Jackowski Visuals</p>
       </footer>
     </div>
+    <script src="../../../../jquery-3.4.1.min.js"></script>
+    <script src="../../../../../node_modules/dist/js/lightbox.min.js"></script>
   </body>
 </html>
