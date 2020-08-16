@@ -2,27 +2,29 @@ var newElement = document.createElement("div");
 var elm = document.getElementById("sec");
 
 newElement.innerHTML += `
-<div class="gallery">
-    <img src="/content/archi/kuznicakied750x400.jpg" alt="">
-    <div class="gallery-description">
-      <p>Dom leśny <br> <span>Kuźnica | 2019</span></p>
-    </div>
-    <img src="/content/archi/1a46bb29da2eabc3b9965033fbb31961.jpg" alt="">
-    <div class="gallery-description">
-      <p>Dom leśny <br> <span>Kuźnica | 2019</span></p>
-    </div>
-    <img src="/content/archi/4cd8f6a530244d628b4e2295034e0da1.jpg" alt="">
-    <div class="gallery-description">
-      <p>Dom leśny <br> <span>Kuźnica | 2019</span></p>
-    </div>
-    <img src="/content/archi/6fa490ca18a99c562a60edaf01f49a77.jpg" alt="">
-    <div class="gallery-description">
-      <p>Dom leśny <br> <span>Kuźnica | 2019</span></p>
-    </div>
-    <img src="/content/archi/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg" alt="">
-    <div class="gallery-description">
-      <p>Dom leśny <br> <span>Kuźnica | 2019</span></p>
-    </div>
+<div class="gallery" id="gallery">
+          <a href="./galeria/realizacje/architektura/001/001.html">
+            <img src="content/projekty/architektura/grupaVERSO-architektura-1.webp" alt="">
+          </a>
+          <div class="gallery-description">
+            <p>Dom leśny <br> <span>Kuźnica Kiedrzyńska • 2019</span></p>
+          </div>
+          <img src="content/projekty/architektura/grupaVERSO-architektura-2.webp" alt="">
+          <div class="gallery-description">
+            <p>Biuro PROTOS <br> <span>Czarny las • 2018</span></p>
+          </div>
+          <img src="content/projekty/architektura/grupaVERSO-architektura-3.webp" alt="">
+          <div class="gallery-description">
+            <p>Dom na łące <br> <span>Cisie pod Częstochową • 2018</span></p>
+          </div>
+          <img src="content/projekty/architektura/grupaVERSO-architektura-4.webp" alt="">
+          <div class="gallery-description">
+            <p>Dom rodzinny<br> <span>Kuźnica Kiedrzyńska • 2013</span></p>
+          </div>
+          <img src="content/projekty/architektura/grupaVERSO-architektura-5.webp" alt="">
+          <div class="gallery-description">
+            <p>Bliźniaki sąsiedzkie<br> <span>Częstochowa • 2017</span></p>
+          </div>
 </div>
 `;
 function onClick() {
@@ -51,7 +53,7 @@ var swiper = new Swiper(".swiper-container", {
   // scrollbar: {
   //   el: ".swiper-scrollbar",
   //   hide: false,
-//PROBLEM (SCROLL BAR IS STILL SHOWING UP - JUST THE BACKGROUND)
+  //PROBLEM (SCROLL BAR IS STILL SHOWING UP - JUST THE BACKGROUND)
   // },
   centeredSlides: true,
   freeMode: false,
