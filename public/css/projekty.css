@@ -22,7 +22,7 @@ body {
 .projekty-links span {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 .projekty-links a {
   display: inline-block;
