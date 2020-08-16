@@ -48,12 +48,8 @@ var swiper = new Swiper(".swiper-container", {
     enabled: true,
   },
   loop: true,
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: false,
-  },
   centeredSlides: true,
-  freeMode: true,
+  freeMode: false,
   spaceBetween: 30,
 });
 // pogrubianie linków
