@@ -43,7 +43,7 @@ var swiper = new Swiper(".swiper-container", {
     invert: false,
   },
   autoplay: {
-    delay: 2000,
+    delay: 4000,
     disableOnInteraction: false,
   },
   keyboard: {
