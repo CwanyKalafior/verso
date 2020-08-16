@@ -38,23 +38,24 @@ var swiper = new Swiper(".swiper-container", {
     lazy: true,
   },
   mousewheel: {
-    invert: true,
+    invert: false,
   },
   autoplay: {
-    delay: 6000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   keyboard: {
     enabled: true,
   },
   loop: true,
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: false,
-  },
+  // scrollbar: {
+  //   el: ".swiper-scrollbar",
+  //   hide: false,
+//PROBLEM (SCROLL BAR IS STILL SHOWING UP - JUST THE BACKGROUND)
+  // },
   centeredSlides: true,
-  freeMode: true,
-  spaceBetween: 30,
+  freeMode: false,
+  spaceBetween: 0,
 });
 // pogrubianie linków
 const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");
