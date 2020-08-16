@@ -50,20 +50,9 @@ var swiper = new Swiper(".swiper-container", {
     enabled: true,
   },
   loop: true,
-<<<<<<< HEAD
   centeredSlides: true,
   freeMode: false,
   spaceBetween: 30,
-=======
-  // scrollbar: {
-  //   el: ".swiper-scrollbar",
-  //   hide: false,
-  //PROBLEM (SCROLL BAR IS STILL SHOWING UP - JUST THE BACKGROUND)
-  // },
-  centeredSlides: true,
-  freeMode: false,
-  spaceBetween: 0,
->>>>>>> 5ccfae6e806d43d71c7fda99d984ef6637db8552
 });
 // pogrubianie linków
 const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");
