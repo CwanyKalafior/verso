@@ -41,6 +41,9 @@ input {
   font-weight: 500;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
 }
+textarea:focus, input:focus{
+  outline: none;
+}
 .form-accept {
   display: flex;
   margin-left: -40%;
