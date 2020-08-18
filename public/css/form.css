@@ -36,6 +36,7 @@ textarea {
   background-color: transparent;
   border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: "Roboto", sans-serif;
   margin-top: 2vh;
   margin-bottom: 2vh;
   color: #eee;
@@ -47,17 +48,76 @@ textarea:focus {
   outline: none;
   background-color: transparent;
   color: #eee;
+  border-bottom: none;
 }
 .form-accept {
-  display: flex;
-  margin-left: -40%;
-  padding: 5%;
+  /* position: absolute; */
+  /* width: 80vw; */
+  /* left: 20vw; */
+  /* display: flex; */
+  /* margin-left: -40%; */
+  /* padding: 5%; */
+  /*  */
+  position: relative;
+  display: block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.form-accept input {
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  height: 4vh;
+  width: 4vh;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+
+.form-accept:hover input ~ .checkmark {
+  /* background-color: #ccc; */
+}
+
+.form-accept input:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  /* opacity: 0; */
+}
+
+.checkmark:after {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+input:checked ~ .checkmark:after {
+  display: block;
 }
 .form-accept p {
   position: relative;
-  width: 90%;
+  width: 70vw;
+  left: 55vw;
   color: rgba(255, 255, 255, 0.7);
-  margin-left: -25%;
+  margin-left: -45%;
   margin-right: 5%;
   font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;

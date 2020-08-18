@@ -36,7 +36,7 @@ function contactClose() {
 }
 
 function formClose() {
-  window.history.back()
+  window.history.back();
 }
 
 /*
@@ -45,7 +45,16 @@ https://jsfiddle.net/emkey08/zgvtjc51
 */
 
 function setInputFilter(textbox, inputFilter) {
-  ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
+  [
+    "input",
+    "keydown",
+    "keyup",
+    "mousedown",
+    "mouseup",
+    "select",
+    "contextmenu",
+    "drop",
+  ].forEach(function (event) {
     textbox.addEventListener(event, function () {
       if (inputFilter(this.value)) {
         this.oldValue = this.value;
@@ -63,5 +72,7 @@ function setInputFilter(textbox, inputFilter) {
 
 // Install input filters.
 setInputFilter(document.getElementById("number"), function (value) {
-  return /^-?\d*$/.test(value) && (value === "" || parseInt(value) <= 999999999);
+  return (
+    /^-?\d*$/.test(value) && (value === "" || parseInt(value) <= 999999999)
+  );
 });
