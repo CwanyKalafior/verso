@@ -29,7 +29,8 @@ label {
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.7);
 }
-input {
+input,
+textarea {
   position: relative;
   width: 90%;
   background-color: transparent;
@@ -40,6 +41,12 @@ input {
   color: #eee;
   font-weight: 500;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: transparent;
+  color: #eee;
 }
 .form-accept {
   display: flex;
@@ -60,6 +67,8 @@ input.form-btn {
   top: 8vh;
   left: 50%;
   transform: translateX(-50%);
+  width: 100vw;
+  margin-left: -2vh;
   font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
   border-bottom: 0;
   color: #eee;
