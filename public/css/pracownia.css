@@ -22,7 +22,7 @@ body {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   margin: 0 5% 5% 10%;
   font-weight: 300;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .pracownia-text_uslugi {
   margin-left: 10%;

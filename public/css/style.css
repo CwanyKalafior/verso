@@ -160,6 +160,24 @@ body {
   text-decoration: none;
   cursor: default;
 }
+/* Projekty button */
+.gtpbtn {
+  position: absolute;
+  height: 10vh;
+  /* width: calc(100vw - 10vh); */
+  font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
+  font-weight: 300;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  transform: translateY(-50%);
+  bottom: 17vh;
+  text-align: right;
+  right: 12vh;
+  }
+
+  .gtpbtn p {
+    line-height: 10vh;
+    vertical-align: middle;
+  }
 /* Mail button */
 .mail-btn {
   position: absolute;
