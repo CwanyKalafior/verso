@@ -46,6 +46,9 @@ textarea {
   font-weight: 500;
   font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
 }
+.noLine {
+  border-bottom: none;
+}
 input:focus,
 textarea:focus {
   outline: none;

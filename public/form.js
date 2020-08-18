@@ -38,7 +38,17 @@ function contactClose() {
 function formClose() {
   window.history.back();
 }
-
+// noLine
+const inputs = document.querySelectorAll("input");
+[].forEach.call(inputs, function (input) {
+  input.addEventListener("click", function () {
+    input.classList.add("noLine");
+  });
+});
+const textarea = document.querySelector("textarea");
+textarea.addEventListener("click", function () {
+  textarea.classList.add("noLine");
+});
 /*
 DATA INPUT FILTER 
 https://jsfiddle.net/emkey08/zgvtjc51
