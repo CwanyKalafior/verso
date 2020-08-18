@@ -1,6 +1,9 @@
 .brand-name {
   z-index: 3;
 }
+.form-close {
+  margin-top: 2%;
+}
 .wrapper {
   height: 100vh;
   width: 100vw;
@@ -25,7 +28,7 @@
 }
 label {
   position: relative;
-  font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+  font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -41,7 +44,7 @@ textarea {
   margin-bottom: 2vh;
   color: #eee;
   font-weight: 500;
-  font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+  font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
 }
 input:focus,
 textarea:focus {
@@ -51,14 +54,8 @@ textarea:focus {
   border-bottom: none;
 }
 .form-accept {
-  /* position: absolute; */
-  /* width: 80vw; */
-  /* left: 20vw; */
-  /* display: flex; */
-  /* margin-left: -40%; */
-  /* padding: 5%; */
-  /*  */
   position: relative;
+  top: 5vh;
   display: block;
   cursor: pointer;
   -webkit-user-select: none;
@@ -82,10 +79,6 @@ textarea:focus {
   width: 4vh;
   border: 1px solid #eee;
   border-radius: 50%;
-}
-
-.form-accept:hover input ~ .checkmark {
-  /* background-color: #ccc; */
 }
 
 .form-accept input:checked ~ .checkmark {
@@ -119,12 +112,12 @@ input:checked ~ .checkmark:after {
   color: rgba(255, 255, 255, 0.7);
   margin-left: -45%;
   margin-right: 5%;
-  font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+  font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;
 }
 input.form-btn {
   position: relative;
-  top: 8vh;
+  top: 14vh;
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
@@ -138,13 +131,40 @@ input.form-btn {
 }
 @media (min-width: 533px) and (orientation: landscape) {
   .form-wrapper {
-    top: 17vh;
+    top: 15vh;
     padding-left: 10%;
   }
+  label {
+    position: relative;
+    font-size: calc(8px + (26 - 8) * ((100vw - 320px) / 760));
+  }
+  input,
+  textarea {
+    position: relative;
+    width: 90%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "Roboto", sans-serif;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: #eee;
+    font-weight: 500;
+    font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+  }
   .form-accept {
+    position: relative;
+    top: 3vh;
     padding: 0%;
   }
+  .form-accept p {
+    position: relative;
+    width: 75vw;
+    left: 45vw;
+    margin-left: -45%;
+    font-size: calc(8px + (26 - 8) * ((100vw - 320px) / 760));
+  }
   input.form-btn {
-    top: -2vh;
+    top: 4vh;
   }
 }
