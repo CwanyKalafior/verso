@@ -50,15 +50,15 @@ $('form').on('submit', (e) => {
                 } else if (XMLHttpRequest.status == 404) {
                     alert("Błąd. Wiadomość nie została wysłana.");
                     var delay = 1;
-                    setTimeout(function () { window.location = "index.html"; }, delay);
+                    setTimeout(function () { window.location = "kontakt.html"; }, delay);
                 } else if (XMLHttpRequest.status == 500) {
                     alert("Błąd. Wiadomość nie została wysłana.");
                     var delay = 1;
-                    setTimeout(function () { window.location = "index.html"; }, delay);
+                    setTimeout(function () { window.location = "kontakt.html"; }, delay);
                 } else {
                     alert('Błąd. Wiadomość nie została wysłana.\n' + XMLHttpRequest.responseText);
                     var delay = 1;
-                    setTimeout(function () { window.location = "index.html"; }, delay);
+                    setTimeout(function () { window.location = "kontakt.html"; }, delay);
                 }
             }
         });
