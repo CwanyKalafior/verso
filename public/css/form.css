@@ -45,7 +45,7 @@ textarea {
   margin-bottom: 2vh;
   color: #eee;
   font-weight: 500;
-  font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
+  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
 }
 .noLine {
   border-bottom: none;
