@@ -684,6 +684,7 @@ body {
 }
 .about_us-info a {
   margin: 10%;
+  margin-left: 5%;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-weight: 300;
@@ -696,6 +697,7 @@ body {
 .about_us p,
 .about_us-info p {
   padding: 5%;
+  padding-left: 0%;
   padding-bottom: 0;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   color: rgba(255, 255, 255, 0.8);
