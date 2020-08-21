@@ -31,6 +31,7 @@ label {
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
 }
 input,
 textarea {
@@ -92,7 +93,6 @@ textarea:focus {
   content: "";
   position: absolute;
   display: none;
-  /* opacity: 0; */
 }
 
 .checkmark:after {
@@ -117,20 +117,29 @@ input:checked ~ .checkmark:after {
   margin-right: 5%;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;
+  font-weight: 300;
+}
+.form-send_btn {
+  min-width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 input.form-btn {
   position: relative;
-  top: 14vh;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100vw;
-  margin-left: -2vh;
+  top: 14vh;
   font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
   border-bottom: 0;
   color: #eee;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+input.form-btn:hover {
+  font-weight: 500;
 }
 @media (min-width: 533px) and (orientation: landscape) {
   .form-wrapper {
@@ -172,8 +181,6 @@ input.form-btn {
   }
 }
 
-
-
 /*INPUT TYPE="NUMBER"*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -183,6 +190,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
