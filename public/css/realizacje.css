@@ -9,14 +9,19 @@ body {
   position: fixed;
 }
 .verso-close {
+  margin-top: -7vh;
   z-index: 99999999999;
 }
 /* description */
+.pictures-description_container {
+  margin-top: 10vh;
+}
 .picture-description {
   position: relative;
 }
 .main-title {
   position: relative;
+  /* margin-top: 10vh; */
   padding: 10% 0;
   font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
   font-weight: 500;
