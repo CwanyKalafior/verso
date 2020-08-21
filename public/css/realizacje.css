@@ -66,6 +66,7 @@ div.autorzy span {
   position: relative;
   width: 95vw;
   margin: 2% auto;
+  z-index: 999999;
 }
 .case_study span {
   display: inline-block;
