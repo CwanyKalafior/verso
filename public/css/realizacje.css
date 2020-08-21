@@ -11,31 +11,16 @@ body {
 .verso-close {
   z-index: 99999999999;
 }
-.main-picture {
-  position: relative;
-}
-.main-picture img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-}
 /* description */
 .picture-description {
   position: relative;
 }
 .main-title {
   position: relative;
-  top: -8vh;
+  padding: 10% 0;
   font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
   font-weight: 500;
   margin-left: 5%;
-}
-@media (min-width: 533px) and (orientation: landscape) {
-  .main-title {
-    position: relative;
-    top: -18vh;
-  }
 }
 .picture-description .details {
   font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
@@ -67,6 +52,10 @@ body {
 div.autorzy {
   width: 70%;
 }
+div.autorzy span {
+  margin-left: 3%;
+}
+
 .pictures {
   display: flex;
   flex-direction: column;
@@ -76,6 +65,7 @@ div.autorzy {
   position: relative;
   width: 90vw;
   margin: 2% auto;
+  z-index: 999999;
 }
 .case_study img {
   position: relative;
@@ -113,27 +103,6 @@ a {
   z-index: 999;
 }
 
-@media (min-width: 533px) and (orientation: landscape) {
-  .realizacja_btn {
-    width: 40vw;
-    padding: 0%;
-    font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
-  }
-}
-
-@media (min-width: 700px) {
-  .realizacja_btn {
-    width: 40vw;
-    padding: 2%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .realizacja_btn {
-    width: 30vw;
-    padding: 1%;
-  }
-}
 .realizacja_btn p {
   color: #eee;
   line-height: 2;
@@ -215,4 +184,73 @@ a {
   right: 30.5%;
   transform: rotate(-45deg);
   transition: 0.2s;
+}
+@media (min-width: 533px) and (orientation: landscape) {
+  .main-title {
+    position: relative;
+  }
+  .verso-close {
+    margin-top: 6%;
+  }
+  .description > div {
+    margin: 3%;
+  }
+  .realizacja_btn {
+    width: 40vw;
+    padding: 0%;
+    font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+  }
+}
+@media (min-width: 640px) and (orientation: landscape) {
+  .main-title {
+    position: relative;
+    padding: 8% 0;
+  }
+}
+@media (min-width: 700px) {
+  .realizacja_btn {
+    width: 40vw;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 730px) and (orientation: landscape) {
+  .main-title {
+    padding-bottom: 5%;
+  }
+  .main-title,
+  .picture-description .details,
+  .case_study span {
+    font-size: calc(26px + (20 - 26) * ((100vw - 320px) / 760));
+  }
+}
+@media (min-width: 768px) and (orientation: portrait) {
+  .main-title {
+    padding: 10% 0;
+    padding-bottom: 6%;
+    font-size: calc(26px + (18 - 26) * ((100vw - 320px) / 760));
+  }
+  .verso-close {
+    margin-top: 6%;
+  }
+}
+@media (min-width: 1024px) {
+  .main-title,
+  .picture-description .details,
+  .case_study span {
+    font-size: calc(26px + (30 - 26) * ((100vw - 320px) / 760));
+  }
+  .case_study span {
+    margin-bottom: 0;
+  }
+  .main-title {
+    padding: 5% 0;
+  }
+  .verso-close {
+    margin-top: 4%;
+  }
+  .realizacja_btn {
+    width: 30vw;
+    padding: 1%;
+  }
 }

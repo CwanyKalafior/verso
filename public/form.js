@@ -38,41 +38,14 @@ function contactClose() {
 function formClose() {
   window.history.back();
 }
-
-/*
-DATA INPUT FILTER 
-https://jsfiddle.net/emkey08/zgvtjc51
-*/
-
-function setInputFilter(textbox, inputFilter) {
-  [
-    "input",
-    "keydown",
-    "keyup",
-    "mousedown",
-    "mouseup",
-    "select",
-    "contextmenu",
-    "drop",
-  ].forEach(function (event) {
-    textbox.addEventListener(event, function () {
-      if (inputFilter(this.value)) {
-        this.oldValue = this.value;
-        this.oldSelectionStart = this.selectionStart;
-        this.oldSelectionEnd = this.selectionEnd;
-      } else if (this.hasOwnProperty("oldValue")) {
-        this.value = this.oldValue;
-        this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
-      } else {
-        this.value = "";
-      }
-    });
+// noLine
+const inputs = document.querySelectorAll("input");
+[].forEach.call(inputs, function (input) {
+  input.addEventListener("click", function () {
+    input.classList.add("noLine");
   });
-}
-
-// Install input filters.
-setInputFilter(document.getElementById("number"), function (value) {
-  return (
-    /^-?\d*$/.test(value) && (value === "" || parseInt(value) <= 999999999)
-  );
+});
+const textarea = document.querySelector("textarea");
+textarea.addEventListener("click", function () {
+  textarea.classList.add("noLine");
 });
