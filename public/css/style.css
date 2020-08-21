@@ -172,91 +172,91 @@ body {
   bottom: 17vh;
   text-align: right;
   right: 10vh;
-  }
-  .gtpbtn p {
-    line-height: 10vh;
-    text-align: center;
-    vertical-align: middle;
-    display: inline;
-    margin-right: 3vh;
-    -webkit-text-stroke: 0px rgb(22, 22, 22, 0);
-    text-decoration: none;
-    color: #eee;
-    -webkit-text-stroke: 0;
-  }
-  .gtpbtn:hover p {
-    font-weight: 500;
-  }
-  .gtpbtn .verso-arrow-right {
-    position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    width: 10vh;
-    height: 10vh;
-    max-width: 40px;
-    min-width: 35px;
-    padding-top: 2vh;
-    transform: rotate(90deg);
-    /* right: 6%;
+}
+.gtpbtn p {
+  line-height: 10vh;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  margin-right: 3vh;
+  -webkit-text-stroke: 0px rgb(22, 22, 22, 0);
+  text-decoration: none;
+  color: #eee;
+  -webkit-text-stroke: 0;
+}
+.gtpbtn:hover p {
+  font-weight: 500;
+}
+.gtpbtn .verso-arrow-right {
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  width: 10vh;
+  height: 10vh;
+  max-width: 40px;
+  min-width: 35px;
+  padding-top: 2vh;
+  transform: rotate(90deg);
+  /* right: 6%;
     margin-top: 4%; */
-    display: inline;
-  }
-  
-  .gtpbtn .verso-arrow-right .container {
-    position: relative;
-    width: 10vh;
-    max-width: 40px;
-    min-width: 35px;
-    height: 10vh;
-    max-height: 40px;
-    min-height: 35px;
-  }
-  
-  .gtpbtn .verso-arrow-right .container:hover {
-    cursor: pointer;
-  }
-  
-  .gtpbtn .verso-arrow-right .container .background {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0);
-    width: 100%;
-    height: 100%;
-  }
-  
-  .gtpbtn .verso-arrow-right .container .line-1 {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 1);
-    width: 10%;
-    height: 85%;
-    top: 10%;
-    right: 45%;
-    transition: 0.2s;
-  }
-  
-  .gtpbtn:hover .verso-arrow-right .container .line-1 {
-    height: 55%;
-  }
-  
-  .gtpbtn .verso-arrow-right .container .line-2 {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 1);
-    width: 10%;
-    height: 50%;
-    top: 0%;
-    right: 59.5%;
-    transform: rotate(45deg);
-    transition: 0.2s;
-  }
-  
-  .gtpbtn .verso-arrow-right .container .line-3 {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 1);
-    width: 10%;
-    height: 50%;
-    top: 0%;
-    right: 30.5%;
-    transform: rotate(-45deg);
-    transition: 0.2s;
-  }
+  display: inline;
+}
+
+.gtpbtn .verso-arrow-right .container {
+  position: relative;
+  width: 10vh;
+  max-width: 40px;
+  min-width: 35px;
+  height: 10vh;
+  max-height: 40px;
+  min-height: 35px;
+}
+
+.gtpbtn .verso-arrow-right .container:hover {
+  cursor: pointer;
+}
+
+.gtpbtn .verso-arrow-right .container .background {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.gtpbtn .verso-arrow-right .container .line-1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10%;
+  height: 85%;
+  top: 10%;
+  right: 45%;
+  transition: 0.2s;
+}
+
+.gtpbtn:hover .verso-arrow-right .container .line-1 {
+  height: 55%;
+}
+
+.gtpbtn .verso-arrow-right .container .line-2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10%;
+  height: 50%;
+  top: 0%;
+  right: 59.5%;
+  transform: rotate(45deg);
+  transition: 0.2s;
+}
+
+.gtpbtn .verso-arrow-right .container .line-3 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 10%;
+  height: 50%;
+  top: 0%;
+  right: 30.5%;
+  transform: rotate(-45deg);
+  transition: 0.2s;
+}
 /* Mail button */
 .mail-btn {
   position: absolute;
@@ -537,137 +537,6 @@ body {
   transform: rotate(0deg);
 }
 
-/* kontakt, animacja kontakt/hamburger */
-.contact-wrapper {
-  position: fixed;
-  top: 100vh;
-  left: 0;
-  background-color: #28323b;
-  height: 100vh;
-  overflow: hidden;
-  width: 100vw;
-  transition: 0.6s;
-  display: none;
-}
-.display {
-  display: block;
-}
-#hamburger-menu.goHigher {
-  position: fixed;
-  top: -100vh;
-  transition: 0.6s;
-  z-index: 9999999;
-}
-.contact-wrapper.goTop,
-#hamburger-menu.goTop {
-  position: fixed;
-  top: 0vh;
-  transition: 0.6s;
-  z-index: 9999999;
-}
-.contact-wrapper.goBottom {
-  position: absolute;
-  top: 100vh;
-  transition: 0.6s;
-  z-index: 9999999;
-}
-.contact-circle {
-  position: absolute;
-  top: 10vh;
-  left: -18vw;
-  width: 67vh;
-  height: 67vh;
-  background-color: #33414e;
-  border-radius: 50%;
-  z-index: 1;
-}
-.contact-content {
-  position: absolute;
-  z-index: 2;
-}
-.contact_brand-name {
-  position: absolute;
-  top: 10vh;
-  left: 5vw;
-  z-index: 2;
-}
-.contact-authors {
-  position: absolute;
-  top: 10vh;
-  margin-left: 5vw;
-  margin-top: 8vh;
-}
-.contact-authors p {
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-  line-height: 2;
-  margin-top: 5%;
-  font-weight: 300;
-}
-.contact-authors a,
-.contact-authors span {
-  text-decoration: none;
-  color: #eee;
-  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
-  font-weight: 500;
-}
-
-.contact-data {
-  position: absolute;
-  top: 70vh;
-  width: 90vw;
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-  font-weight: 100;
-  text-decoration: none;
-  margin-left: 5vw;
-  margin-top: 8vh;
-}
-@media (min-width: 533px) and (orientation: landscape) {
-  .contact-wrapper {
-    position: absolute;
-    top: 100vh;
-    left: 0;
-    overflow: hidden;
-    background-color: #28323b;
-    height: 100vh;
-    width: 100vw;
-    transition: 0.6s;
-  }
-  .contact-authors p {
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    line-height: 2.5;
-    margin-top: 0;
-    width: 100%;
-  }
-  .contact-authors a,
-  .contact-authors span {
-    text-decoration: none;
-    color: #eee;
-    font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
-    font-weight: 400;
-  }
-  .contact-data {
-    position: absolute;
-    top: 30vh;
-    left: 56vw;
-    width: 30vw;
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    font-weight: 100;
-    text-decoration: none;
-    line-height: 2;
-  }
-}
-@media (min-width: 800px) and (orientation: landscape) {
-  .contact-data {
-    position: absolute;
-    top: 30vh;
-    left: 46vw;
-    width: 30vw;
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    font-weight: 100;
-    text-decoration: none;
-    line-height: 2;
-  }
-}
 /* about_us-info */
 .about_us-info {
   width: 90%;

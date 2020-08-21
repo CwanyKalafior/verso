@@ -1,0 +1,199 @@
+:root {
+  --base-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  background: #333;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* logo */
+.brand-name {
+  position: absolute;
+  height: 10vh;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: calc(22px + (28 - 22) * ((100vw - 320px) / 760));
+}
+
+.brand-name img {
+  height: 100%;
+}
+
+.verso-close {
+  position: absolute;
+  width: 10vh;
+  max-width: 40px;
+  min-width: 35px;
+  height: 10vh;
+  margin-top: calc(4vh + 8px - 4%);
+  right: 10%;
+}
+
+.verso-close .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10vh;
+  max-width: 40px;
+  min-width: 35px;
+  height: 10vh;
+  max-height: 40px;
+  min-height: 35px;
+}
+
+.verso-close .container:hover {
+  cursor: pointer;
+}
+
+.verso-close .container .background {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.verso-close .container .part-1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 90%;
+  height: 10%;
+  top: 45%;
+  right: 5%;
+  transform: rotate(45deg);
+  transition: 0.2s;
+}
+
+.verso-close .container:hover .part-1 {
+  transform: rotate(0deg);
+}
+
+.verso-close .container .part-2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 90%;
+  height: 10%;
+  top: 45%;
+  right: 5%;
+  transform: rotate(-45deg);
+  transition: 0.2s;
+}
+
+.verso-close .container:hover .part-2 {
+  transform: rotate(0deg);
+}
+
+/* kontakt, animacja kontakt/hamburger */
+.contact-wrapper {
+  background-color: #28323b;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.contact-circle {
+  position: absolute;
+  top: 10vh;
+  left: -18vw;
+  width: 67vh;
+  height: 67vh;
+  background-color: #33414e;
+  border-radius: 50%;
+  z-index: 1;
+}
+.contact-content {
+  position: absolute;
+  z-index: 2;
+}
+.contact_brand-name {
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  z-index: 2;
+}
+.contact-authors {
+  position: absolute;
+  top: 10vh;
+  margin-left: 5vw;
+  margin-top: 8vh;
+}
+.contact-authors p {
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  line-height: 2;
+  margin-top: 5%;
+  font-weight: 300;
+}
+.contact-authors a,
+.contact-authors span {
+  text-decoration: none;
+  color: #eee;
+  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  font-weight: 500;
+}
+
+.contact-data {
+  position: absolute;
+  top: 70vh;
+  width: 90vw;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  font-weight: 100;
+  text-decoration: none;
+  margin-left: 5vw;
+  margin-top: 8vh;
+}
+@media (min-width: 533px) and (orientation: landscape) {
+  .contact-wrapper {
+    background-color: #28323b;
+    height: 100vh;
+    width: 100vw;
+  }
+  .contact-authors p {
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
+    line-height: 2.5;
+    margin-top: 0;
+    width: 100%;
+  }
+  .contact-authors a,
+  .contact-authors span {
+    text-decoration: none;
+    color: #eee;
+    font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  }
+  .contact-data {
+    position: absolute;
+    top: 30vh;
+    left: 56vw;
+    width: 30vw;
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
+    font-weight: 100;
+    text-decoration: none;
+    line-height: 2;
+  }
+}
+@media (min-width: 800px) and (orientation: landscape) {
+  .contact-data {
+    position: absolute;
+    top: 30vh;
+    left: 46vw;
+    width: 30vw;
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
+    font-weight: 100;
+    text-decoration: none;
+    line-height: 2;
+  }
+}
