@@ -77,8 +77,9 @@ body {
 }
 .gallery-swiper p {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-  margin: 4% 4%;
-  padding: 5%;
+  margin: 5% 5%;
+  margin-top: 15%;
+  /* padding: 5%; */
 }
 .swiper-container {
   width: 100%;
@@ -113,7 +114,7 @@ body {
   width: 100vw;
   font-weight: bold;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 0%;
   text-align: left;
   margin-bottom: 5%;
 }
@@ -123,7 +124,7 @@ body {
   width: 10vh;
   max-width: 40px;
   min-width: 35px;
-  right: 6%;
+  right: 7%;
   margin-top: 4%;
 }
 

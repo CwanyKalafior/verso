@@ -61,12 +61,16 @@ div.autorzy span {
   flex-direction: column;
 }
 .pictures img,
-.case_study img,
 .pictures a {
   position: relative;
-  width: 95vw;
+  width: 90vw;
   margin: 2% auto;
   z-index: 999999;
+}
+.case_study img {
+  position: relative;
+  width: 90vw;
+  margin: 5vw;
 }
 .case_study span {
   display: inline-block;
@@ -78,6 +82,7 @@ div.autorzy span {
 }
 .case_study p {
   margin: 5%;
+  margin-left: 10%;
   text-indent: 8%;
   font-weight: 300;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));

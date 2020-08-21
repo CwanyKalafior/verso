@@ -71,7 +71,7 @@ span.about_us-text {
 /* info  */
 .about_us-info span {
   text-align: left;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-bottom: 5%;
 }
 
@@ -89,7 +89,7 @@ span.about_us-text {
   width: 10vh;
   max-width: 40px;
   min-width: 35px;
-  right: 6%;
+  right: 7%;
   margin-top: 4%;
 }
 
