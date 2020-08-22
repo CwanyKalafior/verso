@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100vw;
   max-height: 100vh;
@@ -21,7 +22,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* logo */
+/* Logo */
 .brand-name {
   position: absolute;
   height: 10vh;
