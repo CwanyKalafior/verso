@@ -11,6 +11,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-size: 10px;
+}
+
 body {
   width: 100vw;
   max-height: 100vh;
@@ -20,6 +35,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
+
 .home {
   background-image: url(../content/grupaVERSO-header.webp);
   background-attachment: fixed;
@@ -27,6 +43,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .noise {
   z-index: 100;
   position: absolute;
@@ -44,13 +61,14 @@ body {
   left: 0;
   right: 0;
   margin: auto;
+  margin-top: 4vh;
   width: 80vw;
   height: 10vh;
-  margin-top: 4vh;
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* logo */
+/* Logo */
+
 .brand-name {
   position: absolute;
   height: 10vh;
@@ -63,7 +81,9 @@ body {
 .brand-name img {
   height: 100%;
 }
-/* hamburger */
+
+/* Hamburger */
+
 .verso-hamburger {
   position: absolute;
   width: 10vh;
@@ -123,10 +143,10 @@ body {
 
 .hamburger i {
   position: relative;
-  /* left: 0%; */
   cursor: pointer;
 }
-/* slogan */
+
+/* Slogan */
 
 .slogan {
   position: absolute;
@@ -148,7 +168,6 @@ body {
   left: 0;
   margin: auto;
   top: calc(26px + (28 - 16) * ((100vw - 320px) / 760));
-  height: 36px;
   text-align: left;
   background-color: rgba(0, 0, 0, 0);
   font-weight: 500;
@@ -160,19 +179,21 @@ body {
   text-decoration: none;
   cursor: default;
 }
+
 /* Projekty button */
+
 .gtpbtn {
   position: absolute;
   height: 10vh;
-  /* width: calc(100vw - 10vh); */
   font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
   font-weight: 300;
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0);
   transform: translateY(-50%);
-  bottom: 17vh;
+  bottom: calc(90px + 0vh); /*?*/
   text-align: right;
-  right: 10vh;
+  right: 9vh;
 }
+
 .gtpbtn p {
   line-height: 10vh;
   text-align: center;
@@ -184,20 +205,20 @@ body {
   color: #eee;
   -webkit-text-stroke: 0;
 }
+
 .gtpbtn:hover p {
   font-weight: 500;
 }
+
 .gtpbtn .verso-arrow-right {
   position: absolute;
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0);
   width: 10vh;
   height: 10vh;
   max-width: 40px;
   min-width: 35px;
   padding-top: 2vh;
   transform: rotate(90deg);
-  /* right: 6%;
-    margin-top: 4%; */
   display: inline;
 }
 
@@ -257,10 +278,12 @@ body {
   transform: rotate(-45deg);
   transition: 0.2s;
 }
+
 /* Mail button */
+
 .mail-btn {
   position: absolute;
-  bottom: 25vh;
+  bottom: calc(10vh + 20px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #28323b;
@@ -270,16 +293,13 @@ body {
   z-index: 999;
 }
 
-@media (min-width: 533px) and (orientation: landscape) {
+/* @media (min-width: 533px) and (orientation: landscape) {
   .mail-btn {
     width: 40vw;
     padding: 0%;
     font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   }
-  .slogan {
-    position: absolute;
-    margin-top: 25vh;
-  }
+
 }
 @media (min-width: 320px) and (orientation: portrait) {
   .mail-btn {
@@ -301,33 +321,38 @@ body {
     padding: 1%;
     bottom: 23vh;
   }
-}
+} */
+
 .mail-btn p {
   color: #eee;
   line-height: 2;
   text-align: center;
   font-weight: 300;
 }
-/* social media */
+
+/* Bottom bar */
+
 .social_languages-wrapper {
   position: absolute;
   bottom: 0vh;
   display: inline-block;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
-  width: 86vw;
-  height: 10vh;
+  width: 90vw;
+  height: calc(8vh + 20px);
   left: 50%;
   transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0);
 }
+
 .languages {
   position: absolute;
-  left: 3vw;
+  left: 5vw;
   width: 40vw;
   text-align: left;
   color: #eee;
-  background-color: rgb(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.0);
   right: 0;
-  padding-top: 4%;
+  padding-top: calc(1vh + 7px);
 }
 
 .languages-buttoms {
@@ -340,10 +365,11 @@ body {
   color: #eee;
   font-weight: 500;
   text-decoration: none;
-  background-color: rgb(0, 0, 0, 0);
-  margin-right: 6%;
+  background-color: rgb(0, 0, 0, 0.0);
+  margin-right: calc(1px + 1vh);
   cursor: context-menu;
 }
+
 .enpopup {
   position: relative;
   display: inline-block;
@@ -351,23 +377,25 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0, 0);
   height: 0vh;
-  transition: 0.2s;
 }
+
 .enpopup a {
   font-weight: 300;
   cursor: pointer;
 }
+
 .enpopup a:hover {
   font-weight: 500;
 }
+
 .social-media-bar {
   position: absolute;
-  right: 3vw;
+  right: 5vw;
   width: 40vw;
   text-align: right;
-  padding-top: 4%;
+  padding-top: calc(1vh + 7px);
   color: #eee;
   background-color: rgb(0, 0, 0, 0);
   font-weight: 300;
@@ -379,7 +407,7 @@ body {
   padding: 0vw 0vw;
   color: #eee;
   text-decoration: none;
-  margin-left: 17%;
+  margin-left: calc(10px + 3vh);
   background-color: rgb(0, 0, 0, 0);
 }
 .social-media-buttoms a i {
@@ -389,12 +417,9 @@ body {
 .social-media-buttoms i {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
 }
-@media (min-width: 533px) and (orientation: landscape) {
-  .social_languages-wrapper {
-    height: 18vh;
-  }
-}
-/* hamburger */
+
+/* Hamburger menu */
+
 #hamburger-menu {
   position: fixed;
   top: -100vh;
@@ -403,7 +428,6 @@ body {
   width: 100vw;
   background-color: #28323b;
   overflow: hidden;
-  /* transition: 0.3s; */
   z-index: 10001;
 }
 
@@ -424,7 +448,6 @@ body {
   display: inline-block;
   font-weight: 300;
   font-size: calc(24px + (26 - 24) * ((100vw - 320px) / 760));
-  line-height: 2.5;
   -webkit-text-stroke: 0px rgb(22, 22, 22, 0);
   text-decoration: none;
   color: #eee;
@@ -435,24 +458,38 @@ body {
   font-weight: 500;
 }
 
-.hamburger-menu-bg li a {
-  font-weight: 300;
-}
-.hamburger-menu-bg li a:hover {
-  font-weight: 500;
-}
-@media (min-width: 320px) and (orientation: portrait) {
-  .hamburger-menu-bg {
-    margin-top: 22vh;
-  }
+.hamburger-menu-bg {
+  margin-top: 15vh;
 }
 
 .hamburger-menu-bg li {
-  cursor: pointer;
-  margin-top: 6vh;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-#hamburger-menu-close,
+.hamburger-menu-bg li a {
+  font-weight: 300;
+  top: 30%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hamburger-menu-bg li a:hover {
+  font-weight: 500;
+}
+
+/* @media (min-width: 320px) and (orientation: portrait) {
+  .hamburger-menu-bg {
+    margin-top: 22vh;
+  }
+} */
+
+.hamburger-menu-bg li {
+  cursor: pointer;
+  bottom: 0;
+  /* margin-bottom: 6vh; */
+}
+
+/* #hamburger-menu-close,
 .contact-close {
   display: block;
   position: absolute;
@@ -472,7 +509,7 @@ body {
 #hamburger-menu-close i:hover {
   text-shadow: 0 0 7px #eee;
   background-color: rgb(0, 0, 0, 0);
-}
+} */
 
 .verso-close {
   position: absolute;
@@ -480,8 +517,9 @@ body {
   max-width: 40px;
   min-width: 35px;
   height: 10vh;
-  margin-top: calc(4vh + 8px - 4%);
+  margin-top: calc(3vh + 1px);
   right: 10%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .verso-close .container {
@@ -537,7 +575,9 @@ body {
   transform: rotate(0deg);
 }
 
-/* about_us-info */
+/* ? */
+/* About us info */
+
 .about_us-info {
   width: 90%;
   margin-top: 5%;
@@ -578,7 +618,9 @@ body {
   text-indent: 0;
   margin: 0;
 }
-/* footer */
+
+/* Footer */
+
 footer {
   width: 100vw;
   margin-top: 5%;

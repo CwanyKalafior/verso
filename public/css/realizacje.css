@@ -15,29 +15,31 @@ body {
 /* description */
 .pictures-description_container {
   margin-top: 10vh;
+  padding-top: 7vh;
 }
 .picture-description {
   position: relative;
+  margin-bottom: 5vh;
 }
 .main-title {
   position: relative;
   /* margin-top: 10vh; */
-  padding: 10% 0;
+  padding-top: 10%;
   font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
   font-weight: 500;
   margin-left: 5%;
 }
 .picture-description .details {
   font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .description {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
+  /* left: 50%;
+  transform: translateX(-50%); */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* width: 90vw; */
   font-weight: 300;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
@@ -46,9 +48,12 @@ body {
   font-weight: 500;
 }
 .description > div {
-  margin: 5%;
-  width: 40%;
-  text-indent: -5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* padding-left: 5%; */
+  margin-top: 5%;
+  /* width: 40%; */
+  /* text-indent: -5%; */
 }
 
 .description > div > span {
@@ -58,7 +63,7 @@ div.autorzy {
   width: 70%;
 }
 div.autorzy span {
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 
 .pictures {
