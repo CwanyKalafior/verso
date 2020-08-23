@@ -189,11 +189,12 @@ body {
   font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
-  bottom: calc(90px + 1vh);
   text-align: right;
   /* right: calc(5vw + 30px); */
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  bottom: calc(8vh + 80px);
+  right: 15vw;
 }
 
 .gtpbtn p {
