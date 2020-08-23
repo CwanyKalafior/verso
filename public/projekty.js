@@ -43,7 +43,7 @@ var swiper = new Swiper(".swiper-container", {
     invert: false,
   },
   autoplay: {
-    delay: 1700,
+    delay: 1800,
     disableOnInteraction: false,
   },
   keyboard: {
@@ -53,7 +53,7 @@ var swiper = new Swiper(".swiper-container", {
   centeredSlides: true,
   freeMode: false,
   spaceBetween: 0,
-  speed: 1700,
+  speed: 1200,
 });
 // pogrubianie linków
 const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");
