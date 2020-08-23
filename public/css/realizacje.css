@@ -9,12 +9,12 @@ body {
 .noise {
   position: fixed;
 }
-.realizacje-wrapper {
+.realizacje-wrapper,
+.scroll {
   position: absolute;
   top: 0;
 }
 .verso-close {
-  margin-top: 2vh;
   z-index: 99999999999;
   background-color: rgba(0, 0, 0, 0);
 }
