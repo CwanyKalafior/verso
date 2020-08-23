@@ -17,15 +17,7 @@
   color: #eee;
   padding-left: 6%;
 }
-.form-circle {
-  position: absolute;
-  top: -12vh;
-  left: -15vw;
-  width: 69vh;
-  height: 69vh;
-  background-color: #33414e;
-  border-radius: 50%;
-}
+
 label {
   position: relative;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
