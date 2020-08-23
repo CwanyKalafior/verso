@@ -160,6 +160,7 @@ body {
   text-align: left;
   background-color: rgba(0, 0, 0, 0);
   color: #eee;
+  white-space: nowrap;
 }
 
 .forwho {
@@ -189,9 +190,9 @@ body {
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
   transform: translateY(-50%);
-  bottom: calc(90px + 0vh); /*?*/
+  bottom: calc(90px + 1vh); /*?*/
   text-align: right;
-  right: 9vh;
+  right: calc(5vw + 30px);
 }
 
 .gtpbtn p {
@@ -207,7 +208,7 @@ body {
 }
 
 .gtpbtn:hover p {
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .gtpbtn .verso-arrow-right {
@@ -283,20 +284,24 @@ body {
 
 .mail-btn {
   position: absolute;
-  bottom: calc(10vh + 20px);
+  bottom: calc(10vh + 23px);
   left: 50%;
   transform: translateX(-50%);
+  /* background-color: #33414e; */
   background-color: #28323b;
-  padding: 1%;
-  width: 70vw;
+  padding: 2vh 3vh;
   font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
   z-index: 999;
+  white-space: nowrap;
 }
 
 .mail-btn p {
   color: #eee;
-  line-height: 2;
   text-align: center;
+  font-weight: 300;
+}
+
+.mail-btn:hover p {
   font-weight: 300;
 }
 
@@ -312,6 +317,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0);
+  
 }
 
 .languages {
@@ -323,6 +329,7 @@ body {
   background-color: rgb(0, 0, 0, 0.0);
   right: 0;
   padding-top: calc(1vh + 7px);
+  white-space: nowrap;
 }
 
 .languages-buttoms {
@@ -370,6 +377,7 @@ body {
   background-color: rgb(0, 0, 0, 0);
   font-weight: 300;
   text-align: right;
+  white-space: nowrap;
 }
 
 .social-media-buttoms a {
