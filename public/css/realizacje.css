@@ -9,9 +9,13 @@ body {
 .noise {
   position: fixed;
 }
-
+.realizacje-wrapper,
+.scroll {
+  position: absolute;
+  top: 0;
+}
 .verso-close {
-  margin-top: calc(-7vh - 1px);
+  z-index: 99999999999;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -64,7 +68,6 @@ body {
 .description > div > span {
   text-indent: 0vw;
 }
-
 
 .pictures img,
 .pictures a {
