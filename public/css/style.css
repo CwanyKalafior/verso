@@ -189,10 +189,11 @@ body {
   font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
-  transform: translateY(-50%);
-  bottom: calc(90px + 1vh); /*?*/
+  bottom: calc(90px + 1vh);
   text-align: right;
-  right: calc(5vw + 30px);
+  /* right: calc(5vw + 30px); */
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .gtpbtn p {
@@ -317,7 +318,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0);
-  
 }
 
 .languages {
@@ -326,7 +326,7 @@ body {
   width: 40vw;
   text-align: left;
   color: #eee;
-  background-color: rgb(0, 0, 0, 0.0);
+  background-color: rgb(0, 0, 0, 0);
   right: 0;
   padding-top: calc(1vh + 7px);
   white-space: nowrap;
@@ -342,7 +342,7 @@ body {
   color: #eee;
   font-weight: 500;
   text-decoration: none;
-  background-color: rgb(0, 0, 0, 0.0);
+  background-color: rgb(0, 0, 0, 0);
   margin-right: calc(1px + 1vh);
   cursor: context-menu;
 }
