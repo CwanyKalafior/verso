@@ -8,8 +8,12 @@ body {
 .noise {
   position: fixed;
 }
+.realizacje-wrapper {
+  position: absolute;
+  top: 0;
+}
 .verso-close {
-  margin-top: -7vh;
+  margin-top: 2vh;
   z-index: 99999999999;
 }
 /* description */
@@ -21,7 +25,6 @@ body {
 }
 .main-title {
   position: relative;
-  /* margin-top: 10vh; */
   padding: 10% 0;
   font-size: calc(22px + (18 - 22) * ((100vw - 320px) / 760));
   font-weight: 500;
@@ -48,7 +51,7 @@ body {
 .description > div {
   margin: 5%;
   width: 40%;
-  text-indent: -5%;
+  text-indent: -10%;
 }
 
 .description > div > span {
