@@ -112,7 +112,7 @@ body {
 .case_study p {
   margin: 5%;
   margin-left: 10%;
-  text-indent: 8%;
+  text-indent: 5vw;
   font-weight: 300;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }

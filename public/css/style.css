@@ -293,36 +293,6 @@ body {
   z-index: 999;
 }
 
-/* @media (min-width: 533px) and (orientation: landscape) {
-  .mail-btn {
-    width: 40vw;
-    padding: 0%;
-    font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
-  }
-
-}
-@media (min-width: 320px) and (orientation: portrait) {
-  .mail-btn {
-    position: absolute;
-    bottom: 15vh;
-  }
-}
-@media (min-width: 700px) {
-  .mail-btn {
-    width: 40vw;
-    padding: 2%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mail-btn {
-    position: absolute;
-    width: 30vw;
-    padding: 1%;
-    bottom: 23vh;
-  }
-} */
-
 .mail-btn p {
   color: #eee;
   line-height: 2;
@@ -477,39 +447,10 @@ body {
   font-weight: 500;
 }
 
-/* @media (min-width: 320px) and (orientation: portrait) {
-  .hamburger-menu-bg {
-    margin-top: 22vh;
-  }
-} */
-
 .hamburger-menu-bg li {
   cursor: pointer;
   bottom: 0;
-  /* margin-bottom: 6vh; */
 }
-
-/* #hamburger-menu-close,
-.contact-close {
-  display: block;
-  position: absolute;
-  background-color: rgb(0, 0, 0, 0);
-  top: 7vh;
-  right: 10vw;
-}
-
-#hamburger-menu-close i,
-.contact-close i {
-  text-decoration: none;
-  font-size: 36px;
-  color: #eee;
-  cursor: pointer;
-}
-
-#hamburger-menu-close i:hover {
-  text-shadow: 0 0 7px #eee;
-  background-color: rgb(0, 0, 0, 0);
-} */
 
 .verso-close {
   position: absolute;
