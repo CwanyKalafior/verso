@@ -106,17 +106,6 @@ body {
   overflow: hidden;
   width: 100vw;
 }
-
-.contact-circle {
-  position: absolute;
-  top: 10vh;
-  left: -18vw;
-  width: 67vh;
-  height: 67vh;
-  background-color: #33414e;
-  border-radius: 50%;
-  z-index: 1;
-}
 .contact-content {
   position: absolute;
   z-index: 2;

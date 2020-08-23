@@ -30,7 +30,6 @@ body {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
-
 }
 .pracownia-text_uslugi {
   margin-top: 3vh;
@@ -110,31 +109,3 @@ body {
   font-weight: 300;
   margin: 0;
 }
-
-/* animacja tekstu */
-
-/* .moving-text {
-  position: relative;
-  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
-  min-height: 10vh;
-  margin-bottom: 10%;
-  font-weight: 500;
-}
-.parallax_first,
-.parallax_second {
-  position: absolute;
-  left: -10vw;
-  display: inline-block;
-  min-width: 300%;
-}
-.parallax_first {
-  left: -40vw;
-  margin-left: -60vw;
-  margin-bottom: 10%;
-  text-align: start;
-}
-
-.parallax_second {
-  margin-top: 5%;
-  text-align: left;
-} */
