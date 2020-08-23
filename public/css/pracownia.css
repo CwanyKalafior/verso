@@ -53,6 +53,12 @@ body {
   margin: 0;
 }
 
+/* .pracownia-details p span {
+  text-indent: 5vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 3vh;
+} */
+
 .pracownia-btn {
   background-color: #33414e;
   text-indent: 0;
@@ -74,24 +80,26 @@ body {
 
 .pracownia-about {
   padding: 5%;
-  padding-top: 0vw;
+  padding-top: 5vw;
 }
 
 .pracownia-about img {
   position: relative;
-  left: 50%;
-  transform: translate(-50%);
+  /* left: 50%;
+  transform: translate(-50%); */
+  left: 0;
+  padding-left: 5vw;
   max-width: 28vw;
   max-height: 28vh;
 }
 
 .pracownia-about span {
   display: inline-block;
-  text-align: center;
-  width: 100vw;
+  text-align: left;
   font-weight: 500;
   margin-top: 5%;
   padding: 0vw;
+  padding-left: 5vw;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
