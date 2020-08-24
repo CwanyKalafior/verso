@@ -1,0 +1,87 @@
+body {
+  width: 100vw;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.grid {
+  position: relative;
+  margin-top: 20vh;
+  width: 98vw;
+  margin-left: 1vw;
+  margin-bottom: 5%;
+}
+/* grid masonry */
+@media (min-width: 533px) {
+  .grid:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .grid-item,
+  .grid-sizer {
+    width: 50%;
+  }
+
+  .grid-item {
+    float: left;
+  }
+
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 640px) {
+  .grid-item,
+  .grid-sizer {
+    width: 33.3%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-item,
+  .grid-sizer {
+    width: 25%;
+  }
+}
+
+@media (min-width: 320px) and (orientation: portrait) {
+  .grid:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .grid-item,
+  .grid-sizer {
+    width: 50%;
+  }
+
+  .grid-item {
+    float: left;
+  }
+
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .grid-item,
+  .grid-sizer {
+    width: 33.3%;
+  }
+}
+.about_us-info {
+  max-width: 100vw;
+  overflow: hidden;
+}
