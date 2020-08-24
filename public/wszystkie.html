@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/wszystkie.css">
 </head>
+
 <body>
   <div class="wszystkie-wrapper">
     <canvas id="noise" class="noise"></canvas>
@@ -19,39 +21,29 @@
       </div>
     </nav>
     <div class="verso-hamburger">
-        <div class="container" onclick="HamburgerMenuShow()">
-          <div class="background"></div>
-          <div class="bar-1"></div>
-          <div class="bar-2"></div>
-        </div>
+      <div class="container" onclick="HamburgerMenuShow()">
+        <div class="background"></div>
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
       </div>
-    <div class="grid" id="grid">   
-        <div class="grid-sizer"></div>
-        <div class="grid-item arch">
-            <img 
-            src="./content/projekty/architektura/grupaVERSO-architektura-1.webp"
-            alt=""/>
-        </div>
-        <div class="grid-item arch">
-            <img 
-            src="./content/projekty/architektura/grupaVERSO-architektura-2.webp"
-            alt=""/>
-        </div>
-        <div class="grid-item arch">
-            <img 
-            src="./content/projekty/architektura/grupaVERSO-architektura-3.webp"
-            alt=""/>
-        </div>
-        <div class="grid-item arch">
-            <img 
-            src="./content/projekty/architektura/grupaVERSO-architektura-4.webp"
-            alt=""/>
-        </div>
-        <div class="grid-item arch">
-            <img 
-            src="./content/projekty/architektura/grupaVERSO-architektura-5.webp"
-            alt=""/>
-        </div>
+    </div>
+    <div class="grid" id="grid">
+      <div class="grid-sizer"></div>
+      <div class="grid-item arch" onclick="document.location='projekty/0001.html';return false;">
+        <img src="./content/projekty/architektura/grupaVERSO-architektura-1.webp" alt="" />
+      </div>
+      <div class="grid-item arch" onclick="document.location='projekty/0002.html';return false;">
+        <img src="./content/projekty/architektura/grupaVERSO-architektura-2.webp" alt="" />
+      </div>
+      <div class="grid-item arch" onclick="document.location='projekty/0003.html';return false;">
+        <img src="./content/projekty/architektura/grupaVERSO-architektura-3.webp" alt="" />
+      </div>
+      <div class="grid-item arch" onclick="document.location='projekty/0004.html';return false;">
+        <img src="./content/projekty/architektura/grupaVERSO-architektura-4.webp" alt="" />
+      </div>
+      <div class="grid-item arch" onclick="document.location='projekty/0005.html';return false;">
+        <img src="./content/projekty/architektura/grupaVERSO-architektura-5.webp" alt="" />
+      </div>
 
     </div>
 
@@ -75,8 +67,8 @@
       <p>by Jackowski Visuals</p>
     </footer>
   </div>
-   <!-- Hamburger menu -->
-   <section class="hamburger-menu" id="hamburger-menu">
+  <!-- Hamburger menu -->
+  <section class="hamburger-menu" id="hamburger-menu">
     <div class="verso-close" onClick="HamburgerMenuClose()">
       <div class="container">
         <div class="background"></div>
