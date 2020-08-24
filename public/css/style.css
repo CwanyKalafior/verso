@@ -93,7 +93,11 @@ body {
   margin-top: calc(4vh + 8px);
   right: 10%;
 }
-
+@media (min-width: 1024px) {
+  .verso-hamburger {
+    display: none;
+  }
+}
 .verso-hamburger .container {
   position: relative;
   top: 50%;
@@ -460,7 +464,33 @@ body {
   cursor: pointer;
   bottom: 0;
 }
+/* menu */
+.topnav-menu {
+  position: absolute;
+  right: 100px;
+  margin-top: 3vh;
+  line-height: 10vh;
+  color: #eee;
+  display: none;
+}
+.topnav-buttoms {
+  font-size: 0;
+  overflow: hidden;
+}
 
+.topnav-buttoms a {
+  padding: 0vw 3vw;
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+  line-height: 10vh;
+  color: #eee;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .topnav-menu {
+    display: flex;
+  }
+}
+/* X */
 .verso-close {
   position: absolute;
   width: 10vh;

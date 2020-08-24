@@ -41,7 +41,7 @@ textarea {
 }
 textarea {
   resize: none;
-	max-height: 20vh;
+  max-height: 20vh;
 }
 .noLine {
   border-bottom: none;

@@ -6,7 +6,9 @@ body {
 .noise {
   position: fixed;
 }
-
+.verso-hamburger {
+  display: block;
+}
 .pracownia_container {
   position: relative;
   top: 15vh;
