@@ -10,8 +10,8 @@ body {
 .grid {
   position: relative;
   margin-top: 20vh;
-  width: 98vw;
-  margin-left: 1vw;
+  width: 80vw;
+  margin-left: 10vw;
   margin-bottom: 5%;
   z-index: 9999;
 }
