@@ -4,13 +4,16 @@ body {
   overflow: scroll;
   overflow-x: hidden;
 }
-
+.wszystkie-wrapper {
+  position: absolute;
+}
 .grid {
   position: relative;
   margin-top: 20vh;
   width: 98vw;
   margin-left: 1vw;
   margin-bottom: 5%;
+  z-index: 9999;
 }
 /* grid masonry */
 @media (min-width: 533px) {

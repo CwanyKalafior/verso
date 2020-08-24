@@ -7,3 +7,10 @@ msnry = new Masonry(gridArch, {
   columnWidth: ".grid-sizer",
   percentPosition: true,
 });
+// top arrow
+jQuery(function ($) {
+  $.scrollTo(0);
+  $(".verso-arrow-up").click(function () {
+    $.scrollTo($(".wszystkie-wrapper"), 500);
+  });
+});

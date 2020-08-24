@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/wszystkie.css">
 </head>
 <body>
-  <div class="realizacje-wrapper">
+  <div class="wszystkie-wrapper">
     <canvas id="noise" class="noise"></canvas>
     <nav>
       <div class="top-nav">
@@ -18,13 +18,13 @@
         </div>
       </div>
     </nav>
-    <div class="verso-close" onClick="projektClose()">
-      <div class="container">
-        <div class="background"></div>
-        <div class="part-1"></div>
-        <div class="part-2"></div>
+    <div class="verso-hamburger">
+        <div class="container" onclick="HamburgerMenuShow()">
+          <div class="background"></div>
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+        </div>
       </div>
-    </div>
     <div class="grid" id="grid">   
         <div class="grid-sizer"></div>
         <div class="grid-item arch">
@@ -54,7 +54,7 @@
         </div>
 
     </div>
-    
+
     <div class="about_us-info">
       <div class="verso-arrow-up">
         <div class="container">
@@ -75,9 +75,35 @@
       <p>by Jackowski Visuals</p>
     </footer>
   </div>
+   <!-- Hamburger menu -->
+   <section class="hamburger-menu" id="hamburger-menu">
+    <div class="verso-close" onClick="HamburgerMenuClose()">
+      <div class="container">
+        <div class="background"></div>
+        <div class="part-1"></div>
+        <div class="part-2"></div>
+      </div>
+    </div>
+    <ul class="hamburger-menu-bg">
+      <li>
+        <a href="index.html">Strona główna</a>
+      </li>
+      <li>
+        <a class="active">Projekty</a>
+      </li>
+      <li>
+        <a href="pracownia.html">Pracownia</a>
+      </li>
+      <li>
+        <a href="kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+  </section>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="jquery.scrollTo.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/macy@2"></script> -->
   <script src="wszystkie.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
