@@ -39,6 +39,10 @@ textarea {
   font-weight: 500;
   font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
 }
+textarea {
+  resize: none;
+	max-height: 20vh;
+}
 .noLine {
   border-bottom: none;
 }
