@@ -1,13 +1,19 @@
-.brand-name {
-  z-index: 3;
-}
 .form-close {
-  margin-top: 2%;
+  position: relative;
+  margin-top: -11vh;
+  margin-left: 85vw;
+  /* margin-top: 2%; */
+  /* position: absolute; */
+}
+.top-nav {
+  position: relative;
+  margin-top: -15vh;
 }
 .wrapper {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
   background-color: #28323b;
   font-family: "Roboto", sans-serif;
 }
@@ -41,10 +47,12 @@ textarea {
 }
 textarea {
   resize: none;
-  max-height: 20vh;
 }
 .noLine {
   border-bottom: none;
+}
+.line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 input:focus,
 textarea:focus {
