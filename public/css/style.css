@@ -71,7 +71,7 @@ body {
 
 .brand-name {
   position: absolute;
-  height: 10vh;
+  /* height: 10vh; */
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -190,7 +190,8 @@ body {
 .gtpbtn {
   position: absolute;
   height: 10vh;
-  font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
+  /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */ /* ! */
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
   text-align: right;
@@ -296,7 +297,8 @@ body {
   /* background-color: #33414e; */
   background-color: #28323b;
   padding: 2vh 3vh;
-  font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760));
+  /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */ /* ! */
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   z-index: 999;
   white-space: nowrap;
 }
@@ -464,13 +466,19 @@ body {
   cursor: pointer;
   bottom: 0;
 }
-/* menu */
+
+/* Topnav */
+
 .topnav-menu {
   position: absolute;
-  right: 100px;
-  margin-top: 3vh;
+  right: 10vw;
+  margin-top: 4vh;
+  height: 10vh;
+  text-align: right;
   line-height: 10vh;
+  /* line-height: calc(22px + (28 - 22) * ((100vw - 320px) / 760)); */
   color: #eee;
+  background-color: rgba(0, 0, 0, 0);
   display: none;
 }
 .topnav-buttoms {
@@ -479,12 +487,16 @@ body {
 }
 
 .topnav-buttoms a {
-  padding: 0vw 3vw;
+  text-align: right;
+  padding-left: 3vw;
+  /* padding: 0vw 3vw; */
+  font-weight: 300;
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
-  line-height: 10vh;
+  /* line-height: 10vh; */
   color: #eee;
   text-decoration: none;
 }
+
 @media (min-width: 1024px) {
   .topnav-menu {
     display: flex;
