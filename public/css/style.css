@@ -195,11 +195,8 @@ body {
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
   text-align: right;
-  /* right: calc(5vw + 30px); */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   bottom: calc(8vh + 80px);
-  right: 15vw;
+  right: calc(5vw + 33px);
 }
 
 .gtpbtn p {
@@ -212,6 +209,7 @@ body {
   text-decoration: none;
   color: #eee;
   -webkit-text-stroke: 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .gtpbtn:hover p {
@@ -226,6 +224,7 @@ body {
   max-width: 40px;
   min-width: 35px;
   padding-top: 2vh;
+  margin-left: calc(-4vh + 20px);
   transform: rotate(90deg);
   display: inline;
 }
