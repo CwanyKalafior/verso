@@ -54,20 +54,13 @@ body {
   margin: 0;
 }
 
-/* .pracownia-details p span {
+.pracownia-details p span {
+  display: inline-block;
   text-indent: 5vw;
-  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 3vh;
-} */
-
-/* .pracownia-btn {
-  background-color: #33414e;
-  text-indent: 0;
-} */
+}
 
 .pracownia-btn {
-  /* left: 50%;
-  transform: translateX(-50%); */
   background-color: #33414e;
   position: relative;
   display: inline-block;
@@ -75,9 +68,7 @@ body {
   /* padding: 2vh 3vh; */ /* ! */
   padding: 12px 20px;
   margin-top: 3vh;
-  /* margin-bottom: 7vh; */
   /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */ /* ! */
-  /* font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760)); */
   z-index: 999;
   white-space: nowrap;
   cursor: pointer;
@@ -115,8 +106,6 @@ body {
 
 .pracownia-about img {
   position: relative;
-  /* left: 50%;
-  transform: translate(-50%); */
   left: 0;
   padding-left: 5vw;
   max-width: 28vw;
