@@ -30,6 +30,7 @@ document.addEventListener(
 function formClose() {
   window.history.back();
 }
+
 // noLine
 const inputs = document.querySelectorAll("input");
 const input = document.querySelector("input");
