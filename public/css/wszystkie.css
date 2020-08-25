@@ -8,7 +8,9 @@ body {
 .wszystkie-wrapper {
   position: absolute;
 }
-
+.verso-hamburger {
+  display: block;
+}
 .grid {
   position: relative;
   margin-top: 20vh;
