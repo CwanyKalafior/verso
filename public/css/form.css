@@ -78,12 +78,13 @@ textarea:focus {
 }
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0vw;
   display: block;
   height: 3vh;
   width: 3vh;
-  border: 1px solid #eee;
+  border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   cursor: pointer;
   z-index: 99999;
@@ -91,13 +92,18 @@ textarea:focus {
 .checkmark_white {
   background-color: #eee;
 }
-
+@media (min-width: 533px) and (orientation: landscape) {
+  .checkmark {
+    height: 4vh;
+    width: 4vh;
+  }
+}
 .form-accept p {
   position: relative;
   width: 70vw;
   left: 55vw;
   color: rgba(255, 255, 255, 0.7);
-  margin-left: -45%;
+  margin-left: -48%;
   margin-right: 5%;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
   letter-spacing: 0.5px;
@@ -108,11 +114,13 @@ textarea:focus {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  bottom: -14vh;
 }
 input.form-btn {
   position: relative;
-  width: 100vw;
-  top: 14vh;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
   border-bottom: 0;
   color: #eee;
