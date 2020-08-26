@@ -167,13 +167,13 @@ body {
 }
 
 /* Swap gallery btns */
-
+/* $ */
 .swap-gallery-btns {
   font-size: 0;
   position: absolute;
   z-index: 999999;
-  margin-top: 25vh;
-  margin-left: 0vw;
+  margin-top: calc(10vw * (1/2) + 13vh);
+  margin-left: 13%;
 }
 
 .verso-proj {
@@ -230,15 +230,15 @@ body {
   background-color: rgba(255, 255, 255, 1);
   width: 70%;
   height: 10%;
+  left: 15%;
   top: 5%;
-  left: 5%;
   transition: 0.2s;
   pointer-events: none;
 }
 
 /* .verso-proj .container:hover .bar-1 {
   width: 60%;
-  left: 15%;
+  left: 5%;
 } */
 
 .verso-proj .container .bar-2 {
@@ -247,13 +247,13 @@ body {
   width: 50%;
   height: 10%;
   top: 30%;
-  right: 10%;
+  right: 45%;
   transition: 0.2s;
   pointer-events: none;
 }
 
 /* .verso-proj .container:hover .bar-2 {
-  right: 45%;
+  right: 10%;
 } */
 
 .verso-proj .container .bar-3 {
@@ -262,13 +262,13 @@ body {
   width: 50%;
   height: 10%;
   top: 55%;
-  left: 15%;
+  left: 45%;
   transition: 0.2s;
   pointer-events: none;
 }
 
 /* .verso-proj .container:hover .bar-3 {
-  left: 45%;
+  left: 15%;
 } */
 
 /* Wszystkie */
@@ -278,7 +278,7 @@ body {
   width: 10vh;
   max-width: 40px;
   min-width: 35px;
-  left: calc(0vw + 90px);
+  left: calc(45px + 2vw);
   top: calc(0vh - 2px);
   font-size: 0;
 }
@@ -422,6 +422,9 @@ body {
 
 @media (min-width: 640px) {
   .projekty-links {
-    padding-left: 20%;
+    padding-left: calc(25% + 30px);
+  }
+  .projekty-links span {
+    padding-left: 5%;
   }
 }
