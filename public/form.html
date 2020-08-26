@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <canvas id="c"></canvas>
   <div class="wrapper">
     <div>
       <div class="form-wrapper">
@@ -53,7 +54,7 @@
             <label>
               Twoja wiadomość:
             </label></br>
-            <textarea type="textarea" rows="2" name="message" id="message"></textarea>
+            <textarea type="textarea" name="message" id="message"></textarea>
           </div>
           <div class="form-accept">
             <input type="radio" name="radio" id="radio" checked="checked" />
@@ -70,6 +71,7 @@
       </div>
     </div>
   </div>
+  <script src="../node_modules/animejs/lib/anime.min.js"></script>
   <script src="form.js"></script>
   <script src="https://kit.fontawesome.com/55221ecb68.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

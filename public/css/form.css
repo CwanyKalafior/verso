@@ -1,3 +1,10 @@
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
 .form-close {
   position: relative;
   margin-top: -11vh;
@@ -13,6 +20,7 @@
   overflow-x: hidden;
   background-color: #28323b;
   font-family: "Roboto", sans-serif;
+  z-index: 1;
 }
 .form-wrapper {
   position: relative;
@@ -20,7 +28,9 @@
   color: #eee;
   padding-left: 6%;
 }
-
+form {
+  margin-top: 4vh;
+}
 label {
   position: relative;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
@@ -92,12 +102,6 @@ textarea:focus {
 .checkmark_white {
   background-color: #eee;
 }
-@media (min-width: 533px) and (orientation: landscape) {
-  .checkmark {
-    height: 4vh;
-    width: 4vh;
-  }
-}
 .form-accept p {
   position: relative;
   width: 70vw;
@@ -133,9 +137,15 @@ input.form-btn {
 input.form-btn:hover {
   font-weight: 500;
 }
+
+@media (min-width: 320px) and (orientation: portrait) {
+  .form-send_btn {
+    bottom: -23vh;
+  }
+}
 @media (min-width: 533px) and (orientation: landscape) {
   .form-wrapper {
-    top: 15vh;
+    top: 17vh;
     padding-left: 10%;
   }
   label {
@@ -160,6 +170,10 @@ input.form-btn:hover {
     position: relative;
     top: 3vh;
     padding: 0%;
+  }
+  .checkmark {
+    height: 4vh;
+    width: 4vh;
   }
   .form-accept p {
     position: relative;
