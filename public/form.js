@@ -44,3 +44,9 @@ const textarea = document.querySelector("textarea");
 textarea.addEventListener("click", function () {
   textarea.classList.add("noLine");
 });
+// accept form
+const checkmark = document.querySelector(".checkmark");
+
+checkmark.addEventListener("click", function () {
+  checkmark.classList.toggle("checkmark_white");
+});

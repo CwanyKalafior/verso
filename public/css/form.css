@@ -76,7 +76,7 @@ textarea:focus {
   opacity: 0;
   cursor: pointer;
 }
-/* .checkmark {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0vw;
@@ -85,8 +85,13 @@ textarea:focus {
   width: 4vh;
   border: 1px solid #eee;
   border-radius: 50%;
+  cursor: pointer;
+}
+.checkmark_white {
+  background-color: #eee;
 }
 
+/* 
 .form-accept input:checked ~ .checkmark {
   background-color: transparent;
 }
