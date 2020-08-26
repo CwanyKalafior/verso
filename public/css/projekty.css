@@ -170,8 +170,10 @@ body {
 
 .swap-gallery-btns {
   font-size: 0;
-  position: relative;
+  position: absolute;
   z-index: 999999;
+  margin-top: 25vh;
+  margin-left: 0vw;
 }
 
 .verso-proj {
@@ -415,5 +417,11 @@ body {
 @media (max-width: 640px) {
   .swap-gallery-btns {
     display: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .projekty-links {
+    padding-left: 20%;
   }
 }
