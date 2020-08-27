@@ -140,7 +140,12 @@ body {
     cursor: pointer;
   }
 }
-
+@media (min-width: 640px) and (orientation: portrait) {
+  .grid-item,
+  .grid-sizer {
+    width: 33.3%;
+  }
+}
 @media (min-width: 1024px) and (orientation: portrait) {
   .grid {
     position: relative;
