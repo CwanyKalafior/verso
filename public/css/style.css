@@ -79,7 +79,6 @@ body {
 
 .brand-name {
   position: absolute;
-  /* height: 10vh; */
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -420,7 +419,7 @@ body {
   width: 100vw;
   background-color: #28323b;
   overflow: hidden;
-  z-index: 10001;
+  z-index: 99999999;
 }
 
 #hamburger-menu.hamburger-menu-show {
