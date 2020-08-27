@@ -60,7 +60,7 @@ var animations = [];
 var circles = [];
 
 var colorPicker = (function () {
-  var colors = ["#28323b", "#33414e"];
+  var colors = ["#28323b", "#33414e", "#33414e", "#33414e"];
   var index = 0;
   function next() {
     index = index++ < colors.length - 1 ? index : 0;
@@ -128,7 +128,7 @@ function handleEvent(e) {
       width: 3,
       color: currentColor,
     },
-    opacity: 1,
+    opacity: 0,
   });
   var rippleAnimation = anime({
     targets: ripple,
@@ -141,12 +141,7 @@ function handleEvent(e) {
 
   var particles = [];
   for (var i = 0; i < 32; i++) {
-    var particle = new Circle({
-      x: e.pageX,
-      y: e.pageY,
-      fill: currentColor,
-      r: anime.random(24, 48),
-    });
+    var particle = new Circle({});
     particles.push(particle);
   }
   var particlesAnimation = anime({
