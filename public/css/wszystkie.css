@@ -40,7 +40,6 @@ body {
   position: relative;
   width: 100%;
   padding: 5%;
-  /* padding-bottom: 0%; */
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -67,7 +66,11 @@ body {
 .wszystkie-links a:hover {
   font-weight: 500;
 }
-
+@media (min-width: 1024px) {
+  .verso-hamburger {
+    display: none;
+  }
+}
 /* grid masonry */
 @media (min-width: 533px) {
   .grid:after {
@@ -93,7 +96,7 @@ body {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 639px) {
   .grid-item,
   .grid-sizer {
     width: 33.3%;
@@ -190,7 +193,7 @@ body {
   font-size: 0;
   position: absolute;
   z-index: 999999;
-  margin-top: calc(10vw * (1/2) + 13vh);
+  margin-top: calc(10vw * (1 / 2) + 13vh);
   margin-left: 13%;
 }
 
@@ -356,7 +359,6 @@ body {
 /* .verso-wszy .container:hover .line-1 {
     width: 60%;
 } */
-
 
 .verso-wszy .container .line-4 {
   position: absolute;

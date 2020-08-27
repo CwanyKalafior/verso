@@ -48,6 +48,11 @@ body {
   font-weight: 300;
 }
 
+@media (min-width: 1024px) {
+  .verso-hamburger {
+    display: none;
+  }
+}
 /* Read more */
 
 #readmore {
