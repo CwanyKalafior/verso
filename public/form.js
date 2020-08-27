@@ -120,15 +120,15 @@ function handleEvent(e) {
   });
 
   var ripple = new Circle({
-    x: e.pageX,
-    y: e.pageY,
-    r: 0,
-    fill: currentColor,
-    stroke: {
-      width: 3,
-      color: currentColor,
-    },
-    opacity: 0,
+    // x: e.pageX,
+    // y: e.pageY,
+    // r: 0,
+    // fill: currentColor,
+    // stroke: {
+    //   width: 3,
+    //   color: currentColor,
+    // },
+    // opacity: 0,
   });
   var rippleAnimation = anime({
     targets: ripple,
