@@ -56,6 +56,12 @@ body {
   pointer-events: none;
   opacity: 0.05;
 }
+#c {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
 
 .top-nav {
   position: absolute;
@@ -478,7 +484,6 @@ body {
   height: 10vh;
   text-align: right;
   line-height: 10vh;
-  /* line-height: calc(22px + (28 - 22) * ((100vw - 320px) / 760)); */
   color: #eee;
   background-color: rgba(0, 0, 0, 0);
   display: none;
@@ -491,10 +496,8 @@ body {
 .topnav-buttoms a {
   text-align: right;
   padding-left: 3vw;
-  /* padding: 0vw 3vw; */
   font-weight: 300;
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
-  /* line-height: 10vh; */
   color: #eee;
   text-decoration: none;
 }
@@ -514,6 +517,7 @@ body {
   margin-top: calc(3vh + 1px);
   right: 10%;
   background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
 }
 
 .verso-close .container {
@@ -707,4 +711,3 @@ footer p {
   transform: rotate(-45deg);
   transition: 0.2s;
 }
-

@@ -6,6 +6,12 @@ body {
 .noise {
   position: fixed;
 }
+#c {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
 .verso-hamburger {
   display: block;
 }

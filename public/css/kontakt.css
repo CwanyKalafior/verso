@@ -21,7 +21,12 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
-
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
 /* Logo */
 .brand-name {
   position: absolute;
