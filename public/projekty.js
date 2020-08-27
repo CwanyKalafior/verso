@@ -49,6 +49,10 @@ var swiper = new Swiper(".swiper-container", {
   keyboard: {
     enabled: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   loop: true,
   centeredSlides: true,
   freeMode: false,
