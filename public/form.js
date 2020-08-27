@@ -119,17 +119,7 @@ function handleEvent(e) {
     },
   });
 
-  var ripple = new Circle({
-    // x: e.pageX,
-    // y: e.pageY,
-    // r: 0,
-    // fill: currentColor,
-    // stroke: {
-    //   width: 3,
-    //   color: currentColor,
-    // },
-    // opacity: 0,
-  });
+  var ripple = new Circle({});
   var rippleAnimation = anime({
     targets: ripple,
     r: rippleSize,
