@@ -54,6 +54,7 @@ textarea {
 }
 textarea {
   resize: none;
+  height: 25px;
 }
 .noLine {
   border-bottom: none;
