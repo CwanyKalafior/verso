@@ -36,15 +36,31 @@ const inputs = document.querySelectorAll("input");
 const input = document.querySelector("input");
 const value = inputs.value;
 const formWrapper = document.querySelector(".wrapper");
+
 [].forEach.call(inputs, function (input) {
-  input.addEventListener("click", function () {
-    input.classList.add("noLine");
+  input.addEventListener("change", function () {
+    let inputValue = "";
+    inputValue = input.value;
+    console.log(inputValue);
+    if (inputValue.length === 0) {
+      formWrapper.addEventListener("change", function () {
+        input.classList.add("line");
+        input.classList.remove("noLine");
+        console.log(inputValue);
+      });
+    } else {
+      formWrapper.addEventListener("change", function () {
+        input.classList.add("noLine");
+        input.classList.remove("line");
+        console.log(inputValue);
+      });
+    }
   });
 });
+
 const textarea = document.querySelector("textarea");
 
 textarea.addEventListener("change", function () {
-  const text = document.getElementById("message").value;
   let textValue = "";
   textValue = document.getElementById("message").value;
   if (textValue.length === 0) {
@@ -62,7 +78,6 @@ textarea.addEventListener("change", function () {
 
 // accept form
 const checkmark = document.querySelector(".checkmark");
-
 checkmark.addEventListener("click", function () {
   checkmark.classList.toggle("checkmark_white");
 });
