@@ -34,16 +34,32 @@ function formClose() {
 // noLine
 const inputs = document.querySelectorAll("input");
 const input = document.querySelector("input");
-
+const value = inputs.value;
+const formWrapper = document.querySelector(".wrapper");
 [].forEach.call(inputs, function (input) {
   input.addEventListener("click", function () {
     input.classList.add("noLine");
   });
 });
 const textarea = document.querySelector("textarea");
-textarea.addEventListener("click", function () {
-  textarea.classList.add("noLine");
+
+textarea.addEventListener("change", function () {
+  const text = document.getElementById("message").value;
+  let textValue = "";
+  textValue = document.getElementById("message").value;
+  if (textValue.length === 0) {
+    formWrapper.addEventListener("click", function () {
+      textarea.classList.add("line");
+      textarea.classList.remove("noLine");
+    });
+  } else {
+    formWrapper.addEventListener("click", function () {
+      textarea.classList.add("noLine");
+      textarea.classList.remove("line");
+    });
+  }
 });
+
 // accept form
 const checkmark = document.querySelector(".checkmark");
 

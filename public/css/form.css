@@ -119,6 +119,7 @@ textarea:focus {
   left: 50%;
   transform: translateX(-50%);
   bottom: -14vh;
+  padding-bottom: 5vh;
 }
 input.form-btn {
   position: relative;
