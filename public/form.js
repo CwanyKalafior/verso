@@ -41,18 +41,15 @@ const formWrapper = document.querySelector(".wrapper");
   input.addEventListener("change", function () {
     let inputValue = "";
     inputValue = input.value;
-    console.log(inputValue);
     if (inputValue.length === 0) {
       formWrapper.addEventListener("change", function () {
         input.classList.add("line");
         input.classList.remove("noLine");
-        console.log(inputValue);
       });
     } else {
       formWrapper.addEventListener("change", function () {
         input.classList.add("noLine");
         input.classList.remove("line");
-        console.log(inputValue);
       });
     }
   });
