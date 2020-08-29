@@ -83,3 +83,35 @@ interiorsImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   archiImages.classList.remove("active");
 });
+
+//Grupowanie
+function wnetrzaFun() {
+  var elemsWnetrza = document.getElementsByClassName('wnetrza');
+  var elemsArchitektura = document.getElementsByClassName('architektura');
+  for (var i = 0; i < elemsWnetrza.length; i += 1) {
+    elemsWnetrza[i].style.display = 'block';
+  }
+  for (var i = 0; i < elemsArchitektura.length; i += 1) {
+    elemsArchitektura[i].style.display = 'none';
+  }
+}
+function architekturaFun() {
+  var elemsWnetrza = document.getElementsByClassName('wnetrza');
+  var elemsArchitektura = document.getElementsByClassName('architektura');
+  for (var i = 0; i < elemsWnetrza.length; i += 1) {
+    elemsWnetrza[i].style.display = 'none';
+  }
+  for (var i = 0; i < elemsArchitektura.length; i += 1) {
+    elemsArchitektura[i].style.display = 'block';
+  }
+}
+function wszystkieFun() {
+  var elemsWnetrza = document.getElementsByClassName('wnetrza');
+  var elemsArchitektura = document.getElementsByClassName('architektura');
+  for (var i = 0; i < elemsWnetrza.length; i += 1) {
+    elemsWnetrza[i].style.display = 'block';
+  }
+  for (var i = 0; i < elemsArchitektura.length; i += 1) {
+    elemsArchitektura[i].style.display = 'block';
+  }
+}
