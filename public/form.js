@@ -36,6 +36,7 @@ const inputs = document.querySelectorAll("input");
 const input = document.querySelector("input");
 const value = inputs.value;
 const formWrapper = document.querySelector(".wrapper");
+const textarea = document.querySelector("textarea");
 
 [].forEach.call(inputs, function (input) {
   input.addEventListener("change", function () {
@@ -55,18 +56,16 @@ const formWrapper = document.querySelector(".wrapper");
   });
 });
 
-const textarea = document.querySelector("textarea");
-
 textarea.addEventListener("change", function () {
   let textValue = "";
   textValue = document.getElementById("message").value;
   if (textValue.length === 0) {
-    formWrapper.addEventListener("click", function () {
+    formWrapper.addEventListener("change", function () {
       textarea.classList.add("line");
       textarea.classList.remove("noLine");
     });
   } else {
-    formWrapper.addEventListener("click", function () {
+    formWrapper.addEventListener("change", function () {
       textarea.classList.add("noLine");
       textarea.classList.remove("line");
     });

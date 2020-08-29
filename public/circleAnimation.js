@@ -163,10 +163,6 @@ var resizeCanvas = function () {
 })();
 
 function handleInactiveUser() {
-  var inactive = setTimeout(function () {
-    fauxClick(cW / 2, cH / 2);
-  }, 2000);
-
   function clearInactiveTimeout() {
     clearTimeout(inactive);
     document.removeEventListener("mousedown", clearInactiveTimeout);
