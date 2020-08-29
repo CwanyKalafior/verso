@@ -1,0 +1,16 @@
+---> Nie będzie problemu z ogarnianiem co jest gdzie
+
+0001
+
+Nazwa:
+Lokalizacja:
+
+0002
+
+Nazwa:
+Lokalizacja:
+
+0003
+
+Nazwa:
+Lokalizacja:
