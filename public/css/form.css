@@ -149,7 +149,7 @@ input.form-btn:hover {
   .form-wrapper {
     top: 17vh;
     padding-left: 10%;
-    padding-bottom: 10vh;
+    padding-bottom: 25vh;
   }
   label {
     position: relative;
@@ -188,6 +188,7 @@ input.form-btn:hover {
 
   input.form-btn {
     top: 0vh;
+    padding: 10vh 0;
   }
 }
 
