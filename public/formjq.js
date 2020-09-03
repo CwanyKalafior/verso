@@ -55,7 +55,7 @@ $('form').on('submit', (e) => {
                 var delay = 1;
                 setTimeout(function () { window.location = "index.html"; }, delay);
             },
-
+//Pogadamy o tym
             //Throw error
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 if (XMLHttpRequest.status == 0) {
