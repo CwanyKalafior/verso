@@ -6,6 +6,7 @@ msnry = new Masonry(gridArch, {
   itemSelector: ".grid-item",
   columnWidth: ".grid-sizer",
   percentPosition: true,
+  transitionDuration: 0,
 });
 // top arrow
 jQuery(function ($) {
