@@ -26,6 +26,7 @@ function wnetrzaFun() {
   for (var i = 0; i < elemsArchitektura.length; i += 1) {
     elemsArchitektura[i].style.display = 'none';
   }
+  msnry.layout();
 }
 function architekturaFun() {
   var elemsWnetrza = document.getElementsByClassName('wnetrza');
@@ -36,6 +37,7 @@ function architekturaFun() {
   for (var i = 0; i < elemsArchitektura.length; i += 1) {
     elemsArchitektura[i].style.display = 'block';
   }
+  msnry.layout();
 }
 function wszystkieFun() {
   var elemsWnetrza = document.getElementsByClassName('wnetrza');
@@ -46,4 +48,5 @@ function wszystkieFun() {
   for (var i = 0; i < elemsArchitektura.length; i += 1) {
     elemsArchitektura[i].style.display = 'block';
   }
+  msnry.layout();
 }
