@@ -202,7 +202,8 @@ body {
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
   text-align: right;
-  bottom: calc(8vh + 80px);
+  /* bottom: calc(8vh + 80px); */
+  bottom: calc(6vh + 80px);
   right: calc(5vw + 33px);
 }
 
@@ -297,7 +298,7 @@ body {
 
 .mail-btn {
   position: absolute;
-  bottom: calc(10vh + 23px);
+  bottom: calc(8vh + 23px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #33414e;
@@ -327,7 +328,8 @@ body {
   display: inline-block;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   width: 90vw;
-  height: calc(8vh + 20px);
+  /* height: calc(8vh + 20px); */
+  height: calc(5vh + 25px);
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0);
@@ -341,7 +343,7 @@ body {
   color: #eee;
   background-color: rgb(0, 0, 0, 0);
   right: 0;
-  padding-top: calc(1vh + 7px);
+  padding-top: calc(1vh + 2px);
   white-space: nowrap;
 }
 
@@ -385,7 +387,7 @@ body {
   right: 5vw;
   width: 40vw;
   text-align: right;
-  padding-top: calc(1vh + 7px);
+  padding-top: calc(1vh + 5px);
   color: #eee;
   background-color: rgb(0, 0, 0, 0);
   font-weight: 300;
