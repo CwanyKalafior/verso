@@ -1,7 +1,7 @@
 //textarea
 var autoExpand = function (field) {
   // Reset field height
-  field.style.height = "inherit";
+  // field.style.height = "inherit";
 
   // Get the computed styles for the element
   var computed = window.getComputedStyle(field);
