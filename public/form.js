@@ -74,7 +74,15 @@ textarea.addEventListener("change", function () {
 
 // accept form
 const checkmark = document.querySelector(".checkmark");
+let check = false;
+console.log(check);
 checkmark.addEventListener("click", function () {
   checkmark.classList.toggle("checkmark_white");
-  document.getElementById("radio").checked = true;
+  if (check === true) {
+    document.getElementById("radio").checked = false;
+    check = false;
+  } else {
+    document.getElementById("radio").checked = true;
+    check = true;
+  }
 });
