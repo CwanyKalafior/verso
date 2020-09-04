@@ -1,12 +1,14 @@
 // galeria
-var gridArch = document.querySelector(".grid");
+var grid = document.querySelector(".grid");
 var msnry;
 
-msnry = new Masonry(gridArch, {
-  itemSelector: ".grid-item",
-  columnWidth: ".grid-sizer",
-  percentPosition: true,
-  transitionDuration: 0,
+imagesLoaded(grid, function () {
+  msnry = new Masonry(grid, {
+    itemSelector: ".grid-item",
+    columnWidth: ".grid-sizer",
+    percentPosition: true,
+    transitionDuration: 0,
+  });
 });
 // top arrow
 jQuery(function ($) {

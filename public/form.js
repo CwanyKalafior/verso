@@ -75,7 +75,6 @@ textarea.addEventListener("change", function () {
 // accept form
 const checkmark = document.querySelector(".checkmark");
 let check = false;
-console.log(check);
 checkmark.addEventListener("click", function () {
   checkmark.classList.toggle("checkmark_white");
   if (check === true) {
