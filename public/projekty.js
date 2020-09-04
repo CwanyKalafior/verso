@@ -869,7 +869,7 @@ newElement16.innerHTML += `
 <div class="gallery" id="gallery">
 <div class="wnetrza">
             <a href="./projekty/0086.html">
-              <img src="./content/wnetrza/1w/5c47c68169326529f4390091886a6c6b.jpg" alt="">
+              <img src="./content/0086/5c47c68169326529f4390091886a6c6b.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom jednorodzinny <br> <span>Częstochowa • listopad 2016</span></p>
@@ -878,7 +878,7 @@ newElement16.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0087.html">
-              <img src="./content/wnetrza/2w/6ff49d8804c319692802bd4352a28312.jpg" alt="">
+              <img src="./content/0087/6ff49d8804c319692802bd4352a28312.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom jednorodzinny <br> <span>Kędzierzyn Koźle • 2014</span></p>
@@ -887,7 +887,7 @@ newElement16.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0088.html">
-              <img src="./content/wnetrza/3w/704d4045bed3e3c44f2fb50820286e99.jpg" alt="">
+              <img src="./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom jednorodzinny <br> <span>Częstochowa • listopad 2016</span></p>
@@ -896,7 +896,7 @@ newElement16.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0089.html">
-              <img src="./content/wnetrza/4w/d942674fc5161183811eea61d317254e.jpg" alt="">
+              <img src="./content/0089/d942674fc5161183811eea61d317254e.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Pałacyk Brassów <br> <span>Częstochowa • 2019</span></p>
@@ -905,7 +905,7 @@ newElement16.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0090.html">
-              <img src="./content/wnetrza/5w/204dc25246b81dc1a705cde2d11a9ff4.jpg" alt="">
+              <img src="./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Koncepcja aranżacji strefy wejściowej w Galerii Jurajskiej <br> <span>Częstochowa • Styczeń 2016</span>
@@ -918,7 +918,7 @@ newElement17.innerHTML += `
 <div class="gallery" id="gallery">
 <div class="wnetrza">
             <a href="./projekty/0091.html">
-              <img src="./content/wnetrza/6w/6d2918a9eb0b969b91b105e6bde8fd6b.jpg" alt="">
+              <img src="./content/0091/6d2918a9eb0b969b91b105e6bde8fd6b.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Projekt wnętrz w domu jednorodzinnym <br> </p>
@@ -927,7 +927,7 @@ newElement17.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0092.html">
-              <img src="./content/wnetrza/7w/b7b00345dba6e5aeeb6bf460daa69749.jpg" alt="">
+              <img src="./content/0092/b7b00345dba6e5aeeb6bf460daa69749.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Nadleśnictwo Lubliniec <br> <span>2013</span></p>
@@ -936,7 +936,7 @@ newElement17.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0093.html">
-              <img src="./content/wnetrza/8w/77cc8ffc803ca150583cc08b9bc8af3a.jpg" alt="">
+              <img src="./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Galeria Dobrej Sztuki <br> <span>Częstochowa • 2013</span></p>
@@ -945,7 +945,7 @@ newElement17.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0094.html">
-              <img src="./content/wnetrza/9w/8b854a5812c03c5f503f0dd9bda82b4d.jpg" alt="">
+              <img src="./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom jednorodzinny <br> <span>Częstochowa • 2013</span></p>
@@ -954,7 +954,7 @@ newElement17.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0095.html">
-              <img src="./content/wnetrza/10w/151b346b82724180b13294a12fd2e303.jpg" alt="">
+              <img src="./content/0095/151b346b82724180b13294a12fd2e303.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Kuchnia i salon w domu jednorodzinnym <br> <span>Czarny Las • Czerwiec 2014</span></p>
@@ -966,7 +966,7 @@ newElement18.innerHTML += `
 <div class="gallery" id="gallery">
 <div class="wnetrza">
             <a href="./projekty/0096.html">
-              <img src="./content/wnetrza/11w/a644c291ec89297489cc1b21bfd9c127.jpg" alt="">
+              <img src="./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Świetlica w Liceum im. Romualda Traugutta <br> <span>Częstochowa • 2013</span></p>
@@ -975,7 +975,7 @@ newElement18.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0097.html">
-              <img src="./content/wnetrza/12w/8f0fba2e52ea64fbb31ec02463f689e7.jpg" alt="">
+              <img src="./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom prywatny <br> <span>Praszczyki • 2014</span></p>
@@ -984,7 +984,7 @@ newElement18.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0098.html">
-              <img src="./content/wnetrza/13w/52987992bf64186174220dfb810c182d.jpg" alt="">
+              <img src="./content/0098/52987992bf64186174220dfb810c182d.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Dom prywatny <br> <span>Częstochowa • 2014</span></p>
@@ -993,7 +993,7 @@ newElement18.innerHTML += `
 
           <div class="wnetrza">
             <a href="./projekty/0099.html">
-              <img src="./content/wnetrza/14w/be3331f2ea715e237f158b0a0e024f7e.jpg" alt="">
+              <img src="./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg" alt="">
             </a>
             <div class="gallery-description">
               <p>Biuro Comair <br> <span>2018</span></p>
