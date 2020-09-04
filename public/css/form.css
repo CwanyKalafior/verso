@@ -5,15 +5,15 @@
   position: absolute;
 }
 
-.form-close {
+/* .form-close {
   position: relative;
   margin-top: -11vh;
   margin-left: 85vw;
-}
-.top-nav {
+} */
+/* .top-nav {
   position: relative;
   margin-top: -15vh;
-}
+} */
 .wrapper {
   min-height: 100vh;
   width: 100vw;
@@ -24,13 +24,18 @@
 }
 .form-wrapper {
   position: relative;
-  top: 20vh;
+  /* top: 20vh; */
+  top: calc(8vh + 60px);
   color: #eee;
   padding-left: 6%;
+  /* background-color: red; */
 }
-form {
+
+/* form {
   margin-top: 4vh;
-}
+  background-color: red;
+} */
+
 label {
   position: relative;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
@@ -38,6 +43,7 @@ label {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
 }
+
 input,
 textarea {
   position: relative;

@@ -235,6 +235,7 @@ body {
   margin-left: calc(-4vh + 20px);
   transform: rotate(90deg);
   display: inline;
+  bottom: 2px;
 }
 
 .gtpbtn .verso-arrow-right .container {
