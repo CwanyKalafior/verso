@@ -10,10 +10,12 @@
   margin-top: -11vh;
   margin-left: 85vw;
 } */
-/* .top-nav {
-  position: relative;
-  margin-top: -15vh;
-} */
+
+.top-nav,
+.verso-close {
+  margin-top: -13vh;
+}
+
 .wrapper {
   min-height: 100vh;
   width: 100vw;
@@ -22,6 +24,7 @@
   font-family: "Roboto", sans-serif;
   z-index: 1;
 }
+
 .form-wrapper {
   position: relative;
   /* top: 20vh; */
@@ -74,6 +77,7 @@ textarea:focus {
   background-color: transparent;
   color: #eee;
   border-bottom: none;
+  /* height: calc(100% + 10px); */
 }
 .form-accept {
   position: relative;
