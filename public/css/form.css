@@ -99,12 +99,13 @@ textarea:focus {
 }
 .checkmark {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0%;
+  /* top: 50%;
+  transform: translateY(-50%); */
   left: 0vw;
   display: block;
-  height: 3vh;
-  width: 3vh;
+  height: 2.8vh;
+  width: 2.8vh;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   cursor: pointer;
@@ -201,7 +202,13 @@ input.form-btn:hover {
     padding: 10vh 0;
   }
 }
-
+@media (min-width: 1024px) and (orientation: landscape) {
+  .checkmark {
+    top: 5%;
+    height: 3.5vh;
+    width: 3.5vh;
+  }
+}
 /*INPUT TYPE="NUMBER"*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
