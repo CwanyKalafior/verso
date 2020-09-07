@@ -4,7 +4,9 @@ body {
   overflow: scroll;
   overflow-x: hidden;
 }
-
+.noise {
+  position: fixed;
+}
 .wszystkie-wrapper {
   position: absolute;
 }
