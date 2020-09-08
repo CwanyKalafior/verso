@@ -6,9 +6,13 @@ var cW;
 var bgColor = "#28323b";
 var animations = [];
 var circles = [];
-
+var media = window.matchMedia("(max-width:700px)");
 var colorPicker = (function () {
-  var colors = ["#28323b", "#33414e", "#28323b", "#33414e"];
+  if (media.matches) {
+    var colors = ["#28323b", "#28323b", "#33414e", "#33414e"];
+  } else {
+    var colors = ["#28323b", "#33414e", "#28323b", "#33414e"];
+  }
   var index = 0;
   function next() {
     index = index++ < colors.length - 1 ? index : 0;
