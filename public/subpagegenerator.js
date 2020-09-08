@@ -1,0 +1,113 @@
+
+//page name (eg. 0001/0002...)
+var page = location.pathname.substring(location.pathname.lastIndexOf("/") + 1).substring(0, 4);;
+console.log("Page ID: " + page);
+
+//fetch data from JSON and generate subpage content
+$(function () {
+    var obj;
+
+    fetch("../galeria.json")
+        .then((res) => res.json())
+        .then((data) => (obj = data))
+        .then(() => {
+            //search database for object
+            for (var i = 0; i < obj.length; i++) {
+                //if object exists
+                if (obj[i].nazwa_projektu == page) {
+                    //display data in console
+                    var obj_active = obj[i];
+                    console.log(obj_active);
+
+                    //checking if data exists
+                    //working with data and creating elements
+
+                    //Display "nazwa"
+                    if (obj_active.nazwa === "") {
+                        console.log("nazwa - empty");
+                    } else {
+                        document.getElementById("nazwa_id").innerHTML += `<p class="main-title">${obj_active.nazwa}</p>`
+                    }
+
+                    //Display "typ_obiektu"
+                    if (obj_active.typ_obiektu === "") {
+                        console.log("typ_obiektu - empty");
+                    } else {
+                        document.getElementById("description").innerHTML += `<div class="obiekt"><span>Typ obiektu:</span> </br> ${obj_active.typ_obiektu}</div>`
+                    }
+
+                    //Display "lokalizacja"
+                    if (obj_active.lokalizacja === "") {
+                        console.log("lokalizacja - empty");
+                    } else {
+                        document.getElementById("description").innerHTML += `<div class="lokalizacja"><span>Lokalizacja:</span> </br> ${obj_active.lokalizacja}</div>`
+                    }
+
+                    //Display "zakres"
+                    if (obj_active.zakres === "") {
+                        console.log("zakres - empty");
+                    } else {
+                        document.getElementById("description").innerHTML += `<div class="zakres"><span>Zakres:</span> </br> ${obj_active.zakres}</div>`
+                    }
+
+                    //Display "ukonczono"
+                    if (obj_active.ukonczono === "") {
+                        console.log("ukonczono - empty");
+                    } else {
+                        document.getElementById("description").innerHTML += `<div class="data"><span>Ukończono:</span> </br> ${obj_active.ukonczono}</div>`
+                    }
+
+                    //Display "powierzchnia_uzytkowa"
+                    if (obj_active.powierzchnia_uzytkowa === "") {
+                        console.log("powierzchnia_uzytkowa - empty");
+                    } else {
+                        document.getElementById("description").innerHTML += `<div class="powierzchnia"><span>Powierzchnia użytkowa:</span> </br> ${obj_active.powierzchnia_uzytkowa}</div >`
+                    }
+
+
+                    //Display "autorzy"
+                    if (obj_active.autorzy.length === 0) {
+                        console.log("autorzy - empty");
+                    } else {
+                        var i = 0;
+                        var template_autorzy = `<div class="autorzy">
+                        <span>Autorzy:</span> </br>`;
+                        for (i = 0; i < obj_active.autorzy.length; i++) {
+                            template_autorzy += `${obj_active.autorzy[i]}</br >`
+                        }
+                        document.getElementById("description").innerHTML += template_autorzy += `</div >`;
+                    }
+
+                    //Display "zdjecia"
+                    if (obj_active.zdjeca === "") {
+                        console.log("zdjecia - empty");
+                    } else {
+                        var i = 0;
+                        var template_zdjecia = `<div class="pictures"></br>`;
+                        for (i = 0; i < obj_active.zdjecia.length; i++) {
+                            template_zdjecia += `<img src=".${obj_active.zdjecia[i]}" alt=""> </br>`
+                        }
+                        document.getElementById("element-container").innerHTML += template_zdjecia += `</div >`;
+                    }
+
+                    //Display "fotograf"
+                    if (obj_active.fotograf.length === 0) {
+                        console.log("fotograf - empty");
+                    } else {
+                        var i = 0;
+                        var template_fotograf_title = `<div class="description"></br>
+                        <div class="oprawa">
+                        <span>Fotografia: </span>`;
+                        var template_fotograf = ``;
+                        for (i = 0; i < obj_active.fotograf.length; i++) {
+                            template_fotograf += ` ${obj_active.fotograf[i]} </br>`
+                        }
+                        document.getElementById("element-container").innerHTML += template_fotograf_title += template_fotograf += `</div></div >`;
+                    }
+
+                    //IMPORTANT!! without that fetch will loop
+                    return 0;
+                }
+            }
+        });
+});

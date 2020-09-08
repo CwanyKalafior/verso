@@ -10,6 +10,31 @@ imagesLoaded(grid, function () {
     transitionDuration: 0,
   });
 });
+
+//load files from JSON
+$(function () {
+  var obj;
+
+  fetch("../galeria.json")
+    .then((res) => res.json())
+    .then((data) => (obj = data))
+    .then(() => {
+
+      obj.sort(function (a, b) {
+        return parseFloat(a.kolejnosc) - parseFloat(b.kolejnosc);
+      });
+
+      console.log(obj);
+
+      obj.forEach((element) => {
+        document.getElementById("grid").innerHTML += `
+        <div class="grid-item ${element.architektura_wnetrza}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
+      </div>`;
+      });
+    });
+});
+
 // top arrow
 jQuery(function ($) {
   $.scrollTo(0);
