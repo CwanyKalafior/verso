@@ -1,2765 +1,3020 @@
 [
-    {
-        "kolejnosc": "2",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0001",
-        "zdjecie_glowne": "./content/0001/1.webp",
-        "nazwa": "Dom leśny",
-        "typ_obiektu": "",
-        "lokalizacja": "Kuźnica Kiedrzyńska",
-        "zakres": "",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "230m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Piotr Drewniak",
-            "Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0001/1.webp",
-            "./content/0001/1f.jpg",
-            "./content/0001/1d.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "1",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0002",
-        "zdjecie_glowne": "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
-        "nazwa": "Osiedle jednorodzinne w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Wrzesień 2017",
-        "powierzchnia_uzytkowa": "270m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Eliza Masek",
-            "Aneta Małysza",
-            "Maciej Skrzypczyk",
-            "Ziemowit Oset"
-        ],
-        "zdjecia": [
-            "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
-            "./content/0002/2a.jpg",
-            "./content/0002/2b.jpg",
-            "./content/0002/2c.jpg",
-            "./content/0002/2d.jpg",
-            "./content/0002/2e.jpg",
-            "./content/0002/2f.jpg",
-            "./content/0002/2g.jpg",
-            "./content/0002/2h.jpg",
-            "./content/0002/2i.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "3",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0003",
-        "zdjecie_glowne": "./content/0003/4cd8f6a530244d628b4e2295034e0da1.jpg",
-        "nazwa": "Apartamentowiec w Sandomierzu",
-        "typ_obiektu": "Budynek mieszkalny wielorodzinny",
-        "lokalizacja": "Sandomierz",
-        "zakres": "Realizacja",
-        "ukonczono": "2013-2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Michał Wręczycki",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0003/4cd8f6a530244d628b4e2295034e0da1.jpg",
-            "./content/0003/3a.jpg",
-            "./content/0003/3b.jpg",
-            "./content/0003/3c.jpg",
-            "./content/0003/3d.jpg",
-            "./content/0003/3e.jpg",
-            "./content/0003/3f.jpg",
-            "./content/0003/3g.jpg",
-            "./content/0003/3h.jpg",
-            "./content/0003/3i.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "4",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0004",
-        "zdjecie_glowne": "./content/0004/1a46bb29da2eabc3b9965033fbb31961.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Wrzesień 2017",
-        "powierzchnia_uzytkowa": "270m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Eliza Masek",
-            "Aneta Małysza",
-            "Maciej Skrzypczyk",
-            "Ziemowit Oset"
-        ],
-        "zdjecia": [
-            "./content/0004/0004/1a46bb29da2eabc3b9965033fbb31961.jpg",
-            "./content/0004/4a.jpg",
-            "./content/0004/4b.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "5",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0005",
-        "zdjecie_glowne": "./content/0005/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg",
-        "nazwa": "Dom jednorodzinny w Niepołomicach",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Niepołomice k. Krakowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Styczeń 2018",
-        "powierzchnia_uzytkowa": "300m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Monika Sobańska",
-            "Sebastian Krawczyk",
-            "Kacper Ziółkowski",
-            "Eliza Masek",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0005/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg",
-            "./content/0005/5a.jpg",
-            "./content/0005/5b.jpg",
-            "./content/0005/5c.jpg",
-            "./content/0005/5d.jpg",
-            "./content/0005/5e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "6",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0006",
-        "zdjecie_glowne": "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
-        "nazwa": "Osiedle Nowe Ptasie",
-        "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
-        "lokalizacja": "Katowice",
-        "zakres": "Realizacja",
-        "ukonczono": "Kwiecień 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Mateusz Krawczyk",
-            "Eliza Masek",
-            "Adam Pniak",
-            "Kacper Ziółkowski",
-            "Nina Nowak"
-        ],
-        "zdjecia": [
-            "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
-            "./content/0006/6a.jpg",
-            "./content/0006/6b.jpg",
-            "./content/0006/6c.jpg",
-            "./content/0006/6d.jpg",
-            "./content/0006/6e.jpg",
-            "./content/0006/6f.jpg",
-            "./content/0006/6g.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "7",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0007",
-        "zdjecie_glowne": "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
-        "nazwa": "Biuro firmy PROTOS",
-        "typ_obiektu": "Biuro firmy PROTOS",
-        "lokalizacja": "Czarny Las",
-        "zakres": "Realizacja",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "180 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Maciej Skrzypczyk",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
-            "./content/0007/7a.jpg",
-            "./content/0007/7b.jpg",
-            "./content/0007/7c.jpg",
-            "./content/0007/7d.jpg"
-        ],
-        "fotograf": [
-            "Michał Jackowski"
-        ]
-    },
-    {
-        "kolejnosc": "8",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0008",
-        "zdjecie_glowne": "./content/0008/de660716d3ea7f65afde9cc627e2144a.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2017",
-        "powierzchnia_uzytkowa": "330 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Ziemowit Oset",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0008/de660716d3ea7f65afde9cc627e2144a.jpg",
-            "./content/0008/8a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "9",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0009",
-        "zdjecie_glowne": "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
-        "nazwa": "Dom na łące",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Cisie k. Częstochowy",
-        "zakres": "Realizacja",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Kamil Cierpioł"
-        ],
-        "zdjecia": [
-            "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
-            "./content/0009/9a.jpg",
-            "./content/0009/9b.jpg",
-            "./content/0009/9c.jpg",
-            "./content/0009/9d.jpg",
-            "./content/0009/9e.jpg",
-            "./content/0009/9f.jpg",
-            "./content/0009/9g.jpg",
-            "./content/0009/9h.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski",
-            "Michał Jackowski",
-            "Artur Gała"
-        ]
-    },
-    {
-        "kolejnosc": "10",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0010",
-        "zdjecie_glowne": "./content/0010/537ef8db4d70de420981598dc758bb9e.jpg",
-        "nazwa": "Zabudowa mieszkalna dwulokalowa",
-        "typ_obiektu": "Projekt budynków mieszkalnych dwulokalowych",
-        "lokalizacja": "Kraków",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "październik 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Eliza Masek",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0010/537ef8db4d70de420981598dc758bb9e.jpg",
-            "./content/0010/10a.jpg",
-            "./content/0010/10b.jpg",
-            "./content/0010/10c.jpg",
-            "./content/0010/10d.jpg",
-            "./content/0010/10e.jpg",
-            "./content/0010/10f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "11",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0011",
-        "zdjecie_glowne": "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
-        "nazwa": "Koncepcja domu jednorodzinnego",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Czarny Las",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Sebastian Krawczyk",
-            "Monika Woźniak",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
-            "./content/0011/11a.jpg",
-            "./content/0011/11b.jpg",
-            "./content/0011/11c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "12",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0012",
-        "zdjecie_glowne": "./content/0012/199a9aaf2ffdcbdf8e024775ae9c7ddb.jpg",
-        "nazwa": "Budynek mieszkalny jednorodzinny",
-        "typ_obiektu": "Budynek mieszkalny jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "300 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Szymon Chrzanowski",
-            "Paula Jaworek"
-        ],
-        "zdjecia": [
-            "./content/0012/199a9aaf2ffdcbdf8e024775ae9c7ddb.jpg",
-            "./content/0012/12a.jpg",
-            "./content/0012/12b.jpg",
-            "./content/0012/12c.jpg",
-            "./content/0012/12d.jpg",
-            "./content/0012/12e.jpg",
-            "./content/0012/12f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "13",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0013",
-        "zdjecie_glowne": "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
-        "nazwa": "Dom jednorodzinny w Biskupicach",
-        "typ_obiektu": "Budynek mieszkalny jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "300 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Szymon Chrzanowski",
-            "Paula Jaworek"
-        ],
-        "zdjecia": [
-            "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
-            "./content/0013/13a.jpg",
-            "./content/0013/13b.jpg",
-            "./content/0013/13c.jpg",
-            "./content/0013/13d.jpg",
-            "./content/0013/13e.jpg",
-            "./content/0013/13f.jpg",
-            "./content/0013/13g.jpg"
-        ],
-        "fotograf": [
-            "Michał Jackowski"
-        ]
-    },
-    {
-        "kolejnosc": "14",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0014",
-        "zdjecie_glowne": "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
-        "nazwa": "Dom jednorodzinny",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Józefów k. Warszawy",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "300 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
-            "./content/0014/14a.jpg",
-            "./content/0014/14b.jpg",
-            "./content/0014/14c.jpg",
-            "./content/0014/14d.jpg",
-            "./content/0014/14e.jpg",
-            "./content/0014/14f.jpg",
-            "./content/0014/14g.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "15",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0015",
-        "zdjecie_glowne": "./content/0015/d2d1f4572a45a527070d43f6d3410640.jpg",
-        "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
-        "typ_obiektu": "Budynki mieszkalne wielorodzinne",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "300 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Kacper Ziółkowski",
-            "Adam Pniak",
-            "Eliza Masek",
-            "Sebastian Krawczyk",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0015/d2d1f4572a45a527070d43f6d3410640.jpg",
-            "./content/0015/15a.jpg",
-            "./content/0015/15b.jpg",
-            "./content/0015/15c.jpg",
-            "./content/0015/15d.jpg",
-            "./content/0015/15e.jpg",
-            "./content/0015/15f.jpg",
-            "./content/0015/15g.jpg",
-            "./content/0015/15h.jpg",
-            "./content/0015/15i.jpg",
-            "./content/0015/15j.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "16",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0016",
-        "zdjecie_glowne": "./content/0016/cb706c5b3ca170d700f6e55037ee60a7.jpg",
-        "nazwa": "Koncepcja domu jednorodzinnego",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Sebastian Krawczyk",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0016/cb706c5b3ca170d700f6e55037ee60a7.jpg",
-            "./content/0016/16a.jpg",
-            "./content/0016/16b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "17",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0017",
-        "zdjecie_glowne": "./content/0017/fcd86f50a737e30c16a5c8e788f3b780.jpg",
-        "nazwa": "Rozbudowa domu jednorodzinnego w Praszczykach",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Monika Woźniak"
-        ],
-        "zdjecia": [
-            "./content/0017/fcd86f50a737e30c16a5c8e788f3b780.jpg",
-            "./content/0017/17a.jpg",
-            "./content/0017/17b.jpg",
-            "./content/0017/17c.jpg",
-            "./content/0017/17d.jpg",
-            "./content/0017/17e.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "18",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0018",
-        "zdjecie_glowne": "./content/0018/d44ea3e57d8350f80795171d1ef04093.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Monika Woźniak"
-        ],
-        "zdjecia": [
-            "./content/0018/d44ea3e57d8350f80795171d1ef04093.jpg",
-            "./content/0018/18a.jpg",
-            "./content/0018/18b.jpg",
-            "./content/0018/18c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "19",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0019",
-        "zdjecie_glowne": "./content/0019/c527512be633ce90447486f651f4192e.jpg",
-        "nazwa": "Siedziba firmy AGMI w Częstochowie",
-        "typ_obiektu": "Siedziba firmy AGMI",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2017",
-        "powierzchnia_uzytkowa": "1 000 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Eliza Masek",
-            "Maciej Skrzypczyk",
-            "Ziemowit Oset",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0019/c527512be633ce90447486f651f4192e.jpg",
-            "./content/0019/19a.jpg",
-            "./content/0019/19b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "20",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0020",
-        "zdjecie_glowne": "./content/0020/2b338024dd977c6c3a82ab550a59c5ca.jpg",
-        "nazwa": "Projekt domu jednorodzinnego",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0020/2b338024dd977c6c3a82ab550a59c5ca.jpg",
-            "./content/0020/20a.jpg",
-            "./content/0020/20b.jpg",
-            "./content/0020/20c.jpg",
-            "./content/0020/20d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "21",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0021",
-        "zdjecie_glowne": "./content/0021/4f036dc4e960b3e49f3e353a21f521f3.jpg",
-        "nazwa": "Osiedle w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Luty 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Eliza Masek",
-            "Szymon Chrzanowski",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0021/4f036dc4e960b3e49f3e353a21f521f3.jpg",
-            "./content/0021/21a.jpg",
-            "./content/0021/21b.jpg",
-            "./content/0021/21c.jpg",
-            "./content/0021/21d.jpg",
-            "./content/0021/21e.jpg",
-            "./content/0021/21f.jpg",
-            "./content/0021/21g.jpg",
-            "./content/0021/21h.jpg",
-            "./content/0021/21i.jpg",
-            "./content/0021/21j.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "22",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0022",
-        "zdjecie_glowne": "./content/0022/8c0d7a47e60309c4086f5d07ea01ae0c.jpg",
-        "nazwa": "Budynek mieszkalny",
-        "typ_obiektu": "Budynek mieszkalny",
-        "lokalizacja": "Warszawa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Sebastian Krawczyk",
-            "Monika Woźniak",
-            "Nina Nowak",
-            "Paula Jaworek",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0022/8c0d7a47e60309c4086f5d07ea01ae0c.jpg",
-            "./content/0022/22a.jpg",
-            "./content/0022/22b.jpg",
-            "./content/0022/22c.jpg",
-            "./content/0022/22d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "23",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0023",
-        "zdjecie_glowne": "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
-        "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Kłomnice k. Częstochowy",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "160 m²",
-        "autorzy": [],
-        "zdjecia": [
-            "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
-            "./content/0023/23a.jpg",
-            "./content/0023/23b.jpg",
-            "./content/0023/23c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "24",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0024",
-        "zdjecie_glowne": "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
-        "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Marzec 2017",
-        "powierzchnia_uzytkowa": "140 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Maciej Skrzypczyk",
-            "Jakub Matlingiewicz",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
-            "./content/0024/24a.jpg"
-        ],
-        "fotograf": [
-            "Michał Jackowski"
-        ]
-    },
-    {
-        "kolejnosc": "25",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0025",
-        "zdjecie_glowne": "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
-        "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
-        "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
-        "lokalizacja": "Bielsko Biała",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "Grudzień 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Ziemowit Oset",
-            "Adam Pniak",
-            "Eliza Masek",
-            "Nina Nowak",
-            "Sebastian Krawczyk",
-            "Szymon Chrzanowski",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
-            "./content/0025/25a.jpg",
-            "./content/0025/25b.jpg",
-            "./content/0025/25c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "26",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0026",
-        "zdjecie_glowne": "./content/0026/391f62ba724ff059f8fcb3c08d3cc75b.jpg",
-        "nazwa": "Projekt domu jednorodzinnego",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Skrajnica k. Częstochowy",
-        "zakres": "Realizacja",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty"
-        ],
-        "zdjecia": [
-            "./content/0026/391f62ba724ff059f8fcb3c08d3cc75b.jpg",
-            "./content/0026/26a.jpg",
-            "./content/0026/26b.jpg",
-            "./content/0026/26c.jpg",
-            "./content/0026/26d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "27",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0027",
-        "zdjecie_glowne": "./content/0027/588cdede207d5ddb8f6d21907cf5aba0.jpg",
-        "nazwa": "Dom jednorodzinny",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Piotrków Trybunalski",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "Styczeń 2019",
-        "powierzchnia_uzytkowa": "110 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Ziemowit Oset",
-            "Szymon Chrzanowski",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0027/588cdede207d5ddb8f6d21907cf5aba0.jpg",
-            "./content/0027/27a.jpg",
-            "./content/0027/27b.jpg",
-            "./content/0027/27c.jpg",
-            "./content/0027/27d.jpg",
-            "./content/0027/27e.jpg",
-            "./content/0027/27f.jpg",
-            "./content/0027/27g.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "28",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0028",
-        "zdjecie_glowne": "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
-        "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
-        "typ_obiektu": "Budynek usługowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "Listopad 2017",
-        "powierzchnia_uzytkowa": "480 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Julia Przybył",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Marek Laskowski",
-            "Kacper Ziółkowski",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
-            "./content/0028/28a.jpg",
-            "./content/0028/28a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "29",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0029",
-        "zdjecie_glowne": "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
-        "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Lipiec 2017",
-        "powierzchnia_uzytkowa": "140 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Michał Wręczycki",
-            "inż. arch. Maciej Skrzypczyk",
-            "inż. arch. Jakub Matlingiewicz",
-            "inż. arch. Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
-            "./content/0029/29a.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "30",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0030",
-        "zdjecie_glowne": "./content/0030/b590168299a27de07ba8a345114588b9.jpg",
-        "nazwa": "Projekt budynków mieszkalnych dwulokalowych",
-        "typ_obiektu": "Projekt budynków mieszkalnych dwulokalowych",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "Luty 2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Eliza Masek",
-            "Szymon Chrzanowski",
-            "Magdalena Banasik",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0030/b590168299a27de07ba8a345114588b9.jpg",
-            "./content/0030/30a.jpg",
-            "./content/0030/30b.jpg",
-            "./content/0030/30c.jpg",
-            "./content/0030/30d.jpg",
-            "./content/0030/30e.jpg",
-            "./content/0030/30f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "31",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0031",
-        "zdjecie_glowne": "./content/0031/584410bcba2e6e766bbb27ff31c401af.jpg",
-        "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Kłomnice k. Częstochowy",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Styczeń 2018",
-        "powierzchnia_uzytkowa": "160 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Aneta Małysza",
-            "Monika Sobańska",
-            "Michał Wręczycki",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0031/584410bcba2e6e766bbb27ff31c401af.jpg",
-            "./content/0031/31a.jpg",
-            "./content/0031/31b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "32",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0032",
-        "zdjecie_glowne": "./content/0032/6f8d8afc60b34fe372e9b964210af816.jpg",
-        "nazwa": "Koncepcja osiedla wielorodzinnego",
-        "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
-        "lokalizacja": "Bielsko Biała",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "Grudzień 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Aneta Konstanty",
-            "Ziemowit Oset",
-            "Adam Pniak",
-            "Eliza Masek",
-            "Sebastian Krawczyk",
-            "Szymon Chrzanowski",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0032/6f8d8afc60b34fe372e9b964210af816.jpg",
-            "./content/0032/32a.jpg",
-            "./content/0032/32b.jpg",
-            "./content/0032/32c.jpg",
-            "./content/0032/32d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "33",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0033",
-        "zdjecie_glowne": "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
-        "nazwa": "Bliźniaki w Częstochowie",
-        "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Piotr Drewniak",
-            "Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
-            "./content/0033/33a.jpg",
-            "./content/0033/33b.jpg",
-            "./content/0033/33c.jpg"
-        ],
-        "fotograf": [
-            "Jakub Cieślik",
-            "Michał Jackowski"
-        ]
-    },
-    {
-        "kolejnosc": "34",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0034",
-        "zdjecie_glowne": "./content/0034/affc4e355f87fd3dd2f87753c391433c.jpg",
-        "nazwa": "Dom jednorodzinny w Przymiłowicach",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Przymiłowice k. Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Monika Woźniak",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0034/affc4e355f87fd3dd2f87753c391433c.jpg",
-            "./content/0034/34a.jpg",
-            "./content/0034/34b.jpg",
-            "./content/0034/34c.jpg",
-            "./content/0034/34d.jpg",
-            "./content/0034/34e.jpg",
-            "./content/0034/34f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "35",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0035",
-        "zdjecie_glowne": "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
-        "nazwa": "Galeria Kwadrat",
-        "typ_obiektu": "Budynek usługowy",
-        "lokalizacja": "Żywiec",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Sebastian Krawczyk",
-            "Nina Nowak"
-        ],
-        "zdjecia": [
-            "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
-            "./content/0035/35a.jpg",
-            "./content/0035/35b.jpg",
-            "./content/0035/35c.jpg",
-            "./content/0035/35d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "36",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0036",
-        "zdjecie_glowne": "./content/0036/1f3e321f11e243fff90782abd323abf5.jpg",
-        "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Sebastian Krawczyk",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0036/1f3e321f11e243fff90782abd323abf5.jpg",
-            "./content/0036/36a.jpg",
-            "./content/0036/36b.jpg",
-            "./content/0036/36c.jpg",
-            "./content/0036/36d.jpg",
-            "./content/0036/36e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "37",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0037",
-        "zdjecie_glowne": "./content/0037/21558ba35cc41bb734d783709b2c2784.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "Styczeń 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [],
-        "zdjecia": [
-            "./content/0037/21558ba35cc41bb734d783709b2c2784.jpg",
-            "./content/0037/a.jpg",
-            "./content/0037/b.jpg",
-            "./content/0037/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "38",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0038",
-        "zdjecie_glowne": "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
-        "nazwa": "Zet-ka",
-        "typ_obiektu": "Budynek usługowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset"
-        ],
-        "zdjecia": [
-            "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
-            "./content/0038/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "39",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0039",
-        "zdjecie_glowne": "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
-        "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
-        "typ_obiektu": "Budynek usługowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Sebastian Krawczyk",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
-            "./content/0039/a.jpg",
-            "./content/0039/b.jpg",
-            "./content/0039/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "40",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0040",
-        "zdjecie_glowne": "./content/0040/6d7972bc50da08fb594b572899380480.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Październik 2017",
-        "powierzchnia_uzytkowa": "250 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Katarzyna Klimasz",
-            "Ziemowit Oset",
-            "Monika Sobańska",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0040/6d7972bc50da08fb594b572899380480.jpg",
-            "./content/0040/a.jpg",
-            "./content/0040/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "41",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0041",
-        "zdjecie_glowne": "./content/0041/c1fbec500b281e5174ea940b752627ef.jpg",
-        "nazwa": "Projekt budynku mieszkalno - usługowego w Częstochowie",
-        "typ_obiektu": "Projekt budynku mieszkalno - usługowego w Częstochowie",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Julia Przybył",
-            "Anita Rosa",
-            "Marek Laskowski",
-            "Ziemowit Oset",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0041/c1fbec500b281e5174ea940b752627ef.jpg",
-            "./content/0041/a.jpg",
-            "./content/0041/b.jpg",
-            "./content/0041/c.jpg",
-            "./content/0041/d.jpg",
-            "./content/0041/e.jpg",
-            "./content/0041/f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "42",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0042",
-        "zdjecie_glowne": "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
-        "nazwa": "Koncepcja kawiarenki na bulwarach przy Galerii Jurajskiej",
-        "typ_obiektu": "Kawiarenka",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Michał Wręczycki",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
-            "./content/0042/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "43",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0043",
-        "zdjecie_glowne": "./content/0043/6819bf5c8bf3124001295643b36149bd.jpg",
-        "nazwa": "Koncepcja domu jednorodzinnego",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Monika Woźniak",
-            "Magdalena Banasik"
-        ],
-        "zdjecia": [
-            "./content/0043/6819bf5c8bf3124001295643b36149bd.jpg",
-            "./content/0043/a.jpg",
-            "./content/0043/b.jpg",
-            "./content/0043/c.jpg",
-            "./content/0043/d.jpg",
-            "./content/0043/e.jpg",
-            "./content/0043/f.jpg",
-            "./content/0043/g.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "44",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0044",
-        "zdjecie_glowne": "./content/0044/2a9be4c72a1a22ca91e78b71c3ebb41a.jpg",
-        "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "Listopad 2017",
-        "powierzchnia_uzytkowa": "140 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Ziemowit Oset",
-            "Kacper Ziółkowski",
-            "Eliza Masek",
-            "Monika Sobańska",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0044/2a9be4c72a1a22ca91e78b71c3ebb41a.jpg",
-            "./content/0044/a.jpg",
-            "./content/0044/b.jpg",
-            "./content/0044/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "45",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0045",
-        "zdjecie_glowne": "./content/0045/9bff993ebfd381d285b83c58e6f0dd95.jpg",
-        "nazwa": "Obiekt usługowy w Stanowicach",
-        "typ_obiektu": "Obiekt usługowy",
-        "lokalizacja": "Stanowice k. Częstochowy",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Wrzesień 2017",
-        "powierzchnia_uzytkowa": "200 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Michał Wręczycki",
-            "inż. arch. Maciej Skrzypczyk",
-            "inż. arch. Jakub Matlingiewicz",
-            "stud. Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0045/9bff993ebfd381d285b83c58e6f0dd95.jpg",
-            "./content/0045/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "46",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0046",
-        "zdjecie_glowne": "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
-        "nazwa": "Przedszkole w Lgocie Małej",
-        "typ_obiektu": "Przedszkole",
-        "lokalizacja": "Lgota Mała",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Sierpień 2017",
-        "powierzchnia_uzytkowa": "170 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Ziemowit Oset",
-            "Eliza Masek",
-            "Maciej Skrzypczyk",
-            "Jakub Matlingiewicz"
-        ],
-        "zdjecia": [
-            "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
-            "./content/0046/a.jpg",
-            "./content/0046/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "47",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0047",
-        "zdjecie_glowne": "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "Marzec 2017",
-        "powierzchnia_uzytkowa": "300 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Maciej Skrzypczyk"
-        ],
-        "zdjecia": [
-            "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
-            "./content/0047/a.jpg",
-            "./content/0047/b.jpg",
-            "./content/0047/c.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "48",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0048",
-        "zdjecie_glowne": "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
-        "nazwa": "Zagospodarowanie przestrzeni miejskiej w Herbach",
-        "typ_obiektu": "Zagospodarowanie przestrzeni miejskiej",
-        "lokalizacja": "Herby k. Częstochowy",
-        "zakres": "Projekt budowlano-wykonawczy",
-        "ukonczono": "Sierpień 2017",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Eliza Królik",
-            "Radosław Cierpioł",
-            "Paweł Kopyciak",
-            "Nina Nowak"
-        ],
-        "zdjecia": [
-            "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
-            "./content/0048/a.jpg",
-            "./content/0048/b.jpg",
-            "./content/0048/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "49",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0049",
-        "zdjecie_glowne": "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "2016",
-        "powierzchnia_uzytkowa": "250 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Julia Przybył",
-            "Maciej Skrzypczyk",
-            "Jakub Matlingiewicz"
-        ],
-        "zdjecia": [
-            "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
-            "./content/0049/a.jpg",
-            "./content/0049/b.jpg",
-            "./content/0049/c.jpg",
-            "./content/0049/d.jpg",
-            "./content/0049/e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "50",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0050",
-        "zdjecie_glowne": "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
-        "nazwa": "Domy szeregowe w Katowicach",
-        "typ_obiektu": "Domy szeregowe w Katowicach",
-        "lokalizacja": "Katowice",
-        "zakres": "Projekt",
-        "ukonczono": "Grudzień 2016",
-        "powierzchnia_uzytkowa": "145 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
-            "./content/0050/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "51",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0051",
-        "zdjecie_glowne": "./content/0051/cba45d9ff779d1dc174866684a57d24e.jpg",
-        "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
-        "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Lipiec 2017",
-        "powierzchnia_uzytkowa": "170 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Katarzyna Klimasz",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0051/cba45d9ff779d1dc174866684a57d24e.jpg",
-            "./content/0051/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "52",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0052",
-        "zdjecie_glowne": "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [],
-        "zdjecia": [
-            "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
-            "./content/0052/a.jpg"
-        ],
-        "fotograf": [
-            "Kacper Ziółkowski"
-        ]
-    },
-    {
-        "kolejnosc": "53",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0053",
-        "zdjecie_glowne": "./content/0053/91d802e153fc74596c9e295c64e5b341.jpg",
-        "nazwa": "Hala produkcyjna VIRTU w Zawierciu",
-        "typ_obiektu": "Hala produkcyjna VIRTU w Zawierciu",
-        "lokalizacja": "Zawiercie",
-        "zakres": "Projekt konkursowy",
-        "ukonczono": "Kwiecień 2016",
-        "powierzchnia_uzytkowa": "12 900 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Julia Przybył",
-            "mgr inż. arch. Mateusz Rosa",
-            "inż. arch. Maciej Skrzypczyk"
-        ],
-        "zdjecia": [
-            "./content/0053/91d802e153fc74596c9e295c64e5b341.jpg",
-            "./content/0053/a.jpg",
-            "./content/0053/b.jpg",
-            "./content/0053/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "54",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0054",
-        "zdjecie_glowne": "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Realizacja",
-        "ukonczono": "2016",
-        "powierzchnia_uzytkowa": "350 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Michał Wręczycki",
-            "inż. arch. Maciej Skrzypczyk",
-            "inż. arch. Jakub Matlingiewicz",
-            "stud. Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
-            "./content/0054/a.jpg",
-            "./content/0054/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "55",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0055",
-        "zdjecie_glowne": "./content/0055/923b0d5c370cd7cac6aaf2d747612e69.jpg",
-        "nazwa": "Budynek biurowy w Częstochowie",
-        "typ_obiektu": "Budynek biurowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2016",
-        "powierzchnia_uzytkowa": "350 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Julia Przybył",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0055/923b0d5c370cd7cac6aaf2d747612e69.jpg",
-            "./content/0055/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "56",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0056",
-        "zdjecie_glowne": "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
-        "nazwa": "Domki letniskowe - ośrodek wypoczynkowy OSWiR w Poraju",
-        "typ_obiektu": "Domki letniskowe",
-        "lokalizacja": "Poraj",
-        "zakres": "Realizacja",
-        "ukonczono": "Wrzesień 2017",
-        "powierzchnia_uzytkowa": "37 m²",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Maciej Skrzypczyk",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
-            "./content/0056/a.jpg",
-            "./content/0056/b.jpg",
-            "./content/0056/c.jpg",
-            "./content/0056/d.jpg",
-            "./content/0056/e.jpg",
-            "./content/0056/f.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "57",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0057",
-        "zdjecie_glowne": "./content/0057/03ff7680b3d256ee40e7c9b7414f38c2.jpg",
-        "nazwa": "Budynek biurowy w Siemianowicach",
-        "typ_obiektu": "Budynek biurowy",
-        "lokalizacja": "Siemianowice",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2016",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Mateusz Rosa",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0057/03ff7680b3d256ee40e7c9b7414f38c2.jpg",
-            "./content/0057/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "58",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0058",
-        "zdjecie_glowne": "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
-        "nazwa": "Budynek handlowo-usługowy w Częstochowie",
-        "typ_obiektu": "Budynek handlowo-usługowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Anita Rosa",
-            "Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
-            "./content/0058/a.jpg",
-            "./content/0058/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "59",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0059",
-        "zdjecie_glowne": "./content/0059/241be1cb1eed2f303310edbd1650fefd.jpg",
-        "nazwa": "Rozbudowa kamienicy w Częstochowie",
-        "typ_obiektu": "Kamienica",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Magdalena Banasik",
-            "Sebastian Krawczyk",
-            "Szymon Chrzanowski"
-        ],
-        "zdjecia": [
-            "./content/0059/241be1cb1eed2f303310edbd1650fefd.jpg",
-            "./content/0059/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "60",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0060",
-        "zdjecie_glowne": "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
-        "nazwa": "Budynek biurowy w Częstochowie",
-        "typ_obiektu": "Budynek biurowy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Julia Przybył",
-            "Anita Rosa",
-            "Mateusz Rosa",
-            "Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
-            "./content/0060/a.jpg",
-            "./content/0060/b.jpg",
-            "./content/0060/c.jpg",
-            "./content/0060/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "61",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0061",
-        "zdjecie_glowne": "./content/0061/fb22469606cda8eecc105d89c0f1dc64.jpg",
-        "nazwa": "Siedziba firmy Domkat pod Katowicami",
-        "typ_obiektu": "Budynek biurowy",
-        "lokalizacja": "Okolice Katowic",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "330 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0061/fb22469606cda8eecc105d89c0f1dc64.jpg",
-            "./content/0061/a.jpg",
-            "./content/0061/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "62",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0062",
-        "zdjecie_glowne": "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
-        "nazwa": "Bliźniaki pod Częstochową",
-        "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
-        "lokalizacja": "Okolice Częstochowy",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "330 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
-            "./content/0062/a.jpg",
-            "./content/0062/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "63",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0063",
-        "zdjecie_glowne": "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
-        "nazwa": "Siedziba firmy AGMI w Częstochowie",
-        "typ_obiektu": "Siedziba firmy AGMIy",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt budowlano - wykonawczy",
-        "ukonczono": "",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Michał Wręczycki",
-            "Eliza Masek",
-            "Maciej Skrzypczyk",
-            "Ziemowit Oset",
-            "Sebastian Krawczyk"
-        ],
-        "zdjecia": [
-            "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
-            "./content/0063/a.jpg",
-            "./content/0063/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "64",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0064",
-        "zdjecie_glowne": "./content/0064/4ce0c8dc0ee8a95f92ef4fdb02890d24.jpg",
-        "nazwa": "Budynek biurowy w Siemianowicach Śląskich",
-        "typ_obiektu": "Budynek biurowy",
-        "lokalizacja": "Siemianowice Śląskie",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0064/4ce0c8dc0ee8a95f92ef4fdb02890d24.jpg",
-            "./content/0064/a.jpg",
-            "./content/0064/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "65",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0065",
-        "zdjecie_glowne": "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
-        "nazwa": "Basen rekreacyjny w Lublincu",
-        "typ_obiektu": "Budynek basenu rekreacyjnego",
-        "lokalizacja": "Lubliniec",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
-            "./content/0065/a.jpg",
-            "./content/0065/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "66",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0066",
-        "zdjecie_glowne": "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
-        "nazwa": "Dom jednorodzinny pod Częstochową",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Okolice Częstochowy",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2015",
-        "powierzchnia_uzytkowa": "205 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
-            "./content/0066/a.jpg",
-            "./content/0066/b.jpg",
-            "./content/0066/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "67",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0067",
-        "zdjecie_glowne": "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
-        "nazwa": "Dom jednorodzinny pod Opolem",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Okolice Opola",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "230 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
-            "./content/0067/a.jpg",
-            "./content/0067/b.jpg",
-            "./content/0067/c.jpg",
-            "./content/0067/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "68",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0068",
-        "zdjecie_glowne": "./content/0068/941c1c96f6cefdd2f664adc244412b27.jpg",
-        "nazwa": "Dom jednorodzinny w Kędzierzynie Koźlu",
-        "typ_obiektu": "Dom mieszkalny jednorodzinny",
-        "lokalizacja": "Kędzierzyn Koźle",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "250 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0068/941c1c96f6cefdd2f664adc244412b27.jpg",
-            "./content/0068/a.jpg",
-            "./content/0068/b.jpg",
-            "./content/0068/c.jpg",
-            "./content/0068/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "69",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0069",
-        "zdjecie_glowne": "./content/0069/a8f84739f4a80ab54f8034df7fa78a2c.jpg",
-        "nazwa": "Dom w Czarnym Lesie",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Czarny Las",
-        "zakres": "Realizacja",
-        "ukonczono": "Czerwiec 2014",
-        "powierzchnia_uzytkowa": "252 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0069/a8f84739f4a80ab54f8034df7fa78a2c.jpg",
-            "./content/0069/a.jpg",
-            "./content/0069/b.jpg",
-            "./content/0069/c.jpg",
-            "./content/0069/d.jpg",
-            "./content/0069/e.jpg",
-            "./content/0069/f.jpg",
-            "./content/0069/g.jpg",
-            "./content/0069/h.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "70",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0070",
-        "zdjecie_glowne": "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
-        "nazwa": "Przebudowa domu w Piekarach Śląskich",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Piekary Śląskie",
-        "zakres": "Koncepcja",
-        "ukonczono": "Luty 2014",
-        "powierzchnia_uzytkowa": "150 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
-            "./content/0070/a.jpg",
-            "./content/0070/b.jpg",
-            "./content/0070/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "71",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0071",
-        "zdjecie_glowne": "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
-        "nazwa": "Dom w Kuźnicy Kiedrzyńskiej",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Kuźnica Kiedrzyńska",
-        "zakres": "Realizacja",
-        "ukonczono": "2013",
-        "powierzchnia_uzytkowa": "233 m²",
-        "autorzy": [
-            "mgr inż. arch Jakub Cieślik"
-        ],
-        "zdjecia": [
-            "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
-            "./content/0071/a.jpg",
-            "./content/0071/b.jpg",
-            "./content/0071/c.jpg",
-            "./content/0071/d.jpg",
-            "./content/0071/e.jpg",
-            "./content/0071/f.jpg",
-            "./content/0071/g.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "72",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0072",
-        "zdjecie_glowne": "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
-        "nazwa": "Rozbudowa i przebudowa hotelu w Sandomierzu",
-        "typ_obiektu": "Budynek usługowo hotelowy",
-        "lokalizacja": "Sandomierz",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "330 m²",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
-            "./content/0072/a.jpg",
-            "./content/0072/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "73",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0073",
-        "zdjecie_glowne": "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
-        "nazwa": "Budynek usługowy",
-        "typ_obiektu": "Budynek usługowo handlowy",
-        "lokalizacja": "Konopiska",
-        "zakres": "Realizacja",
-        "ukonczono": "Marzec 2014",
-        "powierzchnia_uzytkowa": "182 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
-            "./content/0073/a.jpg",
-            "./content/0073/b.jpg",
-            "./content/0073/c.jpg",
-            "./content/0073/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "74",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0074",
-        "zdjecie_glowne": "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
-        "nazwa": "Budynek usługowo mieszkalny",
-        "typ_obiektu": "Budynek usługowo mieszkaniowy",
-        "lokalizacja": "Konopiska",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Lipiec 2014",
-        "powierzchnia_uzytkowa": "163 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
-            "./content/0074/a.jpg",
-            "./content/0074/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "75",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0075",
-        "zdjecie_glowne": "./content/0075/0671b80d93b942585a957b618b5777ae.jpg",
-        "nazwa": "Dom w Boguchwale",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Boguchwała koło Rzeszowa",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Czerwiec 2014",
-        "powierzchnia_uzytkowa": "254 m²",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0075/0671b80d93b942585a957b618b5777ae.jpg",
-            "./content/0075/a.jpg",
-            "./content/0075/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "76",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0076",
-        "zdjecie_glowne": "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
-        "nazwa": "Dom w Sandomierzu",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Sandomierz",
-        "zakres": "Realizacja",
-        "ukonczono": "Kwiecień 2013",
-        "powierzchnia_uzytkowa": "210 m²",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Marta Gawin"
-        ],
-        "zdjecia": [
-            "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
-            "./content/0076/a.jpg",
-            "./content/0076/b.jpg",
-            "./content/0076/c.jpg",
-            "./content/0076/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "77",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0077",
-        "zdjecie_glowne": "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
-        "nazwa": "Rozbudowa Starostwa Powiatowego w Sandomierzu",
-        "typ_obiektu": "Budynek administracji publicznej",
-        "lokalizacja": "Sandomierz",
-        "zakres": "Realizacja",
-        "ukonczono": "2011",
-        "powierzchnia_uzytkowa": "3500 m²",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Salwator Dąbek"
-        ],
-        "zdjecia": [
-            "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
-            "./content/0077/a.jpg",
-            "./content/0077/b.jpg",
-            "./content/0077/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "78",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0078",
-        "zdjecie_glowne": "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
-        "nazwa": "Termomodernizacja budynku Nadleśnictwa w Herbach",
-        "typ_obiektu": "Nadleśnictwo w Herbach",
-        "lokalizacja": "Herby Stare",
-        "zakres": "",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
-            "./content/0078/a.jpg",
-            "./content/0078/b.jpg",
-            "./content/0078/c.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "79",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0079",
-        "zdjecie_glowne": "./content/0079/a472902eb187c9469e6a2f6e54cdc6f1.jpg",
-        "nazwa": "Dom jednorodzinny w Krakowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Kraków",
-        "zakres": "Projekt budowlany",
-        "ukonczono": "Styczeń 2018",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Aneta Małysza",
-            "Monika Sobańska",
-            "Sebastian Krawczyk",
-            "Michał Wręczycki",
-            "Kacper Ziółkowski"
-        ],
-        "zdjecia": [
-            "./content/0079/a472902eb187c9469e6a2f6e54cdc6f1.jpg",
-            "./content/0079/a.jpg",
-            "./content/0079/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "80",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0080",
-        "zdjecie_glowne": "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
-        "nazwa": "Dom w Starej Gorzelni",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Stara Gorzelnia",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "220 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
-            "./content/0080/a.jpg",
-            "./content/0080/b.jpg",
-            "./content/0080/c.jpg",
-            "./content/0080/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "81",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0081",
-        "zdjecie_glowne": "./content/0081/77e78ca4b6099fff8d99e589ab79414b.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom mieszkalny jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "230 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0081/77e78ca4b6099fff8d99e589ab79414b.jpg",
-            "./content/0081/a.jpg",
-            "./content/0081/b.jpg",
-            "./content/0081/c.jpg",
-            "./content/0081/d.jpg",
-            "./content/0081/e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "82",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0082",
-        "zdjecie_glowne": "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
-        "nazwa": "Budynek usługowy w Częstochowie",
-        "typ_obiektu": "Budynek usługowo handlowy",
-        "lokalizacja": "ul. Wręczycka w Częstochowie",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "Luty 2014",
-        "powierzchnia_uzytkowa": "293 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
-            "./content/0082/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "83",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0083",
-        "zdjecie_glowne": "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
-        "nazwa": "Rozbudowa pływalni w Liceum im. Romualda Traugutta w Częstochowie",
-        "typ_obiektu": "Budynek rekreacyjno sportowy",
-        "lokalizacja": "ul. Wręczycka w Częstochowie",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "Luty 2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
-            "./content/0083/a.jpg",
-            "./content/0083/b.jpg",
-            "./content/0083/c.jpg",
-            "./content/0083/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "84",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0084",
-        "zdjecie_glowne": "./content/0084/145058887280615fddd1a811c2acc666.jpg",
-        "nazwa": "Budynek 'Dziewiątka' w Częstochowie",
-        "typ_obiektu": "Budynek usługowy - rekreacyjny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2012",
-        "powierzchnia_uzytkowa": "4100 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Marta Gawin",
-            "mgr inż. arch. Aleksandra Jeziorska",
-            "mgr inż. arch. Maciej Żelasko"
-        ],
-        "zdjecia": [
-            "./content/0084/145058887280615fddd1a811c2acc666.jpg",
-            "./content/0084/a.jpg",
-            "./content/0084/b.jpg",
-            "./content/0084/c.jpg",
-            "./content/0084/d.jpg",
-            "./content/0084/e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "85",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "architektura",
-        "nazwa_projektu": "0085",
-        "zdjecie_glowne": "./content/0085/16110d984571330f7e03725d8e4e6dda.jpg",
-        "nazwa": "Dworzec PKS w Gorczycach",
-        "typ_obiektu": "Budynek usługowo handlowy",
-        "lokalizacja": "Gorzyce koło Sandomierza",
-        "zakres": "Projekt koncepcyjny",
-        "ukonczono": "2012",
-        "powierzchnia_uzytkowa": "680 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Marta Gawin",
-            "mgr inż. arch. Aleksandra Jeziorska"
-        ],
-        "zdjecia": [
-            "./content/0085/16110d984571330f7e03725d8e4e6dda.jpg",
-            "./content/0085/a.jpg",
-            "./content/0085/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "86",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0086",
-        "zdjecie_glowne": "./content/0086/5c47c68169326529f4390091886a6c6b.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "listopad 2016",
-        "powierzchnia_uzytkowa": "250 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Julia Przybył",
-            "inż. arch. Maciej Skrzypczyk"
-        ],
-        "zdjecia": [
-            "./content/0086/5c47c68169326529f4390091886a6c6b.jpg",
-            "./content/0086/a.jpg",
-            "./content/0086/b.jpg",
-            "./content/0086/c.jpg",
-            "./content/0086/d.jpg",
-            "./content/0086/e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "87",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0087",
-        "zdjecie_glowne": "./content/0087/6ff49d8804c319692802bd4352a28312.jpg",
-        "nazwa": "Dom jednorodzinny",
-        "typ_obiektu": "Dom mieszkanowy jednorodzinny",
-        "lokalizacja": "Kędzierzyn Koźle",
-        "zakres": "",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Piotr Drewniak",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0087/6ff49d8804c319692802bd4352a28312.jpg",
-            "./content/0087/a.jpg",
-            "./content/0087/b.jpg",
-            "./content/0087/c.jpg",
-            "./content/0087/d.jpg",
-            "./content/0087/e.jpg",
-            "./content/0087/f.jpg",
-            "./content/0087/g.jpg",
-            "./content/0087/h.jpg",
-            "./content/0087/i.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "88",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0088",
-        "zdjecie_glowne": "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
-        "nazwa": "Dom jednorodzinny w Częstochowie",
-        "typ_obiektu": "Dom jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "Listopad 2016",
-        "powierzchnia_uzytkowa": "250 m²",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr inż. arch. Julia Przybył",
-            "inż. arch. Maciej Skrzypczyk"
-        ],
-        "zdjecia": [
-            "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
-            "./content/0088/a.jpg",
-            "./content/0088/b.jpg",
-            "./content/0088/c.jpg",
-            "./content/0088/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "89",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0089",
-        "zdjecie_glowne": "./content/0089/d942674fc5161183811eea61d317254e.jpg",
-        "nazwa": "Pałacyk Brassów",
-        "typ_obiektu": "Wnętrza",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "2019",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Eliza Masek",
-            "Sebastian Krawczyk",
-            "Paula Jaworek"
-        ],
-        "zdjecia": [
-            "./content/0089/d942674fc5161183811eea61d317254e.jpg",
-            "./content/0089/a.jpg",
-            "./content/0089/b.jpg",
-            "./content/0089/c.jpg",
-            "./content/0089/d.jpg",
-            "./content/0089/e.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "90",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0090",
-        "zdjecie_glowne": "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
-        "nazwa": "Koncepcja aranżacji strefy wejściowej w Galerii Jurajskiej",
-        "typ_obiektu": "",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "Styczeń 2016",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Kamil Cierpioł",
-            "Jakub Cieślik",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
-            "./content/0090/a.jpg",
-            "./content/0090/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "91",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0091",
-        "zdjecie_glowne": "./content/0091/6d2918a9eb0b969b91b105e6bde8fd6b.jpg",
-        "nazwa": "Projekt wnętrz w domu jednorodzinnym",
-        "typ_obiektu": "",
-        "lokalizacja": "",
-        "zakres": "",
-        "ukonczono": "",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [],
-        "zdjecia": [
-            "./content/0091/6d2918a9eb0b969b91b105e6bde8fd6b.jpg",
-            "./content/0091/a.jpg",
-            "./content/0091/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "92",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0092",
-        "zdjecie_glowne": "./content/0092/b7b00345dba6e5aeeb6bf460daa69749.jpg",
-        "nazwa": "Nadleśnictwo Lubliniec",
-        "typ_obiektu": "",
-        "lokalizacja": "",
-        "zakres": "",
-        "ukonczono": "2013",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Salwator Dąbek",
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Maciej Żelasko",
-            "mgr inż. arch. Marta Gawin"
-        ],
-        "zdjecia": [
-            "./content/0092/b7b00345dba6e5aeeb6bf460daa69749.jpg",
-            "./content/0092/a.jpg",
-            "./content/0092/b.jpg",
-            "./content/0092/c.jpg",
-            "./content/0092/d.jpg",
-            "./content/0092/e.jpg",
-            "./content/0092/f.jpg",
-            "./content/0092/g.jpg",
-            "./content/0092/h.jpg",
-            "./content/0092/i.jpg",
-            "./content/0092/j.jpg",
-            "./content/0092/k.jpg",
-            "./content/0092/l.jpg",
-            "./content/0092/m.jpg",
-            "./content/0092/n.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "93",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0093",
-        "zdjecie_glowne": "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
-        "nazwa": "Galeria Dobrej Sztuki w Częstochowie",
-        "typ_obiektu": "",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "2013",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Marta Gawin"
-        ],
-        "zdjecia": [
-            "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
-            "./content/0093/a.jpg",
-            "./content/0093/b.jpg",
-            "./content/0093/c.jpg",
-            "./content/0093/d.jpg",
-            "./content/0093/e.jpg",
-            "./content/0093/f.jpg",
-            "./content/0093/g.jpg",
-            "./content/0093/h.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "94",
-        "zrealizowano_wtrakcie": "wtrakcie",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0094",
-        "zdjecie_glowne": "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
-        "nazwa": "Dom jednorodzinny",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "2013",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik"
-        ],
-        "zdjecia": [
-            "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
-            "./content/0094/a.jpg",
-            "./content/0094/b.jpg",
-            "./content/0094/c.jpg",
-            "./content/0094/d.jpg",
-            "./content/0094/e.jpg",
-            "./content/0094/f.jpg",
-            "./content/0094/g.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "95",
-        "zrealizowano_wtrakcie": "wtrakcie",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0095",
-        "zdjecie_glowne": "./content/0095/151b346b82724180b13294a12fd2e303.jpg",
-        "nazwa": "Kuchnia i salon w domu jednorodzinnym",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Czarny Las",
-        "zakres": "",
-        "ukonczono": "czerwiec 2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr Marek Laskowski",
-            "Martyna Pastusińska"
-        ],
-        "zdjecia": [
-            "./content/0095/151b346b82724180b13294a12fd2e303.jpg",
-            "./content/0095/a.jpg",
-            "./content/0095/b.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "96",
-        "zrealizowano_wtrakcie": "wtrakcie",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0096",
-        "zdjecie_glowne": "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
-        "nazwa": "Świetlica w Liceum im. Romualda Traugutta",
-        "typ_obiektu": "",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "2013",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
-            "./content/0096/a.jpg",
-            "./content/0096/b.jpg",
-            "./content/0096/c.jpg",
-            "./content/0096/d.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "97",
-        "zrealizowano_wtrakcie": "wtrakcie",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0097",
-        "zdjecie_glowne": "./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg",
-        "nazwa": "Dom prywatny w Praszczykach",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Praszczyki",
-        "zakres": "",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg",
-            "./content/0097/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "98",
-        "zrealizowano_wtrakcie": "wtrakcie",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0098",
-        "zdjecie_glowne": "./content/0098/52987992bf64186174220dfb810c182d.jpg",
-        "nazwa": "Dom prywatny w Częstochowie",
-        "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-        "lokalizacja": "Częstochowa",
-        "zakres": "",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "mgr inż. arch. Jakub Cieślik",
-            "mgr inż. arch. Kamil Cierpioł",
-            "mgr Marek Laskowski"
-        ],
-        "zdjecia": [
-            "./content/0098/52987992bf64186174220dfb810c182d.jpg",
-            "./content/0098/a.jpg"
-        ],
-        "fotograf": []
-    },
-    {
-        "kolejnosc": "99",
-        "zrealizowano_wtrakcie": "zrealizowano",
-        "architektura_wnetrza": "wnetrza",
-        "nazwa_projektu": "0099",
-        "zdjecie_glowne": "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
-        "nazwa": "Biuro Comair",
-        "typ_obiektu": "Wnętrza",
-        "lokalizacja": "",
-        "zakres": "",
-        "ukonczono": "2014",
-        "powierzchnia_uzytkowa": "",
-        "autorzy": [
-            "Jakub Cieślik",
-            "Kamil Cierpioł",
-            "Eliza Masek"
-        ],
-        "zdjecia": [
-            "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
-            "./content/0099/a.jpg",
-            "./content/0099/b.jpg"
-        ],
-        "fotograf": []
-    }
+  {
+    "kolejnosc": "2",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0001",
+    "zdjecie_glowne": "./content/0001/1.webp",
+    "nazwa": "Dom leśny",
+    "typ_obiektu": "",
+    "lokalizacja": "Kuźnica Kiedrzyńska",
+    "zakres": "",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "230m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0001/1.webp",
+      "./content/0001/1f.jpg",
+      "./content/0001/1d.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "1",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0002",
+    "zdjecie_glowne": "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
+    "nazwa": "Osiedle jednorodzinne w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Wrzesień 2017",
+    "powierzchnia_uzytkowa": "270m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek",
+      "Aneta Małysza",
+      "Maciej Skrzypczyk",
+      "Ziemowit Oset"
+    ],
+    "zdjecia": [
+      "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
+      "./content/0002/2a.jpg",
+      "./content/0002/2b.jpg",
+      "./content/0002/2c.jpg",
+      "./content/0002/2d.jpg",
+      "./content/0002/2e.jpg",
+      "./content/0002/2f.jpg",
+      "./content/0002/2g.jpg",
+      "./content/0002/2h.jpg",
+      "./content/0002/2i.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "3",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0003",
+    "zdjecie_glowne": "./content/0003/4cd8f6a530244d628b4e2295034e0da1.jpg",
+    "nazwa": "Apartamentowiec w Sandomierzu",
+    "typ_obiektu": "Budynek mieszkalny wielorodzinny",
+    "lokalizacja": "Sandomierz",
+    "zakres": "Realizacja",
+    "ukonczono": "2013-2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Michał Wręczycki",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0003/4cd8f6a530244d628b4e2295034e0da1.jpg",
+      "./content/0003/3a.jpg",
+      "./content/0003/3b.jpg",
+      "./content/0003/3c.jpg",
+      "./content/0003/3d.jpg",
+      "./content/0003/3e.jpg",
+      "./content/0003/3f.jpg",
+      "./content/0003/3g.jpg",
+      "./content/0003/3h.jpg",
+      "./content/0003/3i.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "4",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0004",
+    "zdjecie_glowne": "./content/0004/1a46bb29da2eabc3b9965033fbb31961.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Wrzesień 2017",
+    "powierzchnia_uzytkowa": "270m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek",
+      "Aneta Małysza",
+      "Maciej Skrzypczyk",
+      "Ziemowit Oset"
+    ],
+    "zdjecia": [
+      "./content/0004/0004/1a46bb29da2eabc3b9965033fbb31961.jpg",
+      "./content/0004/4a.jpg",
+      "./content/0004/4b.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "5",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0005",
+    "zdjecie_glowne": "./content/0005/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg",
+    "nazwa": "Dom jednorodzinny w Niepołomicach",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Niepołomice k. Krakowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Styczeń 2018",
+    "powierzchnia_uzytkowa": "300m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Monika Sobańska",
+      "Sebastian Krawczyk",
+      "Kacper Ziółkowski",
+      "Eliza Masek",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0005/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg",
+      "./content/0005/5a.jpg",
+      "./content/0005/5b.jpg",
+      "./content/0005/5c.jpg",
+      "./content/0005/5d.jpg",
+      "./content/0005/5e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "6",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0006",
+    "zdjecie_glowne": "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
+    "nazwa": "Osiedle Nowe Ptasie",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Katowice",
+    "zakres": "Realizacja",
+    "ukonczono": "Kwiecień 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Mateusz Krawczyk",
+      "Eliza Masek",
+      "Adam Pniak",
+      "Kacper Ziółkowski",
+      "Nina Nowak"
+    ],
+    "zdjecia": [
+      "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
+      "./content/0006/6a.jpg",
+      "./content/0006/6b.jpg",
+      "./content/0006/6c.jpg",
+      "./content/0006/6d.jpg",
+      "./content/0006/6e.jpg",
+      "./content/0006/6f.jpg",
+      "./content/0006/6g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "7",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0007",
+    "zdjecie_glowne": "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
+    "nazwa": "Biuro firmy PROTOS",
+    "typ_obiektu": "Biuro firmy PROTOS",
+    "lokalizacja": "Czarny Las",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "180 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Maciej Skrzypczyk",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
+      "./content/0007/7a.jpg",
+      "./content/0007/7b.jpg",
+      "./content/0007/7c.jpg",
+      "./content/0007/7d.jpg"
+    ],
+    "fotograf": ["Michał Jackowski"]
+  },
+  {
+    "kolejnosc": "8",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0008",
+    "zdjecie_glowne": "./content/0008/de660716d3ea7f65afde9cc627e2144a.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2017",
+    "powierzchnia_uzytkowa": "330 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Ziemowit Oset",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0008/de660716d3ea7f65afde9cc627e2144a.jpg",
+      "./content/0008/8a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "9",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0009",
+    "zdjecie_glowne": "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
+    "nazwa": "Dom na łące",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Cisie k. Częstochowy",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Kamil Cierpioł"],
+    "zdjecia": [
+      "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
+      "./content/0009/9a.jpg",
+      "./content/0009/9b.jpg",
+      "./content/0009/9c.jpg",
+      "./content/0009/9d.jpg",
+      "./content/0009/9e.jpg",
+      "./content/0009/9f.jpg",
+      "./content/0009/9g.jpg",
+      "./content/0009/9h.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
+  },
+  {
+    "kolejnosc": "10",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0010",
+    "zdjecie_glowne": "./content/0010/537ef8db4d70de420981598dc758bb9e.jpg",
+    "nazwa": "Zabudowa mieszkalna dwulokalowa",
+    "typ_obiektu": "Projekt budynków mieszkalnych dwulokalowych",
+    "lokalizacja": "Kraków",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "październik 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Eliza Masek",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0010/537ef8db4d70de420981598dc758bb9e.jpg",
+      "./content/0010/10a.jpg",
+      "./content/0010/10b.jpg",
+      "./content/0010/10c.jpg",
+      "./content/0010/10d.jpg",
+      "./content/0010/10e.jpg",
+      "./content/0010/10f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "11",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0011",
+    "zdjecie_glowne": "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
+    "nazwa": "Koncepcja domu jednorodzinnego",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Czarny Las",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Sebastian Krawczyk",
+      "Monika Woźniak",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
+      "./content/0011/11a.jpg",
+      "./content/0011/11b.jpg",
+      "./content/0011/11c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "12",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0012",
+    "zdjecie_glowne": "./content/0012/199a9aaf2ffdcbdf8e024775ae9c7ddb.jpg",
+    "nazwa": "Budynek mieszkalny jednorodzinny",
+    "typ_obiektu": "Budynek mieszkalny jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "300 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Szymon Chrzanowski",
+      "Paula Jaworek"
+    ],
+    "zdjecia": [
+      "./content/0012/199a9aaf2ffdcbdf8e024775ae9c7ddb.jpg",
+      "./content/0012/12a.jpg",
+      "./content/0012/12b.jpg",
+      "./content/0012/12c.jpg",
+      "./content/0012/12d.jpg",
+      "./content/0012/12e.jpg",
+      "./content/0012/12f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "13",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0013",
+    "zdjecie_glowne": "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
+    "nazwa": "Dom jednorodzinny w Biskupicach",
+    "typ_obiektu": "Budynek mieszkalny jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "300 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Szymon Chrzanowski",
+      "Paula Jaworek"
+    ],
+    "zdjecia": [
+      "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
+      "./content/0013/13a.jpg",
+      "./content/0013/13b.jpg",
+      "./content/0013/13c.jpg",
+      "./content/0013/13d.jpg",
+      "./content/0013/13e.jpg",
+      "./content/0013/13f.jpg",
+      "./content/0013/13g.jpg"
+    ],
+    "fotograf": ["Michał Jackowski"]
+  },
+  {
+    "kolejnosc": "14",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0014",
+    "zdjecie_glowne": "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Józefów k. Warszawy",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "300 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
+      "./content/0014/14a.jpg",
+      "./content/0014/14b.jpg",
+      "./content/0014/14c.jpg",
+      "./content/0014/14d.jpg",
+      "./content/0014/14e.jpg",
+      "./content/0014/14f.jpg",
+      "./content/0014/14g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "15",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0015",
+    "zdjecie_glowne": "./content/0015/d2d1f4572a45a527070d43f6d3410640.jpg",
+    "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
+    "typ_obiektu": "Budynki mieszkalne wielorodzinne",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "300 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Kacper Ziółkowski",
+      "Adam Pniak",
+      "Eliza Masek",
+      "Sebastian Krawczyk",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0015/d2d1f4572a45a527070d43f6d3410640.jpg",
+      "./content/0015/15a.jpg",
+      "./content/0015/15b.jpg",
+      "./content/0015/15c.jpg",
+      "./content/0015/15d.jpg",
+      "./content/0015/15e.jpg",
+      "./content/0015/15f.jpg",
+      "./content/0015/15g.jpg",
+      "./content/0015/15h.jpg",
+      "./content/0015/15i.jpg",
+      "./content/0015/15j.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "16",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0016",
+    "zdjecie_glowne": "./content/0016/cb706c5b3ca170d700f6e55037ee60a7.jpg",
+    "nazwa": "Koncepcja domu jednorodzinnego",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0016/cb706c5b3ca170d700f6e55037ee60a7.jpg",
+      "./content/0016/16a.jpg",
+      "./content/0016/16b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "17",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0017",
+    "zdjecie_glowne": "./content/0017/fcd86f50a737e30c16a5c8e788f3b780.jpg",
+    "nazwa": "Rozbudowa domu jednorodzinnego w Praszczykach",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Monika Woźniak"
+    ],
+    "zdjecia": [
+      "./content/0017/fcd86f50a737e30c16a5c8e788f3b780.jpg",
+      "./content/0017/17a.jpg",
+      "./content/0017/17b.jpg",
+      "./content/0017/17c.jpg",
+      "./content/0017/17d.jpg",
+      "./content/0017/17e.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "18",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0018",
+    "zdjecie_glowne": "./content/0018/d44ea3e57d8350f80795171d1ef04093.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Monika Woźniak"
+    ],
+    "zdjecia": [
+      "./content/0018/d44ea3e57d8350f80795171d1ef04093.jpg",
+      "./content/0018/18a.jpg",
+      "./content/0018/18b.jpg",
+      "./content/0018/18c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "19",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0019",
+    "zdjecie_glowne": "./content/0019/c527512be633ce90447486f651f4192e.jpg",
+    "nazwa": "Siedziba firmy AGMI w Częstochowie",
+    "typ_obiektu": "Siedziba firmy AGMI",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2017",
+    "powierzchnia_uzytkowa": "1 000 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek",
+      "Maciej Skrzypczyk",
+      "Ziemowit Oset",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0019/c527512be633ce90447486f651f4192e.jpg",
+      "./content/0019/19a.jpg",
+      "./content/0019/19b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "20",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0020",
+    "zdjecie_glowne": "./content/0020/2b338024dd977c6c3a82ab550a59c5ca.jpg",
+    "nazwa": "Projekt domu jednorodzinnego",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0020/2b338024dd977c6c3a82ab550a59c5ca.jpg",
+      "./content/0020/20a.jpg",
+      "./content/0020/20b.jpg",
+      "./content/0020/20c.jpg",
+      "./content/0020/20d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "21",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0021",
+    "zdjecie_glowne": "./content/0021/4f036dc4e960b3e49f3e353a21f521f3.jpg",
+    "nazwa": "Osiedle w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Luty 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Eliza Masek",
+      "Szymon Chrzanowski",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0021/4f036dc4e960b3e49f3e353a21f521f3.jpg",
+      "./content/0021/21a.jpg",
+      "./content/0021/21b.jpg",
+      "./content/0021/21c.jpg",
+      "./content/0021/21d.jpg",
+      "./content/0021/21e.jpg",
+      "./content/0021/21f.jpg",
+      "./content/0021/21g.jpg",
+      "./content/0021/21h.jpg",
+      "./content/0021/21i.jpg",
+      "./content/0021/21j.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "22",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0022",
+    "zdjecie_glowne": "./content/0022/8c0d7a47e60309c4086f5d07ea01ae0c.jpg",
+    "nazwa": "Budynek mieszkalny",
+    "typ_obiektu": "Budynek mieszkalny",
+    "lokalizacja": "Warszawa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Monika Woźniak",
+      "Nina Nowak",
+      "Paula Jaworek",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0022/8c0d7a47e60309c4086f5d07ea01ae0c.jpg",
+      "./content/0022/22a.jpg",
+      "./content/0022/22b.jpg",
+      "./content/0022/22c.jpg",
+      "./content/0022/22d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "23",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0023",
+    "zdjecie_glowne": "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
+    "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Kłomnice k. Częstochowy",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "160 m²",
+    "autorzy": [],
+    "zdjecia": [
+      "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
+      "./content/0023/23a.jpg",
+      "./content/0023/23b.jpg",
+      "./content/0023/23c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "24",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0024",
+    "zdjecie_glowne": "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
+    "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Marzec 2017",
+    "powierzchnia_uzytkowa": "140 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Maciej Skrzypczyk",
+      "Jakub Matlingiewicz",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
+      "./content/0024/24a.jpg"
+    ],
+    "fotograf": ["Michał Jackowski"]
+  },
+  {
+    "kolejnosc": "25",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0025",
+    "zdjecie_glowne": "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
+    "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Bielsko Biała",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "Grudzień 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Ziemowit Oset",
+      "Adam Pniak",
+      "Eliza Masek",
+      "Nina Nowak",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
+      "./content/0025/25a.jpg",
+      "./content/0025/25b.jpg",
+      "./content/0025/25c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "26",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0026",
+    "zdjecie_glowne": "./content/0026/391f62ba724ff059f8fcb3c08d3cc75b.jpg",
+    "nazwa": "Projekt domu jednorodzinnego",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Skrajnica k. Częstochowy",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty"
+    ],
+    "zdjecia": [
+      "./content/0026/391f62ba724ff059f8fcb3c08d3cc75b.jpg",
+      "./content/0026/26a.jpg",
+      "./content/0026/26b.jpg",
+      "./content/0026/26c.jpg",
+      "./content/0026/26d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "27",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0027",
+    "zdjecie_glowne": "./content/0027/588cdede207d5ddb8f6d21907cf5aba0.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Piotrków Trybunalski",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "Styczeń 2019",
+    "powierzchnia_uzytkowa": "110 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Ziemowit Oset",
+      "Szymon Chrzanowski",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0027/588cdede207d5ddb8f6d21907cf5aba0.jpg",
+      "./content/0027/27a.jpg",
+      "./content/0027/27b.jpg",
+      "./content/0027/27c.jpg",
+      "./content/0027/27d.jpg",
+      "./content/0027/27e.jpg",
+      "./content/0027/27f.jpg",
+      "./content/0027/27g.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "28",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0028",
+    "zdjecie_glowne": "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
+    "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
+    "typ_obiektu": "Budynek usługowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "Listopad 2017",
+    "powierzchnia_uzytkowa": "480 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Julia Przybył",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Marek Laskowski",
+      "Kacper Ziółkowski",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
+      "./content/0028/28a.jpg",
+      "./content/0028/28a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "29",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0029",
+    "zdjecie_glowne": "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
+    "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Lipiec 2017",
+    "powierzchnia_uzytkowa": "140 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Michał Wręczycki",
+      "inż. arch. Maciej Skrzypczyk",
+      "inż. arch. Jakub Matlingiewicz",
+      "inż. arch. Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
+      "./content/0029/29a.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "30",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0030",
+    "zdjecie_glowne": "./content/0030/b590168299a27de07ba8a345114588b9.jpg",
+    "nazwa": "Projekt budynków mieszkalnych dwulokalowych",
+    "typ_obiektu": "Projekt budynków mieszkalnych dwulokalowych",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "Luty 2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Eliza Masek",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0030/b590168299a27de07ba8a345114588b9.jpg",
+      "./content/0030/30a.jpg",
+      "./content/0030/30b.jpg",
+      "./content/0030/30c.jpg",
+      "./content/0030/30d.jpg",
+      "./content/0030/30e.jpg",
+      "./content/0030/30f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "31",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0031",
+    "zdjecie_glowne": "./content/0031/584410bcba2e6e766bbb27ff31c401af.jpg",
+    "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Kłomnice k. Częstochowy",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Styczeń 2018",
+    "powierzchnia_uzytkowa": "160 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Aneta Małysza",
+      "Monika Sobańska",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0031/584410bcba2e6e766bbb27ff31c401af.jpg",
+      "./content/0031/31a.jpg",
+      "./content/0031/31b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "32",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0032",
+    "zdjecie_glowne": "./content/0032/6f8d8afc60b34fe372e9b964210af816.jpg",
+    "nazwa": "Koncepcja osiedla wielorodzinnego",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Bielsko Biała",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "Grudzień 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Aneta Konstanty",
+      "Ziemowit Oset",
+      "Adam Pniak",
+      "Eliza Masek",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0032/6f8d8afc60b34fe372e9b964210af816.jpg",
+      "./content/0032/32a.jpg",
+      "./content/0032/32b.jpg",
+      "./content/0032/32c.jpg",
+      "./content/0032/32d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "33",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0033",
+    "zdjecie_glowne": "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
+    "nazwa": "Bliźniaki w Częstochowie",
+    "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
+      "./content/0033/33a.jpg",
+      "./content/0033/33b.jpg",
+      "./content/0033/33c.jpg"
+    ],
+    "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
+  },
+  {
+    "kolejnosc": "34",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0034",
+    "zdjecie_glowne": "./content/0034/affc4e355f87fd3dd2f87753c391433c.jpg",
+    "nazwa": "Dom jednorodzinny w Przymiłowicach",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Przymiłowice k. Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Monika Woźniak",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0034/affc4e355f87fd3dd2f87753c391433c.jpg",
+      "./content/0034/34a.jpg",
+      "./content/0034/34b.jpg",
+      "./content/0034/34c.jpg",
+      "./content/0034/34d.jpg",
+      "./content/0034/34e.jpg",
+      "./content/0034/34f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "35",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0035",
+    "zdjecie_glowne": "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
+    "nazwa": "Galeria Kwadrat",
+    "typ_obiektu": "Budynek usługowy",
+    "lokalizacja": "Żywiec",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Sebastian Krawczyk",
+      "Nina Nowak"
+    ],
+    "zdjecia": [
+      "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
+      "./content/0035/35a.jpg",
+      "./content/0035/35b.jpg",
+      "./content/0035/35c.jpg",
+      "./content/0035/35d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "36",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0036",
+    "zdjecie_glowne": "./content/0036/1f3e321f11e243fff90782abd323abf5.jpg",
+    "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0036/1f3e321f11e243fff90782abd323abf5.jpg",
+      "./content/0036/36a.jpg",
+      "./content/0036/36b.jpg",
+      "./content/0036/36c.jpg",
+      "./content/0036/36d.jpg",
+      "./content/0036/36e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "37",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0037",
+    "zdjecie_glowne": "./content/0037/21558ba35cc41bb734d783709b2c2784.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "Styczeń 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [],
+    "zdjecia": [
+      "./content/0037/21558ba35cc41bb734d783709b2c2784.jpg",
+      "./content/0037/a.jpg",
+      "./content/0037/b.jpg",
+      "./content/0037/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "38",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0038",
+    "zdjecie_glowne": "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
+    "nazwa": "Zet-ka",
+    "typ_obiektu": "Budynek usługowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset"
+    ],
+    "zdjecia": [
+      "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
+      "./content/0038/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "39",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0039",
+    "zdjecie_glowne": "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
+    "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
+    "typ_obiektu": "Budynek usługowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Sebastian Krawczyk",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
+      "./content/0039/a.jpg",
+      "./content/0039/b.jpg",
+      "./content/0039/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "40",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0040",
+    "zdjecie_glowne": "./content/0040/6d7972bc50da08fb594b572899380480.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Październik 2017",
+    "powierzchnia_uzytkowa": "250 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Katarzyna Klimasz",
+      "Ziemowit Oset",
+      "Monika Sobańska",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0040/6d7972bc50da08fb594b572899380480.jpg",
+      "./content/0040/a.jpg",
+      "./content/0040/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "41",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0041",
+    "zdjecie_glowne": "./content/0041/c1fbec500b281e5174ea940b752627ef.jpg",
+    "nazwa": "Projekt budynku mieszkalno - usługowego w Częstochowie",
+    "typ_obiektu": "Projekt budynku mieszkalno - usługowego w Częstochowie",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Julia Przybył",
+      "Anita Rosa",
+      "Marek Laskowski",
+      "Ziemowit Oset",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0041/c1fbec500b281e5174ea940b752627ef.jpg",
+      "./content/0041/a.jpg",
+      "./content/0041/b.jpg",
+      "./content/0041/c.jpg",
+      "./content/0041/d.jpg",
+      "./content/0041/e.jpg",
+      "./content/0041/f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "42",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0042",
+    "zdjecie_glowne": "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
+    "nazwa": "Koncepcja kawiarenki na bulwarach przy Galerii Jurajskiej",
+    "typ_obiektu": "Kawiarenka",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Jakub Cieślik", "Michał Wręczycki", "Sebastian Krawczyk"],
+    "zdjecia": [
+      "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
+      "./content/0042/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "43",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0043",
+    "zdjecie_glowne": "./content/0043/6819bf5c8bf3124001295643b36149bd.jpg",
+    "nazwa": "Koncepcja domu jednorodzinnego",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Monika Woźniak",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0043/6819bf5c8bf3124001295643b36149bd.jpg",
+      "./content/0043/a.jpg",
+      "./content/0043/b.jpg",
+      "./content/0043/c.jpg",
+      "./content/0043/d.jpg",
+      "./content/0043/e.jpg",
+      "./content/0043/f.jpg",
+      "./content/0043/g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "44",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0044",
+    "zdjecie_glowne": "./content/0044/2a9be4c72a1a22ca91e78b71c3ebb41a.jpg",
+    "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "Listopad 2017",
+    "powierzchnia_uzytkowa": "140 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Ziemowit Oset",
+      "Kacper Ziółkowski",
+      "Eliza Masek",
+      "Monika Sobańska",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0044/2a9be4c72a1a22ca91e78b71c3ebb41a.jpg",
+      "./content/0044/a.jpg",
+      "./content/0044/b.jpg",
+      "./content/0044/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "45",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0045",
+    "zdjecie_glowne": "./content/0045/9bff993ebfd381d285b83c58e6f0dd95.jpg",
+    "nazwa": "Obiekt usługowy w Stanowicach",
+    "typ_obiektu": "Obiekt usługowy",
+    "lokalizacja": "Stanowice k. Częstochowy",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Wrzesień 2017",
+    "powierzchnia_uzytkowa": "200 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Michał Wręczycki",
+      "inż. arch. Maciej Skrzypczyk",
+      "inż. arch. Jakub Matlingiewicz",
+      "stud. Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0045/9bff993ebfd381d285b83c58e6f0dd95.jpg",
+      "./content/0045/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "46",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0046",
+    "zdjecie_glowne": "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
+    "nazwa": "Przedszkole w Lgocie Małej",
+    "typ_obiektu": "Przedszkole",
+    "lokalizacja": "Lgota Mała",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Sierpień 2017",
+    "powierzchnia_uzytkowa": "170 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Eliza Masek",
+      "Maciej Skrzypczyk",
+      "Jakub Matlingiewicz"
+    ],
+    "zdjecia": [
+      "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
+      "./content/0046/a.jpg",
+      "./content/0046/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "47",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0047",
+    "zdjecie_glowne": "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "Marzec 2017",
+    "powierzchnia_uzytkowa": "300 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Maciej Skrzypczyk"
+    ],
+    "zdjecia": [
+      "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
+      "./content/0047/a.jpg",
+      "./content/0047/b.jpg",
+      "./content/0047/c.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "48",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0048",
+    "zdjecie_glowne": "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
+    "nazwa": "Zagospodarowanie przestrzeni miejskiej w Herbach",
+    "typ_obiektu": "Zagospodarowanie przestrzeni miejskiej",
+    "lokalizacja": "Herby k. Częstochowy",
+    "zakres": "Projekt budowlano-wykonawczy",
+    "ukonczono": "Sierpień 2017",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Eliza Królik",
+      "Radosław Cierpioł",
+      "Paweł Kopyciak",
+      "Nina Nowak"
+    ],
+    "zdjecia": [
+      "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
+      "./content/0048/a.jpg",
+      "./content/0048/b.jpg",
+      "./content/0048/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "49",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0049",
+    "zdjecie_glowne": "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2016",
+    "powierzchnia_uzytkowa": "250 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Julia Przybył",
+      "Maciej Skrzypczyk",
+      "Jakub Matlingiewicz"
+    ],
+    "zdjecia": [
+      "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
+      "./content/0049/a.jpg",
+      "./content/0049/b.jpg",
+      "./content/0049/c.jpg",
+      "./content/0049/d.jpg",
+      "./content/0049/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "50",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0050",
+    "zdjecie_glowne": "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
+    "nazwa": "Domy szeregowe w Katowicach",
+    "typ_obiektu": "Domy szeregowe w Katowicach",
+    "lokalizacja": "Katowice",
+    "zakres": "Projekt",
+    "ukonczono": "Grudzień 2016",
+    "powierzchnia_uzytkowa": "145 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
+      "./content/0050/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "51",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0051",
+    "zdjecie_glowne": "./content/0051/cba45d9ff779d1dc174866684a57d24e.jpg",
+    "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",
+    "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Lipiec 2017",
+    "powierzchnia_uzytkowa": "170 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Katarzyna Klimasz",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0051/cba45d9ff779d1dc174866684a57d24e.jpg",
+      "./content/0051/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "52",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0052",
+    "zdjecie_glowne": "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [],
+    "zdjecia": [
+      "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
+      "./content/0052/a.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "53",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0053",
+    "zdjecie_glowne": "./content/0053/91d802e153fc74596c9e295c64e5b341.jpg",
+    "nazwa": "Hala produkcyjna VIRTU w Zawierciu",
+    "typ_obiektu": "Hala produkcyjna VIRTU w Zawierciu",
+    "lokalizacja": "Zawiercie",
+    "zakres": "Projekt konkursowy",
+    "ukonczono": "Kwiecień 2016",
+    "powierzchnia_uzytkowa": "12 900 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Julia Przybył",
+      "mgr inż. arch. Mateusz Rosa",
+      "inż. arch. Maciej Skrzypczyk"
+    ],
+    "zdjecia": [
+      "./content/0053/91d802e153fc74596c9e295c64e5b341.jpg",
+      "./content/0053/a.jpg",
+      "./content/0053/b.jpg",
+      "./content/0053/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "54",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0054",
+    "zdjecie_glowne": "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2016",
+    "powierzchnia_uzytkowa": "350 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Michał Wręczycki",
+      "inż. arch. Maciej Skrzypczyk",
+      "inż. arch. Jakub Matlingiewicz",
+      "stud. Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
+      "./content/0054/a.jpg",
+      "./content/0054/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "55",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0055",
+    "zdjecie_glowne": "./content/0055/923b0d5c370cd7cac6aaf2d747612e69.jpg",
+    "nazwa": "Budynek biurowy w Częstochowie",
+    "typ_obiektu": "Budynek biurowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2016",
+    "powierzchnia_uzytkowa": "350 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Julia Przybył",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0055/923b0d5c370cd7cac6aaf2d747612e69.jpg",
+      "./content/0055/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "56",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0056",
+    "zdjecie_glowne": "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
+    "nazwa": "Domki letniskowe - ośrodek wypoczynkowy OSWiR w Poraju",
+    "typ_obiektu": "Domki letniskowe",
+    "lokalizacja": "Poraj",
+    "zakres": "Realizacja",
+    "ukonczono": "Wrzesień 2017",
+    "powierzchnia_uzytkowa": "37 m²",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Maciej Skrzypczyk",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
+      "./content/0056/a.jpg",
+      "./content/0056/b.jpg",
+      "./content/0056/c.jpg",
+      "./content/0056/d.jpg",
+      "./content/0056/e.jpg",
+      "./content/0056/f.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "57",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0057",
+    "zdjecie_glowne": "./content/0057/03ff7680b3d256ee40e7c9b7414f38c2.jpg",
+    "nazwa": "Budynek biurowy w Siemianowicach",
+    "typ_obiektu": "Budynek biurowy",
+    "lokalizacja": "Siemianowice",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2016",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Mateusz Rosa",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0057/03ff7680b3d256ee40e7c9b7414f38c2.jpg",
+      "./content/0057/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "58",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0058",
+    "zdjecie_glowne": "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
+    "nazwa": "Budynek handlowo-usługowy w Częstochowie",
+    "typ_obiektu": "Budynek handlowo-usługowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Anita Rosa",
+      "Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
+      "./content/0058/a.jpg",
+      "./content/0058/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "59",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0059",
+    "zdjecie_glowne": "./content/0059/241be1cb1eed2f303310edbd1650fefd.jpg",
+    "nazwa": "Rozbudowa kamienicy w Częstochowie",
+    "typ_obiektu": "Kamienica",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Magdalena Banasik",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0059/241be1cb1eed2f303310edbd1650fefd.jpg",
+      "./content/0059/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "60",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0060",
+    "zdjecie_glowne": "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
+    "nazwa": "Budynek biurowy w Częstochowie",
+    "typ_obiektu": "Budynek biurowy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Julia Przybył",
+      "Anita Rosa",
+      "Mateusz Rosa",
+      "Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
+      "./content/0060/a.jpg",
+      "./content/0060/b.jpg",
+      "./content/0060/c.jpg",
+      "./content/0060/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "61",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0061",
+    "zdjecie_glowne": "./content/0061/fb22469606cda8eecc105d89c0f1dc64.jpg",
+    "nazwa": "Siedziba firmy Domkat pod Katowicami",
+    "typ_obiektu": "Budynek biurowy",
+    "lokalizacja": "Okolice Katowic",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "330 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0061/fb22469606cda8eecc105d89c0f1dc64.jpg",
+      "./content/0061/a.jpg",
+      "./content/0061/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "62",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0062",
+    "zdjecie_glowne": "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
+    "nazwa": "Bliźniaki pod Częstochową",
+    "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
+    "lokalizacja": "Okolice Częstochowy",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "330 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
+      "./content/0062/a.jpg",
+      "./content/0062/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "63",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0063",
+    "zdjecie_glowne": "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
+    "nazwa": "Siedziba firmy AGMI w Częstochowie",
+    "typ_obiektu": "Siedziba firmy AGMIy",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlano - wykonawczy",
+    "ukonczono": "",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek",
+      "Maciej Skrzypczyk",
+      "Ziemowit Oset",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
+      "./content/0063/a.jpg",
+      "./content/0063/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "64",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0064",
+    "zdjecie_glowne": "./content/0064/4ce0c8dc0ee8a95f92ef4fdb02890d24.jpg",
+    "nazwa": "Budynek biurowy w Siemianowicach Śląskich",
+    "typ_obiektu": "Budynek biurowy",
+    "lokalizacja": "Siemianowice Śląskie",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0064/4ce0c8dc0ee8a95f92ef4fdb02890d24.jpg",
+      "./content/0064/a.jpg",
+      "./content/0064/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "65",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0065",
+    "zdjecie_glowne": "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
+    "nazwa": "Basen rekreacyjny w Lublincu",
+    "typ_obiektu": "Budynek basenu rekreacyjnego",
+    "lokalizacja": "Lubliniec",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
+      "./content/0065/a.jpg",
+      "./content/0065/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "66",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0066",
+    "zdjecie_glowne": "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
+    "nazwa": "Dom jednorodzinny pod Częstochową",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Okolice Częstochowy",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "205 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
+      "./content/0066/a.jpg",
+      "./content/0066/b.jpg",
+      "./content/0066/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "67",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0067",
+    "zdjecie_glowne": "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
+    "nazwa": "Dom jednorodzinny pod Opolem",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Okolice Opola",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "230 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
+      "./content/0067/a.jpg",
+      "./content/0067/b.jpg",
+      "./content/0067/c.jpg",
+      "./content/0067/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "68",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0068",
+    "zdjecie_glowne": "./content/0068/941c1c96f6cefdd2f664adc244412b27.jpg",
+    "nazwa": "Dom jednorodzinny w Kędzierzynie Koźlu",
+    "typ_obiektu": "Dom mieszkalny jednorodzinny",
+    "lokalizacja": "Kędzierzyn Koźle",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "250 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0068/941c1c96f6cefdd2f664adc244412b27.jpg",
+      "./content/0068/a.jpg",
+      "./content/0068/b.jpg",
+      "./content/0068/c.jpg",
+      "./content/0068/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "69",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0069",
+    "zdjecie_glowne": "./content/0069/a8f84739f4a80ab54f8034df7fa78a2c.jpg",
+    "nazwa": "Dom w Czarnym Lesie",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Czarny Las",
+    "zakres": "Realizacja",
+    "ukonczono": "Czerwiec 2014",
+    "powierzchnia_uzytkowa": "252 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0069/a8f84739f4a80ab54f8034df7fa78a2c.jpg",
+      "./content/0069/a.jpg",
+      "./content/0069/b.jpg",
+      "./content/0069/c.jpg",
+      "./content/0069/d.jpg",
+      "./content/0069/e.jpg",
+      "./content/0069/f.jpg",
+      "./content/0069/g.jpg",
+      "./content/0069/h.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "70",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0070",
+    "zdjecie_glowne": "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
+    "nazwa": "Przebudowa domu w Piekarach Śląskich",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Piekary Śląskie",
+    "zakres": "Koncepcja",
+    "ukonczono": "Luty 2014",
+    "powierzchnia_uzytkowa": "150 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
+      "./content/0070/a.jpg",
+      "./content/0070/b.jpg",
+      "./content/0070/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "71",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0071",
+    "zdjecie_glowne": "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
+    "nazwa": "Dom w Kuźnicy Kiedrzyńskiej",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Kuźnica Kiedrzyńska",
+    "zakres": "Realizacja",
+    "ukonczono": "2013",
+    "powierzchnia_uzytkowa": "233 m²",
+    "autorzy": ["mgr inż. arch Jakub Cieślik"],
+    "zdjecia": [
+      "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
+      "./content/0071/a.jpg",
+      "./content/0071/b.jpg",
+      "./content/0071/c.jpg",
+      "./content/0071/d.jpg",
+      "./content/0071/e.jpg",
+      "./content/0071/f.jpg",
+      "./content/0071/g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "72",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0072",
+    "zdjecie_glowne": "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
+    "nazwa": "Rozbudowa i przebudowa hotelu w Sandomierzu",
+    "typ_obiektu": "Budynek usługowo hotelowy",
+    "lokalizacja": "Sandomierz",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "330 m²",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
+      "./content/0072/a.jpg",
+      "./content/0072/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "73",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0073",
+    "zdjecie_glowne": "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
+    "nazwa": "Budynek usługowy",
+    "typ_obiektu": "Budynek usługowo handlowy",
+    "lokalizacja": "Konopiska",
+    "zakres": "Realizacja",
+    "ukonczono": "Marzec 2014",
+    "powierzchnia_uzytkowa": "182 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
+      "./content/0073/a.jpg",
+      "./content/0073/b.jpg",
+      "./content/0073/c.jpg",
+      "./content/0073/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "74",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0074",
+    "zdjecie_glowne": "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
+    "nazwa": "Budynek usługowo mieszkalny",
+    "typ_obiektu": "Budynek usługowo mieszkaniowy",
+    "lokalizacja": "Konopiska",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Lipiec 2014",
+    "powierzchnia_uzytkowa": "163 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
+      "./content/0074/a.jpg",
+      "./content/0074/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "75",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0075",
+    "zdjecie_glowne": "./content/0075/0671b80d93b942585a957b618b5777ae.jpg",
+    "nazwa": "Dom w Boguchwale",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Boguchwała koło Rzeszowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Czerwiec 2014",
+    "powierzchnia_uzytkowa": "254 m²",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0075/0671b80d93b942585a957b618b5777ae.jpg",
+      "./content/0075/a.jpg",
+      "./content/0075/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "76",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0076",
+    "zdjecie_glowne": "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
+    "nazwa": "Dom w Sandomierzu",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Sandomierz",
+    "zakres": "Realizacja",
+    "ukonczono": "Kwiecień 2013",
+    "powierzchnia_uzytkowa": "210 m²",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Marta Gawin"
+    ],
+    "zdjecia": [
+      "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
+      "./content/0076/a.jpg",
+      "./content/0076/b.jpg",
+      "./content/0076/c.jpg",
+      "./content/0076/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "77",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0077",
+    "zdjecie_glowne": "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
+    "nazwa": "Rozbudowa Starostwa Powiatowego w Sandomierzu",
+    "typ_obiektu": "Budynek administracji publicznej",
+    "lokalizacja": "Sandomierz",
+    "zakres": "Realizacja",
+    "ukonczono": "2011",
+    "powierzchnia_uzytkowa": "3500 m²",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Salwator Dąbek"
+    ],
+    "zdjecia": [
+      "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
+      "./content/0077/a.jpg",
+      "./content/0077/b.jpg",
+      "./content/0077/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "78",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0078",
+    "zdjecie_glowne": "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
+    "nazwa": "Termomodernizacja budynku Nadleśnictwa w Herbach",
+    "typ_obiektu": "Nadleśnictwo w Herbach",
+    "lokalizacja": "Herby Stare",
+    "zakres": "",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
+      "./content/0078/a.jpg",
+      "./content/0078/b.jpg",
+      "./content/0078/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "79",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0079",
+    "zdjecie_glowne": "./content/0079/a472902eb187c9469e6a2f6e54cdc6f1.jpg",
+    "nazwa": "Dom jednorodzinny w Krakowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Kraków",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "Styczeń 2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Aneta Małysza",
+      "Monika Sobańska",
+      "Sebastian Krawczyk",
+      "Michał Wręczycki",
+      "Kacper Ziółkowski"
+    ],
+    "zdjecia": [
+      "./content/0079/a472902eb187c9469e6a2f6e54cdc6f1.jpg",
+      "./content/0079/a.jpg",
+      "./content/0079/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "80",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0080",
+    "zdjecie_glowne": "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
+    "nazwa": "Dom w Starej Gorzelni",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Stara Gorzelnia",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "220 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
+      "./content/0080/a.jpg",
+      "./content/0080/b.jpg",
+      "./content/0080/c.jpg",
+      "./content/0080/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "81",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0081",
+    "zdjecie_glowne": "./content/0081/77e78ca4b6099fff8d99e589ab79414b.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom mieszkalny jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "230 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0081/77e78ca4b6099fff8d99e589ab79414b.jpg",
+      "./content/0081/a.jpg",
+      "./content/0081/b.jpg",
+      "./content/0081/c.jpg",
+      "./content/0081/d.jpg",
+      "./content/0081/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "82",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0082",
+    "zdjecie_glowne": "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
+    "nazwa": "Budynek usługowy w Częstochowie",
+    "typ_obiektu": "Budynek usługowo handlowy",
+    "lokalizacja": "ul. Wręczycka w Częstochowie",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "Luty 2014",
+    "powierzchnia_uzytkowa": "293 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
+      "./content/0082/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "83",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0083",
+    "zdjecie_glowne": "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
+    "nazwa": "Rozbudowa pływalni w Liceum im. Romualda Traugutta w Częstochowie",
+    "typ_obiektu": "Budynek rekreacyjno sportowy",
+    "lokalizacja": "ul. Wręczycka w Częstochowie",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "Luty 2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
+      "./content/0083/a.jpg",
+      "./content/0083/b.jpg",
+      "./content/0083/c.jpg",
+      "./content/0083/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "84",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0084",
+    "zdjecie_glowne": "./content/0084/145058887280615fddd1a811c2acc666.jpg",
+    "nazwa": "Budynek 'Dziewiątka' w Częstochowie",
+    "typ_obiektu": "Budynek usługowy - rekreacyjny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2012",
+    "powierzchnia_uzytkowa": "4100 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Marta Gawin",
+      "mgr inż. arch. Aleksandra Jeziorska",
+      "mgr inż. arch. Maciej Żelasko"
+    ],
+    "zdjecia": [
+      "./content/0084/145058887280615fddd1a811c2acc666.jpg",
+      "./content/0084/a.jpg",
+      "./content/0084/b.jpg",
+      "./content/0084/c.jpg",
+      "./content/0084/d.jpg",
+      "./content/0084/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "85",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0085",
+    "zdjecie_glowne": "./content/0085/16110d984571330f7e03725d8e4e6dda.jpg",
+    "nazwa": "Dworzec PKS w Gorczycach",
+    "typ_obiektu": "Budynek usługowo handlowy",
+    "lokalizacja": "Gorzyce koło Sandomierza",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2012",
+    "powierzchnia_uzytkowa": "680 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Marta Gawin",
+      "mgr inż. arch. Aleksandra Jeziorska"
+    ],
+    "zdjecia": [
+      "./content/0085/16110d984571330f7e03725d8e4e6dda.jpg",
+      "./content/0085/a.jpg",
+      "./content/0085/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "86",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0086",
+    "zdjecie_glowne": "./content/0086/5c47c68169326529f4390091886a6c6b.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "listopad 2016",
+    "powierzchnia_uzytkowa": "250 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Julia Przybył",
+      "inż. arch. Maciej Skrzypczyk"
+    ],
+    "zdjecia": [
+      "./content/0086/5c47c68169326529f4390091886a6c6b.jpg",
+      "./content/0086/a.jpg",
+      "./content/0086/b.jpg",
+      "./content/0086/c.jpg",
+      "./content/0086/d.jpg",
+      "./content/0086/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "87",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0087",
+    "zdjecie_glowne": "./content/0087/6ff49d8804c319692802bd4352a28312.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Dom mieszkanowy jednorodzinny",
+    "lokalizacja": "Kędzierzyn Koźle",
+    "zakres": "",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Piotr Drewniak",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0087/6ff49d8804c319692802bd4352a28312.jpg",
+      "./content/0087/a.jpg",
+      "./content/0087/b.jpg",
+      "./content/0087/c.jpg",
+      "./content/0087/d.jpg",
+      "./content/0087/e.jpg",
+      "./content/0087/f.jpg",
+      "./content/0087/g.jpg",
+      "./content/0087/h.jpg",
+      "./content/0087/i.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "88",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0088",
+    "zdjecie_glowne": "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Dom jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "Listopad 2016",
+    "powierzchnia_uzytkowa": "250 m²",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr inż. arch. Julia Przybył",
+      "inż. arch. Maciej Skrzypczyk"
+    ],
+    "zdjecia": [
+      "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
+      "./content/0088/a.jpg",
+      "./content/0088/b.jpg",
+      "./content/0088/c.jpg",
+      "./content/0088/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "89",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0089",
+    "zdjecie_glowne": "./content/0089/d942674fc5161183811eea61d317254e.jpg",
+    "nazwa": "Pałacyk Brassów",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Eliza Masek",
+      "Sebastian Krawczyk",
+      "Paula Jaworek"
+    ],
+    "zdjecia": [
+      "./content/0089/d942674fc5161183811eea61d317254e.jpg",
+      "./content/0089/a.jpg",
+      "./content/0089/b.jpg",
+      "./content/0089/c.jpg",
+      "./content/0089/d.jpg",
+      "./content/0089/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "90",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0090",
+    "zdjecie_glowne": "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
+    "nazwa": "Koncepcja aranżacji strefy wejściowej w Galerii Jurajskiej",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "Styczeń 2016",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Kamil Cierpioł", "Jakub Cieślik", "Eliza Masek"],
+    "zdjecia": [
+      "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
+      "./content/0090/a.jpg",
+      "./content/0090/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "91",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0091",
+    "zdjecie_glowne": "./content/0091/6d2918a9eb0b969b91b105e6bde8fd6b.jpg",
+    "nazwa": "Projekt wnętrz w domu jednorodzinnym",
+    "typ_obiektu": "",
+    "lokalizacja": "",
+    "zakres": "",
+    "ukonczono": "",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [],
+    "zdjecia": [
+      "./content/0091/6d2918a9eb0b969b91b105e6bde8fd6b.jpg",
+      "./content/0091/a.jpg",
+      "./content/0091/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "92",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0092",
+    "zdjecie_glowne": "./content/0092/b7b00345dba6e5aeeb6bf460daa69749.jpg",
+    "nazwa": "Nadleśnictwo Lubliniec",
+    "typ_obiektu": "",
+    "lokalizacja": "",
+    "zakres": "",
+    "ukonczono": "2013",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Salwator Dąbek",
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Maciej Żelasko",
+      "mgr inż. arch. Marta Gawin"
+    ],
+    "zdjecia": [
+      "./content/0092/b7b00345dba6e5aeeb6bf460daa69749.jpg",
+      "./content/0092/a.jpg",
+      "./content/0092/b.jpg",
+      "./content/0092/c.jpg",
+      "./content/0092/d.jpg",
+      "./content/0092/e.jpg",
+      "./content/0092/f.jpg",
+      "./content/0092/g.jpg",
+      "./content/0092/h.jpg",
+      "./content/0092/i.jpg",
+      "./content/0092/j.jpg",
+      "./content/0092/k.jpg",
+      "./content/0092/l.jpg",
+      "./content/0092/m.jpg",
+      "./content/0092/n.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "93",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0093",
+    "zdjecie_glowne": "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
+    "nazwa": "Galeria Dobrej Sztuki w Częstochowie",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "2013",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr inż. arch. Marta Gawin"],
+    "zdjecia": [
+      "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
+      "./content/0093/a.jpg",
+      "./content/0093/b.jpg",
+      "./content/0093/c.jpg",
+      "./content/0093/d.jpg",
+      "./content/0093/e.jpg",
+      "./content/0093/f.jpg",
+      "./content/0093/g.jpg",
+      "./content/0093/h.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "94",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0094",
+    "zdjecie_glowne": "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "2013",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["mgr inż. arch. Jakub Cieślik"],
+    "zdjecia": [
+      "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
+      "./content/0094/a.jpg",
+      "./content/0094/b.jpg",
+      "./content/0094/c.jpg",
+      "./content/0094/d.jpg",
+      "./content/0094/e.jpg",
+      "./content/0094/f.jpg",
+      "./content/0094/g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "95",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0095",
+    "zdjecie_glowne": "./content/0095/151b346b82724180b13294a12fd2e303.jpg",
+    "nazwa": "Kuchnia i salon w domu jednorodzinnym",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Czarny Las",
+    "zakres": "",
+    "ukonczono": "czerwiec 2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr Marek Laskowski",
+      "Martyna Pastusińska"
+    ],
+    "zdjecia": [
+      "./content/0095/151b346b82724180b13294a12fd2e303.jpg",
+      "./content/0095/a.jpg",
+      "./content/0095/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "96",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0096",
+    "zdjecie_glowne": "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
+    "nazwa": "Świetlica w Liceum im. Romualda Traugutta",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "2013",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr Marek Laskowski"],
+    "zdjecia": [
+      "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
+      "./content/0096/a.jpg",
+      "./content/0096/b.jpg",
+      "./content/0096/c.jpg",
+      "./content/0096/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "97",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0097",
+    "zdjecie_glowne": "./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg",
+    "nazwa": "Dom prywatny w Praszczykach",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Praszczyki",
+    "zakres": "",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg",
+      "./content/0097/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "98",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0098",
+    "zdjecie_glowne": "./content/0098/52987992bf64186174220dfb810c182d.jpg",
+    "nazwa": "Dom prywatny w Częstochowie",
+    "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
+    "lokalizacja": "Częstochowa",
+    "zakres": "",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Kamil Cierpioł",
+      "mgr Marek Laskowski"
+    ],
+    "zdjecia": [
+      "./content/0098/52987992bf64186174220dfb810c182d.jpg",
+      "./content/0098/a.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "99",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0099",
+    "zdjecie_glowne": "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
+    "nazwa": "Biuro Comair",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "",
+    "zakres": "",
+    "ukonczono": "2014",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Eliza Masek"],
+    "zdjecia": [
+      "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
+      "./content/0099/a.jpg",
+      "./content/0099/b.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "100",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0100",
+    "zdjecie_glowne": "./content/0100/a.jpg",
+    "nazwa": "Budynek K3",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2015",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "zdjecia": [
+      "./content/0100/a.jpg",
+      "./content/0100/b.jpg",
+      "./content/0100/c.jpg",
+      "./content/0100/d.jpg",
+      "./content/0100/e.jpg",
+      "./content/0100/f.jpg",
+      "./content/0100/g.jpg",
+      "./content/0100/h.jpg",
+      "./content/0100/i.jpg",
+      "./content/0100/j.jpg",
+      "./content/0100/k.jpg",
+      "./content/0100/l.jpg",
+      "./content/0100/m.jpg",
+      "./content/0100/n.jpg",
+      "./content/0100/o.jpg",
+      "./content/0100/p.jpg",
+      "./content/0100/r.jpg",
+      "./content/0100/s.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "101",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0101",
+    "zdjecie_glowne": "./content/0101/a.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Paula Jaworek",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0101/a.jpg",
+      "./content/0101/b.jpg",
+      "./content/0101/c.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "102",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0102",
+    "zdjecie_glowne": "./content/0102/a.jpg",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Kuźnica Kiedrzyńska",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "zdjecia": [
+      "./content/0102/a.jpg",
+      "./content/0102/b.jpg",
+      "./content/0102/c.jpg",
+      "./content/0102/d.jpg",
+      "./content/0102/e.jpg",
+      "./content/0102/f.jpg",
+      "./content/0102/g.jpg",
+      "./content/0102/h.jpg",
+      "./content/0102/i.jpg",
+      "./content/0102/j.jpg",
+      "./content/0102/k.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "103",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0103",
+    "zdjecie_glowne": "./content/0103/a.png",
+    "nazwa": "Dom jednorodzinny",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "zdjecia": [
+      "./content/0103/a.png",
+      "./content/0103/b.png",
+      "./content/0103/c.png",
+      "./content/0103/d.png"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "104",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0104",
+    "zdjecie_glowne": "./content/0104/a.jpg",
+    "nazwa": "Rozbudowa domu",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Warszawa",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Paula Jaworek"
+    ],
+    "zdjecia": [
+      "./content/0104/a.jpg",
+      "./content/0104/b.jpg",
+      "./content/0104/c.jpg",
+      "./content/0104/d.jpg",
+      "./content/0104/e.jpg",
+      "./content/0104/f.jpg",
+      "./content/0104/g.jpg",
+      "./content/0104/h.jpg",
+      "./content/0104/i.jpg",
+      "./content/0104/j.jpg",
+      "./content/0104/k.jpg",
+      "./content/0104/l.jpg",
+      "./content/0104/m.jpg",
+      "./content/0104/n.jpg",
+      "./content/0104/o.jpg",
+      "./content/0104/p.jpg",
+      "./content/0104/r.jpg",
+      "./content/0104/s.jpg",
+      "./content/0104/t.jpg",
+      "./content/0104/u.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "105",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0105",
+    "zdjecie_glowne": "./content/0105/a.jpg",
+    "nazwa": "Apartamenty Rawelin",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2017",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0105/a.jpg",
+      "./content/0105/b.jpg",
+      "./content/0105/c.jpg",
+      "./content/0105/d.jpg",
+      "./content/0105/e.jpg",
+      "./content/0105/f.jpg",
+      "./content/0105/g.jpg",
+      "./content/0105/h.jpg",
+      "./content/0105/i.jpg",
+      "./content/0105/j.jpg",
+      "./content/0105/k.jpg",
+      "./content/0105/l.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "106",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0106",
+    "zdjecie_glowne": "./content/0106/a.jpg",
+    "nazwa": "Dom jednorodzinny ",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Piotrków Trybunalski",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0106/a.jpg",
+      "./content/0106/b.jpg",
+      "./content/0106/c.jpg",
+      "./content/0106/d.jpg",
+      "./content/0106/e.jpg",
+      "./content/0106/f.jpg",
+      "./content/0106/g.jpg",
+      "./content/0106/h.jpg",
+      "./content/0106/i.jpg",
+      "./content/0106/j.jpg",
+      "./content/0106/k.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "108",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0108",
+    "zdjecie_glowne": "./content/0108/a.jpg",
+    "nazwa": "Mieszkania",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Piotrków Trybunalski",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0108/a.jpg",
+      "./content/0108/b.jpg",
+      "./content/0108/c.jpg",
+      "./content/0108/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "109",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0109",
+    "zdjecie_glowne": "./content/0109/a.jpg",
+    "nazwa": "Mieszkania",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Piotrków Trybunalski",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0109/a.jpg",
+      "./content/0109/b.jpg",
+      "./content/0109/c.jpg",
+      "./content/0109/d.jpg",
+      "./content/0109/e.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "110",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "wnetrza",
+    "nazwa_projektu": "0110",
+    "zdjecie_glowne": "./content/0110/a.jpg",
+    "nazwa": "Mieszkania",
+    "typ_obiektu": "Wnętrza",
+    "lokalizacja": "Piotrków Trybunalski",
+    "zakres": "Realizacja",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0110/a.jpg",
+      "./content/0110/b.jpg",
+      "./content/0110/c.jpg",
+      "./content/0110/d.jpg",
+      "./content/0110/e.jpg",
+      "./content/0110/f.jpg",
+      "./content/0110/g.jpg"
+    ],
+    "fotograf": []
+  }
 ]
