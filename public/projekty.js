@@ -30,6 +30,31 @@ $(function () {
       console.log(all);
 
 
+      $(document).on('click', '#btn', function () {
+
+        number_of_elements += 5;
+        starting_slice_point += 5;
+        all = obj.slice(starting_slice_point, number_of_elements);
+        all.forEach((element) => {
+          document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+        });
+
+
+        console.log("AJAJAJAJ");
+        console.log(all[starting_slice_point]);
+
+
+        console.log(number_of_elements);
+        console.log(starting_slice_point);
+        return 0;
+      });
 
 
       //display sliced data
@@ -55,6 +80,7 @@ $(function () {
 
       });
     });
+
 });
 
 
