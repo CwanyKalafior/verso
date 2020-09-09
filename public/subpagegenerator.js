@@ -7,7 +7,7 @@ console.log("Page ID: " + page);
 $(function () {
     var obj;
 
-    fetch("../galeria.json")
+    fetch("https://raw.githubusercontent.com/CotuSieDziejee/versofiles/master/galeria.json")
         .then((res) => res.json())
         .then((data) => (obj = data))
         .then(() => {
