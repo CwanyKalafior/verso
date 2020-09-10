@@ -113,6 +113,7 @@ $(function () {
             </div>`;
           });
           console.log("ALL ROZMIAR" + all.length)
+          number_of_elements += 5;
           return 0;
         }
         else if (document.getElementById("btn-architektura").classList.contains('active')) {
@@ -128,6 +129,7 @@ $(function () {
             </div>`;
           });
           console.log("ARCHITEKTURA ROZMIAR" + all.length);
+          number_of_elements += 5;
           return 0;
         }
         else if (document.getElementById("btn-wnetrza").classList.contains('active')) {
@@ -144,9 +146,9 @@ $(function () {
               </div>`;
           });
           console.log("WNETRZA ROZMIAR" + all.length)
+          number_of_elements += 5;
           return 0;
         }
-        number_of_elements += 5;
       });
 
 
