@@ -1,3 +1,29 @@
+// pogrubianie linków
+const allImages = document.getElementById('btn-all');
+const archiImages = document.getElementById('btn-architektura');
+const interiorsImages = document.getElementById('btn-wnetrza');
+
+
+
+allImages.addEventListener("click", function () {
+  allImages.classList.add("active");
+  interiorsImages.classList.remove("active");
+  archiImages.classList.remove("active");
+});
+
+archiImages.addEventListener("click", function () {
+  allImages.classList.remove("active");
+  interiorsImages.classList.remove("active");
+  archiImages.classList.add("active");
+});
+
+interiorsImages.addEventListener("click", function () {
+  interiorsImages.classList.add("active");
+  allImages.classList.remove("active");
+  archiImages.classList.remove("active");
+});
+
+
 var starting_slice_point = 0;
 var number_of_elements = 5;
 var all;
@@ -28,36 +54,10 @@ $(function () {
       //slice data
       all = obj.slice(starting_slice_point, number_of_elements);
       console.log(all);
+      console.log(wnetrza_all);
+      console.log(architektura_all);
 
 
-      $(document).on('click', '#btn', function () {
-
-        number_of_elements += 5;
-        starting_slice_point += 5;
-        all = obj.slice(starting_slice_point, number_of_elements);
-        all.forEach((element) => {
-          document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-              </a>
-              <div class="gallery-description">
-                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-              </div>
-            </div>`;
-        });
-
-
-        console.log("AJAJAJAJ");
-        console.log(all[starting_slice_point]);
-
-
-        console.log(number_of_elements);
-        console.log(starting_slice_point);
-        return 0;
-      });
-
-
-      //display sliced data
       all.forEach((element) => {
 
         document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
@@ -79,6 +79,147 @@ $(function () {
         }
 
       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      //click "wczytaj wiecej"
+      $(document).on('click', '#btn', function () {
+        //clear DOM elements
+        document.getElementById("gallery").innerHTML = '';
+
+        if (document.getElementById("btn-all").classList.contains('active')) {
+          all = obj.slice(0, number_of_elements + 5);
+          all.forEach((element) => {
+            document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+          });
+          console.log("ALL ROZMIAR" + all.length)
+          number_of_elements += 5;
+          return 0;
+        }
+        else if (document.getElementById("btn-architektura").classList.contains('active')) {
+          architektura_all = architektura_all.slice(0, number_of_elements + 5);
+          architektura_all.forEach((element) => {
+            document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+          });
+          console.log("ARCHITEKTURA ROZMIAR" + all.length);
+          number_of_elements += 5;
+          return 0;
+        }
+        else if (document.getElementById("btn-wnetrza").classList.contains('active')) {
+
+          wnetrza_all = wnetrza_all.slice(0, number_of_elements + 5);
+          wnetrza_all.forEach((element) => {
+            document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>`;
+          });
+          console.log("WNETRZA ROZMIAR" + all.length)
+          number_of_elements += 5;
+          return 0;
+        }
+      });
+
+
+
+
+      //click "Wszystkie"
+      $(document).on('click', '#btn-all', function () {
+
+        //clear DOM elements
+        document.getElementById("gallery").innerHTML = '';
+
+        //create number of elements
+        all = all.slice(0, number_of_elements);
+        all.forEach((element) => {
+          document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+          console.log("NUMBER_OF: " + number_of_elements);
+        });
+      });
+
+      //click "Architektura"
+      $(document).on('click', '#btn-architektura', function () {
+
+        //clear DOM elements
+        document.getElementById("gallery").innerHTML = '';
+
+        //create number of elements
+        architektura_all = architektura_all.slice(0, number_of_elements);
+        architektura_all.forEach((element) => {
+          document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+          console.log("NUMBER_OF: " + number_of_elements);
+        });
+      });
+
+      //click "Wnetrza"
+      $(document).on('click', '#btn-wnetrza', function () {
+
+        //clear DOM elements
+        document.getElementById("gallery").innerHTML = '';
+
+        //create number of elements
+        wnetrza_all = wnetrza_all.slice(0, number_of_elements);
+        wnetrza_all.forEach((element) => {
+          document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
+            </div>`;
+          console.log("NUMBER_OF: " + number_of_elements);
+        });
+      });
+
+
+      //display sliced all
+
     });
 
 });
@@ -118,59 +259,4 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 0,
   speed: 1200,
 });
-// pogrubianie linków
-const allImages = document.querySelector(".projekty-links a:nth-of-type(1)");
-const archiImages = document.querySelector(".projekty-links a:nth-of-type(2)");
-const interiorsImages = document.querySelector(
-  ".projekty-links a:nth-of-type(3)"
-);
 
-archiImages.addEventListener("click", function () {
-  allImages.classList.remove("active");
-  interiorsImages.classList.remove("active");
-  archiImages.classList.add("active");
-});
-
-allImages.addEventListener("click", function () {
-  allImages.classList.add("active");
-  interiorsImages.classList.remove("active");
-  archiImages.classList.remove("active");
-});
-
-interiorsImages.addEventListener("click", function () {
-  interiorsImages.classList.add("active");
-  allImages.classList.remove("active");
-  archiImages.classList.remove("active");
-});
-
-//Grupowanie
-function wnetrzaFun() {
-  var elemsWnetrza = document.getElementsByClassName('wnetrza');
-  var elemsArchitektura = document.getElementsByClassName('architektura');
-  for (var i = 0; i < elemsWnetrza.length; i += 1) {
-    elemsWnetrza[i].style.display = 'block';
-  }
-  for (var i = 0; i < elemsArchitektura.length; i += 1) {
-    elemsArchitektura[i].style.display = 'none';
-  }
-}
-function architekturaFun() {
-  var elemsWnetrza = document.getElementsByClassName('wnetrza');
-  var elemsArchitektura = document.getElementsByClassName('architektura');
-  for (var i = 0; i < elemsWnetrza.length; i += 1) {
-    elemsWnetrza[i].style.display = 'none';
-  }
-  for (var i = 0; i < elemsArchitektura.length; i += 1) {
-    elemsArchitektura[i].style.display = 'block';
-  }
-}
-function wszystkieFun() {
-  var elemsWnetrza = document.getElementsByClassName('wnetrza');
-  var elemsArchitektura = document.getElementsByClassName('architektura');
-  for (var i = 0; i < elemsWnetrza.length; i += 1) {
-    elemsWnetrza[i].style.display = 'block';
-  }
-  for (var i = 0; i < elemsArchitektura.length; i += 1) {
-    elemsArchitektura[i].style.display = 'block';
-  }
-}
