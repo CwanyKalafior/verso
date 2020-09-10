@@ -46,7 +46,7 @@ $(function () {
       architektura_all = obj.filter(element => element.architektura_wnetrza === "architektura")
 
       //filter data -> wnetrza
-      wnetrza_all = obj.filter(element => element.architektura_wnetrza === "wnetrza")
+      wnetrza_all = obj.filter(element => element.architektura_wnetrza === "wnetrza");
 
       //filter data -> all
       all = obj.filter(element => element.architektura_wnetrza !== "")
@@ -101,7 +101,7 @@ $(function () {
         document.getElementById("gallery").innerHTML = '';
 
         if (document.getElementById("btn-all").classList.contains('active')) {
-          all = obj.slice(0, number_of_elements + 5);
+          all = obj.filter(element => element.architektura_wnetrza !== "").slice(0, number_of_elements + 5);
           all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
               <a href="./projekty/${element.nazwa_projektu}.html">
@@ -117,7 +117,7 @@ $(function () {
           return 0;
         }
         else if (document.getElementById("btn-architektura").classList.contains('active')) {
-          architektura_all = architektura_all.slice(0, number_of_elements + 5);
+          architektura_all = architektura_all = obj.filter(element => element.architektura_wnetrza === "architektura").slice(0, number_of_elements + 5);
           architektura_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
               <a href="./projekty/${element.nazwa_projektu}.html">
@@ -134,7 +134,7 @@ $(function () {
         }
         else if (document.getElementById("btn-wnetrza").classList.contains('active')) {
 
-          wnetrza_all = wnetrza_all.slice(0, number_of_elements + 5);
+          wnetrza_all = obj.filter(element => element.architektura_wnetrza === "wnetrza").slice(0, number_of_elements + 5);
           wnetrza_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
