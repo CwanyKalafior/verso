@@ -19,8 +19,23 @@
     ],
     "zdjecia": [
       "./content/0001/1.webp",
+      "./content/0001/1b.jpg",
+      "./content/0001/1c.jpg",
+      "./content/0001/1d.jpg",
+      "./content/0001/1e.jpg",
       "./content/0001/1f.jpg",
-      "./content/0001/1d.jpg"
+      "./content/0001/1g.jpg",
+      "./content/0001/1h.jpg",
+      "./content/0001/1i.jpg",
+      "./content/0001/1j.jpg",
+      "./content/0001/1k.jpg",
+      "./content/0001/1l.jpg",
+      "./content/0001/1m.jpg",
+      "./content/0001/1n.jpg",
+      "./content/0001/1o.jpg",
+      "./content/0001/1p.jpg",
+      "./content/0001/1r.jpg",
+      "./content/0001/1s.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -263,7 +278,16 @@
       "./content/0009/9e.jpg",
       "./content/0009/9f.jpg",
       "./content/0009/9g.jpg",
-      "./content/0009/9h.jpg"
+      "./content/0009/9h.jpg",
+      "./content/0009/9i.jpg",
+      "./content/0009/9j.jpg",
+      "./content/0009/9k.jpg",
+      "./content/0009/9l.jpg",
+      "./content/0009/9m.jpg",
+      "./content/0009/9n.jpg",
+      "./content/0009/9o.jpg",
+      "./content/0009/9p.jpg",
+      "./content/0009/9r.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
   },
@@ -498,13 +522,14 @@
     "typ_obiektu": "Dom jednorodzinny",
     "lokalizacja": "Częstochowa",
     "zakres": "Projekt budowlany",
-    "ukonczono": "2019",
+    "ukonczono": "2016",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
       "Jakub Cieślik",
       "Kamil Cierpioł",
-      "Michał Wręczycki",
-      "Monika Woźniak"
+      "Piotr Drewniak",
+      "Marek Laskowski",
+      "Michał Wręczycki"
     ],
     "zdjecia": [
       "./content/0017/fcd86f50a737e30c16a5c8e788f3b780.jpg",
@@ -512,7 +537,13 @@
       "./content/0017/17b.jpg",
       "./content/0017/17c.jpg",
       "./content/0017/17d.jpg",
-      "./content/0017/17e.jpg"
+      "./content/0017/17e.jpg",
+      "./content/0017/f.jpg",
+      "./content/0017/g.jpg",
+      "./content/0017/h.jpg",
+      "./content/0017/i.jpg",
+      "./content/0017/j.jpg",
+      "./content/0017/k.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -708,7 +739,17 @@
     ],
     "zdjecia": [
       "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
-      "./content/0024/24a.jpg"
+      "./content/0024/24a.jpg",
+      "./content/0024/24b.jpg",
+      "./content/0024/24c.jpg",
+      "./content/0024/24d.jpg",
+      "./content/0024/24e.jpg",
+      "./content/0024/24f.jpg",
+      "./content/0024/24g.jpg",
+      "./content/0024/24h.jpg",
+      "./content/0024/24i.jpg",
+      "./content/0024/24j.jpg",
+      "./content/0024/24k.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -975,7 +1016,9 @@
       "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
       "./content/0033/33a.jpg",
       "./content/0033/33b.jpg",
-      "./content/0033/33c.jpg"
+      "./content/0033/33c.jpg",
+      "./content/0033/33d.jpg",
+      "./content/0033/33e.jpg"
     ],
     "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
   },
@@ -1919,10 +1962,10 @@
     "ukonczono": "Czerwiec 2014",
     "powierzchnia_uzytkowa": "252 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      " Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0069/a8f84739f4a80ab54f8034df7fa78a2c.jpg",
@@ -1933,7 +1976,11 @@
       "./content/0069/e.jpg",
       "./content/0069/f.jpg",
       "./content/0069/g.jpg",
-      "./content/0069/h.jpg"
+      "./content/0069/h.jpg",
+      "./content/0069/i.jpg",
+      "./content/0069/j.jpg",
+      "./content/0069/k.jpg",
+      "./content/0069/l.jpg"
     ],
     "fotograf": []
   },
@@ -1983,8 +2030,7 @@
       "./content/0071/c.jpg",
       "./content/0071/d.jpg",
       "./content/0071/e.jpg",
-      "./content/0071/f.jpg",
-      "./content/0071/g.jpg"
+      "./content/0071/f.jpg"
     ],
     "fotograf": []
   },
@@ -2078,11 +2124,11 @@
     "ukonczono": "Czerwiec 2014",
     "powierzchnia_uzytkowa": "254 m²",
     "autorzy": [
-      "mgr inż. arch. Salwator Dąbek",
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Salwator Dąbek",
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0075/0671b80d93b942585a957b618b5777ae.jpg",
@@ -2111,9 +2157,7 @@
     "zdjecia": [
       "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
       "./content/0076/a.jpg",
-      "./content/0076/b.jpg",
-      "./content/0076/c.jpg",
-      "./content/0076/d.jpg"
+      "./content/0076/b.jpg"
     ],
     "fotograf": []
   },
