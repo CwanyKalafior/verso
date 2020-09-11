@@ -57,7 +57,7 @@ $(function () {
       console.log(wnetrza_all);
       console.log(architektura_all);
 
-
+      //display 5 first elements
       all.forEach((element) => {
 
         document.getElementById("gallery").innerHTML += `<div class="${element.architektura_wnetrza}">
@@ -79,19 +79,6 @@ $(function () {
         }
 
       });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
