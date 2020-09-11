@@ -87,11 +87,11 @@
     "ukonczono": "2013-2014",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
-      "mgr inż. arch. Salwator Dąbek",
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Michał Wręczycki",
-      "mgr Marek Laskowski"
+      "Salwator Dąbek",
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0003/4cd8f6a530244d628b4e2295034e0da1.jpg",
@@ -103,7 +103,18 @@
       "./content/0003/3f.jpg",
       "./content/0003/3g.jpg",
       "./content/0003/3h.jpg",
-      "./content/0003/3i.jpg"
+      "./content/0003/3i.jpg",
+      "./content/0003/3j.jpg",
+      "./content/0003/3k.jpg",
+      "./content/0003/3l.jpg",
+      "./content/0003/3m.jpg",
+      "./content/0003/3n.jpg",
+      "./content/0003/3o.jpg",
+      "./content/0003/3p.jpg",
+      "./content/0003/3r.jpg",
+      "./content/0003/3s.jpg",
+      "./content/0003/3t.jpg",
+      "./content/0003/3u.jpg"
     ],
     "fotograf": []
   },
@@ -178,7 +189,7 @@
     "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
     "lokalizacja": "Katowice",
     "zakres": "Realizacja",
-    "ukonczono": "Kwiecień 2018",
+    "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
       "Jakub Cieślik",
@@ -192,13 +203,25 @@
     ],
     "zdjecia": [
       "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
-      "./content/0006/6a.jpg",
-      "./content/0006/6b.jpg",
-      "./content/0006/6c.jpg",
-      "./content/0006/6d.jpg",
-      "./content/0006/6e.jpg",
-      "./content/0006/6f.jpg",
-      "./content/0006/6g.jpg"
+      "./content/0006/a.jpg",
+      "./content/0006/b.jpg",
+      "./content/0006/c.jpg",
+      "./content/0006/d.jpg",
+      "./content/0006/e.jpg",
+      "./content/0006/f.jpg",
+      "./content/0006/g.jpg",
+      "./content/0006/h.png",
+      "./content/0006/i.png",
+      "./content/0006/j.png",
+      "./content/0006/k.png",
+      "./content/0006/l.png",
+      "./content/0006/m.png",
+      "./content/0006/n.png",
+      "./content/0006/o.png",
+      "./content/0006/p.png",
+      "./content/0006/r.png",
+      "./content/0006/s.png",
+      "./content/0006/t.png"
     ],
     "fotograf": []
   },
@@ -3792,6 +3815,47 @@
       "./content/0138/a.jpg",
       "./content/0138/c.jpg",
       "./content/0138/d.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "139",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0139",
+    "zdjecie_glowne": "./content/0139/a.png",
+    "nazwa": "Budynek mieszkalno - usługowy przy ul. Nadrzecznej",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2015-2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Julia Przybył",
+      "Anita Rosa",
+      "Marek Laskowski",
+      "Ziemowit Oset",
+      "Eliza Masek"
+    ],
+    "zdjecia": [
+      "./content/0139/a.png",
+      "./content/0139/b.png",
+      "./content/0139/c.png",
+      "./content/0139/d.png",
+      "./content/0139/e.png",
+      "./content/0139/f.png",
+      "./content/0139/g.png",
+      "./content/0139/h.png",
+      "./content/0139/i.png",
+      "./content/0139/j.png",
+      "./content/0139/k.png",
+      "./content/0139/l.jpg",
+      "./content/0139/m.jpg",
+      "./content/0139/n.jpg",
+      "./content/0139/o.jpg"
     ],
     "fotograf": []
   }
