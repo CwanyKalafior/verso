@@ -3858,5 +3858,73 @@
       "./content/0139/o.jpg"
     ],
     "fotograf": []
+  },
+  {
+    "kolejnosc": "140",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0140",
+    "zdjecie_glowne": "./content/0140/a.jpg",
+    "nazwa": "Budynek mieszkalny jednorodzinny",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Sebastian Krawczyk",
+      "Paula Jaworek",
+      "Nina Nowak",
+      "Martyna Maciejczyk"
+    ],
+    "zdjecia": [
+      "./content/0140/a.jpg",
+      "./content/0140/b.jpg",
+      "./content/0140/c.jpg",
+      "./content/0140/d.jpg",
+      "./content/0140/e.jpg",
+      "./content/0140/f.jpg",
+      "./content/0140/g.jpg",
+      "./content/0140/h.png",
+      "./content/0140/i.png",
+      "./content/0140/j.png",
+      "./content/0140/k.png"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "141",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "architektura_wnetrza": "architektura",
+    "nazwa_projektu": "0141",
+    "zdjecie_glowne": "./content/0141/a.jpg",
+    "nazwa": "Budynek mieszkalny jednorodzinny",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0141/a.jpg",
+      "./content/0141/b.jpg",
+      "./content/0141/c.jpg",
+      "./content/0141/d.jpg",
+      "./content/0141/e.jpg",
+      "./content/0141/f.jpg",
+      "./content/0141/g.jpg",
+      "./content/0141/h.jpg",
+      "./content/0141/i.jpg"
+    ],
+    "fotograf": []
   }
 ]
