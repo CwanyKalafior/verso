@@ -8,6 +8,7 @@
     "animejs": "^3.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "i": "^0.3.6",
     "macy": "^2.5.1",
     "nodemailer": "^6.4.11",
