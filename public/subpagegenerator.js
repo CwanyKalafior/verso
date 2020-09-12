@@ -7,7 +7,7 @@ console.log("Page ID: " + page);
 $(function () {
     var obj;
 
-    fetch("https://raw.githubusercontent.com/CotuSieDziejee/versofiles/master/galeria.json")
+    fetch("https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json?token=AIHZOYIIKXY4PWSY4DBV4MK7LTFH2")
         .then((res) => res.json())
         .then((data) => (obj = data))
         .then(() => {
