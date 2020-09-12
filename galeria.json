@@ -614,8 +614,8 @@
   },
   {
     "kolejnosc": "19",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "przemyslowe",
     "nazwa_projektu": "0019",
     "zdjecie_glowne": "./content/0019/c527512be633ce90447486f651f4192e.jpg",
     "nazwa": "Siedziba firmy AGMI w Częstochowie",
@@ -635,8 +635,13 @@
     ],
     "zdjecia": [
       "./content/0019/c527512be633ce90447486f651f4192e.jpg",
-      "./content/0019/19a.jpg",
-      "./content/0019/19b.jpg"
+      "./content/0019/a.jpg",
+      "./content/0019/b.jpg",
+      "./content/0019/c.png",
+      "./content/0019/d.png",
+      "./content/0019/e.png",
+      "./content/0019/f.png",
+      "./content/0019/g.png"
     ],
     "fotograf": []
   },
@@ -1202,7 +1207,8 @@
   },
   {
     "kolejnosc": "38",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "przemyslowe",
     "nazwa_projektu": "0038",
     "zdjecie_glowne": "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
     "nazwa": "Zet-ka",
@@ -1873,8 +1879,8 @@
   },
   {
     "kolejnosc": "63",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "przemyslowe",
     "nazwa_projektu": "0063",
     "zdjecie_glowne": "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
     "nazwa": "Siedziba firmy AGMI w Częstochowie",
@@ -1895,7 +1901,12 @@
     "zdjecia": [
       "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
       "./content/0063/a.jpg",
-      "./content/0063/b.jpg"
+      "./content/0063/b.jpg",
+      "./content/0063/c.png",
+      "./content/0063/d.png",
+      "./content/0063/e.png",
+      "./content/0063/f.png",
+      "./content/0063/g.mp4"
     ],
     "fotograf": []
   },
@@ -4119,6 +4130,36 @@
       "./content/0145/n.png",
       "./content/0145/o.png",
       "./content/0145/p.png"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "146",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "przemyslowe",
+    "nazwa_projektu": "0146",
+    "zdjecie_glowne": "./content/0146/a.jpg",
+    "nazwa": "KUBARA Sp. z o.o",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0146/a.jpg",
+      "./content/0146/b.jpg",
+      "./content/0146/c.jpg",
+      "./content/0146/d.jpg",
+      "./content/0146/e.jpg",
+      "./content/0146/f.jpg",
+      "./content/0146/g.jpg"
     ],
     "fotograf": []
   }
