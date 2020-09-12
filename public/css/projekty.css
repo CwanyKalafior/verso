@@ -54,10 +54,6 @@ body {
   font-weight: 500;
 }
 
-.projekty-links a:active,
-.projekty-links a:hover {
-  font-weight: 500;
-}
 @media (min-width: 1024px) {
   .verso-hamburger {
     display: none;
