@@ -779,7 +779,7 @@
   {
     "kolejnosc": "25",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0025",
     "zdjecie_glowne": "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
     "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
@@ -805,7 +805,10 @@
       "./content/0025/cc350857ab77e90fe7078e961c5fb98b.jpg",
       "./content/0025/25a.jpg",
       "./content/0025/25b.jpg",
-      "./content/0025/25c.jpg"
+      "./content/0025/25c.jpg",
+      "./content/0025/25d.jpg",
+      "./content/0025/25e.jpg",
+      "./content/0025/25f.jpg"
     ],
     "fotograf": []
   },
@@ -3823,7 +3826,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wielorodzinne",
     "nazwa_projektu": "0139",
-    "zdjecie_glowne": "./content/0139/a.png",
+    "zdjecie_glowne": "./content/0139/l.jpg",
     "nazwa": "Budynek mieszkalno - usługowy przy ul. Nadrzecznej",
     "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
     "lokalizacja": "Częstochowa",
@@ -3862,7 +3865,7 @@
   {
     "kolejnosc": "140",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0140",
     "zdjecie_glowne": "./content/0140/a.jpg",
     "nazwa": "Budynek mieszkalny jednorodzinny",
@@ -3899,7 +3902,7 @@
   {
     "kolejnosc": "141",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0141",
     "zdjecie_glowne": "./content/0141/a.jpg",
     "nazwa": "Budynek mieszkalny jednorodzinny",
@@ -3924,6 +3927,102 @@
       "./content/0141/g.jpg",
       "./content/0141/h.jpg",
       "./content/0141/i.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "142",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "wielorodzinne",
+    "nazwa_projektu": "0142",
+    "zdjecie_glowne": "./content/0142/a.jpg",
+    "nazwa": "Budynek mieszkalno - usługowy w Katowicach",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Katowice",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": ["./content/0142/a.jpg", "./content/0142/b.jpg"],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "143",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "wielorodzinne",
+    "nazwa_projektu": "0143",
+    "zdjecie_glowne": "./content/0143/a.jpg",
+    "nazwa": "Osiedle Sielec renarda w Sosnowcu",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Sosnowiec",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Paweł Kopyciak",
+      "Adam Pniak",
+      "Ziemowit Oset",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski",
+      "Paula Jaworek",
+      "Magdalena Banasik",
+      "Nina Nowak",
+      "Martyna Maciejczyk"
+    ],
+    "zdjecia": [
+      "./content/0143/a.jpg",
+      "./content/0143/b.jpg",
+      "./content/0143/c.jpg",
+      "./content/0143/d.jpg",
+      "./content/0143/e.jpg",
+      "./content/0143/f.jpg",
+      "./content/0143/g.jpg",
+      "./content/0143/h.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "144",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "wielorodzinne",
+    "nazwa_projektu": "0144",
+    "zdjecie_glowne": "./content/0144/a.jpg",
+    "nazwa": "Zespół budynków wielorodzinnych w Katowicach",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Katowice",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0144/a.jpg",
+      "./content/0144/b.jpg",
+      "./content/0144/c.jpg",
+      "./content/0144/d.jpg",
+      "./content/0144/e.jpg",
+      "./content/0144/f.jpg",
+      "./content/0144/g.jpg",
+      "./content/0144/h.jpg",
+      "./content/0144/i.jpg",
+      "./content/0144/j.jpg",
+      "./content/0144/k.jpg",
+      "./content/0144/l.jpg",
+      "./content/0144/m.jpg",
+      "./content/0144/n.jpg",
+      "./content/0144/o.jpg"
     ],
     "fotograf": []
   }
