@@ -120,8 +120,8 @@
   },
   {
     "kolejnosc": "4",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0004",
     "zdjecie_glowne": "./content/0004/1a46bb29da2eabc3b9965033fbb31961.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -148,8 +148,8 @@
   },
   {
     "kolejnosc": "5",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0005",
     "zdjecie_glowne": "./content/0005/bc6f93ca53c4248e2e2c2eabd1d2a60f.jpg",
     "nazwa": "Dom jednorodzinny w Niepołomicach",
@@ -175,7 +175,13 @@
       "./content/0005/5b.jpg",
       "./content/0005/5c.jpg",
       "./content/0005/5d.jpg",
-      "./content/0005/5e.jpg"
+      "./content/0005/5e.jpg",
+      "./content/0005/f.png",
+      "./content/0005/g.png",
+      "./content/0005/h.png",
+      "./content/0005/i.png",
+      "./content/0005/j.png",
+      "./content/0005/k.png"
     ],
     "fotograf": []
   },
@@ -347,8 +353,8 @@
   },
   {
     "kolejnosc": "11",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0011",
     "zdjecie_glowne": "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
     "nazwa": "Koncepcja domu jednorodzinnego",
@@ -368,16 +374,18 @@
     ],
     "zdjecia": [
       "./content/0011/35ac6073ede78c5781bcc1a26066ab56.jpg",
-      "./content/0011/11a.jpg",
-      "./content/0011/11b.jpg",
-      "./content/0011/11c.jpg"
+      "./content/0011/a.jpg",
+      "./content/0011/b.jpg",
+      "./content/0011/c.jpg",
+      "./content/0011/d.jpg",
+      "./content/0011/e.mp4"
     ],
     "fotograf": []
   },
   {
     "kolejnosc": "12",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0012",
     "zdjecie_glowne": "./content/0012/199a9aaf2ffdcbdf8e024775ae9c7ddb.jpg",
     "nazwa": "Budynek mieszkalny jednorodzinny",
@@ -408,8 +416,8 @@
   },
   {
     "kolejnosc": "13",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0013",
     "zdjecie_glowne": "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
     "nazwa": "Dom jednorodzinny w Biskupicach",
@@ -435,16 +443,21 @@
       "./content/0013/13d.jpg",
       "./content/0013/13e.jpg",
       "./content/0013/13f.jpg",
-      "./content/0013/13g.jpg"
+      "./content/0013/13g.jpg",
+      "./content/0013/h.png",
+      "./content/0013/i.png",
+      "./content/0013/j.png",
+      "./content/0013/k.png",
+      "./content/0013/l.png"
     ],
     "fotograf": ["Michał Jackowski"]
   },
   {
     "kolejnosc": "14",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0014",
-    "zdjecie_glowne": "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
+    "zdjecie_glowne": "./content/0014/a.jpg",
     "nazwa": "Dom jednorodzinny",
     "typ_obiektu": "Dom jednorodzinny",
     "lokalizacja": "Józefów k. Warszawy",
@@ -460,24 +473,27 @@
       "Szymon Chrzanowski"
     ],
     "zdjecia": [
-      "./content/0014/c60f7cb8be5c142b7f0bd25446fc651d.jpg",
-      "./content/0014/14a.jpg",
-      "./content/0014/14b.jpg",
-      "./content/0014/14c.jpg",
-      "./content/0014/14d.jpg",
-      "./content/0014/14e.jpg",
-      "./content/0014/14f.jpg",
-      "./content/0014/14g.jpg"
+      "./content/0014/a.jpg",
+      "./content/0014/b.jpg",
+      "./content/0014/c.jpg",
+      "./content/0014/d.jpg",
+      "./content/0014/e.jpg",
+      "./content/0014/f.jpg",
+      "./content/0014/g.png",
+      "./content/0014/h.png",
+      "./content/0014/i.png",
+      "./content/0014/j.png",
+      "./content/0014/k.png"
     ],
     "fotograf": []
   },
   {
     "kolejnosc": "15",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0015",
     "zdjecie_glowne": "./content/0015/d2d1f4572a45a527070d43f6d3410640.jpg",
-    "nazwa": "Zespół budynków mieszkalnych wielorodzinnych",
+    "nazwa": "Zespół budynków mieszkalnych jednorodzinnych",
     "typ_obiektu": "Budynki mieszkalne wielorodzinne",
     "lokalizacja": "Częstochowa",
     "zakres": "Realizacja",
@@ -572,8 +588,8 @@
   },
   {
     "kolejnosc": "18",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0018",
     "zdjecie_glowne": "./content/0018/d44ea3e57d8350f80795171d1ef04093.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -626,8 +642,8 @@
   },
   {
     "kolejnosc": "20",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0020",
     "zdjecie_glowne": "./content/0020/2b338024dd977c6c3a82ab550a59c5ca.jpg",
     "nazwa": "Projekt domu jednorodzinnego",
@@ -648,21 +664,25 @@
       "./content/0020/20a.jpg",
       "./content/0020/20b.jpg",
       "./content/0020/20c.jpg",
-      "./content/0020/20d.jpg"
+      "./content/0020/20d.jpg",
+      "./content/0020/e.png",
+      "./content/0020/f.png",
+      "./content/0020/g.png",
+      "./content/0020/h.png"
     ],
     "fotograf": []
   },
   {
     "kolejnosc": "21",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0021",
     "zdjecie_glowne": "./content/0021/4f036dc4e960b3e49f3e353a21f521f3.jpg",
     "nazwa": "Osiedle w Częstochowie",
     "typ_obiektu": "Domy jednorodzinne w zabudowie bliźniaczej",
     "lokalizacja": "Częstochowa",
     "zakres": "Realizacja",
-    "ukonczono": "Luty 2018",
+    "ukonczono": "2016 - 2021",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
       "Jakub Cieślik",
@@ -721,8 +741,8 @@
   },
   {
     "kolejnosc": "23",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0023",
     "zdjecie_glowne": "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
     "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
@@ -736,7 +756,13 @@
       "./content/0023/28cc81a8d21e985d1fbc367bce024c77.jpg",
       "./content/0023/23a.jpg",
       "./content/0023/23b.jpg",
-      "./content/0023/23c.jpg"
+      "./content/0023/23c.jpg",
+      "./content/0023/d.jpg",
+      "./content/0023/e.png",
+      "./content/0023/f.png",
+      "./content/0023/g.png",
+      "./content/0023/h.png",
+      "./content/0023/i.png"
     ],
     "fotograf": []
   },
@@ -814,8 +840,8 @@
   },
   {
     "kolejnosc": "26",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0026",
     "zdjecie_glowne": "./content/0026/391f62ba724ff059f8fcb3c08d3cc75b.jpg",
     "nazwa": "Projekt domu jednorodzinnego",
@@ -835,14 +861,18 @@
       "./content/0026/26a.jpg",
       "./content/0026/26b.jpg",
       "./content/0026/26c.jpg",
-      "./content/0026/26d.jpg"
+      "./content/0026/26d.jpg",
+      "./content/0026/e.png",
+      "./content/0026/f.png",
+      "./content/0026/g.png",
+      "./content/0026/h.png"
     ],
     "fotograf": []
   },
   {
     "kolejnosc": "27",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0027",
     "zdjecie_glowne": "./content/0027/588cdede207d5ddb8f6d21907cf5aba0.jpg",
     "nazwa": "Dom jednorodzinny",
@@ -868,7 +898,13 @@
       "./content/0027/27d.jpg",
       "./content/0027/27e.jpg",
       "./content/0027/27f.jpg",
-      "./content/0027/27g.jpg"
+      "./content/0027/27g.jpg",
+      "./content/0027/27h.png",
+      "./content/0027/27i.png",
+      "./content/0027/27j.png",
+      "./content/0027/27k.png",
+      "./content/0027/27l.png",
+      "./content/0027/27m.png"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -956,7 +992,13 @@
       "./content/0030/30c.jpg",
       "./content/0030/30d.jpg",
       "./content/0030/30e.jpg",
-      "./content/0030/30f.jpg"
+      "./content/0030/30f.jpg",
+      "./content/0030/g.png",
+      "./content/0030/h.png",
+      "./content/0030/i.png",
+      "./content/0030/j.png",
+      "./content/0030/k.png",
+      "./content/0030/l.png"
     ],
     "fotograf": []
   },
@@ -1050,8 +1092,8 @@
   },
   {
     "kolejnosc": "34",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0034",
     "zdjecie_glowne": "./content/0034/affc4e355f87fd3dd2f87753c391433c.jpg",
     "nazwa": "Dom jednorodzinny w Przymiłowicach",
@@ -1139,8 +1181,8 @@
   },
   {
     "kolejnosc": "37",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0037",
     "zdjecie_glowne": "./content/0037/21558ba35cc41bb734d783709b2c2784.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -1459,8 +1501,8 @@
   },
   {
     "kolejnosc": "49",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0049",
     "zdjecie_glowne": "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -1480,10 +1522,13 @@
     "zdjecia": [
       "./content/0049/72dc2bcdf597cac0bdc3a95766b9066b.jpg",
       "./content/0049/a.jpg",
-      "./content/0049/b.jpg",
-      "./content/0049/c.jpg",
-      "./content/0049/d.jpg",
-      "./content/0049/e.jpg"
+      "./content/0049/b.png",
+      "./content/0049/c.JPG",
+      "./content/0049/d.JPG",
+      "./content/0049/e.png",
+      "./content/0049/e.png",
+      "./content/0049/e.png",
+      "./content/0049/e.png"
     ],
     "fotograf": []
   },
@@ -1507,7 +1552,13 @@
     ],
     "zdjecia": [
       "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
-      "./content/0050/a.jpg"
+      "./content/0050/a.jpg",
+      "./content/0050/b.png",
+      "./content/0050/c.png",
+      "./content/0050/d.png",
+      "./content/0050/e.png",
+      "./content/0050/f.png",
+      "./content/0050/g.png"
     ],
     "fotograf": []
   },
@@ -1584,8 +1635,8 @@
   },
   {
     "kolejnosc": "54",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0054",
     "zdjecie_glowne": "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -1595,17 +1646,20 @@
     "ukonczono": "2016",
     "powierzchnia_uzytkowa": "350 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Michał Wręczycki",
-      "inż. arch. Maciej Skrzypczyk",
-      "inż. arch. Jakub Matlingiewicz",
-      "stud. Eliza Masek"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Maciej Skrzypczyk",
+      "Jakub Matlingiewicz",
+      "Eliza Masek"
     ],
     "zdjecia": [
       "./content/0054/2f7c7096bcdd376feb03709712e91faf.jpg",
       "./content/0054/a.jpg",
-      "./content/0054/b.jpg"
+      "./content/0054/b.jpg",
+      "./content/0054/c.jpg",
+      "./content/0054/d.jpg",
+      "./content/0054/e.png"
     ],
     "fotograf": []
   },
@@ -1950,15 +2004,15 @@
   },
   {
     "kolejnosc": "68",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0068",
     "zdjecie_glowne": "./content/0068/941c1c96f6cefdd2f664adc244412b27.jpg",
     "nazwa": "Dom jednorodzinny w Kędzierzynie Koźlu",
     "typ_obiektu": "Dom mieszkalny jednorodzinny",
     "lokalizacja": "Kędzierzyn Koźle",
-    "zakres": "Projekt budowlany",
-    "ukonczono": "2014",
+    "zakres": "Projekt budowlano-koncepcyjny",
+    "ukonczono": "2019",
     "powierzchnia_uzytkowa": "250 m²",
     "autorzy": [
       "mgr inż. arch. Jakub Cieślik",
@@ -1971,7 +2025,11 @@
       "./content/0068/a.jpg",
       "./content/0068/b.jpg",
       "./content/0068/c.jpg",
-      "./content/0068/d.jpg"
+      "./content/0068/d.jpg",
+      "./content/0068/e.png",
+      "./content/0068/f.png",
+      "./content/0068/g.png",
+      "./content/0068/h.png"
     ],
     "fotograf": []
   },
@@ -4023,6 +4081,44 @@
       "./content/0144/m.jpg",
       "./content/0144/n.jpg",
       "./content/0144/o.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "145",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
+    "nazwa_projektu": "0145",
+    "zdjecie_glowne": "./content/0145/a.jpg",
+    "nazwa": "Dom w Mariance Rędzińskiej",
+    "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
+    "lokalizacja": "Marianka Rędzińska k. Częstochowy",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0145/a.jpg",
+      "./content/0145/b.jpg",
+      "./content/0145/c.jpg",
+      "./content/0145/d.jpg",
+      "./content/0145/e.jpg",
+      "./content/0145/f.jpg",
+      "./content/0145/g.jpg",
+      "./content/0145/h.jpg",
+      "./content/0145/i.jpg",
+      "./content/0145/j.jpg",
+      "./content/0145/k.png",
+      "./content/0145/l.png",
+      "./content/0145/m.png",
+      "./content/0145/n.png",
+      "./content/0145/o.png",
+      "./content/0145/p.png"
     ],
     "fotograf": []
   }
