@@ -123,7 +123,6 @@ $(function () {
       obj.sort(function (a, b) {
         return parseFloat(a.kolejnosc) - parseFloat(b.kolejnosc);
       });
-
       //GRUPOWANIE WSZYSTKICH KATEGORII
       //filter data -> all
       all = obj.filter((element) => element.grupa !== "");
@@ -488,6 +487,7 @@ const masonryFunction = () => {
   });
 };
 window.addEventListener("click", masonryFunction);
+
 // top arrow
 jQuery(function ($) {
   $.scrollTo(0);
