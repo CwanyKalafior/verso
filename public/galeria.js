@@ -2,15 +2,15 @@
 var grid = document.querySelector(".grid");
 var msnry;
 
-var $grid = $('.grid').imagesLoaded(function () {
+var $grid = $(".grid").imagesLoaded(function () {
   $grid.masonry({
     itemSelector: ".grid-item",
     columnWidth: ".grid-sizer",
     percentPosition: true,
     transitionDuration: 0,
   });
-  $grid.masonry('reloadItems');
-  $grid.masonry('layout');
+  $grid.masonry("reloadItems");
+  $grid.masonry("layout");
 });
 
 imagesLoaded(grid, function () {
@@ -32,8 +32,6 @@ const urbanImages = document.getElementById("btn-urbanistyka");
 const uzytPubImages = document.getElementById("btn-uzytecznosc_publiczna");
 const interiorsImages = document.getElementById("btn-wnetrza");
 
-
-
 allImages.addEventListener("click", function () {
   allImages.classList.add("active");
   jednoImages.classList.remove("active");
@@ -42,7 +40,6 @@ allImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 jednoImages.addEventListener("click", function () {
@@ -53,7 +50,6 @@ jednoImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 wieloImages.addEventListener("click", function () {
@@ -64,7 +60,6 @@ wieloImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 przemImages.addEventListener("click", function () {
@@ -75,7 +70,6 @@ przemImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 urbanImages.addEventListener("click", function () {
@@ -86,7 +80,6 @@ urbanImages.addEventListener("click", function () {
   urbanImages.classList.add("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 uzytPubImages.addEventListener("click", function () {
@@ -97,7 +90,6 @@ uzytPubImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.add("active");
   interiorsImages.classList.remove("active");
-
 });
 
 interiorsImages.addEventListener("click", function () {
@@ -108,7 +100,6 @@ interiorsImages.addEventListener("click", function () {
   urbanImages.classList.remove("active");
   uzytPubImages.classList.remove("active");
   interiorsImages.classList.add("active");
-
 });
 
 var starting_slice_point = 0;
@@ -132,7 +123,6 @@ $(function () {
       obj.sort(function (a, b) {
         return parseFloat(a.kolejnosc) - parseFloat(b.kolejnosc);
       });
-
 
       //GRUPOWANIE WSZYSTKICH KATEGORII
       //filter data -> all
@@ -164,13 +154,7 @@ $(function () {
       );
 
       //filter data -> wnetrza
-      wnetrza_all = obj.filter(
-        (element) => element.grupa === "wnetrza"
-      );
-
-
-
-
+      wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
 
       //slice data
       all = obj.slice(starting_slice_point, number_of_elements);
@@ -183,12 +167,6 @@ $(function () {
       console.log("urbanistyka_all" + urbanistyka_all);
       console.log("uzytecznosc_publiczna_all" + uzytecznosc_publiczna_all);
       console.log("wnetrza" + wnetrza_all);
-
-
-
-
-
-
 
       //display first 20
       all.forEach((element) => {
@@ -211,13 +189,13 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
 
           console.log("NUMBER_OF: " + number_of_elements);
         });
-      })
+      });
 
       //click "Jednorodzinne"
       $(document).on("click", "#btn-jednorodzinne", function () {
@@ -231,9 +209,9 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -250,9 +228,9 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -269,9 +247,9 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -288,9 +266,9 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -301,23 +279,24 @@ $(function () {
         document.getElementById("grid").innerHTML = "";
 
         //create number of elements
-        uzytecznosc_publiczna_all = uzytecznosc_publiczna_all.slice(0, number_of_elements);
+        uzytecznosc_publiczna_all = uzytecznosc_publiczna_all.slice(
+          0,
+          number_of_elements
+        );
         uzytecznosc_publiczna_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
-
       //click "Wnetrza"
       $(document).on("click", "#btn-wnetrza", function () {
-
         //clear DOM elements
         document.getElementById("grid").innerHTML = "";
 
@@ -328,18 +307,15 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry('appended', $elems);
-          $grid.masonry('reloadItems');
-          $grid.masonry('layout');
+          $grid.append($elems).masonry("appended", $elems);
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
-
-
       //click "wczytaj wiecej"
       $(document).on("click", "#btn", function () {
-
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
@@ -349,9 +325,9 @@ $(function () {
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
             var $elems = $(elems);
-            $grid.append($elems).masonry('appended', $elems);
-            $grid.masonry('reloadItems');
-            $grid.masonry('layout');
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -360,7 +336,11 @@ $(function () {
           return 0;
         }
         //btn-jednorodzinne  -  jednorodzinne
-        else if (document.getElementById("btn-jednorodzinne").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-jednorodzinne")
+            .classList.contains("active")
+        ) {
           jednorodzinne_all = obj
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
@@ -378,7 +358,11 @@ $(function () {
           return 0;
         }
         //btn-wielorodzinne  -  wielorodzinne
-        else if (document.getElementById("btn-wielorodzinne").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-wielorodzinne")
+            .classList.contains("active")
+        ) {
           wielorodzinne_all = obj
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
@@ -396,7 +380,11 @@ $(function () {
           return 0;
         }
         //btn-przemyslowe  -  przemyslowe
-        else if (document.getElementById("btn-przemyslowe").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-przemyslowe")
+            .classList.contains("active")
+        ) {
           przemyslowe_all = obj
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
@@ -414,7 +402,11 @@ $(function () {
           return 0;
         }
         //btn-urbanistyka  -  urbanistyka
-        else if (document.getElementById("btn-urbanistyka").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-urbanistyka")
+            .classList.contains("active")
+        ) {
           urbanistyka_all = obj
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
@@ -432,7 +424,11 @@ $(function () {
           return 0;
         }
         //btn-uzytecznosc_publiczna  -  uzytecznosc_publiczna
-        else if (document.getElementById("btn-uzytecznosc_publiczna").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-uzytecznosc_publiczna")
+            .classList.contains("active")
+        ) {
           uzytecznosc_publiczna_all = obj
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
@@ -450,7 +446,9 @@ $(function () {
           return 0;
         }
         //btn-wnetrza  -  wnetrza
-        else if (document.getElementById("btn-wnetrza").classList.contains("active")) {
+        else if (
+          document.getElementById("btn-wnetrza").classList.contains("active")
+        ) {
           wnetrza_all = obj
             .filter((element) => element.grupa === "wnetrza")
             .slice(0, number_of_elements + 5);
@@ -470,26 +468,28 @@ $(function () {
           return 0;
         }
       });
-
-
-
-    }).finally(function () {
+    })
+    .finally(function () {
       //Masonry Code
-      var $grid = $('.grid').imagesLoaded(function () {
+      var $grid = $(".grid").imagesLoaded(function () {
         $grid.masonry({
           itemSelector: ".grid-item",
           columnWidth: ".grid-sizer",
           percentPosition: true,
           transitionDuration: 0,
         });
-        $grid.masonry('reloadItems');
-        $grid.masonry('layout');
+        $grid.masonry("reloadItems");
+        $grid.masonry("layout");
       });
 
     });
+<<<<<<< HEAD
 
 })
 
+=======
+});
+>>>>>>> d2b2d6d952b9ff225d66908f39f94b758fabedb6
 
 // top arrow
 jQuery(function ($) {
