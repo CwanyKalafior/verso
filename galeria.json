@@ -1481,8 +1481,8 @@
   },
   {
     "kolejnosc": "48",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "urbanistyka",
     "nazwa_projektu": "0048",
     "zdjecie_glowne": "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
     "nazwa": "Zagospodarowanie przestrzeni miejskiej w Herbach",
@@ -4296,5 +4296,66 @@
       "./content/0150/f.jpg"
     ],
     "fotograf": []
+  },
+  {
+    "kolejnosc": "151",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "urbanistyka",
+    "nazwa_projektu": "0151",
+    "zdjecie_glowne": "./content/0151/a.jpg",
+    "nazwa": "Bulwary przy galerii północnej",
+    "typ_obiektu": "",
+    "lokalizacja": "Warszawa",
+    "zakres": "Projekt budowlano-wykonawczy",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Paulina Cieślik",
+      "Eliza Masek"
+    ],
+    "zdjecia": ["./content/0151/a.jpg", "./content/0151/b.jpg"],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "152",
+    "zrealizowano_wtrakcie": "zrealizowano",
+    "grupa": "urbanistyka",
+    "nazwa_projektu": "0152",
+    "zdjecie_glowne": "./content/0152/a.jpg",
+    "nazwa": "Bulwar przy Galerii Jurajskiej",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Realizacja",
+    "ukonczono": "2018",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Paulina Cieślik",
+      "Eliza Masek",
+      "Maciej Skrzypczyk"
+    ],
+    "zdjecia": [
+      "./content/0152/a.jpg",
+      "./content/0152/b.jpg",
+      "./content/0152/c.jpg",
+      "./content/0152/d.jpg",
+      "./content/0152/e.jpg",
+      "./content/0152/f.jpg",
+      "./content/0152/g.jpg",
+      "./content/0152/h.jpg",
+      "./content/0152/i.jpg",
+      "./content/0152/j.jpg",
+      "./content/0152/k.jpg",
+      "./content/0152/l.jpg",
+      "./content/0152/m.jpg",
+      "./content/0152/n.jpg",
+      "./content/0152/o.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
   }
 ]
