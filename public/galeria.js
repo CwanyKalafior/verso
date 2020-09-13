@@ -343,7 +343,7 @@ $(function () {
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
-            .slice(0, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
           all.forEach((element) => {
             var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -485,7 +485,9 @@ $(function () {
         $grid.masonry('reloadItems');
         $grid.masonry('layout');
       });
+
     });
+
 })
 
 
@@ -496,3 +498,4 @@ jQuery(function ($) {
     $.scrollTo($(".wszystkie-wrapper"), 500);
   });
 });
+
