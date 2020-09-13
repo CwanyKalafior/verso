@@ -527,8 +527,8 @@
   },
   {
     "kolejnosc": "16",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0016",
     "zdjecie_glowne": "./content/0016/cb706c5b3ca170d700f6e55037ee60a7.jpg",
     "nazwa": "Koncepcja domu jednorodzinnego",
@@ -715,8 +715,8 @@
   },
   {
     "kolejnosc": "22",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0022",
     "zdjecie_glowne": "./content/0022/8c0d7a47e60309c4086f5d07ea01ae0c.jpg",
     "nazwa": "Budynek mieszkalny",
@@ -1009,8 +1009,8 @@
   },
   {
     "kolejnosc": "31",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0031",
     "zdjecie_glowne": "./content/0031/584410bcba2e6e766bbb27ff31c401af.jpg",
     "nazwa": "Dom jednorodzinny w Kłomnicach k. Częstochowy",
@@ -1037,7 +1037,7 @@
   {
     "kolejnosc": "32",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0032",
     "zdjecie_glowne": "./content/0032/6f8d8afc60b34fe372e9b964210af816.jpg",
     "nazwa": "Koncepcja osiedla wielorodzinnego",
@@ -1339,8 +1339,8 @@
   },
   {
     "kolejnosc": "43",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0043",
     "zdjecie_glowne": "./content/0043/6819bf5c8bf3124001295643b36149bd.jpg",
     "nazwa": "Koncepcja domu jednorodzinnego",
@@ -1453,8 +1453,8 @@
   },
   {
     "kolejnosc": "47",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0047",
     "zdjecie_glowne": "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -1473,7 +1473,9 @@
       "./content/0047/557f5f504173a8a21afc2923e6adde98.jpg",
       "./content/0047/a.jpg",
       "./content/0047/b.jpg",
-      "./content/0047/c.jpg"
+      "./content/0047/c.jpg",
+      "./content/0047/d.jpg",
+      "./content/0047/e.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -1854,21 +1856,21 @@
   },
   {
     "kolejnosc": "62",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0062",
     "zdjecie_glowne": "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
-    "nazwa": "Bliźniaki pod Częstochową",
-    "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
-    "lokalizacja": "Okolice Częstochowy",
+    "nazwa": "Dom na Wyczerpach",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "330 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0062/d08a3b15c19b7f9b094005d94a536739.jpg",
@@ -1962,8 +1964,8 @@
   },
   {
     "kolejnosc": "66",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0066",
     "zdjecie_glowne": "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
     "nazwa": "Dom jednorodzinny pod Częstochową",
@@ -1973,10 +1975,10 @@
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "205 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      " Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0066/13b9cbb743e8f894a7324f2549c26907.jpg",
@@ -1988,21 +1990,21 @@
   },
   {
     "kolejnosc": "67",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0067",
     "zdjecie_glowne": "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
-    "nazwa": "Dom jednorodzinny pod Opolem",
+    "nazwa": "Dom w Kędzierzynie Koźlu",
     "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
-    "lokalizacja": "Okolice Opola",
+    "lokalizacja": "Kędzierzyn-Koźle",
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "230 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0067/d3614957f248b5a3a898908baa91d2c4.jpg",
@@ -2081,8 +2083,8 @@
   },
   {
     "kolejnosc": "70",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0070",
     "zdjecie_glowne": "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
     "nazwa": "Przebudowa domu w Piekarach Śląskich",
@@ -2100,8 +2102,7 @@
     "zdjecia": [
       "./content/0070/e43be6e120737899797e2a8521f2a89a.jpg",
       "./content/0070/a.jpg",
-      "./content/0070/b.jpg",
-      "./content/0070/c.jpg"
+      "./content/0070/b.jpg"
     ],
     "fotograf": []
   },
@@ -2337,8 +2338,8 @@
   },
   {
     "kolejnosc": "80",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0080",
     "zdjecie_glowne": "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
     "nazwa": "Dom w Starej Gorzelni",
@@ -2348,10 +2349,10 @@
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "220 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0080/6954af3b53c8d71431dbbf5847ad5fcc.jpg",
@@ -4160,6 +4161,139 @@
       "./content/0146/e.jpg",
       "./content/0146/f.jpg",
       "./content/0146/g.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "147",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
+    "nazwa_projektu": "0147",
+    "zdjecie_glowne": "./content/0147/a.jpg",
+    "nazwa": "Dom jednorodzinny w Częstochowie",
+    "typ_obiektu": "Budynek usługowy",
+    "lokalizacja": "",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Ziemowit Oset",
+      "Sebastian Krawczyk",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0147/a.jpg",
+      "./content/0147/b.jpg",
+      "./content/0147/c.jpg",
+      "./content/0147/d.jpg",
+      "./content/0147/e.jpg",
+      "./content/0147/f.jpg",
+      "./content/0147/g.jpg",
+      "./content/0147/h.jpg",
+      "./content/0147/i.jpg",
+      "./content/0147/j.jpg",
+      "./content/0147/k.png",
+      "./content/0147/l.png",
+      "./content/0147/m.png",
+      "./content/0147/n.png"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "148",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
+    "nazwa_projektu": "0148",
+    "zdjecie_glowne": "./content/0148/a.jpg",
+    "nazwa": "Koncepcja osiedla jednorodzinnego",
+    "typ_obiektu": "",
+    "lokalizacja": "",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [""],
+    "zdjecia": [
+      "./content/0148/a.jpg",
+      "./content/0148/b.jpg",
+      "./content/0148/c.jpg",
+      "./content/0148/d.jpg",
+      "./content/0148/e.jpg",
+      "./content/0148/f.jpg",
+      "./content/0148/g.jpg",
+      "./content/0148/h.jpg",
+      "./content/0148/i.jpg",
+      "./content/0148/j.jpg",
+      "./content/0148/k.jpg",
+      "./content/0148/l.jpg",
+      "./content/0148/m.jpg",
+      "./content/0148/n.jpg",
+      "./content/0148/o.jpg",
+      "./content/0148/p.jpg",
+      "./content/0148/r.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "149",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
+    "nazwa_projektu": "0149",
+    "zdjecie_glowne": "./content/0149/a.jpg",
+    "nazwa": "Zespół budynków jednorodzinnych w Częstochowie",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0149/a.jpg",
+      "./content/0149/b.jpg",
+      "./content/0149/c.jpg",
+      "./content/0149/d.jpg",
+      "./content/0149/e.jpg",
+      "./content/0149/f.jpg",
+      "./content/0149/g.jpg",
+      "./content/0149/h.jpg",
+      "./content/0149/i.jpg",
+      "./content/0149/j.jpg",
+      "./content/0149/k.jpg"
+    ],
+    "fotograf": []
+  },
+  {
+    "kolejnosc": "150",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
+    "nazwa_projektu": "0150",
+    "zdjecie_glowne": "./content/0150/a.jpg",
+    "nazwa": "Zespół budynków jednorodzinnych w Częstochowie",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
+    "zdjecia": [
+      "./content/0150/a.jpg",
+      "./content/0150/b.jpg",
+      "./content/0150/c.jpg",
+      "./content/0150/d.jpg",
+      "./content/0150/e.jpg",
+      "./content/0150/f.jpg"
     ],
     "fotograf": []
   }
