@@ -60,6 +60,9 @@ body {
   margin-left: 5%;
   font-weight: 300;
 }
+.wszystkie-links a.active {
+  font-weight: 500;
+}
 
 @media (min-width: 1024px) {
   .verso-hamburger {
