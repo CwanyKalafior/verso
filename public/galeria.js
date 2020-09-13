@@ -472,10 +472,6 @@ $(function () {
     })
     .finally(function () {
       masonryFunction();
-      window.addEventListener("change", masonryFunction);
-      window.addEventListener("resize", masonryFunction);
-      window.addEventListener("click", masonryFunction);
-      window.addEventListener("load", masonryFunction);
     });
 });
 
