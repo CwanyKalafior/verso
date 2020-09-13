@@ -13,15 +13,15 @@ var $grid = $(".grid").imagesLoaded(function () {
   $grid.masonry("layout");
 });
 
-imagesLoaded(grid, function () {
-  msnry = new Masonry(grid, {
-    itemSelector: ".grid-item",
-    columnWidth: ".grid-sizer",
-    percentPosition: true,
-    transitionDuration: 0,
-  });
-  console.log("MASONRY");
-});
+// imagesLoaded(grid, function () {
+//   msnry = new Masonry(grid, {
+//     itemSelector: ".grid-item",
+//     columnWidth: ".grid-sizer",
+//     percentPosition: true,
+//     transitionDuration: 0,
+//   });
+//   console.log("MASONRY");
+// });
 
 // pogrubianie linków
 const allImages = document.getElementById("btn-all");
@@ -445,6 +445,7 @@ $(function () {
           number_of_elements += 20;
           return 0;
         }
+
         //btn-wnetrza  -  wnetrza
         else if (
           document.getElementById("btn-wnetrza").classList.contains("active")
@@ -470,27 +471,27 @@ $(function () {
       });
     })
     .finally(function () {
-      //Masonry Code
-      var $grid = $(".grid").imagesLoaded(function () {
-        $grid.masonry({
-          itemSelector: ".grid-item",
-          columnWidth: ".grid-sizer",
-          percentPosition: true,
-          transitionDuration: 0,
-        });
-        $grid.masonry("reloadItems");
-        $grid.masonry("layout");
-      });
-
+      masonryFunction();
+      window.addEventListener("change", masonryFunction);
+      window.addEventListener("resize", masonryFunction);
+      window.addEventListener("click", masonryFunction);
+      window.addEventListener("load", masonryFunction);
     });
-<<<<<<< HEAD
-
-})
-
-=======
 });
->>>>>>> d2b2d6d952b9ff225d66908f39f94b758fabedb6
 
+const masonryFunction = () => {
+  var $grid = $(".grid").imagesLoaded(function () {
+    $grid.masonry({
+      itemSelector: ".grid-item",
+      columnWidth: ".grid-sizer",
+      percentPosition: true,
+      transitionDuration: 0,
+    });
+    $grid.masonry("reloadItems");
+    $grid.masonry("layout");
+  });
+};
+window.addEventListener("click", masonryFunction);
 // top arrow
 jQuery(function ($) {
   $.scrollTo(0);
@@ -498,4 +499,3 @@ jQuery(function ($) {
     $.scrollTo($(".wszystkie-wrapper"), 500);
   });
 });
-
