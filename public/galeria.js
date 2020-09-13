@@ -321,7 +321,7 @@ $(function () {
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -345,7 +345,7 @@ $(function () {
         ) {
           jednorodzinne_all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -370,7 +370,7 @@ $(function () {
         ) {
           wielorodzinne_all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -395,7 +395,7 @@ $(function () {
         ) {
           przemyslowe_all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           przemyslowe_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -420,7 +420,7 @@ $(function () {
         ) {
           urbanistyka_all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           urbanistyka_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -445,7 +445,7 @@ $(function () {
         ) {
           uzytecznosc_publiczna_all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           uzytecznosc_publiczna_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
@@ -469,7 +469,7 @@ $(function () {
         ) {
           wnetrza_all = obj
             .filter((element) => element.grupa === "wnetrza")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(20, number_of_elements + 20);
           wnetrza_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
