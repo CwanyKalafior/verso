@@ -111,7 +111,7 @@ var przemyslowe_all;
 var urbanistyka_all;
 var uzytecznosc_publiczna_all;
 var wnetrza_all;
-
+var elems;
 //JSON
 $(function () {
   var obj;
@@ -179,19 +179,19 @@ $(function () {
 
       //click "Wszystkie"
       $(document).on("click", "#btn-all", function () {
-        //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+
 
         //create number of elements
         all = all.slice(0, number_of_elements);
         all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+          elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
           var $elems = $(elems);
-          $grid.append($elems).masonry("appended", $elems);
-          $grid.masonry("reloadItems");
-          $grid.masonry("layout");
+          var $obj = $('.grid');
+          $grid.masonry('remove', $obj);
+          $grid.append($elems);
+          $grid.masonry('appended', $elems).masonry('layout');
 
           console.log("NUMBER_OF: " + number_of_elements);
         });
@@ -200,7 +200,7 @@ $(function () {
       //click "Jednorodzinne"
       $(document).on("click", "#btn-jednorodzinne", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
@@ -219,7 +219,7 @@ $(function () {
       //click "Wielorodzinne"
       $(document).on("click", "#btn-wielorodzinne", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
@@ -238,7 +238,7 @@ $(function () {
       //click "Przemyslowe"
       $(document).on("click", "#btn-przemyslowe", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         przemyslowe_all = przemyslowe_all.slice(0, number_of_elements);
@@ -257,7 +257,7 @@ $(function () {
       //click "Urbanistyka"
       $(document).on("click", "#btn-urbanistyka", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         urbanistyka_all = urbanistyka_all.slice(0, number_of_elements);
@@ -276,7 +276,7 @@ $(function () {
       //click "Uzytecznosc_publiczna"
       $(document).on("click", "#btn-uzytecznosc_publiczna", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         uzytecznosc_publiczna_all = uzytecznosc_publiczna_all.slice(
@@ -298,7 +298,7 @@ $(function () {
       //click "Wnetrza"
       $(document).on("click", "#btn-wnetrza", function () {
         //clear DOM elements
-        document.getElementById("grid").innerHTML = "";
+        document.getElementsByClassName("grid-item").innerHTML = "";
 
         //create number of elements
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
@@ -316,15 +316,16 @@ $(function () {
 
       //click "wczytaj wiecej"
       $(document).on("click", "#btn", function () {
+        //btn-all  -  wszystkie
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
             .slice(number_of_elements, number_of_elements + 20);
           all.forEach((element) => {
-            var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
-            var $elems = $(elems);
+            $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
             $grid.masonry("reloadItems");
             $grid.masonry("layout");
@@ -345,11 +346,14 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
-            document.getElementById(
-              "grid"
-            ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -367,11 +371,14 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
-            document.getElementById(
-              "grid"
-            ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -389,11 +396,14 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
           przemyslowe_all.forEach((element) => {
-            document.getElementById(
-              "grid"
-            ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -411,11 +421,14 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
           urbanistyka_all.forEach((element) => {
-            document.getElementById(
-              "grid"
-            ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -433,11 +446,14 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(0, number_of_elements + 20);
           uzytecznosc_publiczna_all.forEach((element) => {
-            document.getElementById(
-              "grid"
-            ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
@@ -454,16 +470,14 @@ $(function () {
             .filter((element) => element.grupa === "wnetrza")
             .slice(0, number_of_elements + 5);
           wnetrza_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-                </a>
-                <div class="gallery-description">
-                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-                </div>
-              </div>`;
+            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
+          </div>`;
+            $elems = $(elems);
+            $grid.append($elems).masonry("appended", $elems);
+            $grid.masonry("reloadItems");
+            $grid.masonry("layout");
+            console.log("NUMBER_OF: " + number_of_elements);
           });
           number_of_elements += 20;
           return 0;
