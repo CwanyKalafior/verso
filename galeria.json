@@ -234,7 +234,7 @@
   {
     "kolejnosc": "7",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0007",
     "zdjecie_glowne": "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
     "nazwa": "Biuro firmy PROTOS",
@@ -255,7 +255,14 @@
       "./content/0007/7a.jpg",
       "./content/0007/7b.jpg",
       "./content/0007/7c.jpg",
-      "./content/0007/7d.jpg"
+      "./content/0007/7d.jpg",
+      "./content/0007/e.jpg",
+      "./content/0007/f.png",
+      "./content/0007/g.png",
+      "./content/0007/h.png",
+      "./content/0007/i.png",
+      "./content/0007/j.png",
+      "./content/0007/k.png"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -915,8 +922,8 @@
   },
   {
     "kolejnosc": "28",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0028",
     "zdjecie_glowne": "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
     "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
@@ -1127,8 +1134,8 @@
   },
   {
     "kolejnosc": "35",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0035",
     "zdjecie_glowne": "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
     "nazwa": "Galeria Kwadrat",
@@ -1148,10 +1155,9 @@
     ],
     "zdjecia": [
       "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
-      "./content/0035/35a.jpg",
-      "./content/0035/35b.jpg",
-      "./content/0035/35c.jpg",
-      "./content/0035/35d.jpg"
+      "./content/0035/a.jpg",
+      "./content/0035/b.jpg",
+      "./content/0035/c.jpg"
     ],
     "fotograf": []
   },
@@ -1231,14 +1237,14 @@
   },
   {
     "kolejnosc": "39",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0039",
     "zdjecie_glowne": "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
-    "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
+    "nazwa": "Rozbudowa apteki św. Łukasza",
     "typ_obiektu": "Budynek usługowy",
     "lokalizacja": "Częstochowa",
-    "zakres": "Projekt budowlany",
+    "zakres": "Projekt budowlano - wykonawczy",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
@@ -1320,8 +1326,8 @@
   },
   {
     "kolejnosc": "42",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0042",
     "zdjecie_glowne": "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
     "nazwa": "Koncepcja kawiarenki na bulwarach przy Galerii Jurajskiej",
@@ -1333,7 +1339,8 @@
     "autorzy": ["Jakub Cieślik", "Michał Wręczycki", "Sebastian Krawczyk"],
     "zdjecia": [
       "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
-      "./content/0042/a.jpg"
+      "./content/0042/a.jpg",
+      "./content/0042/b.jpg"
     ],
     "fotograf": []
   },
@@ -1426,7 +1433,7 @@
   {
     "kolejnosc": "46",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0046",
     "zdjecie_glowne": "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
     "nazwa": "Przedszkole w Lgocie Małej",
@@ -1447,7 +1454,12 @@
     "zdjecia": [
       "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
       "./content/0046/a.jpg",
-      "./content/0046/b.jpg"
+      "./content/0046/b.jpg",
+      "./content/0046/c.jpg",
+      "./content/0046/d.png",
+      "./content/0046/e.png",
+      "./content/0046/f.png",
+      "./content/0046/g.png"
     ],
     "fotograf": []
   },
@@ -1698,7 +1710,7 @@
   {
     "kolejnosc": "56",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0056",
     "zdjecie_glowne": "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
     "nazwa": "Domki letniskowe - ośrodek wypoczynkowy OSWiR w Poraju",
@@ -1721,7 +1733,14 @@
       "./content/0056/c.jpg",
       "./content/0056/d.jpg",
       "./content/0056/e.jpg",
-      "./content/0056/f.jpg"
+      "./content/0056/f.jpg",
+      "./content/0056/g.jpg",
+      "./content/0056/h.jpg",
+      "./content/0056/i.png",
+      "./content/0056/j.png",
+      "./content/0056/k.png",
+      "./content/0056/l.png",
+      "./content/0056/m.png"
     ],
     "fotograf": []
   },
@@ -1751,8 +1770,8 @@
   },
   {
     "kolejnosc": "58",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0058",
     "zdjecie_glowne": "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
     "nazwa": "Budynek handlowo-usługowy w Częstochowie",
@@ -1802,11 +1821,11 @@
   },
   {
     "kolejnosc": "60",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0060",
     "zdjecie_glowne": "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
-    "nazwa": "Budynek biurowy w Częstochowie",
+    "nazwa": "Budynek biurowo - usługowy przy Skwerze Solidarności",
     "typ_obiektu": "Budynek biurowy",
     "lokalizacja": "Częstochowa",
     "zakres": "Projekt koncepcyjny",
@@ -1825,7 +1844,12 @@
       "./content/0060/a.jpg",
       "./content/0060/b.jpg",
       "./content/0060/c.jpg",
-      "./content/0060/d.jpg"
+      "./content/0060/d.jpg",
+      "./content/0060/e.png",
+      "./content/0060/f.png",
+      "./content/0060/g.png",
+      "./content/0060/h.png",
+      "./content/0060/i.png"
     ],
     "fotograf": []
   },
@@ -1939,8 +1963,8 @@
   },
   {
     "kolejnosc": "65",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0065",
     "zdjecie_glowne": "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
     "nazwa": "Basen rekreacyjny w Lublincu",
@@ -1950,15 +1974,21 @@
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
       "./content/0065/a.jpg",
-      "./content/0065/b.jpg"
+      "./content/0065/b.jpg",
+      "./content/0065/c.png",
+      "./content/0065/d.png",
+      "./content/0065/e.png",
+      "./content/0065/f.png",
+      "./content/0065/g.png",
+      "./content/0065/h.png"
     ],
     "fotograf": []
   },
@@ -2133,7 +2163,7 @@
   {
     "kolejnosc": "72",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0072",
     "zdjecie_glowne": "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
     "nazwa": "Rozbudowa i przebudowa hotelu w Sandomierzu",
@@ -2143,23 +2173,22 @@
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "330 m²",
     "autorzy": [
-      "mgr inż. arch. Salwator Dąbek",
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Salwator Dąbek",
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
-      "./content/0072/a.jpg",
-      "./content/0072/b.jpg"
+      "./content/0072/a.jpg"
     ],
     "fotograf": []
   },
   {
     "kolejnosc": "73",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0073",
     "zdjecie_glowne": "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
     "nazwa": "Budynek usługowy",
@@ -2185,7 +2214,7 @@
   {
     "kolejnosc": "74",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0074",
     "zdjecie_glowne": "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
     "nazwa": "Budynek usługowo mieszkalny",
@@ -2195,15 +2224,17 @@
     "ukonczono": "Lipiec 2014",
     "powierzchnia_uzytkowa": "163 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
       "./content/0074/a.jpg",
-      "./content/0074/b.jpg"
+      "./content/0074/b.jpg",
+      "./content/0074/c.jpg",
+      "./content/0074/d.jpg"
     ],
     "fotograf": []
   },
@@ -2260,7 +2291,7 @@
   {
     "kolejnosc": "77",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0077",
     "zdjecie_glowne": "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
     "nazwa": "Rozbudowa Starostwa Powiatowego w Sandomierzu",
@@ -2285,7 +2316,7 @@
   {
     "kolejnosc": "78",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0078",
     "zdjecie_glowne": "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
     "nazwa": "Termomodernizacja budynku Nadleśnictwa w Herbach",
@@ -2295,10 +2326,10 @@
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
-      "mgr inż. arch. Salwator Dąbek",
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr Marek Laskowski"
+      "Salwator Dąbek",
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
@@ -2394,7 +2425,7 @@
   {
     "kolejnosc": "82",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0082",
     "zdjecie_glowne": "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
     "nazwa": "Budynek usługowy w Częstochowie",
@@ -2404,10 +2435,10 @@
     "ukonczono": "Luty 2014",
     "powierzchnia_uzytkowa": "293 m²",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
@@ -2417,8 +2448,8 @@
   },
   {
     "kolejnosc": "83",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0083",
     "zdjecie_glowne": "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
     "nazwa": "Rozbudowa pływalni w Liceum im. Romualda Traugutta w Częstochowie",
@@ -2428,10 +2459,10 @@
     "ukonczono": "Luty 2014",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Kamil Cierpioł",
-      "mgr inż. arch. Piotr Drewniak",
-      "mgr Marek Laskowski"
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Piotr Drewniak",
+      "Marek Laskowski"
     ],
     "zdjecia": [
       "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
@@ -2444,8 +2475,8 @@
   },
   {
     "kolejnosc": "84",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
     "nazwa_projektu": "0084",
     "zdjecie_glowne": "./content/0084/145058887280615fddd1a811c2acc666.jpg",
     "nazwa": "Budynek 'Dziewiątka' w Częstochowie",
@@ -4357,5 +4388,135 @@
       "./content/0152/o.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "153",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "urbanistyka",
+    "nazwa_projektu": "0153",
+    "zdjecie_glowne": "./content/0153/f.jpg",
+    "nazwa": "Budynek usługowy w Warszawie",
+    "typ_obiektu": "",
+    "lokalizacja": "Warszawa",
+    "zakres": "projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski"
+    ],
+    "zdjecia": [
+      "./content/0153/a.png",
+      "./content/0153/b.png",
+      "./content/0153/c.png",
+      "./content/0153/d.png",
+      "./content/0153/e.png",
+      "./content/0153/f.jpg",
+      "./content/0153/g.jpg",
+      "./content/0153/h.jpg",
+      "./content/0153/i.jpg",
+      "./content/0153/j.jpg",
+      "./content/0153/k.jpg"
+    ],
+    "fotograf": ["Kacper Ziółkowski"]
+  },
+  {
+    "kolejnosc": "154",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
+    "nazwa_projektu": "0154",
+    "zdjecie_glowne": "./content/0154/a.jpg",
+    "nazwa": "Budynek usługowy w Częstochowie",
+    "typ_obiektu": "",
+    "lokalizacja": "Częstochowa",
+    "zakres": "Projekt budowlany",
+    "ukonczono": "2020",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Szymon Chrzanowski",
+      "Sebastian Krawczyk",
+      "Paula Jaworek"
+    ],
+    "zdjecia": [
+      "./content/0154/a.jpg",
+      "./content/0154/b.jpg",
+      "./content/0154/c.jpg",
+      "./content/0154/d.jpg",
+      "./content/0154/e.png",
+      "./content/0154/f.png",
+      "./content/0154/g.png",
+      "./content/0154/h.png",
+      "./content/0154/i.png",
+      "./content/0154/j.png"
+    ],
+    "fotograf": [""]
+  },
+  {
+    "kolejnosc": "155",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
+    "nazwa_projektu": "0155",
+    "zdjecie_glowne": "./content/0155/a.jpg",
+    "nazwa": "Hotel Kamion wersja 1",
+    "typ_obiektu": "",
+    "lokalizacja": "KAMION k.Wielunia",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Paula Jaworek",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": [
+      "./content/0155/a.jpg",
+      "./content/0155/b.jpg",
+      "./content/0155/c.jpg",
+      "./content/0155/d.jpg",
+      "./content/0155/e.jpg",
+      "./content/0155/f.jpg",
+      "./content/0155/g.jpg",
+      "./content/0155/h.jpg",
+      "./content/0155/i.jpg",
+      "./content/0155/j.jpg",
+      "./content/0155/k.jpg",
+      "./content/0155/l.jpg",
+      "./content/0155/m.jpg",
+      "./content/0155/n.jpg"
+    ],
+    "fotograf": [""]
+  },
+  {
+    "kolejnosc": "156",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "uzytecznosc_publiczna",
+    "nazwa_projektu": "0156",
+    "zdjecie_glowne": "./content/0156/a.jpg",
+    "nazwa": "Hotel Kamion wersja 2",
+    "typ_obiektu": "",
+    "lokalizacja": "KAMION k.Wielunia",
+    "zakres": "Projekt koncepcyjny",
+    "ukonczono": "2019",
+    "powierzchnia_uzytkowa": "",
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Paula Jaworek",
+      "Szymon Chrzanowski",
+      "Magdalena Banasik"
+    ],
+    "zdjecia": ["./content/0156/a.jpg"],
+    "fotograf": [""]
   }
 ]
