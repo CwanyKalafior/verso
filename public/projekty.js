@@ -478,34 +478,33 @@ $(function () {
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
+    }).finally(function () {
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: "auto",
+        lazy: {
+          loadPrevNext: true,
+          preloadImages: false,
+          lazy: true,
+        },
+        mousewheel: {
+          invert: false,
+        },
+        autoplay: {
+          delay: 1800,
+          disableOnInteraction: false,
+        },
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop: true,
+        centeredSlides: true,
+        freeMode: false,
+        spaceBetween: 0,
+        speed: 1200,
+      });
     });
-});
-
-// swiper
-var swiper = new Swiper(".swiper-container", {
-  slidesPerView: "auto",
-  lazy: {
-    loadPrevNext: true,
-    preloadImages: false,
-    lazy: true,
-  },
-  mousewheel: {
-    invert: false,
-  },
-  autoplay: {
-    delay: 1800,
-    disableOnInteraction: false,
-  },
-  keyboard: {
-    enabled: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  loop: true,
-  centeredSlides: true,
-  freeMode: false,
-  spaceBetween: 0,
-  speed: 1200,
 });
