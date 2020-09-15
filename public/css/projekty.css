@@ -32,6 +32,7 @@ body {
   position: relative;
   width: 100%;
   padding: 5%;
+  padding-right: 15%;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -73,11 +74,18 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 60vw;
+  max-height: 60vh;
   margin-top: 3vh;
   z-index: 991;
   background-color: rgba(0, 0, 0, 0.2); /*!*/
+}
+
+@media (max-width: 1024px) {
+  .gallery img {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
 }
 
 .gallery-description {

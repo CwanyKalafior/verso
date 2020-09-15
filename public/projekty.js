@@ -486,9 +486,9 @@ $(function () {
           preloadImages: false,
           lazy: true,
         },
-        mousewheel: {
-          invert: false,
-        },
+        //mousewheel: {
+        //  invert: false,
+        //},
         autoplay: {
           delay: 1800,
           disableOnInteraction: false,
