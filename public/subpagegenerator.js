@@ -31,7 +31,7 @@ $(function () {
                     content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
                   <meta
                     property="og:image"
-                    content="${obj_active.zdjecie_glowne}"
+                    content="https://grupaverso.pl/og-image.webp"
                   />
                   <meta 
                     property="og:type"
