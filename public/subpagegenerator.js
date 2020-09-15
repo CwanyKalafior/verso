@@ -22,6 +22,23 @@ $(function () {
                     //checking if data exists
                     //working with data and creating elements
 
+                    //Add metadata
+                    document.head.innerHTML = `<meta 
+                    property="og:title"
+                    content="grupaVERSO - ${obj_active.nazwa}" />
+                  <meta
+                    property="og:description"
+                    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+                  <meta
+                    property="og:image"
+                    content="${obj_active.zdjecie_glowne}"
+                  />
+                  <meta 
+                    property="og:type"
+                    content="article"
+                  />
+                    `;
+
                     //Display "nazwa"
                     if (obj_active.nazwa === "") {
                         console.log("nazwa - empty");
