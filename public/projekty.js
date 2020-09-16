@@ -2,9 +2,7 @@
 const allImages = document.getElementById("btn-all");
 const jednoImages = document.getElementById("btn-jednorodzinne");
 const wieloImages = document.getElementById("btn-wielorodzinne");
-const przemImages = document.getElementById("btn-przemyslowe");
-const urbanImages = document.getElementById("btn-urbanistyka");
-const uzytPubImages = document.getElementById("btn-uzytecznosc_publiczna");
+const pubImages = document.getElementById("btn-publiczne");
 const interiorsImages = document.getElementById("btn-wnetrza");
 
 
@@ -13,9 +11,7 @@ allImages.addEventListener("click", function () {
   allImages.classList.add("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
 
 });
@@ -24,9 +20,7 @@ jednoImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.add("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
 
 });
@@ -35,42 +29,16 @@ wieloImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.add("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
 
 });
 
-przemImages.addEventListener("click", function () {
+pubImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.add("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
-  interiorsImages.classList.remove("active");
-
-});
-
-urbanImages.addEventListener("click", function () {
-  allImages.classList.remove("active");
-  jednoImages.classList.remove("active");
-  wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.add("active");
-  uzytPubImages.classList.remove("active");
-  interiorsImages.classList.remove("active");
-
-});
-
-uzytPubImages.addEventListener("click", function () {
-  allImages.classList.remove("active");
-  jednoImages.classList.remove("active");
-  wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.add("active");
+  pubImages.classList.add("active");
   interiorsImages.classList.remove("active");
 
 });
@@ -79,9 +47,7 @@ interiorsImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.add("active");
 
 });
@@ -120,19 +86,9 @@ $(function () {
         (element) => element.grupa === "wielorodzinne"
       );
 
-      //filter data -> przemyslowe
-      przemyslowe_all = obj.filter(
-        (element) => element.grupa === "przemyslowe"
-      );
-
-      //filter data -> urbanistyka
-      urbanistyka_all = obj.filter(
-        (element) => element.grupa === "urbanistyka"
-      );
-
-      //filter data -> uzytecznosc_publiczna
-      uzytecznosc_publiczna_all = obj.filter(
-        (element) => element.grupa === "uzytecznosc_publiczna"
+      //filter data -> publiczne
+      publiczne_all = obj.filter(
+        (element) => element.grupa === "publiczne"
       );
 
       //filter data -> wnetrza
@@ -147,16 +103,15 @@ $(function () {
       console.log("all" + all);
       console.log("jednorodzinne_all" + jednorodzinne_all);
       console.log("wielorodzinne_all" + wielorodzinne_all);
-      console.log("przemyslowe_all" + przemyslowe_all);
-      console.log("urbanistyka_all" + urbanistyka_all);
-      console.log("uzytecznosc_publiczna_all" + uzytecznosc_publiczna_all);
+      console.log("publiczne_all" + publiczne_all);
       console.log("wnetrza" + wnetrza_all);
 
       //display 5 first elements
       all.forEach((element) => {
-        document.getElementById(
-          "gallery"
-        ).innerHTML += `<div class="${element.grupa}">
+        if (element.zrealizowano_wtrakcie === "zrealizowano") {
+          document.getElementById(
+            "gallery"
+          ).innerHTML += `<div class="${element.grupa}">
             <a href="./projekty/${element.nazwa_projektu}.html">
               <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
             </a>
@@ -164,6 +119,7 @@ $(function () {
               <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
             </div>
           </div>`;
+        }
       });
 
       //display all "wtrakcie"
@@ -242,52 +198,12 @@ $(function () {
           number_of_elements += 5;
           return 0;
         }
-        //btn-przemyslowe  -  przemyslowe
-        else if (document.getElementById("btn-przemyslowe").classList.contains("active")) {
-          przemyslowe_all = obj
-            .filter((element) => element.grupa === "przemyslowe")
+        //btn-publiczne  -  publiczne
+        else if (document.getElementById("btn-publiczne").classList.contains("active")) {
+          publiczne_all = obj
+            .filter((element) => element.grupa === "publiczne")
             .slice(0, number_of_elements + 5);
-          przemyslowe_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-                </a>
-                <div class="gallery-description">
-                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-                </div>
-              </div>`;
-          });
-          number_of_elements += 5;
-          return 0;
-        }
-        //btn-urbanistyka  -  urbanistyka
-        else if (document.getElementById("btn-urbanistyka").classList.contains("active")) {
-          urbanistyka_all = obj
-            .filter((element) => element.grupa === "urbanistyka")
-            .slice(0, number_of_elements + 5);
-          urbanistyka_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-                </a>
-                <div class="gallery-description">
-                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-                </div>
-              </div>`;
-          });
-          number_of_elements += 5;
-          return 0;
-        }
-        //btn-uzytecznosc_publiczna  -  uzytecznosc_publiczna
-        else if (document.getElementById("btn-uzytecznosc_publiczna").classList.contains("active")) {
-          uzytecznosc_publiczna_all = obj
-            .filter((element) => element.grupa === "uzytecznosc_publiczna")
-            .slice(0, number_of_elements + 5);
-          uzytecznosc_publiczna_all.forEach((element) => {
+          publiczne_all.forEach((element) => {
             document.getElementById(
               "gallery"
             ).innerHTML += `<div class="${element.grupa}">
@@ -390,58 +306,14 @@ $(function () {
         });
       });
 
-      //click "Przemyslowe"
-      $(document).on("click", "#btn-przemyslowe", function () {
+      //click "Publiczne"
+      $(document).on("click", "#btn-publiczne", function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
 
         //create number of elements
-        przemyslowe_all = przemyslowe_all.slice(0, number_of_elements);
-        przemyslowe_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-              </a>
-              <div class="gallery-description">
-                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-              </div>
-            </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
-        });
-      });
-
-      //click "Urbanistyka"
-      $(document).on("click", "#btn-urbanistyka", function () {
-        //clear DOM elements
-        document.getElementById("gallery").innerHTML = "";
-
-        //create number of elements
-        urbanistyka_all = urbanistyka_all.slice(0, number_of_elements);
-        urbanistyka_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-              </a>
-              <div class="gallery-description">
-                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-              </div>
-            </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
-        });
-      });
-
-      //click "Uzytecznosc_publiczna"
-      $(document).on("click", "#btn-uzytecznosc_publiczna", function () {
-        //clear DOM elements
-        document.getElementById("gallery").innerHTML = "";
-
-        //create number of elements
-        uzytecznosc_publiczna_all = uzytecznosc_publiczna_all.slice(0, number_of_elements);
-        uzytecznosc_publiczna_all.forEach((element) => {
+        publiczne_all = publiczne_all.slice(0, number_of_elements);
+        publiczne_all.forEach((element) => {
           document.getElementById(
             "gallery"
           ).innerHTML += `<div class="${element.grupa}">

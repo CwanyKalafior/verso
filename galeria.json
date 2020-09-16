@@ -37,7 +37,9 @@
       "./content/0001/1r.jpg",
       "./content/0001/1s.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "1",
@@ -144,7 +146,9 @@
       "./content/0004/4a.jpg",
       "./content/0004/4b.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "5",
@@ -234,7 +238,7 @@
   {
     "kolejnosc": "7",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0007",
     "zdjecie_glowne": "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
     "nazwa": "Biuro firmy PROTOS",
@@ -264,7 +268,9 @@
       "./content/0007/j.png",
       "./content/0007/k.png"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": [
+      "Michał Jackowski"
+    ]
   },
   {
     "kolejnosc": "8",
@@ -304,7 +310,9 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Kamil Cierpioł"],
+    "autorzy": [
+      "Kamil Cierpioł"
+    ],
     "zdjecia": [
       "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
       "./content/0009/9a.jpg",
@@ -325,7 +333,11 @@
       "./content/0009/9p.jpg",
       "./content/0009/9r.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
+    "fotograf": [
+      "Kacper Ziółkowski",
+      "Michał Jackowski",
+      "Artur Gała"
+    ]
   },
   {
     "kolejnosc": "10",
@@ -457,7 +469,9 @@
       "./content/0013/k.png",
       "./content/0013/l.png"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": [
+      "Michał Jackowski"
+    ]
   },
   {
     "kolejnosc": "14",
@@ -591,7 +605,9 @@
       "./content/0017/j.jpg",
       "./content/0017/k.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "18",
@@ -622,7 +638,7 @@
   {
     "kolejnosc": "19",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "przemyslowe",
+    "grupa": "publiczne",
     "nazwa_projektu": "0019",
     "zdjecie_glowne": "./content/0019/c527512be633ce90447486f651f4192e.jpg",
     "nazwa": "Siedziba firmy AGMI w Częstochowie",
@@ -812,7 +828,9 @@
       "./content/0024/24j.jpg",
       "./content/0024/24k.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": [
+      "Michał Jackowski"
+    ]
   },
   {
     "kolejnosc": "25",
@@ -918,12 +936,14 @@
       "./content/0027/27l.png",
       "./content/0027/27m.png"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "28",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0028",
     "zdjecie_glowne": "./content/0028/f2787b51c9ce7f0a25589defd8a03ee7.jpg",
     "nazwa": "Rozbudowa budynku usługowego w Częstochowie",
@@ -973,7 +993,9 @@
       "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
       "./content/0029/29a.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "30",
@@ -1100,7 +1122,10 @@
       "./content/0033/33d.jpg",
       "./content/0033/33e.jpg"
     ],
-    "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
+    "fotograf": [
+      "Jakub Cieślik",
+      "Michał Jackowski"
+    ]
   },
   {
     "kolejnosc": "34",
@@ -1135,7 +1160,7 @@
   {
     "kolejnosc": "35",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0035",
     "zdjecie_glowne": "./content/0035/65ed84e3a31b72a45c574f91ddeaad0b.jpg",
     "nazwa": "Galeria Kwadrat",
@@ -1214,7 +1239,7 @@
   {
     "kolejnosc": "38",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "przemyslowe",
+    "grupa": "publiczne",
     "nazwa_projektu": "0038",
     "zdjecie_glowne": "./content/0038/230ad7c1effc409cb72fabf85296a50b.jpg",
     "nazwa": "Zet-ka",
@@ -1238,7 +1263,7 @@
   {
     "kolejnosc": "39",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0039",
     "zdjecie_glowne": "./content/0039/e950a5b9cb94467fe64b371fd425a7f2.jpg",
     "nazwa": "Rozbudowa apteki św. Łukasza",
@@ -1327,7 +1352,7 @@
   {
     "kolejnosc": "42",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0042",
     "zdjecie_glowne": "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
     "nazwa": "Koncepcja kawiarenki na bulwarach przy Galerii Jurajskiej",
@@ -1336,7 +1361,11 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Michał Wręczycki", "Sebastian Krawczyk"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk"
+    ],
     "zdjecia": [
       "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
       "./content/0042/a.jpg",
@@ -1433,7 +1462,7 @@
   {
     "kolejnosc": "46",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0046",
     "zdjecie_glowne": "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
     "nazwa": "Przedszkole w Lgocie Małej",
@@ -1489,7 +1518,9 @@
       "./content/0047/d.jpg",
       "./content/0047/e.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "48",
@@ -1624,7 +1655,9 @@
       "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
       "./content/0052/a.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "53",
@@ -1710,7 +1743,7 @@
   {
     "kolejnosc": "56",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0056",
     "zdjecie_glowne": "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
     "nazwa": "Domki letniskowe - ośrodek wypoczynkowy OSWiR w Poraju",
@@ -1771,7 +1804,7 @@
   {
     "kolejnosc": "58",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0058",
     "zdjecie_glowne": "./content/0058/761a26f8e6e2c7c5aa6059a8ce7f3afa.jpg",
     "nazwa": "Budynek handlowo-usługowy w Częstochowie",
@@ -1822,7 +1855,7 @@
   {
     "kolejnosc": "60",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0060",
     "zdjecie_glowne": "./content/0060/c8570595351a15f088014f916e03a8bc.jpg",
     "nazwa": "Budynek biurowo - usługowy przy Skwerze Solidarności",
@@ -1906,7 +1939,7 @@
   {
     "kolejnosc": "63",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "przemyslowe",
+    "grupa": "publiczne",
     "nazwa_projektu": "0063",
     "zdjecie_glowne": "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
     "nazwa": "Siedziba firmy AGMI w Częstochowie",
@@ -1964,7 +1997,7 @@
   {
     "kolejnosc": "65",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0065",
     "zdjecie_glowne": "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
     "nazwa": "Basen rekreacyjny w Lublincu",
@@ -2148,7 +2181,9 @@
     "zakres": "Realizacja",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "233 m²",
-    "autorzy": ["mgr inż. arch Jakub Cieślik"],
+    "autorzy": [
+      "mgr inż. arch Jakub Cieślik"
+    ],
     "zdjecia": [
       "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
       "./content/0071/a.jpg",
@@ -2163,7 +2198,7 @@
   {
     "kolejnosc": "72",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0072",
     "zdjecie_glowne": "./content/0072/d6818ead653a06b0e9f942080bdd5c43.jpg",
     "nazwa": "Rozbudowa i przebudowa hotelu w Sandomierzu",
@@ -2188,7 +2223,7 @@
   {
     "kolejnosc": "73",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0073",
     "zdjecie_glowne": "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
     "nazwa": "Budynek usługowy",
@@ -2214,7 +2249,7 @@
   {
     "kolejnosc": "74",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0074",
     "zdjecie_glowne": "./content/0074/d60b32ab4ca22354ec54d31dc978bed1.jpg",
     "nazwa": "Budynek usługowo mieszkalny",
@@ -2291,7 +2326,7 @@
   {
     "kolejnosc": "77",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0077",
     "zdjecie_glowne": "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
     "nazwa": "Rozbudowa Starostwa Powiatowego w Sandomierzu",
@@ -2316,7 +2351,7 @@
   {
     "kolejnosc": "78",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0078",
     "zdjecie_glowne": "./content/0078/5a574e2843e4bef25412df7b1324c697.jpg",
     "nazwa": "Termomodernizacja budynku Nadleśnictwa w Herbach",
@@ -2425,7 +2460,7 @@
   {
     "kolejnosc": "82",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0082",
     "zdjecie_glowne": "./content/0082/dec6a66a6f75b3df2cba2df31fdaad5f.jpg",
     "nazwa": "Budynek usługowy w Częstochowie",
@@ -2449,7 +2484,7 @@
   {
     "kolejnosc": "83",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0083",
     "zdjecie_glowne": "./content/0083/3cd325697d36b064d8d5617538d1ec84.jpg",
     "nazwa": "Rozbudowa pływalni w Liceum im. Romualda Traugutta w Częstochowie",
@@ -2476,7 +2511,7 @@
   {
     "kolejnosc": "84",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0084",
     "zdjecie_glowne": "./content/0084/145058887280615fddd1a811c2acc666.jpg",
     "nazwa": "Budynek 'Dziewiątka' w Częstochowie",
@@ -2597,7 +2632,11 @@
     "zakres": "",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
       "./content/0088/a.jpg",
@@ -2648,7 +2687,11 @@
     "zakres": "",
     "ukonczono": "Styczeń 2016",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Kamil Cierpioł", "Jakub Cieślik", "Eliza Masek"],
+    "autorzy": [
+      "Kamil Cierpioł",
+      "Jakub Cieślik",
+      "Eliza Masek"
+    ],
     "zdjecia": [
       "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
       "./content/0090/a.jpg",
@@ -2739,7 +2782,10 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr inż. arch. Marta Gawin"],
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr inż. arch. Marta Gawin"
+    ],
     "zdjecia": [
       "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
       "./content/0093/a.jpg",
@@ -2765,7 +2811,9 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["mgr inż. arch. Jakub Cieślik"],
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik"
+    ],
     "zdjecia": [
       "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
       "./content/0094/a.jpg",
@@ -2816,7 +2864,10 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr Marek Laskowski"],
+    "autorzy": [
+      "mgr inż. arch. Jakub Cieślik",
+      "mgr Marek Laskowski"
+    ],
     "zdjecia": [
       "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
       "./content/0096/a.jpg",
@@ -2884,7 +2935,11 @@
     "zakres": "",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Eliza Masek"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Eliza Masek"
+    ],
     "zdjecia": [
       "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
       "./content/0099/a.jpg",
@@ -2904,7 +2959,11 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0100/a.jpg",
       "./content/0100/b.jpg",
@@ -2965,7 +3024,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0102/a.jpg",
       "./content/0102/b.jpg",
@@ -2993,7 +3056,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0103/a.png",
       "./content/0103/b.png",
@@ -3210,7 +3277,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0111/a.jpg",
       "./content/0111/b.jpg",
@@ -3240,7 +3311,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0112/a.jpg",
       "./content/0112/b.jpg",
@@ -3267,7 +3342,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0113/a.jpg",
       "./content/0113/b.jpg",
@@ -3457,7 +3536,9 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [""],
+    "autorzy": [
+      ""
+    ],
     "zdjecia": [
       "./content/0121/a.jpg",
       "./content/0121/b.jpg",
@@ -3489,7 +3570,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0122/a.jpg",
       "./content/0122/b.jpg",
@@ -3509,7 +3594,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0123/a.jpg",
       "./content/0123/b.jpg",
@@ -3529,7 +3618,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0124/a.jpg",
       "./content/0124/b.jpg",
@@ -3550,7 +3643,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0125/a.jpg",
       "./content/0125/b.jpg",
@@ -3579,7 +3676,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0126/a.jpg",
       "./content/0126/b.jpg",
@@ -3611,7 +3712,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0127/a.jpg",
       "./content/0127/b.jpg",
@@ -3643,7 +3748,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0128/a.jpg",
       "./content/0128/b.jpg",
@@ -3665,7 +3774,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0130/a.png",
       "./content/0130/b.png",
@@ -3696,7 +3809,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0131/a.jpg",
       "./content/0131/b.jpg",
@@ -3727,7 +3844,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0132/a.jpg",
       "./content/0132/b.jpg",
@@ -3760,7 +3881,9 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [""],
+    "autorzy": [
+      ""
+    ],
     "zdjecia": [
       "./content/0133/a.jpg",
       "./content/0133/b.jpg",
@@ -3784,7 +3907,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0134/a.jpg",
       "./content/0134/b.jpg",
@@ -3813,7 +3940,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0135/a.jpg",
       "./content/0135/b.jpg",
@@ -3840,7 +3971,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0136/a.jpg",
       "./content/0136/b.jpg",
@@ -3877,7 +4012,11 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
+    "autorzy": [
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki"
+    ],
     "zdjecia": [
       "./content/0137/b.jpg",
       "./content/0137/a.jpg",
@@ -4049,7 +4188,10 @@
       "Michał Wręczycki",
       "Sebastian Krawczyk"
     ],
-    "zdjecia": ["./content/0142/a.jpg", "./content/0142/b.jpg"],
+    "zdjecia": [
+      "./content/0142/a.jpg",
+      "./content/0142/b.jpg"
+    ],
     "fotograf": []
   },
   {
@@ -4168,7 +4310,7 @@
   {
     "kolejnosc": "146",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "przemyslowe",
+    "grupa": "publiczne",
     "nazwa_projektu": "0146",
     "zdjecie_glowne": "./content/0146/a.jpg",
     "nazwa": "KUBARA Sp. z o.o",
@@ -4245,7 +4387,9 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [""],
+    "autorzy": [
+      ""
+    ],
     "zdjecia": [
       "./content/0148/a.jpg",
       "./content/0148/b.jpg",
@@ -4331,7 +4475,7 @@
   {
     "kolejnosc": "151",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "urbanistyka",
+    "grupa": "publiczne",
     "nazwa_projektu": "0151",
     "zdjecie_glowne": "./content/0151/a.jpg",
     "nazwa": "Bulwary przy galerii północnej",
@@ -4347,13 +4491,16 @@
       "Paulina Cieślik",
       "Eliza Masek"
     ],
-    "zdjecia": ["./content/0151/a.jpg", "./content/0151/b.jpg"],
+    "zdjecia": [
+      "./content/0151/a.jpg",
+      "./content/0151/b.jpg"
+    ],
     "fotograf": []
   },
   {
     "kolejnosc": "152",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "urbanistyka",
+    "grupa": "publiczne",
     "nazwa_projektu": "0152",
     "zdjecie_glowne": "./content/0152/a.jpg",
     "nazwa": "Bulwar przy Galerii Jurajskiej",
@@ -4387,12 +4534,14 @@
       "./content/0152/n.jpg",
       "./content/0152/o.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "153",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "urbanistyka",
+    "grupa": "publiczne",
     "nazwa_projektu": "0153",
     "zdjecie_glowne": "./content/0153/f.jpg",
     "nazwa": "Budynek usługowy w Warszawie",
@@ -4420,12 +4569,14 @@
       "./content/0153/j.jpg",
       "./content/0153/k.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski"
+    ]
   },
   {
     "kolejnosc": "154",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0154",
     "zdjecie_glowne": "./content/0154/a.jpg",
     "nazwa": "Budynek usługowy w Częstochowie",
@@ -4454,12 +4605,14 @@
       "./content/0154/i.png",
       "./content/0154/j.png"
     ],
-    "fotograf": [""]
+    "fotograf": [
+      ""
+    ]
   },
   {
     "kolejnosc": "155",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0155",
     "zdjecie_glowne": "./content/0155/a.jpg",
     "nazwa": "Hotel Kamion wersja 1",
@@ -4493,12 +4646,14 @@
       "./content/0155/m.jpg",
       "./content/0155/n.jpg"
     ],
-    "fotograf": [""]
+    "fotograf": [
+      ""
+    ]
   },
   {
     "kolejnosc": "156",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "uzytecznosc_publiczna",
+    "grupa": "publiczne",
     "nazwa_projektu": "0156",
     "zdjecie_glowne": "./content/0156/a.jpg",
     "nazwa": "Hotel Kamion wersja 2",
@@ -4516,7 +4671,11 @@
       "Szymon Chrzanowski",
       "Magdalena Banasik"
     ],
-    "zdjecia": ["./content/0156/a.jpg"],
-    "fotograf": [""]
+    "zdjecia": [
+      "./content/0156/a.jpg"
+    ],
+    "fotograf": [
+      ""
+    ]
   }
 ]
