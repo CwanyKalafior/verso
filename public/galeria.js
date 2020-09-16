@@ -7,6 +7,7 @@ var $grid = $(".grid").imagesLoaded(function () {
     itemSelector: ".grid-item",
     columnWidth: ".grid-sizer",
     percentPosition: true,
+    transitionDuration: 0,
   });
   $grid.masonry("reloadItems");
   $grid.masonry("layout");
@@ -58,6 +59,7 @@ interiorsImages.addEventListener("click", function () {
   pubImages.classList.remove("active");
   interiorsImages.classList.add("active");
 });
+
 
 var starting_slice_point = 0;
 var number_of_elements = 20;
@@ -244,7 +246,8 @@ $(function () {
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
-            .slice(20, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
+          console.log("ALL - " + all);
           all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="../public/projekty/${element.nazwa_projektu}.html
@@ -270,7 +273,7 @@ $(function () {
         ) {
           jednorodzinne_all = obj
             .filter((element) => element.grupa === "jenorodzinne")
-            .slice(20, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="../public/projekty/${element.nazwa_projektu}.html
@@ -297,7 +300,7 @@ $(function () {
         ) {
           wielorodzinne_all = obj
             .filter((element) => element.grupa === "wielorodzinne")
-            .slice(20, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="../public/projekty/${element.nazwa_projektu}.html
@@ -322,7 +325,7 @@ $(function () {
         ) {
           publiczne_all = obj
             .filter((element) => element.grupa === "publiczne")
-            .slice(20, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
           publiczne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="../public/projekty/${element.nazwa_projektu}.html
@@ -348,7 +351,7 @@ $(function () {
         ) {
           wnetrza_all = obj
             .filter((element) => element.grupa === "wnetrza")
-            .slice(20, number_of_elements + 20);
+            .slice(number_of_elements, number_of_elements + 20);
           wnetrza_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="../public/projekty/${element.nazwa_projektu}.html

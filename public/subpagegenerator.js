@@ -37,6 +37,9 @@ $(function () {
                     property="og:type"
                     content="article"
                   />
+                  <meta 
+    property="og:title"
+    content="${obj_active.nazwa}" />
                     `;
 
                     //Display "nazwa"

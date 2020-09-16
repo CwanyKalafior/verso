@@ -37,9 +37,7 @@
       "./content/0001/1r.jpg",
       "./content/0001/1s.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "1",
@@ -146,9 +144,7 @@
       "./content/0004/4a.jpg",
       "./content/0004/4b.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "5",
@@ -199,7 +195,7 @@
     "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
     "lokalizacja": "Katowice",
     "zakres": "Realizacja",
-    "ukonczono": "2019",
+    "ukonczono": "2020",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
       "Jakub Cieślik",
@@ -268,9 +264,7 @@
       "./content/0007/j.png",
       "./content/0007/k.png"
     ],
-    "fotograf": [
-      "Michał Jackowski"
-    ]
+    "fotograf": ["Michał Jackowski"]
   },
   {
     "kolejnosc": "8",
@@ -310,9 +304,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Kamil Cierpioł"
-    ],
+    "autorzy": ["Kamil Cierpioł"],
     "zdjecia": [
       "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
       "./content/0009/9a.jpg",
@@ -333,11 +325,7 @@
       "./content/0009/9p.jpg",
       "./content/0009/9r.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski",
-      "Michał Jackowski",
-      "Artur Gała"
-    ]
+    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
   },
   {
     "kolejnosc": "10",
@@ -469,9 +457,7 @@
       "./content/0013/k.png",
       "./content/0013/l.png"
     ],
-    "fotograf": [
-      "Michał Jackowski"
-    ]
+    "fotograf": ["Michał Jackowski"]
   },
   {
     "kolejnosc": "14",
@@ -605,9 +591,7 @@
       "./content/0017/j.jpg",
       "./content/0017/k.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "18",
@@ -828,9 +812,7 @@
       "./content/0024/24j.jpg",
       "./content/0024/24k.jpg"
     ],
-    "fotograf": [
-      "Michał Jackowski"
-    ]
+    "fotograf": ["Michał Jackowski"]
   },
   {
     "kolejnosc": "25",
@@ -936,9 +918,7 @@
       "./content/0027/27l.png",
       "./content/0027/27m.png"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "28",
@@ -993,9 +973,7 @@
       "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
       "./content/0029/29a.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "30",
@@ -1122,10 +1100,7 @@
       "./content/0033/33d.jpg",
       "./content/0033/33e.jpg"
     ],
-    "fotograf": [
-      "Jakub Cieślik",
-      "Michał Jackowski"
-    ]
+    "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
   },
   {
     "kolejnosc": "34",
@@ -1361,11 +1336,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Michał Wręczycki",
-      "Sebastian Krawczyk"
-    ],
+    "autorzy": ["Jakub Cieślik", "Michał Wręczycki", "Sebastian Krawczyk"],
     "zdjecia": [
       "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
       "./content/0042/a.jpg",
@@ -1518,9 +1489,7 @@
       "./content/0047/d.jpg",
       "./content/0047/e.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "48",
@@ -1655,9 +1624,7 @@
       "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
       "./content/0052/a.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "53",
@@ -2175,15 +2142,13 @@
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0071",
     "zdjecie_glowne": "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
-    "nazwa": "Dom w Kuźnicy Kiedrzyńskiej",
+    "nazwa": "Borowianka",
     "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
     "lokalizacja": "Kuźnica Kiedrzyńska",
     "zakres": "Realizacja",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "233 m²",
-    "autorzy": [
-      "mgr inż. arch Jakub Cieślik"
-    ],
+    "autorzy": ["mgr inż. arch Jakub Cieślik"],
     "zdjecia": [
       "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
       "./content/0071/a.jpg",
@@ -2632,11 +2597,7 @@
     "zakres": "",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
       "./content/0088/a.jpg",
@@ -2687,11 +2648,7 @@
     "zakres": "",
     "ukonczono": "Styczeń 2016",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Kamil Cierpioł",
-      "Jakub Cieślik",
-      "Eliza Masek"
-    ],
+    "autorzy": ["Kamil Cierpioł", "Jakub Cieślik", "Eliza Masek"],
     "zdjecia": [
       "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
       "./content/0090/a.jpg",
@@ -2782,10 +2739,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr inż. arch. Marta Gawin"
-    ],
+    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr inż. arch. Marta Gawin"],
     "zdjecia": [
       "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
       "./content/0093/a.jpg",
@@ -2811,9 +2765,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "mgr inż. arch. Jakub Cieślik"
-    ],
+    "autorzy": ["mgr inż. arch. Jakub Cieślik"],
     "zdjecia": [
       "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
       "./content/0094/a.jpg",
@@ -2864,10 +2816,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "mgr inż. arch. Jakub Cieślik",
-      "mgr Marek Laskowski"
-    ],
+    "autorzy": ["mgr inż. arch. Jakub Cieślik", "mgr Marek Laskowski"],
     "zdjecia": [
       "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
       "./content/0096/a.jpg",
@@ -2935,11 +2884,7 @@
     "zakres": "",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Eliza Masek"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Eliza Masek"],
     "zdjecia": [
       "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
       "./content/0099/a.jpg",
@@ -2959,11 +2904,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0100/a.jpg",
       "./content/0100/b.jpg",
@@ -3024,11 +2965,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0102/a.jpg",
       "./content/0102/b.jpg",
@@ -3056,11 +2993,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0103/a.png",
       "./content/0103/b.png",
@@ -3277,11 +3210,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0111/a.jpg",
       "./content/0111/b.jpg",
@@ -3311,11 +3240,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0112/a.jpg",
       "./content/0112/b.jpg",
@@ -3342,11 +3267,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0113/a.jpg",
       "./content/0113/b.jpg",
@@ -3536,9 +3457,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      ""
-    ],
+    "autorzy": [""],
     "zdjecia": [
       "./content/0121/a.jpg",
       "./content/0121/b.jpg",
@@ -3570,11 +3489,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0122/a.jpg",
       "./content/0122/b.jpg",
@@ -3594,11 +3509,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0123/a.jpg",
       "./content/0123/b.jpg",
@@ -3618,11 +3529,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0124/a.jpg",
       "./content/0124/b.jpg",
@@ -3643,11 +3550,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0125/a.jpg",
       "./content/0125/b.jpg",
@@ -3676,11 +3579,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0126/a.jpg",
       "./content/0126/b.jpg",
@@ -3712,11 +3611,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0127/a.jpg",
       "./content/0127/b.jpg",
@@ -3748,11 +3643,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0128/a.jpg",
       "./content/0128/b.jpg",
@@ -3774,11 +3665,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2017",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0130/a.png",
       "./content/0130/b.png",
@@ -3809,11 +3696,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0131/a.jpg",
       "./content/0131/b.jpg",
@@ -3844,11 +3727,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0132/a.jpg",
       "./content/0132/b.jpg",
@@ -3881,9 +3760,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      ""
-    ],
+    "autorzy": [""],
     "zdjecia": [
       "./content/0133/a.jpg",
       "./content/0133/b.jpg",
@@ -3907,11 +3784,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0134/a.jpg",
       "./content/0134/b.jpg",
@@ -3940,11 +3813,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0135/a.jpg",
       "./content/0135/b.jpg",
@@ -3971,11 +3840,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2018",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0136/a.jpg",
       "./content/0136/b.jpg",
@@ -4012,11 +3877,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0137/b.jpg",
       "./content/0137/a.jpg",
@@ -4188,10 +4049,7 @@
       "Michał Wręczycki",
       "Sebastian Krawczyk"
     ],
-    "zdjecia": [
-      "./content/0142/a.jpg",
-      "./content/0142/b.jpg"
-    ],
+    "zdjecia": ["./content/0142/a.jpg", "./content/0142/b.jpg"],
     "fotograf": []
   },
   {
@@ -4381,14 +4239,18 @@
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0148",
     "zdjecie_glowne": "./content/0148/a.jpg",
-    "nazwa": "Koncepcja osiedla jednorodzinnego",
-    "typ_obiektu": "",
-    "lokalizacja": "",
-    "zakres": "Projekt koncepcyjny",
+    "nazwa": "Osiedle jednorodzinne",
+    "typ_obiektu": "osiedle jednorodzinne",
+    "lokalizacja": "Mysłowice",
+    "zakres": "Koncepcja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
     "autorzy": [
-      ""
+      "Jakub Cieślik",
+      "Kamil Cierpioł",
+      "Michał Wręczycki",
+      "Sebastian Krawczyk",
+      "Paula Jaworek"
     ],
     "zdjecia": [
       "./content/0148/a.jpg",
@@ -4491,10 +4353,7 @@
       "Paulina Cieślik",
       "Eliza Masek"
     ],
-    "zdjecia": [
-      "./content/0151/a.jpg",
-      "./content/0151/b.jpg"
-    ],
+    "zdjecia": ["./content/0151/a.jpg", "./content/0151/b.jpg"],
     "fotograf": []
   },
   {
@@ -4534,9 +4393,7 @@
       "./content/0152/n.jpg",
       "./content/0152/o.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "153",
@@ -4569,9 +4426,7 @@
       "./content/0153/j.jpg",
       "./content/0153/k.jpg"
     ],
-    "fotograf": [
-      "Kacper Ziółkowski"
-    ]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "154",
@@ -4605,9 +4460,7 @@
       "./content/0154/i.png",
       "./content/0154/j.png"
     ],
-    "fotograf": [
-      ""
-    ]
+    "fotograf": [""]
   },
   {
     "kolejnosc": "155",
@@ -4646,9 +4499,7 @@
       "./content/0155/m.jpg",
       "./content/0155/n.jpg"
     ],
-    "fotograf": [
-      ""
-    ]
+    "fotograf": [""]
   },
   {
     "kolejnosc": "156",
@@ -4671,11 +4522,7 @@
       "Szymon Chrzanowski",
       "Magdalena Banasik"
     ],
-    "zdjecia": [
-      "./content/0156/a.jpg"
-    ],
-    "fotograf": [
-      ""
-    ]
+    "zdjecia": ["./content/0156/a.jpg"],
+    "fotograf": [""]
   }
 ]
