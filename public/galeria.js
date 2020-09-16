@@ -269,7 +269,7 @@ $(function () {
             .classList.contains("active")
         ) {
           jednorodzinne_all = obj
-            .filter((element) => element.grupa !== "")
+            .filter((element) => element.grupa === "jenorodzinne")
             .slice(20, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
@@ -294,7 +294,7 @@ $(function () {
             .classList.contains("active")
         ) {
           wielorodzinne_all = obj
-            .filter((element) => element.grupa !== "")
+            .filter((element) => element.grupa === "wielorodzinne")
             .slice(20, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
@@ -319,7 +319,7 @@ $(function () {
             .classList.contains("active")
         ) {
           publiczne_all = obj
-            .filter((element) => element.grupa !== "")
+            .filter((element) => element.grupa === "publiczne")
             .slice(20, number_of_elements + 20);
           publiczne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
