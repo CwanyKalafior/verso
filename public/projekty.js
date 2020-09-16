@@ -76,22 +76,22 @@ $(function () {
 
       //filter data -> jednorodzinne
       jednorodzinne_all = obj.filter(
-        (element) => element.grupa === "jednorodzinne"
+        (element) => element.grupa === "jednorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> wielorodzinne
       wielorodzinne_all = obj.filter(
-        (element) => element.grupa === "wielorodzinne"
+        (element) => element.grupa === "wielorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> publiczne
       publiczne_all = obj.filter(
-        (element) => element.grupa === "publiczne"
+        (element) => element.grupa === "publiczne" && element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> wnetrza
       wnetrza_all = obj.filter(
-        (element) => element.grupa === "wnetrza"
+        (element) => element.grupa === "wnetrza" && element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //slice data
@@ -139,7 +139,7 @@ $(function () {
         //btn-all  -  wszystkie
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
-            .filter((element) => element.grupa !== "")
+            .filter((element) => element.grupa !== "" && element.zrealizowano_wtrakcie === "zrealizowano")
             .slice(0, number_of_elements + 5);
           all.forEach((element) => {
             document.getElementById(
@@ -159,7 +159,7 @@ $(function () {
         //btn-jednorodzinne  -  jednorodzinne
         else if (document.getElementById("btn-jednorodzinne").classList.contains("active")) {
           jednorodzinne_all = obj
-            .filter((element) => element.grupa === "jednorodzinne")
+            .filter((element) => element.grupa === "jednorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano")
             .slice(0, number_of_elements + 5);
           jednorodzinne_all.forEach((element) => {
             document.getElementById(
@@ -179,7 +179,7 @@ $(function () {
         //btn-wielorodzinne  -  wielorodzinne
         else if (document.getElementById("btn-wielorodzinne").classList.contains("active")) {
           wielorodzinne_all = obj
-            .filter((element) => element.grupa === "wielorodzinne")
+            .filter((element) => element.grupa === "wielorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano")
             .slice(0, number_of_elements + 5);
           wielorodzinne_all.forEach((element) => {
             document.getElementById(
@@ -199,7 +199,7 @@ $(function () {
         //btn-publiczne  -  publiczne
         else if (document.getElementById("btn-publiczne").classList.contains("active")) {
           publiczne_all = obj
-            .filter((element) => element.grupa === "publiczne")
+            .filter((element) => element.grupa === "publiczne" && element.zrealizowano_wtrakcie === "zrealizowano")
             .slice(0, number_of_elements + 5);
           publiczne_all.forEach((element) => {
             document.getElementById(
@@ -219,7 +219,7 @@ $(function () {
         //btn-wnetrza  -  wnetrza
         else if (document.getElementById("btn-wnetrza").classList.contains("active")) {
           wnetrza_all = obj
-            .filter((element) => element.grupa === "wnetrza")
+            .filter((element) => element.grupa === "wnetrza" && element.zrealizowano_wtrakcie === "zrealizowano")
             .slice(0, number_of_elements + 5);
           wnetrza_all.forEach((element) => {
             document.getElementById(
