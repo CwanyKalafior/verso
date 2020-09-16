@@ -135,8 +135,10 @@ $(function () {
       all.forEach((element) => {
         document.getElementById(
           "grid"
-        ).innerHTML += `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
+        ).innerHTML += `<div class="grid-item ${element.grupa}">
+        <a href="../public/projekty/${element.nazwa_projektu}.html
+        ">
+        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
       </div>`;
       });
 
@@ -148,9 +150,11 @@ $(function () {
         //create number of elements
         all = all.slice(0, number_of_elements);
         all.forEach((element) => {
-          elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+          elems = `<div class="grid-item ${element.grupa}">
+          <a href="../public/projekty/${element.nazwa_projektu}.html
+          ">
+          <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+        </div>`;
           var $elems = $(elems);
           var $obj = $('.grid');
           $grid.masonry('remove', $obj);
@@ -170,9 +174,11 @@ $(function () {
         //create number of elements
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
         jednorodzinne_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+          var elems = `<div class="grid-item ${element.grupa}">
+          <a href="../public/projekty/${element.nazwa_projektu}.html
+          ">
+          <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+        </div>`;
           var $elems = $(elems);
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
@@ -189,9 +195,11 @@ $(function () {
         //create number of elements
         wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
         wielorodzinne_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+          var elems = `<div class="grid-item ${element.grupa}">
+          <a href="../public/projekty/${element.nazwa_projektu}.html
+          ">
+          <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+        </div>`;
           var $elems = $(elems);
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
@@ -211,9 +219,11 @@ $(function () {
           number_of_elements
         );
         publiczne_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+          var elems = `<div class="grid-item ${element.grupa}">
+          <a href="../public/projekty/${element.nazwa_projektu}.html
+          ">
+          <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+        </div>`;
           var $elems = $(elems);
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
@@ -229,9 +239,11 @@ $(function () {
         //create number of elements
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
         wnetrza_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+          var elems = `<div class="grid-item ${element.grupa}">
+          <a href="../public/projekty/${element.nazwa_projektu}.html
+          ">
+          <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+        </div>`;
           var $elems = $(elems);
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
@@ -248,9 +260,11 @@ $(function () {
             .filter((element) => element.grupa !== "")
             .slice(20, number_of_elements + 20);
           all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+            elems = `<div class="grid-item ${element.grupa}">
+            <a href="../public/projekty/${element.nazwa_projektu}.html
+            ">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+          </div>`;
             $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
             $grid.masonry("reloadItems");
@@ -272,9 +286,11 @@ $(function () {
             .filter((element) => element.grupa === "jenorodzinne")
             .slice(20, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+            elems = `<div class="grid-item ${element.grupa}">
+            <a href="../public/projekty/${element.nazwa_projektu}.html
+            ">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+          </div>`;
             $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
             $grid.masonry("reloadItems");
@@ -297,9 +313,11 @@ $(function () {
             .filter((element) => element.grupa === "wielorodzinne")
             .slice(20, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+            elems = `<div class="grid-item ${element.grupa}">
+            <a href="../public/projekty/${element.nazwa_projektu}.html
+            ">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+          </div>`;
             $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
             $grid.masonry("reloadItems");
@@ -322,9 +340,11 @@ $(function () {
             .filter((element) => element.grupa === "publiczne")
             .slice(20, number_of_elements + 20);
           publiczne_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
+            elems = `<div class="grid-item ${element.grupa}">
+            <a href="../public/projekty/${element.nazwa_projektu}.html
+            ">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
+          </div>`;
             $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
             $grid.masonry("reloadItems");
@@ -346,8 +366,10 @@ $(function () {
             .filter((element) => element.grupa === "wnetrza")
             .slice(20, number_of_elements + 20);
           wnetrza_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
+            elems = `<div class="grid-item ${element.grupa}">
+            <a href="../public/projekty/${element.nazwa_projektu}.html
+            ">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
             $elems = $(elems);
             $grid.append($elems).masonry("appended", $elems);
