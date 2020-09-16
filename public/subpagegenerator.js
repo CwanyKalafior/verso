@@ -7,7 +7,7 @@ console.log("Page ID: " + page);
 $(function () {
     var obj;
 
-    fetch("https://raw.githubusercontent.com/CotuSieDziejee/versofiles/master/galeria.json")
+    fetch("https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json")
         .then((res) => res.json())
         .then((data) => (obj = data))
         .then(() => {
@@ -21,6 +21,23 @@ $(function () {
 
                     //checking if data exists
                     //working with data and creating elements
+
+                    //Add metadata
+                    document.head.innerHTML += `<meta 
+                    property="og:title"
+                    content="grupaVERSO - ${obj_active.nazwa}" />
+                  <meta
+                    property="og:description"
+                    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+                  <meta
+                    property="og:image"
+                    content="https://grupaverso.pl/og-image.webp"
+                  />
+                  <meta 
+                    property="og:type"
+                    content="article"
+                  />
+                    `;
 
                     //Display "nazwa"
                     if (obj_active.nazwa === "") {

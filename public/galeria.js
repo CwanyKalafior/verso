@@ -116,7 +116,7 @@ var elems;
 $(function () {
   var obj;
 
-  fetch("../galeria.json")
+  fetch("https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json")
     .then((res) => res.json())
     .then((data) => (obj = data))
     .then(() => {

@@ -98,7 +98,7 @@ var wnetrza_all;
 
 $(function () {
   var obj;
-  fetch("../galeria.json")
+  fetch("https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json")
     .then((res) => res.json())
     .then((data) => (obj = data))
     .then(() => {
@@ -486,9 +486,9 @@ $(function () {
           preloadImages: false,
           lazy: true,
         },
-        mousewheel: {
-          invert: false,
-        },
+        //mousewheel: {
+        //  invert: false,
+        //},
         autoplay: {
           delay: 1800,
           disableOnInteraction: false,
