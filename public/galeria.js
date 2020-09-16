@@ -7,6 +7,7 @@ var $grid = $(".grid").imagesLoaded(function () {
     itemSelector: ".grid-item",
     columnWidth: ".grid-sizer",
     percentPosition: true,
+    transitionDuration: 0,
   });
   $grid.masonry("reloadItems");
   $grid.masonry("layout");
