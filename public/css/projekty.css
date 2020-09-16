@@ -79,6 +79,9 @@ body {
   margin-top: 3vh;
   z-index: 991;
   background-color: rgba(0, 0, 0, 0.2); /*!*/
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
 }
 
 @media (max-width: 1024px) {
@@ -91,8 +94,14 @@ body {
 .gallery-description {
   position: relative;
   width: 90vw;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
+}
+
+@media (min-width: 1024px) {
+  .gallery-description {
+    padding-right: 15%;
+  }
 }
 
 .gallery-description p {
