@@ -27,79 +27,54 @@ var $grid = $(".grid").imagesLoaded(function () {
 const allImages = document.getElementById("btn-all");
 const jednoImages = document.getElementById("btn-jednorodzinne");
 const wieloImages = document.getElementById("btn-wielorodzinne");
-const przemImages = document.getElementById("btn-przemyslowe");
-const urbanImages = document.getElementById("btn-urbanistyka");
-const uzytPubImages = document.getElementById("btn-uzytecznosc_publiczna");
+const pubImages = document.getElementById("btn-publiczne");
 const interiorsImages = document.getElementById("btn-wnetrza");
+
+
 
 allImages.addEventListener("click", function () {
   allImages.classList.add("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
+
 });
 
 jednoImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.add("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
+
 });
 
 wieloImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.add("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
+
 });
 
-przemImages.addEventListener("click", function () {
+pubImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.add("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.add("active");
   interiorsImages.classList.remove("active");
-});
 
-urbanImages.addEventListener("click", function () {
-  allImages.classList.remove("active");
-  jednoImages.classList.remove("active");
-  wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.add("active");
-  uzytPubImages.classList.remove("active");
-  interiorsImages.classList.remove("active");
-});
-
-uzytPubImages.addEventListener("click", function () {
-  allImages.classList.remove("active");
-  jednoImages.classList.remove("active");
-  wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.add("active");
-  interiorsImages.classList.remove("active");
 });
 
 interiorsImages.addEventListener("click", function () {
   allImages.classList.remove("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
-  przemImages.classList.remove("active");
-  urbanImages.classList.remove("active");
-  uzytPubImages.classList.remove("active");
+  pubImages.classList.remove("active");
   interiorsImages.classList.add("active");
+
 });
 
 var starting_slice_point = 0;
@@ -107,9 +82,7 @@ var number_of_elements = 20;
 var all;
 var jednorodzinne_all;
 var wielorodzinne_all;
-var przemyslowe_all;
-var urbanistyka_all;
-var uzytecznosc_publiczna_all;
+var publiczne_all;
 var wnetrza_all;
 var elems;
 //JSON
@@ -123,6 +96,7 @@ $(function () {
       obj.sort(function (a, b) {
         return parseFloat(a.kolejnosc) - parseFloat(b.kolejnosc);
       });
+
       //GRUPOWANIE WSZYSTKICH KATEGORII
       //filter data -> all
       all = obj.filter((element) => element.grupa !== "");
@@ -137,23 +111,15 @@ $(function () {
         (element) => element.grupa === "wielorodzinne"
       );
 
-      //filter data -> przemyslowe
-      przemyslowe_all = obj.filter(
-        (element) => element.grupa === "przemyslowe"
-      );
-
-      //filter data -> urbanistyka
-      urbanistyka_all = obj.filter(
-        (element) => element.grupa === "urbanistyka"
-      );
-
-      //filter data -> uzytecznosc_publiczna
-      uzytecznosc_publiczna_all = obj.filter(
-        (element) => element.grupa === "uzytecznosc_publiczna"
+      //filter data -> publiczne
+      publiczne_all = obj.filter(
+        (element) => element.grupa === "publiczne"
       );
 
       //filter data -> wnetrza
-      wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
+      wnetrza_all = obj.filter(
+        (element) => element.grupa === "wnetrza"
+      );
 
       //slice data
       all = obj.slice(starting_slice_point, number_of_elements);
@@ -162,9 +128,7 @@ $(function () {
       console.log("all" + all);
       console.log("jednorodzinne_all" + jednorodzinne_all);
       console.log("wielorodzinne_all" + wielorodzinne_all);
-      console.log("przemyslowe_all" + przemyslowe_all);
-      console.log("urbanistyka_all" + urbanistyka_all);
-      console.log("uzytecznosc_publiczna_all" + uzytecznosc_publiczna_all);
+      console.log("publiczne_all" + publiczne_all);
       console.log("wnetrza" + wnetrza_all);
 
       //display first 20
@@ -236,55 +200,17 @@ $(function () {
         });
       });
 
-      //click "Przemyslowe"
-      $(document).on("click", "#btn-przemyslowe", function () {
+      //click "Publiczne"
+      $(document).on("click", "#btn-publiczne", function () {
         //clear DOM elements
         document.getElementById("grid").innerHTML = `<div class="grid-sizer"></div>`;
 
         //create number of elements
-        przemyslowe_all = przemyslowe_all.slice(0, number_of_elements);
-        przemyslowe_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
-          var $elems = $(elems);
-          $grid.append($elems).masonry("appended", $elems);
-          $grid.masonry("reloadItems");
-          $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
-        });
-      });
-
-      //click "Urbanistyka"
-      $(document).on("click", "#btn-urbanistyka", function () {
-        //clear DOM elements
-        document.getElementById("grid").innerHTML = `<div class="grid-sizer"></div>`;
-
-        //create number of elements
-        urbanistyka_all = urbanistyka_all.slice(0, number_of_elements);
-        urbanistyka_all.forEach((element) => {
-          var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
-          var $elems = $(elems);
-          $grid.append($elems).masonry("appended", $elems);
-          $grid.masonry("reloadItems");
-          $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
-        });
-      });
-
-      //click "Uzytecznosc_publiczna"
-      $(document).on("click", "#btn-uzytecznosc_publiczna", function () {
-        //clear DOM elements
-        document.getElementById("grid").innerHTML = `<div class="grid-sizer"></div>`;
-
-        //create number of elements
-        uzytecznosc_publiczna_all = uzytecznosc_publiczna_all.slice(
+        publiczne_all = publiczne_all.slice(
           0,
           number_of_elements
         );
-        uzytecznosc_publiczna_all.forEach((element) => {
+        publiczne_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;
@@ -386,66 +312,16 @@ $(function () {
           number_of_elements += 20;
           return 0;
         }
-        //btn-przemyslowe  -  przemyslowe
+        //btn-publiczne  -  publiczne
         else if (
           document
-            .getElementById("btn-przemyslowe")
+            .getElementById("btn-publiczne")
             .classList.contains("active")
         ) {
-          przemyslowe_all = obj
+          publiczne_all = obj
             .filter((element) => element.grupa !== "")
             .slice(20, number_of_elements + 20);
-          przemyslowe_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
-            $elems = $(elems);
-            $grid.append($elems).masonry("appended", $elems);
-            $grid.masonry("reloadItems");
-            $grid.masonry("layout");
-            console.log("NUMBER_OF: " + number_of_elements);
-            console.log("NUMBER_OF: " + number_of_elements);
-          });
-
-          console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
-          return 0;
-        }
-        //btn-urbanistyka  -  urbanistyka
-        else if (
-          document
-            .getElementById("btn-urbanistyka")
-            .classList.contains("active")
-        ) {
-          urbanistyka_all = obj
-            .filter((element) => element.grupa !== "")
-            .slice(20, number_of_elements + 20);
-          urbanistyka_all.forEach((element) => {
-            elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
-        <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
-      </div>`;
-            $elems = $(elems);
-            $grid.append($elems).masonry("appended", $elems);
-            $grid.masonry("reloadItems");
-            $grid.masonry("layout");
-            console.log("NUMBER_OF: " + number_of_elements);
-            console.log("NUMBER_OF: " + number_of_elements);
-          });
-
-          console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
-          return 0;
-        }
-        //btn-uzytecznosc_publiczna  -  uzytecznosc_publiczna
-        else if (
-          document
-            .getElementById("btn-uzytecznosc_publiczna")
-            .classList.contains("active")
-        ) {
-          uzytecznosc_publiczna_all = obj
-            .filter((element) => element.grupa !== "")
-            .slice(20, number_of_elements + 20);
-          uzytecznosc_publiczna_all.forEach((element) => {
+          publiczne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}" onclick="document.location='../public/projekty/${element.nazwa_projektu}.html';return false;">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" />
       </div>`;

@@ -57,9 +57,7 @@ var number_of_elements = 5;
 var all;
 var jednorodzinne_all;
 var wielorodzinne_all;
-var przemyslowe_all;
-var urbanistyka_all;
-var uzytecznosc_publiczna_all;
+var publiczne_all;
 var wnetrza_all;
 
 $(function () {
