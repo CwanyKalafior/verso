@@ -105,6 +105,9 @@ $(function () {
       console.log("wnetrza" + wnetrza_all);
 
       //display 5 first elements
+      all = obj
+        .filter((element) => element.grupa !== "" && element.zrealizowano_wtrakcie === "zrealizowano")
+        .slice(0, number_of_elements);
       all.forEach((element) => {
         if (element.zrealizowano_wtrakcie === "zrealizowano") {
           document.getElementById(
@@ -119,6 +122,7 @@ $(function () {
           </div>`;
         }
       });
+
 
       //display all "wtrakcie"
       obj.forEach((element) => {
