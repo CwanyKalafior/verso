@@ -43,15 +43,15 @@
   },
   {
     "kolejnosc": "1",
-    "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "wielorodzinne",
+    "zrealizowano_wtrakcie": "wtrakcie",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0002",
     "zdjecie_glowne": "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
     "nazwa": "Osiedle jednorodzinne w Częstochowie",
     "typ_obiektu": "Dom jednorodzinny",
     "lokalizacja": "Częstochowa",
     "zakres": "Realizacja",
-    "ukonczono": "Wrzesień 2017",
+    "ukonczono": "2017",
     "powierzchnia_uzytkowa": "270m²",
     "autorzy": [
       "Jakub Cieślik",
@@ -275,7 +275,7 @@
   {
     "kolejnosc": "8",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0008",
     "zdjecie_glowne": "./content/0008/de660716d3ea7f65afde9cc627e2144a.jpg",
     "nazwa": "Dom jednorodzinny w Częstochowie",
@@ -342,7 +342,7 @@
   {
     "kolejnosc": "10",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0010",
     "zdjecie_glowne": "./content/0010/537ef8db4d70de420981598dc758bb9e.jpg",
     "nazwa": "Zabudowa mieszkalna dwulokalowa",
@@ -972,7 +972,7 @@
   {
     "kolejnosc": "29",
     "zrealizowano_wtrakcie": "zrealizowano",
-    "grupa": "architektura",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0029",
     "zdjecie_glowne": "./content/0029/96cc954a0672c5c8f19f624bdc3860d9.jpg",
     "nazwa": "Domy jednorodzinne w zabudowie bliźniaczej w Częstochowie",

@@ -14,18 +14,34 @@ function readmoref() {
     setReadMoreStyle(readmoreText, "inline");
   }
 }
+// VANTA.FOG({
+//   el: "#vanta",
+//   mouseControls: true,
+//   touchControls: true,
+//   gyroControls: false,
+//   minHeight: 200.0,
+//   minWidth: 200.0,
+//   highlightColor: 0x464646,
+//   midtoneColor: 0x575757,
+//   lowlightColor: 0x222222,
+//   baseColor: 0x252525,
+//   blurFactor: 0.15,
+//   speed: 1.1,
+//   zoom: 2.0,
+// });
 VANTA.FOG({
   el: "#vanta",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.0,
-  minWidth: 200.0,
-  highlightColor: 0x464646,
-  midtoneColor: 0x575757,
-  lowlightColor: 0x222222,
-  baseColor: 0x252525,
-  blurFactor: 0.15,
-  speed: 1.1,
-  zoom: 2.0,
-});
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0x222222,
+  midtoneColor: 0x202020,
+  lowlightColor: 0x252525,
+  baseColor: 0x2d2d2d,
+  blurFactor: 0.56,
+  speed: 0.10,
+  zoom: 0.50
+})
+
