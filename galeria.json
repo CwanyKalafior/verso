@@ -1,6 +1,6 @@
 [
   {
-    "kolejnosc": "2",
+    "kolejnosc": "1",
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0001",
@@ -8,7 +8,7 @@
     "nazwa": "Dom leśny",
     "typ_obiektu": "",
     "lokalizacja": "Kuźnica Kiedrzyńska",
-    "zakres": "",
+    "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "230m²",
     "autorzy": [
@@ -40,12 +40,12 @@
     "fotograf": ["Kacper Ziółkowski"]
   },
   {
-    "kolejnosc": "1",
+    "kolejnosc": "2",
     "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0002",
     "zdjecie_glowne": "./content/0002/6fa490ca18a99c562a60edaf01f49a77.jpg",
-    "nazwa": "Osiedle jednorodzinne w Częstochowie",
+    "nazwa": "Osiedle jednorodzinne",
     "typ_obiektu": "Dom jednorodzinny",
     "lokalizacja": "Częstochowa",
     "zakres": "Realizacja",

@@ -38,8 +38,9 @@ $(function () {
                     content="article"
                   />
                   <meta 
-    property="og:title"
-    content="${obj_active.nazwa}" />
+                property="og:title"
+                content="${obj_active.nazwa}" />
+                
                     `;
 
                     //Display "nazwa"

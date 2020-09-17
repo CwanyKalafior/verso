@@ -390,3 +390,9 @@ body {
     padding-left: 5%;
   }
 }
+
+@media (max-width: 1470px) and (min-width: 1070px) {
+  .wszystkie-links {
+    padding-right: 30%;
+  }
+}
