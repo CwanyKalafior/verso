@@ -4,12 +4,12 @@ body {
 }
 
 .noise {
+  height: 100vh;
   position: fixed;
 }
 #vanta {
   width: 100%;
   height: 100%;
-  position: fixed;
 }
 #c {
   display: block;
@@ -22,7 +22,7 @@ body {
 }
 .pracownia_container {
   position: relative;
-  top: 15vh;
+  padding-top: 15vh;
   height: auto;
   overflow: scroll;
   left: 0;
