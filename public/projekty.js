@@ -5,15 +5,12 @@ const wieloImages = document.getElementById("btn-wielorodzinne");
 const pubImages = document.getElementById("btn-publiczne");
 const interiorsImages = document.getElementById("btn-wnetrza");
 
-
-
 allImages.addEventListener("click", function () {
   allImages.classList.add("active");
   jednoImages.classList.remove("active");
   wieloImages.classList.remove("active");
   pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 jednoImages.addEventListener("click", function () {
@@ -22,7 +19,6 @@ jednoImages.addEventListener("click", function () {
   wieloImages.classList.remove("active");
   pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 wieloImages.addEventListener("click", function () {
@@ -31,7 +27,6 @@ wieloImages.addEventListener("click", function () {
   wieloImages.classList.add("active");
   pubImages.classList.remove("active");
   interiorsImages.classList.remove("active");
-
 });
 
 pubImages.addEventListener("click", function () {
@@ -40,7 +35,6 @@ pubImages.addEventListener("click", function () {
   wieloImages.classList.remove("active");
   pubImages.classList.add("active");
   interiorsImages.classList.remove("active");
-
 });
 
 interiorsImages.addEventListener("click", function () {
@@ -49,7 +43,6 @@ interiorsImages.addEventListener("click", function () {
   wieloImages.classList.remove("active");
   pubImages.classList.remove("active");
   interiorsImages.classList.add("active");
-
 });
 
 var starting_slice_point = 0;
@@ -62,7 +55,9 @@ var wnetrza_all;
 
 $(function () {
   var obj;
-  fetch("https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json")
+  fetch(
+    "https://raw.githubusercontent.com/CwanyKalafior/verso/master/galeria.json"
+  )
     .then((res) => res.json())
     .then((data) => (obj = data))
     .then(() => {
@@ -76,22 +71,30 @@ $(function () {
 
       //filter data -> jednorodzinne
       jednorodzinne_all = obj.filter(
-        (element) => element.grupa === "jednorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano"
+        (element) =>
+          element.grupa === "jednorodzinne" &&
+          element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> wielorodzinne
       wielorodzinne_all = obj.filter(
-        (element) => element.grupa === "wielorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano"
+        (element) =>
+          element.grupa === "wielorodzinne" &&
+          element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> publiczne
       publiczne_all = obj.filter(
-        (element) => element.grupa === "publiczne" && element.zrealizowano_wtrakcie === "zrealizowano"
+        (element) =>
+          element.grupa === "publiczne" &&
+          element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //filter data -> wnetrza
       wnetrza_all = obj.filter(
-        (element) => element.grupa === "wnetrza" && element.zrealizowano_wtrakcie === "zrealizowano"
+        (element) =>
+          element.grupa === "wnetrza" &&
+          element.zrealizowano_wtrakcie === "zrealizowano"
       );
 
       //slice data
@@ -106,23 +109,28 @@ $(function () {
 
       //display 5 first elements
       all = obj
-        .filter((element) => element.grupa !== "" && element.zrealizowano_wtrakcie === "zrealizowano")
+        .filter(
+          (element) =>
+            element.grupa !== "" &&
+            element.zrealizowano_wtrakcie === "zrealizowano"
+        )
         .slice(0, number_of_elements);
       all.forEach((element) => {
         if (element.zrealizowano_wtrakcie === "zrealizowano") {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
-            <a href="./projekty/${element.nazwa_projektu}.html">
-              <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-            </a>
-            <div class="gallery-description">
-              <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
             </div>
-          </div>`;
+          </div>
+          `;
         }
       });
-
 
       //display all "wtrakcie"
       obj.forEach((element) => {
@@ -143,17 +151,22 @@ $(function () {
         //btn-all  -  wszystkie
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
-            .filter((element) => element.grupa !== "" && element.zrealizowano_wtrakcie === "zrealizowano")
+            .filter(
+              (element) =>
+                element.grupa !== "" &&
+                element.zrealizowano_wtrakcie === "zrealizowano"
+            )
             .slice(0, number_of_elements + 5);
           all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-              </a>
-              <div class="gallery-description">
-                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+            document.getElementById("gallery").innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
               </div>
             </div>`;
           });
@@ -161,81 +174,113 @@ $(function () {
           return 0;
         }
         //btn-jednorodzinne  -  jednorodzinne
-        else if (document.getElementById("btn-jednorodzinne").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-jednorodzinne")
+            .classList.contains("active")
+        ) {
           jednorodzinne_all = obj
-            .filter((element) => element.grupa === "jednorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano")
+            .filter(
+              (element) =>
+                element.grupa === "jednorodzinne" &&
+                element.zrealizowano_wtrakcie === "zrealizowano"
+            )
             .slice(0, number_of_elements + 5);
           jednorodzinne_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            document.getElementById("gallery").innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
         }
         //btn-wielorodzinne  -  wielorodzinne
-        else if (document.getElementById("btn-wielorodzinne").classList.contains("active")) {
+        else if (
+          document
+            .getElementById("btn-wielorodzinne")
+            .classList.contains("active")
+        ) {
           wielorodzinne_all = obj
-            .filter((element) => element.grupa === "wielorodzinne" && element.zrealizowano_wtrakcie === "zrealizowano")
+            .filter(
+              (element) =>
+                element.grupa === "wielorodzinne" &&
+                element.zrealizowano_wtrakcie === "zrealizowano"
+            )
             .slice(0, number_of_elements + 5);
           wielorodzinne_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            document.getElementById("gallery").innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
         }
         //btn-publiczne  -  publiczne
-        else if (document.getElementById("btn-publiczne").classList.contains("active")) {
+        else if (
+          document.getElementById("btn-publiczne").classList.contains("active")
+        ) {
           publiczne_all = obj
-            .filter((element) => element.grupa === "publiczne" && element.zrealizowano_wtrakcie === "zrealizowano")
+            .filter(
+              (element) =>
+                element.grupa === "publiczne" &&
+                element.zrealizowano_wtrakcie === "zrealizowano"
+            )
             .slice(0, number_of_elements + 5);
           publiczne_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            document.getElementById("gallery").innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
         }
         //btn-wnetrza  -  wnetrza
-        else if (document.getElementById("btn-wnetrza").classList.contains("active")) {
+        else if (
+          document.getElementById("btn-wnetrza").classList.contains("active")
+        ) {
           wnetrza_all = obj
-            .filter((element) => element.grupa === "wnetrza" && element.zrealizowano_wtrakcie === "zrealizowano")
+            .filter(
+              (element) =>
+                element.grupa === "wnetrza" &&
+                element.zrealizowano_wtrakcie === "zrealizowano"
+            )
             .slice(0, number_of_elements + 5);
           wnetrza_all.forEach((element) => {
-            document.getElementById(
-              "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            document.getElementById("gallery").innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
@@ -250,16 +295,17 @@ $(function () {
         //create number of elements
         all = all.slice(0, number_of_elements);
         all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -272,16 +318,17 @@ $(function () {
         //create number of elements
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
         jednorodzinne_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -294,16 +341,17 @@ $(function () {
         //create number of elements
         wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
         wielorodzinne_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -316,20 +364,20 @@ $(function () {
         //create number of elements
         publiczne_all = publiczne_all.slice(0, number_of_elements);
         publiczne_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
-
 
       //click "Wnetrza"
       $(document).on("click", "#btn-wnetrza", function () {
@@ -339,20 +387,22 @@ $(function () {
         //create number of elements
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
         wnetrza_all.forEach((element) => {
-          document.getElementById(
-            "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          document.getElementById("gallery").innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
-    }).finally(function () {
+    })
+    .finally(function () {
       var swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         lazy: {

@@ -118,7 +118,7 @@ $(function () {
         document.getElementById(
           "grid"
         ).innerHTML += `<div class="grid-item ${element.grupa}">
-        <a href="../public/projekty/${element.nazwa_projektu}.html
+        <a href="./projekty/${element.nazwa_projektu}.html
         ">
         <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
       </div>`;
@@ -135,7 +135,7 @@ $(function () {
         all = all.slice(0, number_of_elements);
         all.forEach((element) => {
           elems = `<div class="grid-item ${element.grupa}">
-          <a href="../public/projekty/${element.nazwa_projektu}.html
+          <a href="./projekty/${element.nazwa_projektu}.html
           ">
           <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
         </div>`;
@@ -160,7 +160,7 @@ $(function () {
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
         jednorodzinne_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}">
-          <a href="../public/projekty/${element.nazwa_projektu}.html
+          <a href="./projekty/${element.nazwa_projektu}.html
           ">
           <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
         </div>`;
@@ -183,7 +183,7 @@ $(function () {
         wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
         wielorodzinne_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}">
-          <a href="../public/projekty/${element.nazwa_projektu}.html
+          <a href="./projekty/${element.nazwa_projektu}.html
           ">
           <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
         </div>`;
@@ -206,7 +206,7 @@ $(function () {
         publiczne_all = publiczne_all.slice(0, number_of_elements);
         publiczne_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}">
-          <a href="../public/projekty/${element.nazwa_projektu}.html
+          <a href="./projekty/${element.nazwa_projektu}.html
           ">
           <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
         </div>`;
@@ -228,7 +228,7 @@ $(function () {
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
         wnetrza_all.forEach((element) => {
           var elems = `<div class="grid-item ${element.grupa}">
-          <a href="../public/projekty/${element.nazwa_projektu}.html
+          <a href="./projekty/${element.nazwa_projektu}.html
           ">
           <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
         </div>`;
@@ -250,7 +250,7 @@ $(function () {
           console.log("ALL - " + all);
           all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
-            <a href="../public/projekty/${element.nazwa_projektu}.html
+            <a href="./projekty/${element.nazwa_projektu}.html
             ">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
@@ -276,7 +276,7 @@ $(function () {
             .slice(number_of_elements, number_of_elements + 20);
           jednorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
-            <a href="../public/projekty/${element.nazwa_projektu}.html
+            <a href="./projekty/${element.nazwa_projektu}.html
             ">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
@@ -303,7 +303,7 @@ $(function () {
             .slice(number_of_elements, number_of_elements + 20);
           wielorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
-            <a href="../public/projekty/${element.nazwa_projektu}.html
+            <a href="./projekty/${element.nazwa_projektu}.html
             ">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
@@ -328,7 +328,7 @@ $(function () {
             .slice(number_of_elements, number_of_elements + 20);
           publiczne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
-            <a href="../public/projekty/${element.nazwa_projektu}.html
+            <a href="./projekty/${element.nazwa_projektu}.html
             ">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
@@ -354,7 +354,7 @@ $(function () {
             .slice(number_of_elements, number_of_elements + 20);
           wnetrza_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
-            <a href="../public/projekty/${element.nazwa_projektu}.html
+            <a href="./projekty/${element.nazwa_projektu}.html
             ">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}" /></a>
           </div>`;
