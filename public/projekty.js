@@ -138,7 +138,9 @@ $(function () {
           document.getElementById(
             "swiper-wrapper"
           ).innerHTML += `<div class="swiper-slide">
-          <img src="${element.zdjecie_glowne}" alt="">
+          <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
+            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+          </a>
         </div>`;
         }
       });
@@ -410,25 +412,31 @@ $(function () {
           preloadImages: false,
           lazy: true,
         },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          }
+        },
         //mousewheel: {
         //  invert: false,
         //},
         autoplay: {
-          delay: 1800,
+          delay: 1000,
           disableOnInteraction: false,
         },
         keyboard: {
           enabled: true,
         },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
         loop: true,
         centeredSlides: true,
         freeMode: false,
         spaceBetween: 0,
-        speed: 1200,
+        speed: 750,
       });
     });
 });
