@@ -14,6 +14,7 @@ function readmoref() {
     setReadMoreStyle(readmoreText, "inline");
   }
 }
+
 // V1
 // VANTA.FOG({
 //   el: "#vanta",
@@ -77,7 +78,7 @@ VANTA.FOG({
   midtoneColor: 0x393939,
   lowlightColor: 0x212121,
   baseColor: 0x272727,
-  blurFactor: 0.45,
-  speed: 0.1,
-  zoom: 0.5,
+  blurFactor: 0.2,
+  speed: 0.5,
+  zoom: 1,
 })

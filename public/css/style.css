@@ -1,7 +1,17 @@
 :root {
   --base-width: none;
-  --colour-white: rgba(255, 255, 255, 0.9);
-  --colour-grey: rgba(155, 155, 155, 0.9);
+  --colour-white: rgba(255, 255, 255, 1);
+  --colour-grey: rgba(155, 155, 155, 1);
+  --colour-black: rgba(0, 0, 0, 1);
+  --colour-blue-a: rgba(40, 50, 59, 1);
+  --colour-blue-b: rgba(51, 65, 78, 1);
+  --colour-white-t030: rgba(255, 255, 255, 0.30);
+  --font-size-1: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); /*  slogan */
+  --font-size-2: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+  --font-size-3: calc(19px + (22 - 19) * ((100vw - 320px) / 760));
+  --font-size-4: calc(20px + (22 - 20) * ((100vw - 320px) / 760));
+  --font-size-5: calc(24px + (26 - 24) * ((100vw - 320px) / 760));
+  --font-size-6: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
 
 ::-webkit-scrollbar {
@@ -56,6 +66,7 @@ body {
   pointer-events: none;
   opacity: 0.05;
 }
+
 #c {
   display: block;
   width: 100vw;
