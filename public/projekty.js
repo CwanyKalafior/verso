@@ -112,17 +112,20 @@ $(function () {
         if (element.zrealizowano_wtrakcie === "zrealizowano") {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
-            <a href="./projekty/${element.nazwa_projektu}.html">
-              <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-            </a>
-            <div class="gallery-description">
-              <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
+              <a href="./projekty/${element.nazwa_projektu}.html">
+                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              </a>
+              <div class="gallery-description">
+                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+              </div>
             </div>
-          </div>`;
+          </div>
+          `;
         }
       });
-
 
       //display all "wtrakcie"
       obj.forEach((element) => {
@@ -148,12 +151,15 @@ $(function () {
           all.forEach((element) => {
             document.getElementById(
               "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-              </a>
-              <div class="gallery-description">
-                <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+            ).innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
               </div>
             </div>`;
           });
@@ -168,14 +174,17 @@ $(function () {
           jednorodzinne_all.forEach((element) => {
             document.getElementById(
               "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            ).innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
@@ -188,14 +197,17 @@ $(function () {
           wielorodzinne_all.forEach((element) => {
             document.getElementById(
               "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            ).innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
@@ -208,14 +220,17 @@ $(function () {
           publiczne_all.forEach((element) => {
             document.getElementById(
               "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            ).innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
@@ -228,14 +243,17 @@ $(function () {
           wnetrza_all.forEach((element) => {
             document.getElementById(
               "gallery"
-            ).innerHTML += `<div class="${element.grupa}">
+            ).innerHTML += `
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
                   <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
-              </div>`;
+              </div>
+            </div>`;
           });
           number_of_elements += 5;
           return 0;
@@ -252,14 +270,17 @@ $(function () {
         all.forEach((element) => {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -274,14 +295,17 @@ $(function () {
         jednorodzinne_all.forEach((element) => {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -296,14 +320,17 @@ $(function () {
         wielorodzinne_all.forEach((element) => {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -318,14 +345,17 @@ $(function () {
         publiczne_all.forEach((element) => {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
@@ -341,14 +371,17 @@ $(function () {
         wnetrza_all.forEach((element) => {
           document.getElementById(
             "gallery"
-          ).innerHTML += `<div class="${element.grupa}">
+          ).innerHTML += `
+          <div class="projekt-lista">
+            <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
                 <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
-            </div>`;
+            </div>
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
       });
