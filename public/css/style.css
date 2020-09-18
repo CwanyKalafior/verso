@@ -501,6 +501,8 @@ body {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   color: #eee;
   text-decoration: none;
+  z-index: 99999999;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
