@@ -2821,7 +2821,7 @@
   },
   {
     "kolejnosc": "96",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "ukrytyp",
     "grupa": "wnetrza",
     "nazwa_projektu": "0096",
     "zdjecie_glowne": "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
@@ -3998,7 +3998,7 @@
   },
   {
     "kolejnosc": "138",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "ukrytyp",
     "grupa": "wnetrza",
     "nazwa_projektu": "0138",
     "zdjecie_glowne": "./content/0138/a.jpg",
