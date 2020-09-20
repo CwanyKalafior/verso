@@ -415,8 +415,8 @@ $(function () {
         breakpoints: {
           1024: {
             slidesPerView: 3,
-            spaceBetween: 0
-          }
+            spaceBetween: 0,
+          },
         },
         //mousewheel: {
         //  invert: false,
@@ -440,3 +440,11 @@ $(function () {
       });
     });
 });
+
+VanillaTilt.init(document.querySelector(".brand-name"), {
+  max: 25,
+  speed: 400,
+});
+data - tilt >
+  // It also supports NodeList
+  VanillaTilt.init(document.querySelectorAll(".brand-name"));
