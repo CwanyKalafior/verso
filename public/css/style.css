@@ -49,7 +49,7 @@ body {
 }
 
 .home {
-  background-image: url(../content/grupaVERSO-header.webp);
+  /* background-image: url(../content/grupaVERSO-header.webp); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
