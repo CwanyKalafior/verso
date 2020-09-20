@@ -387,8 +387,14 @@ body {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
-  margin-left: 5%;
+  margin-left: 15%;
   margin-top: 3vh;
+}
+
+@media (max-width: 1023px) {
+  .gallery-swiper p {
+    margin-left: 5%;
+  }
 }
 
 /* .swiper-container {
@@ -431,12 +437,6 @@ body {
   height: 100%;
   max-height: 70vh; */
   z-index: 991;
-
-
-/* TE MARGINY NIŻEJ MUSZĄ ZNIKNĄĆ - NIE MOŻNA TEGO TAK ZROBIĆ */
-
-  margin-top: -15vh;
-  margin-bottom: -25vh;
 }
 
 .swiper-slide {
@@ -464,9 +464,9 @@ body {
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
   box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-height: 65vh;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+  /* max-height: 65vh; */
 }
 
 @media (min-width: 1023px) {

@@ -594,6 +594,7 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(0, 0, 0, 1); */
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   font-weight: 300;
 }
@@ -648,8 +649,9 @@ body {
 
 footer {
   width: 100vw;
-  margin-top: 5%;
-  padding: 10%;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  /* padding: 10%; */
 }
 
 footer p {
