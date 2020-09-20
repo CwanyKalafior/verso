@@ -14,6 +14,7 @@ function readmoref() {
     setReadMoreStyle(readmoreText, "inline");
   }
 }
+
 // V1
 // VANTA.FOG({
 //   el: "#vanta",
@@ -41,7 +42,22 @@ VANTA.FOG({
   midtoneColor: 0x575757,
   lowlightColor: 0x222222,
   baseColor: 0x252525,
-  blurFactor: 1,
-  speed: 0.15,
-  zoom: 0.1,
+  blurFactor: 0.5,
+  speed: 1,
+  zoom: 3,
 });
+// VANTA.FOG({
+//   el: "#vanta",
+//   mouseControls: true,
+//   touchControls: true,
+//   gyroControls: false,
+//   minHeight: 200.0,
+//   minWidth: 200.0,
+//   highlightColor: 0x464646,
+//   midtoneColor: 0x575757,
+//   lowlightColor: 0x222222,
+//   baseColor: 0x252525,
+//   blurFactor: 3,
+//   speed: 1,
+//   zoom: 1,
+// });
