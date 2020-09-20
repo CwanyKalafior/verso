@@ -1498,7 +1498,7 @@
   {
     "kolejnosc": "48",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "urbanistyka",
+    "grupa": "publiczne",
     "nazwa_projektu": "0048",
     "zdjecie_glowne": "./content/0048/c8c03468a8b093057f9c32898f2e4e13.jpg",
     "nazwa": "Zagospodarowanie przestrzeni miejskiej",
@@ -4441,7 +4441,7 @@
   {
     "kolejnosc": "151",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "urbanistyka",
+    "grupa": "publiczne",
     "nazwa_projektu": "0151",
     "zdjecie_glowne": "./content/0151/a.jpg",
     "nazwa": "Bulwary przy galerii północnej",
