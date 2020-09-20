@@ -1611,7 +1611,7 @@
   {
     "kolejnosc": "52",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "architektura",
+    "grupa": "jednorodzinne",
     "nazwa_projektu": "0052",
     "zdjecie_glowne": "./content/0052/6a01e2bcd3d193b84837c288ca02432c.jpg",
     "nazwa": "Dom jednorodzinny",
@@ -1687,7 +1687,7 @@
   {
     "kolejnosc": "55",
     "zrealizowano_wtrakcie": "wtrakcie",
-    "grupa": "architektura",
+    "grupa": "publiczne",
     "nazwa_projektu": "0055",
     "zdjecie_glowne": "./content/0055/923b0d5c370cd7cac6aaf2d747612e69.jpg",
     "nazwa": "Budynek biurowy",
@@ -1797,7 +1797,7 @@
   {
     "kolejnosc": "59",
     "zrealizowano_wtrakcie": "ukrytyp",
-    "grupa": "architektura",
+    "grupa": "wielorodzinne",
     "nazwa_projektu": "0059",
     "zdjecie_glowne": "./content/0059/241be1cb1eed2f303310edbd1650fefd.jpg",
     "nazwa": "Rozbudowa kamienicy",
