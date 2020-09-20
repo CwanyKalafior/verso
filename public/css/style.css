@@ -5,7 +5,7 @@
   --colour-black: rgba(0, 0, 0, 1);
   --colour-blue-a: rgba(40, 50, 59, 1);
   --colour-blue-b: rgba(51, 65, 78, 1);
-  --colour-white-t030: rgba(255, 255, 255, 0.30);
+  --colour-white-t030: rgba(255, 255, 255, 0.3);
   --font-size-1: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); /*  slogan */
   --font-size-2: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   --font-size-3: calc(19px + (22 - 19) * ((100vw - 320px) / 760));
