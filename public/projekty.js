@@ -441,10 +441,10 @@ $(function () {
     });
 });
 
-VanillaTilt.init(document.querySelector(".brand-name"), {
-  max: 25,
-  speed: 400,
-});
-data - tilt >
-  // It also supports NodeList
-  VanillaTilt.init(document.querySelectorAll(".brand-name"));
+// const tilt = $(`${element.zdjecie_glowne}`).tilt();
+// VanillaTilt.init(document.querySelector(`${element.zdjecie_glowne}`), {
+//   max: 25,
+//   speed: 400,
+// });
+// data - tilt >
+//   VanillaTilt.init(document.querySelectorAll(`${element.zdjecie_glowne}`));
