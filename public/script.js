@@ -154,3 +154,9 @@ jQuery(function ($) {
 // closing the current subpage
 const currentSubpageName = document.querySelector(".hamburger-menu a.active");
 currentSubpageName.addEventListener("click", HamburgerMenuClose);
+
+// EN alert
+const englishBtn = document.querySelector(".enpopup");
+englishBtn.addEventListener("click", function () {
+  return alert("English version soon!");
+});

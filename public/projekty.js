@@ -415,8 +415,8 @@ $(function () {
         breakpoints: {
           1024: {
             slidesPerView: 3,
-            spaceBetween: 0
-          }
+            spaceBetween: 0,
+          },
         },
         //mousewheel: {
         //  invert: false,
@@ -440,3 +440,11 @@ $(function () {
       });
     });
 });
+
+// const tilt = $(`${element.zdjecie_glowne}`).tilt();
+// VanillaTilt.init(document.querySelector(`${element.zdjecie_glowne}`), {
+//   max: 25,
+//   speed: 400,
+// });
+// data - tilt >
+//   VanillaTilt.init(document.querySelectorAll(`${element.zdjecie_glowne}`));
