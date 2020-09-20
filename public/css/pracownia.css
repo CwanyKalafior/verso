@@ -7,14 +7,14 @@ body {
   height: 100vh;
   position: fixed;
   /* opacity: 0.05; */
-  opacity: 0.0;
+  opacity: 0;
 }
 #vanta {
   width: 100%;
   height: 100%;
   position: fixed;
   /* opacity: 0.1; */
-  opacity: 0.0;
+  opacity: 0;
 }
 #c {
   display: block;
@@ -22,6 +22,10 @@ body {
   height: 100vh;
   position: absolute;
 }
+.topnav-menu {
+  margin-top: -11vh;
+}
+
 .verso-hamburger {
   display: block;
 }
