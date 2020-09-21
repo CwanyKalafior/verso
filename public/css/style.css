@@ -345,7 +345,7 @@ video {
   position: absolute;
   bottom: 0vh;
   display: inline-block;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
   width: 90vw;
   /* height: calc(8vh + 20px); */
   height: calc(5vh + 25px);
@@ -597,11 +597,9 @@ video {
 /* Footer info */
 
 .about_us-info {
-  width: 90%;
-  margin-top: 5%;
-  margin-left: 5%;
+  width: 90vw;
+  margin-left: 5vw;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
-  /* background-color: rgba(0, 0, 0, 1); */
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   font-weight: 300;
 }
@@ -646,6 +644,7 @@ video {
   text-indent: 5vw;
   font-weight: 300;
 }
+
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 0;
@@ -733,4 +732,50 @@ footer p {
   right: 30.5%;
   transform: rotate(-45deg);
   transition: 0.2s;
+}
+
+@media (min-width: 1023px) {
+  .about_us-info span {
+  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
+  font-weight: 300;
+  margin-top: 3%;
+  margin-left: 7%;
+  }
+  
+  .about_us-info a {
+    margin-left: 12%;
+  }
+
+  .verso-arrow-up {
+    margin-top: 2%;
+    right: 12%;
+  }
+
+  .about_us-info span {
+    margin-bottom: 3%;
+  }
+
+  .about_us p,
+  .about_us-info p {
+    padding-left: 7%;
+  }
+}
+
+footer p {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 400;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 400;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  background-color: #eee;
 }
