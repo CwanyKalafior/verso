@@ -175,6 +175,9 @@ body {
   /* background-color: #28323b; */ /* ! */
   /* padding: 2vh 3vh; */ /* ! */
   padding: 12px 20px;
+  margin-top: 7vh;
+  margin-bottom: 12vh;
+  /* margin-bottom: 7vh; */
   /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */ /* ! */
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   z-index: 999;
@@ -186,6 +189,7 @@ body {
   color: #eee;
   text-align: center;
   font-weight: 300;
+  
 }
 
 .galleryy-btn:hover p {
