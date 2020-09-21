@@ -3,7 +3,9 @@ body {
   max-height: 1000vh; /* ? */
   overflow: scroll; /* ? */
 }
-
+.wrapper {
+  background-image: url(../content/grupaVERSO-noise.webp);
+}
 .noise {
   position: fixed;
   z-index: 0;

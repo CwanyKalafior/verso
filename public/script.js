@@ -1,87 +1,82 @@
 // noise texture
-const noise = () => {
-  let canvas, ctx;
-  let wWidth, wHeight;
-  let noiseData = [];
-  let frame = 0;
-  let loopTimeout;
+// const noise = () => {
+//   let canvas, ctx;
+//   let wWidth, wHeight;
+//   let noiseData = [];
+//   let frame = 0;
+//   let loopTimeout;
 
-  // Create Noise
-  const createNoise = () => {
-    const idata = ctx.createImageData(wWidth, wHeight);
-    const buffer32 = new Uint32Array(idata.data.buffer);
-    const len = buffer32.length;
+//   const createNoise = () => {
+//     const idata = ctx.createImageData(wWidth, wHeight);
+//     const buffer32 = new Uint32Array(idata.data.buffer);
+//     const len = buffer32.length;
 
-    for (let i = 0; i < len; i++) {
-      if (Math.random() < 0.5) {
-        buffer32[i] = 0xff000000;
-      }
-    }
+//     for (let i = 0; i < len; i++) {
+//       if (Math.random() < 0.5) {
+//         buffer32[i] = 0xff000000;
+//       }
+//     }
 
-    noiseData.push(idata);
-  };
+//     noiseData.push(idata);
+//   };
 
-  // Play Noise
-  const paintNoise = () => {
-    if (frame === 9) {
-      frame = 0;
-    } else {
-      frame++;
-    }
+//   const paintNoise = () => {
+//     if (frame === 9) {
+//       frame = 0;
+//     } else {
+//       frame++;
+//     }
 
-    ctx.putImageData(noiseData[frame], 0, 0);
-  };
+//     ctx.putImageData(noiseData[frame], 0, 0);
+//   };
 
-  // Loop
-  const loop = () => {
-    paintNoise(frame);
+//   const loop = () => {
+//     paintNoise(frame);
 
-    loopTimeout = window.setTimeout(() => {
-      window.requestAnimationFrame(loop);
-    }, 1000 / 25);
-  };
+//     loopTimeout = window.setTimeout(() => {
+//       window.requestAnimationFrame(loop);
+//     }, 1000 / 25);
+//   };
 
-  // Setup
-  const setup = () => {
-    wWidth = window.innerWidth;
-    wHeight = window.innerHeight;
+//   const setup = () => {
+//     wWidth = window.innerWidth;
+//     wHeight = window.innerHeight;
 
-    canvas.width = wWidth;
-    canvas.height = wHeight;
+//     canvas.width = wWidth;
+//     canvas.height = wHeight;
 
-    for (let i = 0; i < 10; i++) {
-      createNoise();
-    }
+//     for (let i = 0; i < 10; i++) {
+//       createNoise();
+//     }
 
-    loop();
-  };
-  // Reset
-  let resizeThrottle;
-  const reset = () => {
-    window.addEventListener(
-      "resize",
-      () => {
-        window.clearTimeout(resizeThrottle);
+//     loop();
+//   };
 
-        resizeThrottle = window.setTimeout(() => {
-          window.clearTimeout(loopTimeout);
-          setup();
-        }, 200);
-      },
-      false
-    );
-  };
+//   let resizeThrottle;
+//   const reset = () => {
+//     window.addEventListener(
+//       "resize",
+//       () => {
+//         window.clearTimeout(resizeThrottle);
 
-  // Init
-  const init = (() => {
-    canvas = document.getElementById("noise");
-    ctx = canvas.getContext("2d");
+//         resizeThrottle = window.setTimeout(() => {
+//           window.clearTimeout(loopTimeout);
+//           setup();
+//         }, 200);
+//       },
+//       false
+//     );
+//   };
 
-    setup();
-  })();
-};
+//   const init = (() => {
+//     canvas = document.getElementById("noise");
+//     ctx = canvas.getContext("2d");
 
-noise();
+//     setup();
+//   })();
+// };
+
+// noise();
 
 // slogan
 var TxtType = function (el, toRotate, period) {
