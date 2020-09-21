@@ -10,11 +10,10 @@ body {
   opacity: 0;
 }
 #vanta {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   position: fixed;
-  /* opacity: 0.1; */
-  opacity: 0;
+  opacity: 0; */
 }
 #c {
   display: block;
@@ -28,6 +27,7 @@ body {
 
 .verso-hamburger {
   display: block;
+  z-index: 1;
 }
 .pracownia_container {
   position: relative;
