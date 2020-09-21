@@ -31,11 +31,7 @@
       "./content/0001/1k.jpg",
       "./content/0001/1l.jpg",
       "./content/0001/1m.jpg",
-      "./content/0001/1n.jpg",
-      "./content/0001/1o.jpg",
-      "./content/0001/1p.jpg",
-      "./content/0001/1r.jpg",
-      "./content/0001/1s.jpg"
+      "./content/0001/1n.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -109,12 +105,7 @@
       "./content/0003/3l.jpg",
       "./content/0003/3m.jpg",
       "./content/0003/3n.jpg",
-      "./content/0003/3o.jpg",
-      "./content/0003/3p.jpg",
-      "./content/0003/3r.jpg",
-      "./content/0003/3s.jpg",
-      "./content/0003/3t.jpg",
-      "./content/0003/3u.jpg"
+      "./content/0003/3o.jpg"
     ],
     "fotograf": []
   },
@@ -175,13 +166,7 @@
       "./content/0005/5b.jpg",
       "./content/0005/5c.jpg",
       "./content/0005/5d.jpg",
-      "./content/0005/5e.jpg",
-      "./content/0005/f.png",
-      "./content/0005/g.png",
-      "./content/0005/h.png",
-      "./content/0005/i.png",
-      "./content/0005/j.png",
-      "./content/0005/k.png"
+      "./content/0005/5e.jpg"
     ],
     "fotograf": []
   },
@@ -256,13 +241,7 @@
       "./content/0007/7b.jpg",
       "./content/0007/7c.jpg",
       "./content/0007/7d.jpg",
-      "./content/0007/e.jpg",
-      "./content/0007/f.png",
-      "./content/0007/g.png",
-      "./content/0007/h.png",
-      "./content/0007/i.png",
-      "./content/0007/j.png",
-      "./content/0007/k.png"
+      "./content/0007/e.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -317,13 +296,7 @@
       "./content/0009/9h.jpg",
       "./content/0009/9i.jpg",
       "./content/0009/9j.jpg",
-      "./content/0009/9k.jpg",
-      "./content/0009/9l.jpg",
-      "./content/0009/9m.jpg",
-      "./content/0009/9n.jpg",
-      "./content/0009/9o.jpg",
-      "./content/0009/9p.jpg",
-      "./content/0009/9r.jpg"
+      "./content/0009/9k.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
   },
@@ -450,12 +423,7 @@
       "./content/0013/13d.jpg",
       "./content/0013/13e.jpg",
       "./content/0013/13f.jpg",
-      "./content/0013/13g.jpg",
-      "./content/0013/h.png",
-      "./content/0013/i.png",
-      "./content/0013/j.png",
-      "./content/0013/k.png",
-      "./content/0013/l.png"
+      "./content/0013/13g.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -585,11 +553,7 @@
       "./content/0017/17d.jpg",
       "./content/0017/17e.jpg",
       "./content/0017/f.jpg",
-      "./content/0017/g.jpg",
-      "./content/0017/h.jpg",
-      "./content/0017/i.jpg",
-      "./content/0017/j.jpg",
-      "./content/0017/k.jpg"
+      "./content/0017/g.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -676,11 +640,7 @@
       "./content/0020/20a.jpg",
       "./content/0020/20b.jpg",
       "./content/0020/20c.jpg",
-      "./content/0020/20d.jpg",
-      "./content/0020/e.png",
-      "./content/0020/f.png",
-      "./content/0020/g.png",
-      "./content/0020/h.png"
+      "./content/0020/20d.jpg"
     ],
     "fotograf": []
   },
@@ -769,12 +729,7 @@
       "./content/0023/23a.jpg",
       "./content/0023/23b.jpg",
       "./content/0023/23c.jpg",
-      "./content/0023/d.jpg",
-      "./content/0023/e.png",
-      "./content/0023/f.png",
-      "./content/0023/g.png",
-      "./content/0023/h.png",
-      "./content/0023/i.png"
+      "./content/0023/d.jpg"
     ],
     "fotograf": []
   },
@@ -805,12 +760,7 @@
       "./content/0024/24c.jpg",
       "./content/0024/24d.jpg",
       "./content/0024/24e.jpg",
-      "./content/0024/24f.jpg",
-      "./content/0024/24g.jpg",
-      "./content/0024/24h.jpg",
-      "./content/0024/24i.jpg",
-      "./content/0024/24j.jpg",
-      "./content/0024/24k.jpg"
+      "./content/0024/24f.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -873,11 +823,7 @@
       "./content/0026/26a.jpg",
       "./content/0026/26b.jpg",
       "./content/0026/26c.jpg",
-      "./content/0026/26d.jpg",
-      "./content/0026/e.png",
-      "./content/0026/f.png",
-      "./content/0026/g.png",
-      "./content/0026/h.png"
+      "./content/0026/26d.jpg"
     ],
     "fotograf": []
   },
@@ -910,13 +856,7 @@
       "./content/0027/27d.jpg",
       "./content/0027/27e.jpg",
       "./content/0027/27f.jpg",
-      "./content/0027/27g.jpg",
-      "./content/0027/27h.png",
-      "./content/0027/27i.png",
-      "./content/0027/27j.png",
-      "./content/0027/27k.png",
-      "./content/0027/27l.png",
-      "./content/0027/27m.png"
+      "./content/0027/27g.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
@@ -1004,13 +944,7 @@
       "./content/0030/30c.jpg",
       "./content/0030/30d.jpg",
       "./content/0030/30e.jpg",
-      "./content/0030/30f.jpg",
-      "./content/0030/g.png",
-      "./content/0030/h.png",
-      "./content/0030/i.png",
-      "./content/0030/j.png",
-      "./content/0030/k.png",
-      "./content/0030/l.png"
+      "./content/0030/30f.jpg"
     ],
     "fotograf": []
   },
@@ -1336,11 +1270,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Michał Wręczycki",
-      "Sebastian Krawczyk"
-    ],
+    "autorzy": ["Jakub Cieślik", "Michał Wręczycki", "Sebastian Krawczyk"],
     "zdjecia": [
       "./content/0042/d84b7a929d1b0c1a8e570a8f31f37b8c.jpg",
       "./content/0042/a.jpg",
@@ -1459,11 +1389,7 @@
       "./content/0046/44d580e9453f4975a48757d9bd111191.jpg",
       "./content/0046/a.jpg",
       "./content/0046/b.jpg",
-      "./content/0046/c.jpg",
-      "./content/0046/d.png",
-      "./content/0046/e.png",
-      "./content/0046/f.png",
-      "./content/0046/g.png"
+      "./content/0046/c.jpg"
     ],
     "fotograf": []
   },
@@ -1573,13 +1499,7 @@
     ],
     "zdjecia": [
       "./content/0050/54c8ecaa2c43a1859ea5f804bab048bf.jpg",
-      "./content/0050/a.jpg",
-      "./content/0050/b.png",
-      "./content/0050/c.png",
-      "./content/0050/d.png",
-      "./content/0050/e.png",
-      "./content/0050/f.png",
-      "./content/0050/g.png"
+      "./content/0050/a.jpg"
     ],
     "fotograf": []
   },
@@ -1736,12 +1656,7 @@
       "./content/0056/e.jpg",
       "./content/0056/f.jpg",
       "./content/0056/g.jpg",
-      "./content/0056/h.jpg",
-      "./content/0056/i.png",
-      "./content/0056/j.png",
-      "./content/0056/k.png",
-      "./content/0056/l.png",
-      "./content/0056/m.png"
+      "./content/0056/h.jpg"
     ],
     "fotograf": []
   },
@@ -1845,12 +1760,7 @@
       "./content/0060/a.jpg",
       "./content/0060/b.jpg",
       "./content/0060/c.jpg",
-      "./content/0060/d.jpg",
-      "./content/0060/e.png",
-      "./content/0060/f.png",
-      "./content/0060/g.png",
-      "./content/0060/h.png",
-      "./content/0060/i.png"
+      "./content/0060/d.jpg"
     ],
     "fotograf": []
   },
@@ -1929,10 +1839,6 @@
       "./content/0063/7e27406145372d7737066ff0a8b06b07.jpg",
       "./content/0063/a.jpg",
       "./content/0063/b.jpg",
-      "./content/0063/c.png",
-      "./content/0063/d.png",
-      "./content/0063/e.png",
-      "./content/0063/f.png",
       "./content/0063/g.mp4"
     ],
     "fotograf": []
@@ -1983,13 +1889,7 @@
     "zdjecia": [
       "./content/0065/e0a27da472b7c0b609fe6a4762b1b180.jpg",
       "./content/0065/a.jpg",
-      "./content/0065/b.jpg",
-      "./content/0065/c.png",
-      "./content/0065/d.png",
-      "./content/0065/e.png",
-      "./content/0065/f.png",
-      "./content/0065/g.png",
-      "./content/0065/h.png"
+      "./content/0065/b.jpg"
     ],
     "fotograf": []
   },
@@ -2069,11 +1969,7 @@
       "./content/0068/a.jpg",
       "./content/0068/b.jpg",
       "./content/0068/c.jpg",
-      "./content/0068/d.jpg",
-      "./content/0068/e.png",
-      "./content/0068/f.png",
-      "./content/0068/g.png",
-      "./content/0068/h.png"
+      "./content/0068/d.jpg"
     ],
     "fotograf": []
   },
@@ -2104,11 +2000,7 @@
       "./content/0069/e.jpg",
       "./content/0069/f.jpg",
       "./content/0069/g.jpg",
-      "./content/0069/h.jpg",
-      "./content/0069/i.jpg",
-      "./content/0069/j.jpg",
-      "./content/0069/k.jpg",
-      "./content/0069/l.jpg"
+      "./content/0069/h.jpg"
     ],
     "fotograf": []
   },
@@ -2149,9 +2041,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "233m²",
-    "autorzy": [
-      "Jakub Cieślik"
-    ],
+    "autorzy": ["Jakub Cieślik"],
     "zdjecia": [
       "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
       "./content/0071/a.jpg",
@@ -2200,11 +2090,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "182m²",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Marek Laskowski"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Marek Laskowski"],
     "zdjecia": [
       "./content/0073/40265f37586bdb3a651ba391fa36101a.jpg",
       "./content/0073/a.jpg",
@@ -2279,11 +2165,7 @@
     "zakres": "Realizacja",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "210m²",
-    "autorzy": [
-      "Salwator Dąbek",
-      "Jakub Cieślik",
-      "Marta Gawin"
-    ],
+    "autorzy": ["Salwator Dąbek", "Jakub Cieślik", "Marta Gawin"],
     "zdjecia": [
       "./content/0076/596b1f546840616fddedd7872abeb33c.jpg",
       "./content/0076/a.jpg",
@@ -2303,11 +2185,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2011",
     "powierzchnia_uzytkowa": "3500m²",
-    "autorzy": [
-      "Salwator Dąbek",
-      "Jakub Cieślik",
-      "Salwator Dąbek"
-    ],
+    "autorzy": ["Salwator Dąbek", "Jakub Cieślik", "Salwator Dąbek"],
     "zdjecia": [
       "./content/0077/f5d88751645c06b2fa3b2acdca4fcc7b.jpg",
       "./content/0077/a.jpg",
@@ -2516,11 +2394,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "680m²",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Marta Gawin",
-      "Aleksandra Jeziorska"
-    ],
+    "autorzy": ["Jakub Cieślik", "Marta Gawin", "Aleksandra Jeziorska"],
     "zdjecia": [
       "./content/0085/16110d984571330f7e03725d8e4e6dda.jpg",
       "./content/0085/a.jpg",
@@ -2600,11 +2474,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0088/704d4045bed3e3c44f2fb50820286e99.jpg",
       "./content/0088/a.jpg",
@@ -2655,11 +2525,7 @@
     "zakres": "projekt koncepcyjny",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Kamil Cierpioł",
-      "Jakub Cieślik",
-      "Eliza Masek"
-    ],
+    "autorzy": ["Kamil Cierpioł", "Jakub Cieślik", "Eliza Masek"],
     "zdjecia": [
       "./content/0090/204dc25246b81dc1a705cde2d11a9ff4.jpg",
       "./content/0090/a.jpg",
@@ -2750,10 +2616,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Marta Gawin"
-    ],
+    "autorzy": ["Jakub Cieślik", "Marta Gawin"],
     "zdjecia": [
       "./content/0093/77cc8ffc803ca150583cc08b9bc8af3a.jpg",
       "./content/0093/a.jpg",
@@ -2779,9 +2642,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik"
-    ],
+    "autorzy": ["Jakub Cieślik"],
     "zdjecia": [
       "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
       "./content/0094/a.jpg",
@@ -2813,10 +2674,7 @@
       "Marek Laskowski",
       "Martyna Pastusińska"
     ],
-    "zdjecia": [
-      "./content/0095/a.jpg",
-      "./content/0095/b.jpg"
-    ],
+    "zdjecia": ["./content/0095/a.jpg", "./content/0095/b.jpg"],
     "fotograf": []
   },
   {
@@ -2831,10 +2689,7 @@
     "zakres": "",
     "ukonczono": "2013",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Marek Laskowski"
-    ],
+    "autorzy": ["Jakub Cieślik", "Marek Laskowski"],
     "zdjecia": [
       "./content/0096/a644c291ec89297489cc1b21bfd9c127.jpg",
       "./content/0096/a.jpg",
@@ -2856,11 +2711,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Marek Laskowski"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Marek Laskowski"],
     "zdjecia": [
       "./content/0097/8f0fba2e52ea64fbb31ec02463f689e7.jpg",
       "./content/0097/a.jpg"
@@ -2879,11 +2730,7 @@
     "zakres": "",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Marek Laskowski"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Marek Laskowski"],
     "zdjecia": [
       "./content/0098/52987992bf64186174220dfb810c182d.jpg",
       "./content/0098/a.jpg"
@@ -2902,11 +2749,7 @@
     "zakres": "",
     "ukonczono": "2014",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Eliza Masek"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Eliza Masek"],
     "zdjecia": [
       "./content/0099/be3331f2ea715e237f158b0a0e024f7e.jpg",
       "./content/0099/a.jpg",
@@ -2926,11 +2769,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0100/a.jpg",
       "./content/0100/b.jpg",
@@ -2991,11 +2830,7 @@
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0102/a.jpg",
       "./content/0102/b.jpg",
@@ -3023,11 +2858,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0103/a.png",
       "./content/0103/b.png",
@@ -3244,11 +3075,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2020",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0111/a.jpg",
       "./content/0111/b.jpg",
@@ -3278,11 +3105,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2020",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0112/a.jpg",
       "./content/0112/b.jpg",
@@ -3309,11 +3132,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2019",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0113/a.jpg",
       "./content/0113/b.jpg",
@@ -3535,11 +3354,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0122/a.jpg",
       "./content/0122/b.jpg",
@@ -3559,11 +3374,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0123/a.jpg",
       "./content/0123/b.jpg",
@@ -3583,11 +3394,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0124/a.jpg",
       "./content/0124/b.jpg",
@@ -3608,11 +3415,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0125/a.jpg",
       "./content/0125/b.jpg",
@@ -3641,11 +3444,7 @@
     "zakres": "Realizacja",
     "ukonczono": "2015",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0126/a.jpg",
       "./content/0126/b.jpg",
@@ -3677,11 +3476,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0127/a.jpg",
       "./content/0127/b.jpg",
@@ -3713,11 +3508,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0128/a.jpg",
       "./content/0128/b.jpg",
@@ -3739,11 +3530,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0130/a.png",
       "./content/0130/b.png",
@@ -3774,11 +3561,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0131/a.jpg",
       "./content/0131/b.jpg",
@@ -3809,11 +3592,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0132/a.jpg",
       "./content/0132/b.jpg",
@@ -3870,10 +3649,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": ["Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0134/a.jpg",
       "./content/0134/b.jpg",
@@ -3902,11 +3678,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0135/a.jpg",
       "./content/0135/b.jpg",
@@ -3933,11 +3705,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0136/a.jpg",
       "./content/0136/b.jpg",
@@ -3974,11 +3742,7 @@
     "zakres": "",
     "ukonczono": "",
     "powierzchnia_uzytkowa": "",
-    "autorzy": [
-      "Jakub Cieślik",
-      "Kamil Cierpioł",
-      "Michał Wręczycki"
-    ],
+    "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
       "./content/0137/b.jpg",
       "./content/0137/a.jpg",
@@ -4046,17 +3810,6 @@
       "Eliza Masek"
     ],
     "zdjecia": [
-      "./content/0139/a.png",
-      "./content/0139/b.png",
-      "./content/0139/c.png",
-      "./content/0139/d.png",
-      "./content/0139/e.png",
-      "./content/0139/f.png",
-      "./content/0139/g.png",
-      "./content/0139/h.png",
-      "./content/0139/i.png",
-      "./content/0139/j.png",
-      "./content/0139/k.png",
       "./content/0139/l.jpg",
       "./content/0139/m.jpg",
       "./content/0139/n.jpg",
@@ -4093,11 +3846,7 @@
       "./content/0140/d.jpg",
       "./content/0140/e.jpg",
       "./content/0140/f.jpg",
-      "./content/0140/g.jpg",
-      "./content/0140/h.png",
-      "./content/0140/i.png",
-      "./content/0140/j.png",
-      "./content/0140/k.png"
+      "./content/0140/g.jpg"
     ],
     "fotograf": []
   },
@@ -4150,10 +3899,7 @@
       "Michał Wręczycki",
       "Sebastian Krawczyk"
     ],
-    "zdjecia": [
-      "./content/0142/a.jpg",
-      "./content/0142/b.jpg"
-    ],
+    "zdjecia": ["./content/0142/a.jpg", "./content/0142/b.jpg"],
     "fotograf": []
   },
   {
@@ -4259,13 +4005,7 @@
       "./content/0145/g.jpg",
       "./content/0145/h.jpg",
       "./content/0145/i.jpg",
-      "./content/0145/j.jpg",
-      "./content/0145/k.png",
-      "./content/0145/l.png",
-      "./content/0145/m.png",
-      "./content/0145/n.png",
-      "./content/0145/o.png",
-      "./content/0145/p.png"
+      "./content/0145/j.jpg"
     ],
     "fotograf": []
   },
@@ -4329,11 +4069,7 @@
       "./content/0147/g.jpg",
       "./content/0147/h.jpg",
       "./content/0147/i.jpg",
-      "./content/0147/j.jpg",
-      "./content/0147/k.png",
-      "./content/0147/l.png",
-      "./content/0147/m.png",
-      "./content/0147/n.png"
+      "./content/0147/j.jpg"
     ],
     "fotograf": []
   },
@@ -4457,10 +4193,7 @@
       "Paulina Cieślik",
       "Eliza Masek"
     ],
-    "zdjecia": [
-      "./content/0151/a.jpg",
-      "./content/0151/b.jpg"
-    ],
+    "zdjecia": ["./content/0151/a.jpg", "./content/0151/b.jpg"],
     "fotograf": []
   },
   {
