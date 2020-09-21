@@ -3,6 +3,7 @@ body {
   height: auto;
   overflow: scroll;
   overflow-x: hidden;
+  background-image: url(../content/grupaVERSO-noise.webp);
 }
 .noise {
   position: fixed;

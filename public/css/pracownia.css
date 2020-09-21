@@ -1,8 +1,6 @@
 body {
   height: auto;
   overflow: scroll;
-}
-.wrapper {
   background-image: url(../content/grupaVERSO-noise.webp);
 }
 .noise {
