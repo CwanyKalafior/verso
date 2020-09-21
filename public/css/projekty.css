@@ -1,11 +1,9 @@
 body {
-  height: auto; /* ? */
-  max-height: 1000vh; /* ? */
-  overflow: scroll; /* ? */
-}
-.wrapper {
+  height: auto;
+  overflow: scroll;
   background-image: url(../content/grupaVERSO-noise.webp);
 }
+
 .noise {
   position: fixed;
   z-index: 0;
@@ -30,6 +28,7 @@ body {
 
 .projekty_container {
   position: relative;
+  /* padding-top: 15vh; */
   top: 15vh;
   height: auto;
   overflow: scroll;
