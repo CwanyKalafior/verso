@@ -22,10 +22,9 @@ body {
 /* Project details */
 
 .pictures-description_container {
-  margin-top: 10vh;
+  margin-top: 15vh;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
-  top: 5vh;
   overflow-x: hidden;
 }
 
@@ -40,7 +39,6 @@ body {
 }
 
 .picture-description {
-  margin-bottom: 5vh;
   background-color: rgba(0, 0, 0, 0);
 }
 
