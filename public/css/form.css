@@ -26,17 +26,6 @@
   margin-top: -13vh;
 }
 
-/* form {
-  margin-top: 4vh;
-  background-color: red;
-} */
-
-/* .form-close {
-  position: relative;
-  margin-top: -11vh;
-  margin-left: 85vw;
-} */
-
 label {
   position: relative;
   font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
@@ -75,7 +64,6 @@ textarea:focus {
   background-color: transparent;
   color: #eee;
   border-bottom: none;
-  /* height: calc(100% + 10px); */
 }
 .form-accept {
   position: relative;
@@ -100,12 +88,8 @@ textarea:focus {
   top: 0%;
   height: 20px;
   width: 20px;
-  /* top: 50%;
-  transform: translateY(-50%); */
   left: 0vw;
   display: block;
-  /* height: 2.8vh; */
-  /* width: 2.8vh; */
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   cursor: pointer;
