@@ -405,17 +405,22 @@ $(function () {
     })
     .finally(function () {
       var swiper = new Swiper(".swiper-container", {
-        slidesPerView: "auto",
+        slidesPerView: 1,
+        spaceBetween: 100,
+        breakpoints: {
+          560: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+        },
         lazy: {
           loadPrevNext: true,
           preloadImages: false,
           lazy: true,
-        },
-        breakpoints: {
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 0,
-          },
         },
         //mousewheel: {
         //  invert: false,
