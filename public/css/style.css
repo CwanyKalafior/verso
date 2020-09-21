@@ -221,7 +221,7 @@ video {
   background-color: rgba(0, 0, 0, 0);
   text-align: right;
   /* bottom: calc(8vh + 80px); */
-  bottom: calc(6vh + 80px);
+  bottom: calc(7vh + 80px);
   right: calc(5vw + 33px);
 }
 
@@ -317,7 +317,7 @@ video {
 
 .mail-btn {
   position: absolute;
-  bottom: calc(8vh + 23px);
+  bottom: calc(9.5vh + 23px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #33414e;
@@ -343,9 +343,10 @@ video {
 
 .social_languages-wrapper {
   position: absolute;
-  bottom: 0vh;
+  bottom: 2vh;
   display: inline-block;
-  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
+  padding-top: 1vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
   width: 90vw;
   /* height: calc(8vh + 20px); */
   height: calc(5vh + 25px);
@@ -428,6 +429,17 @@ video {
 
 .social-media-buttoms i {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+}
+
+@media (min-width: 1024px) {
+  .social_languages-wrapper {
+    bottom: 6vh;
+    padding-top: 2vh;
+  }
+  .mail-btn {
+    bottom: calc(8.5vh - 27px);
+    left: 50%;
+  }
 }
 
 /* Hamburger menu */
