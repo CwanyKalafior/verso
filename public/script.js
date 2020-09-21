@@ -157,6 +157,7 @@ currentSubpageName.addEventListener("click", HamburgerMenuClose);
 
 // EN alert
 const englishBtn = document.querySelector(".enpopup");
-englishBtn.addEventListener("click", function () {
-  return alert("English version soon!");
+englishBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  return alert("English version very soon!");
 });
