@@ -288,7 +288,6 @@ $(function () {
           return 0;
         }
       });
-
       //click "Wszystkie"
       $(document).on("click", "#btn-all", function () {
         //clear DOM elements

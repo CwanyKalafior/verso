@@ -3,19 +3,16 @@ body {
   overflow: scroll;
   background-image: url(../content/grupaVERSO-noise.webp);
 }
-.noise {
-  height: 100vh;
-  position: fixed;
-  /* opacity: 0.05; */
-  opacity: 0;
-}
 
+<<<<<<< HEAD
 #vanta {
   /* width: 100%;
   height: 100%;
   position: fixed;
   opacity: 0; */
 }
+=======
+>>>>>>> 86be4484bdbd54c56b2bf99abc239be1d93af505
 #c {
   display: block;
   width: 100vw;
