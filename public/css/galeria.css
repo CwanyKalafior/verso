@@ -5,9 +5,7 @@ body {
   overflow-x: hidden;
   background-image: url(../content/grupaVERSO-noise.webp);
 }
-.noise {
-  position: fixed;
-}
+
 .wszystkie-wrapper {
   position: absolute;
 }
@@ -189,7 +187,6 @@ body {
   color: #eee;
   text-align: center;
   font-weight: 300;
-  
 }
 
 .galleryy-btn:hover p {
