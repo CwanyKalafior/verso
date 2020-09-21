@@ -98,12 +98,14 @@ textarea:focus {
 .checkmark {
   position: absolute;
   top: 0%;
+  height: 20px;
+  width: 20px;
   /* top: 50%;
   transform: translateY(-50%); */
   left: 0vw;
   display: block;
-  height: 2.8vh;
-  width: 2.8vh;
+  /* height: 2.8vh; */
+  /* width: 2.8vh; */
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   cursor: pointer;
@@ -183,10 +185,7 @@ input.form-btn:hover {
     top: 3vh;
     padding: 0%;
   }
-  .checkmark {
-    height: 4vh;
-    width: 4vh;
-  }
+
   .form-accept p {
     position: relative;
     width: 75vw;
