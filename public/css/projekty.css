@@ -418,14 +418,14 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   margin-right: 10%;
-}
+} */
 
-.swiper-button-prev,
+/* .swiper-button-prev,
 .swiper-button-next {
   color: #eee;
-}
+} */
 
 .swiper-container {
   /* margin-top: 2vh;

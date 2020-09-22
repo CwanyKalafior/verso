@@ -426,8 +426,8 @@ $(function () {
         //  invert: false,
         //},
         autoplay: {
-          delay: 1000,
-          disableOnInteraction: false,
+          delay: 0,
+          disableOnInteraction: true,
         },
         keyboard: {
           enabled: true,
