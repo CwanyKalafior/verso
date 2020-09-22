@@ -105,8 +105,16 @@ video {
   min-width: 100vw;
   background-size: cover;
   background-position: center;
+  animation: videoAnimation 2s linear;
 }
-
+@keyframes videoAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .noise {
   z-index: 100;
   position: absolute;
