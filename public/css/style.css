@@ -242,7 +242,7 @@ video {
   left: 0;
   margin: auto;
   /* top: calc(26px + (28 - 16) * ((100vw - 320px) / 760)); */ /* ! */
-  top: calc(24px + (28 - 16) * ((100vw - 320px) / 760));
+  top: calc(24px + (20 - 12) * ((100vw - 320px) / 760));
   text-align: left;
   background-color: rgba(0, 0, 0, 0);
   font-weight: 500;
