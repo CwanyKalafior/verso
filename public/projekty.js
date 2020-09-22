@@ -429,7 +429,7 @@ $(function () {
           lazy: true,
         },
         autoplay: {
-          delay: 0,
+          delay: 1250,
           disableOnInteraction: true,
         },
         keyboard: {
