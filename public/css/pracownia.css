@@ -1,7 +1,7 @@
 body {
   height: auto;
   overflow: scroll;
-  background-image: url(../content/grupaVERSO-noise.webp);
+  background-color: #333;
 }
 #c {
   display: block;
@@ -68,7 +68,7 @@ body {
   font-weight: 300;
   margin: 0;
 }
-.pracownia-details{
+.pracownia-details {
   margin-top: 3vh;
 }
 .pracownia-details p span {
@@ -140,7 +140,7 @@ body {
   font-weight: 500;
   margin-top: 2vh;
   /* padding: 0vw; */
-  padding-right:7vw;
+  padding-right: 7vw;
   padding-left: 7vw;
   width: 100%;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
@@ -163,7 +163,7 @@ body {
   text-align: right;
   padding-right: 20vw;
 }
-.pracownia-link p{
+.pracownia-link p {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0.3);

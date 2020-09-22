@@ -1,7 +1,7 @@
 body {
   height: auto;
   overflow: scroll;
-  background-image: url(../content/grupaVERSO-noise.webp);
+  background-color: #333;
 }
 
 #c {
