@@ -240,7 +240,7 @@ video {
   transform: translateX(-50%);
   margin-top: 17vh;
   cursor: context-menu;
-  /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */
+  /* font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); */ /* ! */
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   font-weight: 300;
   text-align: left;
@@ -254,7 +254,8 @@ video {
   right: auto;
   left: 0;
   margin: auto;
-  top: calc(26px + (28 - 16) * ((100vw - 320px) / 760));
+  /* top: calc(26px + (28 - 16) * ((100vw - 320px) / 760)); */ /* ! */
+  top: calc(24px + (28 - 16) * ((100vw - 320px) / 760));
   text-align: left;
   background-color: rgba(0, 0, 0, 0);
   font-weight: 500;
