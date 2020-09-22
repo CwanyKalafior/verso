@@ -14,4 +14,3 @@ function readmoref() {
     setReadMoreStyle(readmoreText, "inline");
   }
 }
-AOS.init();
