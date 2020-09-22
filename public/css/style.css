@@ -99,25 +99,12 @@ body {
   }
 }
 video {
+  margin: 0;
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  /* filter: blur(1px);
-  -webkit-filter: blur(1px); */
-}
-@media (orientation: landscape) {
-  video {
+  min-height: 100vh;
   min-width: 100vw;
-  height: 100vh;
-  }
-}
-/* .home {
-  background-image: url(../content/grupaVERSO-header.webp);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-} */
+}
 
 .noise {
   z-index: 100;

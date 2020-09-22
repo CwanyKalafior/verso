@@ -45,6 +45,23 @@ body {
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
 }
+.pracownia-about_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 700px) and (orientation: landscape) {
+  .pracownia-about_wrapper > * {
+    width: 40%;
+    margin: 2%;
+  }
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .pracownia-about_wrapper > * {
+    width: 25%;
+    margin: 2%;
+  }
+}
 .pracownia-details {
   padding: 5%;
   padding-left: 10vw;
