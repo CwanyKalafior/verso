@@ -408,7 +408,13 @@ $(function () {
         slidesPerView: 1,
         spaceBetween: 100,
         breakpoints: {
-          560: {
+          320: {
+            slidesPerView: 1,
+          },
+          400: {
+            slidesPerView: 2,
+          },
+          500: {
             slidesPerView: 3,
             spaceBetween: 0,
           },
@@ -422,9 +428,6 @@ $(function () {
           preloadImages: false,
           lazy: true,
         },
-        //mousewheel: {
-        //  invert: false,
-        //},
         autoplay: {
           delay: 1000,
           disableOnInteraction: false,
@@ -432,15 +435,13 @@ $(function () {
         keyboard: {
           enabled: true,
         },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
         loop: true,
         centeredSlides: true,
         freeMode: false,
         spaceBetween: 0,
         speed: 750,
+        updateOnWindowResize: true,
+        sensitivity: 0,
       });
     });
 });
