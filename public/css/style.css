@@ -99,12 +99,12 @@ body {
   }
 }
 video {
-  margin: 0;
   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   min-height: 100vh;
   min-width: 100vw;
-  background-size: cover;
-  background-position: center;
   animation: videoAnimation 2s linear;
 }
 @keyframes videoAnimation {
