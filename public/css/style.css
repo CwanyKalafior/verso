@@ -547,18 +547,41 @@ video {
 .topnav-buttoms {
   font-size: 0;
   overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1em;
 }
 .topnav-buttoms a {
-  text-align: right;
-  padding-left: 3vw;
+  position: relative;
+  margin-left: 3vw;
   font-weight: 300;
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   text-decoration: none;
   z-index: 99999999;
   cursor: pointer;
 }
-
+.topnav-buttoms a::after {
+  --scale: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150%;
+  height: 3px;
+  background: #eee;
+  transform: scaleX(var(--scale));
+  transform-origin: var(--x) 50%;
+  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+}
+.topnav-buttoms a:hover {
+  opacity: 1;
+}
+.topnav-buttoms a:hover::after {
+  --scale: 1;
+}
 @media (min-width: 1024px) {
   .topnav-menu {
     display: flex;
