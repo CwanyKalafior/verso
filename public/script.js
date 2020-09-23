@@ -97,7 +97,7 @@ $(function () {
     return false;
   });
 });
-// video
+//lack of green screen in video
 const video = document.getElementById("bgvid");
 const projBtn = document.querySelector(".gtpbtn");
 const formLink = document.querySelector(".btn-posnawr");
