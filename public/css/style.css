@@ -35,6 +35,7 @@ html {
   color: rgba(0, 0, 0, 1);
   font-size: 10px;
 }
+
 /* Body */
 body {
   width: 100vw;
@@ -122,14 +123,12 @@ video {
   pointer-events: none;
   opacity: 0.05;
 }
-
 #c {
   display: block;
   width: 100vw;
   height: 100vh;
   position: absolute;
 }
-
 .top-nav {
   position: absolute;
   top: 0;
@@ -143,7 +142,6 @@ video {
 }
 
 /* Logo */
-
 .brand-name {
   position: absolute;
   top: 50%;
@@ -151,13 +149,11 @@ video {
   transform: translateY(-50%);
   height: calc(22px + (28 - 22) * ((100vw - 320px) / 760));
 }
-
 .brand-name img {
   height: 100%;
 }
 
 /* Hamburger */
-
 .verso-hamburger {
   position: absolute;
   width: 10vh;
@@ -183,18 +179,15 @@ video {
   max-height: 40px;
   min-height: 35px;
 }
-
 .verso-hamburger .container:hover {
   cursor: pointer;
 }
-
 .verso-hamburger .container .background {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
 }
-
 .verso-hamburger .container .bar-1 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -204,7 +197,6 @@ video {
   right: 5%;
   transition: 0.2s;
 }
-
 .verso-hamburger .container .bar-2 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -214,18 +206,15 @@ video {
   right: 5%;
   transition: 0.2s;
 }
-
 .verso-hamburger .container:hover .bar-2 {
   width: 90%;
 }
-
 .hamburger i {
   position: relative;
   cursor: pointer;
 }
 
 /* Slogan */
-
 .slogan {
   position: absolute;
   width: 80vw;
@@ -241,7 +230,6 @@ video {
   color: #eee;
   white-space: nowrap;
 }
-
 .forwho {
   position: absolute;
   right: auto;
@@ -254,7 +242,6 @@ video {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
 .typewriter {
   color: #eee;
   text-decoration: none;
@@ -262,7 +249,6 @@ video {
 }
 
 /* Projekty button */
-
 .gtpbtn {
   position: absolute;
   height: 10vh;
@@ -275,7 +261,6 @@ video {
   bottom: calc(7vh + 80px);
   right: calc(5vw + 33px);
 }
-
 .gtpbtn p {
   line-height: 10vh;
   text-align: center;
@@ -288,11 +273,9 @@ video {
   -webkit-text-stroke: 0;
   background-color: rgba(0, 0, 0, 0);
 }
-
 .gtpbtn:hover p {
   font-weight: 300;
 }
-
 .gtpbtn .verso-arrow-right {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
@@ -306,7 +289,6 @@ video {
   display: inline;
   bottom: 2px;
 }
-
 .gtpbtn .verso-arrow-right .container {
   position: relative;
   width: 10vh;
@@ -316,18 +298,15 @@ video {
   max-height: 40px;
   min-height: 35px;
 }
-
 .gtpbtn .verso-arrow-right .container:hover {
   cursor: pointer;
 }
-
 .gtpbtn .verso-arrow-right .container .background {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
 }
-
 .gtpbtn .verso-arrow-right .container .line-1 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -337,11 +316,9 @@ video {
   right: 45%;
   transition: 0.2s;
 }
-
 .gtpbtn:hover .verso-arrow-right .container .line-1 {
   height: 55%;
 }
-
 .gtpbtn .verso-arrow-right .container .line-2 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -352,7 +329,6 @@ video {
   transform: rotate(45deg);
   transition: 0.2s;
 }
-
 .gtpbtn .verso-arrow-right .container .line-3 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -364,8 +340,7 @@ video {
   transition: 0.2s;
 }
 
-/* Button PosnAwr */
-
+/* Button PosnAwr (index.html) */
 .btn-posnawr {
   text-align: center;
   text-decoration: none;
@@ -408,7 +383,6 @@ video {
 }
 
 /* Bottom bar */
-
 .social_languages-wrapper {
   position: absolute;
   bottom: 2vh;
@@ -422,7 +396,6 @@ video {
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0);
 }
-
 .languages {
   position: absolute;
   left: 5vw;
@@ -434,11 +407,9 @@ video {
   padding-top: calc(1vh + 2px);
   white-space: nowrap;
 }
-
 .languages-buttoms {
   font-size: 0;
 }
-
 .languages-buttoms a {
   position: relative;
   font-size: calc(19px + (22 - 19) * ((100vw - 320px) / 760));
@@ -449,7 +420,6 @@ video {
   margin-right: calc(1px + 1vh);
   cursor: context-menu;
 }
-
 .enpopup {
   position: relative;
   display: inline-block;
@@ -460,16 +430,13 @@ video {
   background-color: rgb(0, 0, 0, 0);
   height: 0vh;
 }
-
 .enpopup a {
   font-weight: 300;
   cursor: pointer;
 }
-
 .enpopup a:hover {
   font-weight: 500;
 }
-
 .social-media-bar {
   position: absolute;
   right: 5vw;
@@ -482,7 +449,6 @@ video {
   text-align: right;
   white-space: nowrap;
 }
-
 .social-media-buttoms a {
   position: relative;
   padding: 0vw 0vw;
@@ -494,11 +460,9 @@ video {
 .social-media-buttoms a i {
   font-size: calc(20px + (22 - 20) * ((100vw - 320px) / 760));
 }
-
 .social-media-buttoms i {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
 }
-
 @media (min-width: 1024px) {
   .social_languages-wrapper {
     bottom: 6vh;
@@ -511,7 +475,6 @@ video {
 }
 
 /* Hamburger menu */
-
 #hamburger-menu {
   position: fixed;
   top: -100vh;
@@ -522,11 +485,9 @@ video {
   overflow: hidden;
   z-index: 99999999;
 }
-
 #hamburger-menu.hamburger-menu-show {
   top: 0vh;
 }
-
 #hamburger-menu-show,
 #hamburger-menu-close {
   color: black;
@@ -534,7 +495,6 @@ video {
   border: none;
   display: block;
 }
-
 .hamburger-menu a {
   position: relative;
   display: inline-block;
@@ -549,33 +509,27 @@ video {
 .hamburger-menu a.active {
   font-weight: 500;
 }
-
 .hamburger-menu-bg {
   margin-top: 12vh;
 }
-
 .hamburger-menu-bg li {
   height: 20vh;
   background-color: rgba(0, 0, 0, 0);
 }
-
 .hamburger-menu-bg li a {
   font-weight: 300;
   top: 30%;
   background-color: rgba(0, 0, 0, 0);
 }
-
 .hamburger-menu-bg li a:hover {
   font-weight: 500;
 }
-
 .hamburger-menu-bg li {
   cursor: pointer;
   bottom: 0;
 }
 
 /* Topnav */
-
 .topnav-menu {
   position: absolute;
   right: 10vw;
@@ -591,7 +545,6 @@ video {
   font-size: 0;
   overflow: hidden;
 }
-
 .topnav-buttoms a {
   text-align: right;
   padding-left: 3vw;
@@ -602,16 +555,15 @@ video {
   z-index: 99999999;
   cursor: pointer;
 }
-
 /* .topnav-buttoms a:hover{
   color: #fff;
 } */
-
 @media (min-width: 1024px) {
   .topnav-menu {
     display: flex;
   }
 }
+
 /* X */
 .verso-close {
   position: absolute;
@@ -624,7 +576,6 @@ video {
   background-color: rgba(0, 0, 0, 0);
   z-index: 9999;
 }
-
 .verso-close .container {
   position: relative;
   top: 50%;
@@ -636,18 +587,15 @@ video {
   max-height: 40px;
   min-height: 35px;
 }
-
 .verso-close .container:hover {
   cursor: pointer;
 }
-
 .verso-close .container .background {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
 }
-
 .verso-close .container .part-1 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -658,11 +606,9 @@ video {
   transform: rotate(45deg);
   transition: 0.2s;
 }
-
 .verso-close .container:hover .part-1 {
   transform: rotate(0deg);
 }
-
 .verso-close .container .part-2 {
   position: absolute;
   background-color: rgba(255, 255, 255, 1);
@@ -673,27 +619,23 @@ video {
   transform: rotate(-45deg);
   transition: 0.2s;
 }
-
 .verso-close .container:hover .part-2 {
   transform: rotate(0deg);
 }
 
-/* Footer info */
-
-.about_us-info {
+/* Footer */
+/* .about_us-info {
   width: 90vw;
   margin-left: 5vw;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   font-weight: 300;
 }
-
 .about_us-info a:nth-of-type(1) {
   display: inline-block;
   margin-bottom: 5%;
   margin-top: 2%;
 }
-
 .about_us-info a {
   margin: 10%;
   margin-left: 5%;
@@ -701,7 +643,6 @@ video {
   text-decoration: none;
   font-weight: 300;
 }
-
 .about_us-info span {
   display: inline-block;
   width: 100vw;
@@ -712,14 +653,12 @@ video {
   margin-bottom: 5%;
   cursor: default;
 }
-
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 0;
   margin: 0;
   cursor: default;
 }
-
 .about_us p,
 .about_us-info p {
   padding: 5%;
@@ -730,35 +669,29 @@ video {
   text-indent: 5vw;
   font-weight: 300;
 }
-
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 0;
   margin: 0;
-}
+} */
 
-/* Footer */
-
-footer {
+/* Footer JV */
+/* footer {
   width: 100vw;
   margin-top: 10vh;
   margin-bottom: 5vh;
-  /* padding: 10%; */
 }
-
 footer p {
   text-align: center;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   color: rgba(255, 255, 255, 0.8);
   cursor: default;
 }
-
 footer a {
   cursor: pointer;
-}
+} */
 
 /* Arrow-up */
-
 .verso-arrow-up {
   position: absolute;
   width: 10vh;
@@ -850,23 +783,4 @@ footer a {
   .about_us-info p {
     padding-left: 7%;
   }
-}
-
-footer p {
-  text-decoration: none;
-  color: #eee;
-  font-weight: 400;
-}
-
-footer p a {
-  text-decoration: none;
-  color: #eee;
-  font-weight: 400;
-}
-
-footer p a:hover {
-  text-decoration: none;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
-  background-color: #eee;
 }
