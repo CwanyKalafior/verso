@@ -77,7 +77,7 @@ englishBtn.addEventListener("click", function (e) {
   return alert("English version coming soon!");
 });
 
-/* PosnAwr Button */
+// PosnAwr Button (index.html)
 
 $(function () {
   $(".btn-posnawr")

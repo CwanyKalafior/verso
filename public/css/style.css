@@ -1,3 +1,4 @@
+/* General */
 :root {
   --base-width: none;
   --colour-white: rgba(255, 255, 255, 1);
@@ -14,17 +15,14 @@
   --font-size-5: calc(24px + (26 - 24) * ((100vw - 320px) / 760));
   --font-size-6: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
-
 ::-webkit-scrollbar {
   display: none;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 input,
 textarea,
 button,
@@ -32,13 +30,12 @@ select,
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 html {
   font-family: "Roboto", sans-serif;
   color: rgba(0, 0, 0, 1);
   font-size: 10px;
 }
-
+/* Body */
 body {
   width: 100vw;
   max-height: 100vh;
@@ -105,7 +102,7 @@ video {
   transform: translate(-50%, -50%);
   min-height: 100vh;
   min-width: 100vw;
-  animation: videoAnimation 2s linear;
+  animation: videoAnimation 1.5s ease-in-out;
 }
 .displayNone {
   display: none;
@@ -412,52 +409,6 @@ video {
   background-color: #33414e;
   font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }
-
-/* .mail-btn {
-  position: absolute;
-  bottom: calc(9.5vh + 23px);
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #33414e;
-  padding: 12px 20px;
-  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
-  z-index: 999;
-  white-space: nowrap;
-}
-
-.mail-btn p {
-  color: #eee;
-  text-align: center;
-  font-weight: 300;
-}
-
-.mail-btn:hover p {
-  font-weight: 300;
-} */
-
-/* Mail button */
-
-/* .mail-btn {
-  position: absolute;
-  bottom: calc(9.5vh + 23px);
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #33414e;
-  padding: 12px 20px;
-  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
-  z-index: 999;
-  white-space: nowrap;
-}
-
-.mail-btn p {
-  color: #eee;
-  text-align: center;
-  font-weight: 300;
-}
-
-.mail-btn:hover p {
-  font-weight: 300;
-} */
 
 /* Bottom bar */
 
