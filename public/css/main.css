@@ -1,5 +1,4 @@
 /* Button PosnAwr */
-
 .btn-posnawr {
     text-align: center;
     text-decoration: none;
@@ -122,19 +121,16 @@
   footer a {
     cursor: pointer;
   }
-  
   footer p {
     text-decoration: none;
     color: #eee;
     font-weight: 400;
   }
-  
   footer p a {
     text-decoration: none;
     color: #eee;
     font-weight: 400;
   }
-  
   footer p a:hover {
     text-decoration: none;
     font-weight: 400;
@@ -151,7 +147,6 @@
     right: 7%;
     margin-top: 4%;
   }
-  
   .verso-arrow-up .container {
     position: relative;
     width: 10vh;
@@ -161,18 +156,15 @@
     max-height: 40px;
     min-height: 35px;
   }
-  
   .verso-arrow-up .container:hover {
     cursor: pointer;
   }
-  
   .verso-arrow-up .container .background {
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     height: 100%;
   }
-  
   .verso-arrow-up .container .line-1 {
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
@@ -182,11 +174,9 @@
     right: 45%;
     transition: 0.2s;
   }
-  
   .verso-arrow-up .container:hover .line-1 {
     height: 55%;
   }
-  
   .verso-arrow-up .container .line-2 {
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
@@ -197,7 +187,6 @@
     transform: rotate(45deg);
     transition: 0.2s;
   }
-  
   .verso-arrow-up .container .line-3 {
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
@@ -208,7 +197,6 @@
     transform: rotate(-45deg);
     transition: 0.2s;
   }
-  
   @media (min-width: 1023px) {
     .about_us-info span {
       font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
@@ -216,20 +204,16 @@
       margin-top: 3%;
       margin-left: 7%;
     }
-  
     .about_us-info a {
       margin-left: 12%;
     }
-  
     .verso-arrow-up {
       margin-top: 2%;
       right: 12%;
     }
-  
     .about_us-info span {
       margin-bottom: 3%;
     }
-  
     .about_us p,
     .about_us-info p {
       padding-left: 7%;
