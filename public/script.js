@@ -79,19 +79,33 @@ englishBtn.addEventListener("click", function (e) {
 
 /* PosnAwr Button */
 
-$(function() {  
-  $('.btn-posnawr')
-    .on('mouseenter', function(e) {
-			var parentOffset = $(this).offset(),
-      		relX = e.pageX - parentOffset.left,
-      		relY = e.pageY - parentOffset.top;
-			$(this).find('span').css({top:relY, left:relX})
+$(function () {
+  $(".btn-posnawr")
+    .on("mouseenter", function (e) {
+      var parentOffset = $(this).offset(),
+        relX = e.pageX - parentOffset.left,
+        relY = e.pageY - parentOffset.top;
+      $(this).find("span").css({ top: relY, left: relX });
     })
-    .on('mouseout', function(e) {
-			var parentOffset = $(this).offset(),
-      		relX = e.pageX - parentOffset.left,
-      		relY = e.pageY - parentOffset.top;
-    	$(this).find('span').css({top:relY, left:relX})
+    .on("mouseout", function (e) {
+      var parentOffset = $(this).offset(),
+        relX = e.pageX - parentOffset.left,
+        relY = e.pageY - parentOffset.top;
+      $(this).find("span").css({ top: relY, left: relX });
     });
-  $('[href=#]').click(function(){return false});
+  $("[href=#]").click(function () {
+    return false;
+  });
 });
+// video
+const video = document.getElementById("bgvid");
+const projBtn = document.querySelector(".gtpbtn");
+const formLink = document.querySelector(".btn-posnawr");
+const topNavButtons = document.querySelector(".topnav-buttoms");
+const videoClose = () => {
+  video.classList.toggle("displayNone");
+};
+
+projBtn.addEventListener("click", videoClose);
+formLink.addEventListener("click", videoClose);
+topNavButtons.addEventListener("click", videoClose);
