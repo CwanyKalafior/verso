@@ -105,6 +105,9 @@ video {
   min-width: 100vw;
   animation: videoAnimation 1.5s ease-in-out;
 }
+.displayNone {
+  display: none;
+}
 @keyframes videoAnimation {
   0% {
     opacity: 0;
@@ -367,7 +370,7 @@ video {
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 .btn-posnawr:hover {
