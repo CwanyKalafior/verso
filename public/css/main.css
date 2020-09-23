@@ -1,0 +1,42 @@
+/* Button PosnAwr */
+
+.btn-posnawr {
+  text-align: center;
+  text-decoration: none;
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 999;
+  bottom: calc(9.5vh + 23px);
+  padding: 12px 20px;
+  position: relative;
+  background-color: #28323b;
+  color: #eee;
+  overflow: hidden;
+  font-weight: 300;
+}
+.btn-posnawr span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #33414e;
+  -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.btn-posnawr:hover {
+  color: #eee;
+}
+.btn-posnawr:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+.btn-posnawr:active {
+  background-color: #33414e;
+  font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
+}

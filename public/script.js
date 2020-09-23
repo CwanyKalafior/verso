@@ -74,5 +74,24 @@ currentSubpageName.addEventListener("click", HamburgerMenuClose);
 const englishBtn = document.querySelector(".enpopup");
 englishBtn.addEventListener("click", function (e) {
   e.preventDefault();
-  return alert("English version very soon!");
+  return alert("English version coming soon!");
+});
+
+/* PosnAwr Button */
+
+$(function() {  
+  $('.btn-posnawr')
+    .on('mouseenter', function(e) {
+			var parentOffset = $(this).offset(),
+      		relX = e.pageX - parentOffset.left,
+      		relY = e.pageY - parentOffset.top;
+			$(this).find('span').css({top:relY, left:relX})
+    })
+    .on('mouseout', function(e) {
+			var parentOffset = $(this).offset(),
+      		relX = e.pageX - parentOffset.left,
+      		relY = e.pageY - parentOffset.top;
+    	$(this).find('span').css({top:relY, left:relX})
+    });
+  $('[href=#]').click(function(){return false});
 });
