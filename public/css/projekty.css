@@ -45,6 +45,7 @@ body {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
+  cursor: default;
 }
 
 .projekty-links a {
@@ -334,6 +335,7 @@ body {
 .gallery-description {
   position: relative;
   margin-top: 3%;
+  cursor: default;
 }
 
 .gallery-description p {
@@ -383,6 +385,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   margin-left: 15%;
   margin-top: 3vh;
+  cursor: default;
 }
 
 @media (max-width: 1023px) {

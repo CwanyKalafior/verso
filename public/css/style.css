@@ -589,6 +589,10 @@ video {
   cursor: pointer;
 }
 
+/* .topnav-buttoms a:hover{
+  color: #fff;
+} */
+
 @media (min-width: 1024px) {
   .topnav-menu {
     display: flex;
@@ -692,12 +696,14 @@ video {
   margin-left: 0%;
   text-align: left;
   margin-bottom: 5%;
+  cursor: default;
 }
 
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 0;
   margin: 0;
+  cursor: default;
 }
 
 .about_us p,
@@ -730,6 +736,11 @@ footer p {
   text-align: center;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+footer a {
+  cursor: pointer;
 }
 
 /* Arrow-up */
