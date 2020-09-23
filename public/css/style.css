@@ -647,7 +647,7 @@ video {
   transform: rotate(0deg);
 }
 
-@media (min-width: 1023px) {
+/* @media (min-width: 1023px) {
   .about_us-info span {
     font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
     font-weight: 300;
@@ -667,4 +667,4 @@ video {
   .about_us-info p {
     padding-left: 7%;
   }
-}
+} */
