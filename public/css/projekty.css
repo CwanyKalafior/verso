@@ -350,7 +350,7 @@ body {
 
 /* Gallery button */
 
-.gallery-btn {
+/* .gallery-btn {
   left: 50%;
   transform: translateX(-50%);
   position: relative;
@@ -371,7 +371,7 @@ body {
 
 .gallery-btn:hover p {
   font-weight: 300;
-}
+} */
 
 .gallery-swiper p {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
