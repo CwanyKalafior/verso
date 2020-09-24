@@ -55,7 +55,7 @@ body {
     width: 16px;
     height: 16px;
     border-radius: 100%;
-    z-index: 1;
+    z-index: 99999;
     margin-left: -8px;
     margin-top: -8px;
     /* transition: transform 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
@@ -105,7 +105,7 @@ body {
     border-radius: 50%;
     margin-left: -4px;
     margin-top: -4px;
-    z-index: 1;
+    z-index: 9999;
     /* transition: width 0.5s cubic-bezier(0.51, 0.92, 0.24, 1);
     transition: height 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
     /* transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
