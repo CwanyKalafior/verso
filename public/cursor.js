@@ -39,15 +39,113 @@ const removeCursorActive = () => {
   cursor.removeClass("active");
   follower.removeClass("active");
 };
+// ADD
+// strona główna
 $(".topnav-buttoms a").on("mouseenter", function () {
   setCursorActive();
 });
 $(".brand-name").on("mouseenter", function () {
   setCursorActive();
 });
+$(".btn-posnawr").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".languages-buttoms a").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".social-media-buttoms a").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".gtpbtn").on("mouseenter", function () {
+  setCursorActive();
+});
+// projekty
+$(".swap-gallery-btns").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".projekty-links a").on("mouseenter", function () {
+  setCursorActive();
+});
+// pracownia
+$(".awards-btn").on("mouseenter", function () {
+  setCursorActive();
+});
+// kontakt
+$(".contact-authors a").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".verso-close").on("mouseenter", function () {
+  setCursorActive();
+});
+// form
+$("input").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".checkmark").on("mouseenter", function () {
+  setCursorActive();
+});
+// stopka
+$(".about_us-info a").on("mouseenter", function () {
+  setCursorActive();
+});
+$(".verso-arrow-up").on("mouseenter", function () {
+  setCursorActive();
+});
+$("footer a").on("mouseenter", function () {
+  setCursorActive();
+});
+// REMOVE
+// strona główna
 $(".topnav-buttoms a").on("mouseleave", function () {
   removeCursorActive();
 });
 $(".brand-name").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".btn-posnawr").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".languages-buttoms a").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".social-media-buttoms a").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".gtpbtn").on("mouseleave", function () {
+  removeCursorActive();
+});
+// projekty
+$(".swap-gallery-btns").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".projekty-links a").on("mouseleave", function () {
+  removeCursorActive();
+});
+// pracownia
+$(".awards-btn").on("mouseleave", function () {
+  removeCursorActive();
+});
+// kontakt
+$(".contact-authors a").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".verso-close").on("mouseleave", function () {
+  removeCursorActive();
+});
+// form
+$("input").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".checkmark").on("mouseleave", function () {
+  removeCursorActive();
+});
+// stopka
+$(".about_us-info a").on("mouseleave", function () {
+  removeCursorActive();
+});
+$(".verso-arrow-up").on("mouseleave", function () {
+  removeCursorActive();
+});
+$("footer a").on("mouseleave", function () {
   removeCursorActive();
 });
