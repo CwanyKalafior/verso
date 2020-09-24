@@ -58,8 +58,9 @@ body {
     z-index: 1;
     margin-left: -8px;
     margin-top: -8px;
-    transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
-      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    /* transition: transform 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
+    /* transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity; */
     user-select: none;
     pointer-events: none;
     /* transform: scale(0.8); */
@@ -89,7 +90,7 @@ body {
     margin-left: -2px;
     margin-top: -2px;
     background: rgb(255, 255, 255, 1);
-    /* transition: 0.5s; */
+    /* transition: 0.2s; */
   }
 
   .cursor.active::before {
@@ -105,6 +106,8 @@ body {
     margin-left: -4px;
     margin-top: -4px;
     z-index: 1;
+    /* transition: width 0.5s cubic-bezier(0.51, 0.92, 0.24, 1);
+    transition: height 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
     /* transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
       0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity; */
     user-select: none;
@@ -646,12 +649,12 @@ video {
   position: absolute;
   left: 0;
   right: 0;
-  top: 150%;
-  height: 3px;
+  top: 120%;
+  height: 2px;
   background: #eee;
   transform: scaleX(var(--scale));
   transform-origin: var(--x) 50%;
-  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  transition: transform 0.5s cubic-bezier(0.51, 0.92, 0.24, 1);
   overflow-x: hidden;
 }
 .topnav-buttoms a:hover {
