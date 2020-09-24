@@ -47,6 +47,8 @@
 </head>
 <!-- "Strona główna" -->
 <body onselectstart="return false" class="home">
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
     <source src="content\grupaVERSO-background.mp4" type="video/mp4">
   </video>
@@ -156,6 +158,7 @@
     <!-- Script -->
     <script src="jquery-3.4.1.min.js"></script>
     <script src="jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="../node_modules/animejs/lib/anime.min.js"></script>
     <script src="circleAnimation.js"></script>
     <script src="script.js"></script>
