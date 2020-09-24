@@ -109,20 +109,3 @@ const videoClose = () => {
 projBtn.addEventListener("click", videoClose);
 formLink.addEventListener("click", videoClose);
 topNavButtons.addEventListener("click", videoClose);
-
-// nav
-document.querySelectorAll(".topnav-buttoms a").forEach((elem) => {
-  elem.onmouseenter = elem.onmouseleave = (e) => {
-    const tolerance = 10;
-
-    const left = 0;
-    const right = elem.clientWidth;
-
-    let x = e.pageX - elem.offsetLeft;
-
-    if (x - tolerance < left) x = left;
-    if (x + tolerance > right) x = right;
-
-    elem.style.setProperty("--x", `${x}px`);
-  };
-});
