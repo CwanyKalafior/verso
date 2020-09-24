@@ -101,7 +101,7 @@ $(function () {
 const video = document.getElementById("bgvid");
 const projBtn = document.querySelector(".gtpbtn");
 const formLink = document.querySelector(".btn-posnawr");
-const topNavButtons = document.querySelector(".topnav-buttoms");
+const topNavButtons = document.querySelector(".topnav-buttoms a");
 const videoClose = () => {
   video.classList.toggle("displayNone");
 };
@@ -111,26 +111,6 @@ formLink.addEventListener("click", videoClose);
 topNavButtons.addEventListener("click", videoClose);
 
 // nav
-// document.querySelectorAll(".topnav-buttoms span a").forEach((elem) => {
-//   elem.onmouseenter = elem.onmouseleave = (e) => {
-//     console.log(elem);
-//     console.log(elem.clientWidth);
-//     console.log(elem.offsetWidth);
-//     var rect = elem.getBoundingClientRect();
-//     console.log(rect.width);
-//     const tolerance = rect.width;
-
-//     const left = 0;
-//     const right = elem.clientWidth;
-
-//     let x = e.pageX - elem.offsetLeft;
-
-//     if (x - tolerance < left) x = left;
-//     if (x + tolerance > right) x = right;
-
-//     elem.style.setProperty("--x", `${x}px`);
-//   };
-// });
 document.querySelectorAll(".topnav-buttoms a").forEach((elem) => {
   elem.onmouseenter = elem.onmouseleave = (e) => {
     const tolerance = 10;
