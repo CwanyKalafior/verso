@@ -47,8 +47,12 @@ body {
   -webkit-tap-highlight-color: transparent;
   cursor: none;
 }
+<<<<<<< HEAD
 
 @media (min-width: 1024px) {
+=======
+@media (min-width: 1023px) {
+>>>>>>> 5ef1be3aac267b660750711195b67ada3ca1536c
   .cursor {
     position: absolute;
     background: rgb(0, 0, 0, 0);
