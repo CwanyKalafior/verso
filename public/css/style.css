@@ -620,6 +620,7 @@ video {
   text-decoration: none;
   z-index: 99999999;
   cursor: pointer;
+  overflow-x: hidden;
 }
 .topnav-buttoms a::after {
   --scale: 0;
@@ -633,6 +634,7 @@ video {
   transform: scaleX(var(--scale));
   transform-origin: var(--x) 50%;
   transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  overflow-x: hidden;
 }
 .topnav-buttoms a:hover {
   opacity: 1;
@@ -642,7 +644,7 @@ video {
 }
 @media (min-width: 1024px) {
   .topnav-menu {
-    display: flex;
+    display: grid;
   }
 }
 
