@@ -58,7 +58,6 @@ body {
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
 }
-
 @media (max-width: 1023px) {
   .grupa-img {
     max-width: 90vw;
@@ -293,4 +292,47 @@ body {
 
 .awards-btn:hover p {
   font-weight: 300;
+}
+
+/* Button PosnAwr */
+.pracownia-btn-posnawr {
+  text-align: center;
+  text-decoration: none;
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 999;
+  bottom: 0;
+  padding: 12px 20px;
+  position: absolute;
+  background-color: #28323b;
+  color: #eee;
+  overflow: hidden;
+  font-weight: 300;
+  cursor: pointer;
+}
+.pracownia-btn-posnawr span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #33414e;
+  -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.pracownia-btn-posnawr:hover {
+  color: #eee;
+}
+.pracownia-btn-posnawr:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+.pracownia-btn-posnawr:active {
+  background-color: #33414e;
+  font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }

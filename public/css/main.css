@@ -107,7 +107,7 @@
 }
 
 /* Footer JV */
-footer {
+/* footer {
   width: 100vw;
   margin-top: 10vh;
   margin-bottom: 5vh;
@@ -139,10 +139,10 @@ footer p a:hover {
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
   background-color: #eee;
-}
+} */
 
 /* Arrow-up */
-.verso-arrow-up {
+/* .verso-arrow-up {
   position: absolute;
   width: 10vh;
   max-width: 40px;
@@ -215,7 +215,7 @@ footer p a:hover {
     font-weight: 300;
     margin-top: 3%;
     margin-left: 7%;
-  }
+  } */
 
   /* Footer JV */
   footer {
