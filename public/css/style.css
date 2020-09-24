@@ -51,18 +51,17 @@ body {
   .cursor {
     position: absolute;
     background: rgb(0, 0, 0, 0);
-    border:3px solid white;
+    border: 3px solid white;
     width: 16px;
     height: 16px;
     border-radius: 100%;
     z-index: 1;
     margin-left: -8px;
     margin-top: -8px;
-    /* transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
-      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity; */
+    transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
     user-select: none;
     pointer-events: none;
-    /* transition: 0.5s; */
     /* transform: scale(0.8); */
   }
 
@@ -82,13 +81,14 @@ body {
   }
 
   .cursor.active {
-    /* opacity: 1;
-    transform: scale(5); */
+    opacity: 1;
+    transform: scale(1);
     width: 4px;
     height: 4px;
     margin-left: -3px;
     margin-top: -3px;
     background: rgb(255, 255, 255, 1);
+    transition: 0.5s;
   }
 
   .cursor.active::before {
@@ -108,16 +108,17 @@ body {
       0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
     user-select: none;
     pointer-events: none;
-    /* transform: translate(4px, 4px); */
+    transform: translate(4px, 4px);
   }
 
   .cursor-follower.active {
-    /* opacity: 0.3;
-    transform: scale(0); */
+    /* opacity: 0.3; */
+    transform: scale(1);
     width: 60px;
     height: 60px;
     margin-left: -10px;
     margin-top: -10px;
+    transition: 0.1s;
   }
 }
 
