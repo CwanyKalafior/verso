@@ -6,13 +6,35 @@ var cW;
 var bgColor = "#28323b";
 var animations = [];
 var circles = [];
-var media = window.matchMedia("(max-width:700px)");
+
+const ua = navigator.userAgent;
+const getDeviceType = () => {
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    return "tablet";
+  }
+  if (
+    /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+      ua
+    )
+  ) {
+    return "mobile";
+  }
+  return "desktop";
+};
+
 var colorPicker = (function () {
-  if (media.matches) {
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    var colors = ["#28323b", "#28323b", "#33414e", "#33414e"];
+  } else if (
+    /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+      ua
+    )
+  ) {
     var colors = ["#28323b", "#28323b", "#33414e", "#33414e"];
   } else {
     var colors = ["#28323b", "#33414e", "#28323b", "#33414e"];
   }
+
   var index = 0;
   function next() {
     index = index++ < colors.length - 1 ? index : 0;
