@@ -161,7 +161,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="flip-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -570,6 +570,7 @@ $(function () {
     .finally(function () {
       swiperFunction();
       tiltFunction();
+      AOS.init();
     });
 });
 
