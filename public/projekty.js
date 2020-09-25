@@ -161,14 +161,13 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>
-          `;
+          </div>`;
         }
       });
 
@@ -202,7 +201,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -241,7 +240,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -280,7 +279,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -319,7 +318,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -358,7 +357,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -419,16 +418,16 @@ $(function () {
             .slice(0, number_of_elements);
           all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-      <div class="projekt-lista">
-        <div class="${element.grupa}">
-          <a href="./projekty/${element.nazwa_projektu}.html">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-          <div class="gallery-description">
-            <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-          </div>
-        </div>
-      </div>`;
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>
+            </div>`;
           });
           if (all.length === all_full_length) {
             // ZMIANA BUTTONA
@@ -451,16 +450,16 @@ $(function () {
             .slice(0, number_of_elements);
           jednorodzinne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-      <div class="projekt-lista">
-        <div class="${element.grupa}">
-          <a href="./projekty/${element.nazwa_projektu}.html">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-          <div class="gallery-description">
-            <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-          </div>
-        </div>
-      </div>`;
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>
+            </div>`;
           });
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
             // ZMIANA BUTTONA
@@ -482,16 +481,16 @@ $(function () {
             .slice(0, number_of_elements);
           wielorodzinne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-      <div class="projekt-lista">
-        <div class="${element.grupa}">
-          <a href="./projekty/${element.nazwa_projektu}.html">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-          <div class="gallery-description">
-            <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-          </div>
-        </div>
-      </div>`;
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>
+            </div>`;
           });
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
             // ZMIANA BUTTONA
@@ -511,16 +510,16 @@ $(function () {
             .slice(0, number_of_elements);
           publiczne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-      <div class="projekt-lista">
-        <div class="${element.grupa}">
-          <a href="./projekty/${element.nazwa_projektu}.html">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-          <div class="gallery-description">
-            <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-          </div>
-        </div>
-      </div>`;
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>
+            </div>`;
           });
           if (publiczne_all.length === publiczne_full_length) {
             // ZMIANA BUTTONA
@@ -540,16 +539,16 @@ $(function () {
             .slice(0, number_of_elements);
           wnetrza_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-      <div class="projekt-lista">
-        <div class="${element.grupa}">
-          <a href="./projekty/${element.nazwa_projektu}.html">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-          <div class="gallery-description">
-            <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
-          </div>
-        </div>
-      </div>`;
+            <div class="projekt-lista">
+              <div class="${element.grupa}">
+                <a href="./projekty/${element.nazwa_projektu}.html">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                </a>
+                <div class="gallery-description">
+                  <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
+                </div>
+              </div>
+            </div>`;
           });
           if (wnetrza_all.length === wnetrza_full_length) {
             // ZMIANA BUTTONA
@@ -560,8 +559,21 @@ $(function () {
     })
     .finally(function () {
       swiperFunction();
+      tiltFunction();
     });
 });
+
+const tiltFunction = () => {
+  $(document).ready(function () {
+    $('.card').tilt({
+      maxTilt: 10,
+      glare: true,
+      maxGlare: 40
+    })
+  })
+}
+
+
 
 const swiperFunction = () => {
   var swiper = new Swiper(".swiper-container", {
