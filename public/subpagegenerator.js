@@ -23,24 +23,18 @@ $(function () {
                     //working with data and creating elements
 
                     //Add metadata
-                    document.head.innerHTML += `<meta 
-                    property="og:title"
-                    content="grupaVERSO - ${obj_active.nazwa}" />
-                  <meta
-                    property="og:description"
-                    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-                  <meta
-                    property="og:image"
-                    content="https://grupaverso.pl/og-image.webp"
-                  />
-                  <meta 
-                    property="og:type"
-                    content="article"
-                  />
-                  <meta 
-                property="og:title"
-                content="${obj_active.nazwa}" />
-                
+                    document.head.innerHTML += `<title>${obj_active.nazwa}</title>
+                    <meta name="url" content="https://www.grupaverso.pl/projekty/${obj_active.nazwa_projektu}.html" />
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    href="https://grupaverso.pl/public/content/favicon.png"
+  />
+
+  <meta
+    name="description"
+    content="Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
+  />
                     `;
 
                     //Display "nazwa"
