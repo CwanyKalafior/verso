@@ -581,7 +581,7 @@ const tiltFunction = () => {
       scale: 1.02,
       glare: false,
       speed: 1500,
-      reverse: false,
+      reverse: true,
       perspective: 1000,
       // reset: false,
       // maxGlare: 40
