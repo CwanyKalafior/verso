@@ -567,10 +567,10 @@ const tiltFunction = () => {
   $(document).ready(function () {
     $('.card').tilt({
       maxTilt: 1,
-      scale: 1.03,
+      scale: 1.00,
       glare: false,
       // reset: false,
-      maxGlare: 40
+      // maxGlare: 40
     })
   })
 }
