@@ -8,12 +8,17 @@
   --colour-blue-b: rgba(51, 65, 78, 1);
   --colour-white-t030: rgba(255, 255, 255, 0.3);
   --colour-black-t030: rgba(0, 0, 0, 0.3);
+
+  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
+  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+
   --font-size-1: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); /*  slogan */
   --font-size-2: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   --font-size-3: calc(19px + (22 - 19) * ((100vw - 320px) / 760));
   --font-size-4: calc(20px + (22 - 20) * ((100vw - 320px) / 760));
   --font-size-5: calc(24px + (26 - 24) * ((100vw - 320px) / 760));
   --font-size-6: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  --font-size-7: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
 ::-webkit-scrollbar {
   display: none;
@@ -54,22 +59,18 @@ body {
     border: 3px solid white;
     width: 16px;
     height: 16px;
-    border-radius: 100%;
+    border-radius: 50%;
     z-index: 99999;
+    transition: 0.2s  transform, 0.1s border;
+    transform: scale(1);
     margin-left: -8px;
     margin-top: -8px;
-    /* transition: transform 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
-    /* transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
-      0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity; */
     user-select: none;
     pointer-events: none;
-    /* transform: scale(0.8); */
   }
 
   .cursor::before {
     content: "";
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -82,19 +83,14 @@ body {
   }
 
   .cursor.active {
-    opacity: 1;
-    transform: scale(1);
+    /* opacity: 1; */
     border: 2px solid white;
-    width: 4px;
-    height: 4px;
-    margin-left: -2px;
-    margin-top: -2px;
+    transform: scale(0.3);
     background: rgb(255, 255, 255, 1);
-    /* transition: 0.2s; */
   }
 
   .cursor.active::before {
-    opacity: 1;
+    /* opacity: 1; */
   }
 
   .cursor-follower {
@@ -103,25 +99,15 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-left: -4px;
-    margin-top: -4px;
     z-index: 9999;
-    /* transition: width 0.5s cubic-bezier(0.51, 0.92, 0.24, 1);
-    transition: height 0.5s cubic-bezier(0.51, 0.92, 0.24, 1); */
-    /* transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
-      0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity; */
     user-select: none;
     pointer-events: none;
-    transform: translate(4px, 4px);
+    transform: scale(1);
   }
 
   .cursor-follower.active {
-    /* opacity: 0.3; */
-    transform: scale(1);
-    width: 100px;
-    height: 100px;
-    margin-left: -30px;
-    margin-top: -30px;
+    transform: scale(3);
+    transition: 0.5s  transform;
   }
 }
 

@@ -41,79 +41,40 @@
 }
 
 .contact-authors p {
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
+  /* font-size: var(--font-size-2); */
   line-height: 2;
   margin-top: 5%;
   font-weight: 300;
+  font-size: var(--font-size-7);
 }
 
 .contact-authors a,
 .contact-authors span {
   text-decoration: none;
   color: #eee;
-  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  /* font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760)); */
   font-weight: 500;
+  font-size: var(--font-size-3);
 }
 
 .contact-data {
   position: absolute;
   top: 70vh;
   width: 90vw;
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
+  font-size: var(--font-size-7);
   font-weight: 100;
   text-decoration: none;
   margin-left: 5vw;
   margin-top: 8vh;
 }
 
-/* .verso-close {
-  margin-top: 4vh;
-} */
-
-/* .top-nav,
-.verso-close {
-  margin-top: -13vh;
-  background-color: red;
-} */
-
-/* @media (min-width: 533px) and (orientation: landscape) {
-  .contact-wrapper {
-    background-color: #28323b;
-    height: 100vh;
-    width: 100vw;
-  }
-  .contact-authors p {
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    line-height: 2.5;
-    margin-top: 0;
-    width: 100%;
-  }
-  .contact-authors a,
-  .contact-authors span {
-    text-decoration: none;
-    color: #eee;
-    font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+@media (min-width: 1023px) {
+  .contact-authors {
+    margin-left: 15vw;
   }
   .contact-data {
-    position: absolute;
-    top: 30vh;
-    left: 56vw;
-    width: 30vw;
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    font-weight: 100;
-    text-decoration: none;
-    line-height: 2;
+    margin-left: 15vw;
   }
 }
-@media (min-width: 800px) and (orientation: landscape) {
-  .contact-data {
-    position: absolute;
-    top: 30vh;
-    left: 46vw;
-    width: 30vw;
-    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 760));
-    font-weight: 100;
-    text-decoration: none;
-    line-height: 2;
-  }
-} */

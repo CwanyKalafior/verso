@@ -105,9 +105,10 @@ body {
 }
 @media (min-width: 1023px) {
   .pracownia-details {
-    margin-left: 33vw;
-    padding-top: 5vh;
-    width: 52vw;
+    margin-left: 25vw;
+    margin-bottom: -7vh;
+    padding-top: 0vh;
+    width: 57vw;
     /* background-color: rosybrown; */
   }
 }
@@ -135,25 +136,6 @@ body {
   font-weight: 300;
   text-indent: 5vw;
   margin-top: 3vh;
-}
-.pracownia-btn {
-  background-color: #33414e;
-  position: relative;
-  display: inline-block;
-  padding: 12px 20px;
-  margin-top: 3vh;
-  z-index: 999;
-  white-space: nowrap;
-  cursor: pointer;
-  text-indent: 0;
-}
-.pracownia-btn p {
-  color: #eee;
-  text-align: center;
-  font-weight: 300;
-}
-.pracownia-btn:hover p {
-  font-weight: 300;
 }
 .pracownia-uslugi {
   margin-top: 3vh;
@@ -295,22 +277,44 @@ body {
 }
 
 /* Button PosnAwr */
+.pracownia-btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 10vh;
+  /* margin-bottom: 5vh; */
+  text-indent: 0vw;
+}
+
+@media (max-height: 530px) {
+  .pracownia-btn {
+    margin-top: 17vh;
+  }
+}
+
+/* .pracownia-btn p {
+  color: #eee;
+  text-align: center;
+  font-weight: 300;
+}
+.pracownia-btn:hover p {
+  font-weight: 300;
+} */
 .pracownia-btn-posnawr {
   text-align: center;
   text-decoration: none;
-  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
-  left: 50%;
-  transform: translateX(-50%);
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  /* left: 50%;
+  transform: translateX(-50%); */
   white-space: nowrap;
   z-index: 999;
   bottom: 0;
-  padding: 12px 20px;
+  padding: 10px 18px;
   position: absolute;
   background-color: #28323b;
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  cursor: pointer;
+  cursor: none;
 }
 .pracownia-btn-posnawr span {
   position: absolute;
