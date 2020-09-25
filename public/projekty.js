@@ -559,47 +559,52 @@ $(function () {
       });
     })
     .finally(function () {
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 1,
-        spaceBetween: 100,
-        breakpoints: {
-          320: {
-            slidesPerView: 1,
-          },
-          400: {
-            slidesPerView: 2,
-          },
-          500: {
-            slidesPerView: 3,
-            spaceBetween: 0,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 0,
-          },
-        },
-        lazy: {
-          loadPrevNext: true,
-          preloadImages: false,
-          lazy: true,
-        },
-        autoplay: {
-          delay: 1250,
-          disableOnInteraction: true,
-        },
-        keyboard: {
-          enabled: true,
-        },
-        loop: true,
-        centeredSlides: true,
-        freeMode: false,
-        spaceBetween: 0,
-        speed: 750,
-        updateOnWindowResize: true,
-        sensitivity: 0,
-      });
+      swiperFunction();
     });
 });
+
+const swiperFunction = () => {
+  var swiper = new Swiper(".swiper-container", {
+    slidesPerView: 1,
+    spaceBetween: 100,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      400: {
+        slidesPerView: 2,
+      },
+      500: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 0,
+      },
+    },
+    lazy: {
+      loadPrevNext: true,
+      preloadImages: false,
+      lazy: true,
+    },
+    autoplay: {
+      delay: 1250,
+      disableOnInteraction: true,
+    },
+    keyboard: {
+      enabled: true,
+    },
+    loop: true,
+    centeredSlides: true,
+    freeMode: false,
+    spaceBetween: 0,
+    speed: 750,
+    updateOnWindowResize: true,
+    sensitivity: 0,
+  });
+}
+window.addEventListener("click", swiperFunction);
 
 // const tilt = $(`${element.zdjecie_glowne}`).tilt();
 // VanillaTilt.init(document.querySelector(`${element.zdjecie_glowne}`), {
