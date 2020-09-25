@@ -222,6 +222,9 @@ $(function () {
           </a>
         </div>`;
         });
+        if (all.length === all_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Jednorodzinne"
@@ -258,6 +261,9 @@ $(function () {
           </a>
         </div>`;
         });
+        if (jednorodzinne_all.length === jednorodzinne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Wielorodzinne"
@@ -294,6 +300,9 @@ $(function () {
           </a>
         </div>`;
         });
+        if (wielorodzinne_all.length === wielorodzinne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Publiczne"
@@ -330,6 +339,9 @@ $(function () {
           </a>
         </div>`;
         });
+        if (publiczne_all.length === publiczne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Wnetrza"
@@ -366,6 +378,9 @@ $(function () {
           </a>
         </div>`;
         });
+        if (wnetrza_all.length === wnetrza_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
 
