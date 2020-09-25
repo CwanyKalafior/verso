@@ -221,6 +221,7 @@ $(function () {
           </a>
         </div>`;
         });
+        tiltFunction();
         if (all.length === all_full_length) {
           // ZMIANA BUTTONA
         }
@@ -260,6 +261,7 @@ $(function () {
           </a>
         </div>`;
         });
+        tiltFunction();
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           // ZMIANA BUTTONA
         }
@@ -299,6 +301,7 @@ $(function () {
           </a>
         </div>`;
         });
+        tiltFunction();
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
           // ZMIANA BUTTONA
         }
@@ -338,6 +341,7 @@ $(function () {
           </a>
         </div>`;
         });
+        tiltFunction();
         if (publiczne_all.length === publiczne_full_length) {
           // ZMIANA BUTTONA
         }
@@ -377,6 +381,7 @@ $(function () {
           </a>
         </div>`;
         });
+        tiltFunction();
         if (wnetrza_all.length === wnetrza_full_length) {
           // ZMIANA BUTTONA
         }
@@ -429,6 +434,7 @@ $(function () {
               </div>
             </div>`;
           });
+          tiltFunction();
           if (all.length === all_full_length) {
             // ZMIANA BUTTONA
           }
@@ -461,6 +467,7 @@ $(function () {
               </div>
             </div>`;
           });
+          tiltFunction();
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
             // ZMIANA BUTTONA
           }
@@ -492,6 +499,7 @@ $(function () {
               </div>
             </div>`;
           });
+          tiltFunction();
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
             // ZMIANA BUTTONA
           }
@@ -521,6 +529,7 @@ $(function () {
               </div>
             </div>`;
           });
+          tiltFunction();
           if (publiczne_all.length === publiczne_full_length) {
             // ZMIANA BUTTONA
           }
@@ -550,6 +559,7 @@ $(function () {
               </div>
             </div>`;
           });
+          tiltFunction();
           if (wnetrza_all.length === wnetrza_full_length) {
             // ZMIANA BUTTONA
           }
