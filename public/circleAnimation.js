@@ -7,7 +7,7 @@ var bgColor = "#28323b";
 var animations = [];
 var circles = [];
 
-const ua = navigator.userAgent;
+// const ua = navigator.userAgent;
 
 var colorPicker = (function () {
   if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
