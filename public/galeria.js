@@ -103,18 +103,9 @@ $(function () {
       //filter data -> wnetrza
       wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
 
-      //slice data
-      all = obj.slice(starting_slice_point, number_of_elements);
-
-      //check if grouped
-      console.log("all" + all);
-      console.log("jednorodzinne_all" + jednorodzinne_all);
-      console.log("wielorodzinne_all" + wielorodzinne_all);
-      console.log("publiczne_all" + publiczne_all);
-      console.log("wnetrza" + wnetrza_all);
 
       //display first 20
-      all.forEach((element) => {
+      all.slice(0, number_of_elements).forEach((element) => {
         document.getElementById(
           "grid"
         ).innerHTML += `<div class="grid-item ${element.grupa}">
@@ -131,9 +122,13 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
+        number_of_elements = 20;
         //create number of elements
-        all = all.slice(0, number_of_elements);
+        all = obj
+          .filter((element) => element.grupa !== "")
+          .slice(0, number_of_elements);
         all.forEach((element) => {
+          console.log(element.nazwa_projektu);
           elems = `<div class="grid-item ${element.grupa}">
           <a href="./projekty/${element.nazwa_projektu}.html
           ">
@@ -145,7 +140,6 @@ $(function () {
           $grid.append($elems);
           $grid.masonry("appended", $elems).masonry("layout");
 
-          console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
@@ -156,9 +150,14 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
+        number_of_elements = 20;
         //create number of elements
-        jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
+        jednorodzinne_all = obj
+          .filter((element) => element.grupa === "jednorodzinne")
+          .slice(0, number_of_elements);
         jednorodzinne_all.forEach((element) => {
+          console.log(element.nazwa_projektu);
+
           var elems = `<div class="grid-item ${element.grupa}">
           <a href="./projekty/${element.nazwa_projektu}.html
           ">
@@ -168,7 +167,7 @@ $(function () {
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
+
         });
       });
 
@@ -179,9 +178,14 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
+        number_of_elements = 20;
         //create number of elements
-        wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
+        wielorodzinne_all = obj
+          .filter((element) => element.grupa === "wielorodzinne")
+          .slice(0, number_of_elements);
         wielorodzinne_all.forEach((element) => {
+          console.log(element.nazwa_projektu);
+
           var elems = `<div class="grid-item ${element.grupa}">
           <a href="./projekty/${element.nazwa_projektu}.html
           ">
@@ -191,7 +195,6 @@ $(function () {
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
@@ -202,9 +205,14 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
+        number_of_elements = 20;
         //create number of elements
-        publiczne_all = publiczne_all.slice(0, number_of_elements);
+        publiczne_all = obj
+          .filter((element) => element.grupa === "publiczne")
+          .slice(0, number_of_elements);
         publiczne_all.forEach((element) => {
+          console.log(element.nazwa_projektu);
+
           var elems = `<div class="grid-item ${element.grupa}">
           <a href="./projekty/${element.nazwa_projektu}.html
           ">
@@ -214,7 +222,6 @@ $(function () {
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
@@ -224,9 +231,15 @@ $(function () {
         document.getElementById(
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
+
+        number_of_elements = 20;
         //create number of elements
-        wnetrza_all = wnetrza_all.slice(0, number_of_elements);
+        wnetrza_all = obj
+          .filter((element) => element.grupa === "wnetrza")
+          .slice(0, number_of_elements);
         wnetrza_all.forEach((element) => {
+          console.log(element.nazwa_projektu);
+
           var elems = `<div class="grid-item ${element.grupa}">
           <a href="./projekty/${element.nazwa_projektu}.html
           ">
@@ -236,7 +249,6 @@ $(function () {
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
-          console.log("NUMBER_OF: " + number_of_elements);
         });
       });
 
