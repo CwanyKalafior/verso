@@ -192,7 +192,7 @@ body {
 video {
   filter: blur(16px);
   -webkit-filter: blur(16px);
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 
 .verso-wszy .container .line-1 {
