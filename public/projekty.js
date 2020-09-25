@@ -158,17 +158,16 @@ $(function () {
       all.forEach((element) => {
         if (element.zrealizowano_wtrakcie === "zrealizowano") {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>
-          `;
+          </div>`;
         }
       });
 
@@ -199,17 +198,16 @@ $(function () {
         all = all.slice(0, number_of_elements);
         all.forEach((element) => {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>
-          `;
+          </div>`;
           console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
@@ -239,10 +237,10 @@ $(function () {
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
         jednorodzinne_all.forEach((element) => {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -278,10 +276,10 @@ $(function () {
         wielorodzinne_all = wielorodzinne_all.slice(0, number_of_elements);
         wielorodzinne_all.forEach((element) => {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -317,10 +315,10 @@ $(function () {
         publiczne_all = publiczne_all.slice(0, number_of_elements);
         publiczne_all.forEach((element) => {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -356,10 +354,10 @@ $(function () {
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
         wnetrza_all.forEach((element) => {
           document.getElementById("gallery").innerHTML += `
-          <div class="projekt-lista card" data-tilt>
+          <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html">
-                <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -420,17 +418,16 @@ $(function () {
             .slice(0, number_of_elements);
           all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-            <div class="projekt-lista card" data-tilt>
+            <div class="projekt-lista">
               <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>
-            `;
+            </div>`;
           });
           if (all.length === all_full_length) {
             // ZMIANA BUTTONA
@@ -453,10 +450,10 @@ $(function () {
             .slice(0, number_of_elements);
           jednorodzinne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-            <div class="projekt-lista card" data-tilt>
+            <div class="projekt-lista">
               <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -484,10 +481,10 @@ $(function () {
             .slice(0, number_of_elements);
           wielorodzinne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-            <div class="projekt-lista card" data-tilt>
+            <div class="projekt-lista">
               <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -513,10 +510,10 @@ $(function () {
             .slice(0, number_of_elements);
           publiczne_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-            <div class="projekt-lista card" data-tilt>
+            <div class="projekt-lista">
               <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -542,10 +539,10 @@ $(function () {
             .slice(0, number_of_elements);
           wnetrza_all.forEach((element) => {
             document.getElementById("gallery").innerHTML += `
-            <div class="projekt-lista card" data-tilt>
+            <div class="projekt-lista">
               <div class="${element.grupa}">
                 <a href="./projekty/${element.nazwa_projektu}.html">
-                  <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
