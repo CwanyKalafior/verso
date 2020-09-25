@@ -69,6 +69,11 @@ var wielorodzinne_all;
 var publiczne_all;
 var wnetrza_all;
 var elems;
+var all_full_length;
+var jednorodzinne_full_length;
+var wielorodzinne_full_length;
+var publiczne_full_length;
+var wnetrza_full_length;
 //JSON
 $(function () {
   var obj;
@@ -86,22 +91,27 @@ $(function () {
       //GRUPOWANIE WSZYSTKICH KATEGORII
       //filter data -> all
       all = obj.filter((element) => element.grupa !== "");
+      all_full_length = all.length;
 
       //filter data -> jednorodzinne
       jednorodzinne_all = obj.filter(
         (element) => element.grupa === "jednorodzinne"
       );
+      jednorodzinne_full_length += jednorodzinne_all.length;
 
       //filter data -> wielorodzinne
       wielorodzinne_all = obj.filter(
         (element) => element.grupa === "wielorodzinne"
       );
+      wielorodzinne_full_length += wielorodzinne_all.length;
 
       //filter data -> publiczne
       publiczne_all = obj.filter((element) => element.grupa === "publiczne");
+      publiczne_full_length += publiczne_all.length;
 
       //filter data -> wnetrza
       wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
+      wnetrza_full_length += wnetrza_all.length;
 
 
       //display first 20
@@ -139,8 +149,10 @@ $(function () {
           $grid.masonry("remove", $obj);
           $grid.append($elems);
           $grid.masonry("appended", $elems).masonry("layout");
-
         });
+        if (wszystkie_all.length === wszystkie_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Jednorodzinne"
@@ -167,8 +179,10 @@ $(function () {
           $grid.append($elems).masonry("appended", $elems);
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
-
         });
+        if (jednorodzinne_all.length === jednorodzinne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Wielorodzinne"
@@ -196,6 +210,9 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
+        if (wielorodzinne_all.length === wielorodzinne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Publiczne"
@@ -223,6 +240,9 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
+        if (publiczne_all.length === publiczne_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "Wnetrza"
@@ -250,15 +270,19 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
+        if (wnetrza_all.length === wnetrza_full_length) {
+          // ZMIANA BUTTONA
+        }
       });
 
       //click "wczytaj wiecej"
       $(document).on("click", "#btn", function () {
+        number_of_elements += 20;
         //btn-all  -  wszystkie
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(number_of_elements - 20, number_of_elements);
           console.log("ALL - " + all);
           all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
@@ -274,7 +298,9 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
+          if (all.length === all_full_length) {
+            // ZMIANA BUTTONA
+          }
           return 0;
         }
         //btn-jednorodzinne  -  jednorodzinne
@@ -285,7 +311,7 @@ $(function () {
         ) {
           jednorodzinne_all = obj
             .filter((element) => element.grupa === "jenorodzinne")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(number_of_elements - 20, number_of_elements);
           jednorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="./projekty/${element.nazwa_projektu}.html
@@ -301,7 +327,9 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
+          if (jednorodzinne_all.length === jednorodzinne_full_length) {
+            // ZMIANA BUTTONA
+          }
           return 0;
         }
         //btn-wielorodzinne  -  wielorodzinne
@@ -312,7 +340,7 @@ $(function () {
         ) {
           wielorodzinne_all = obj
             .filter((element) => element.grupa === "wielorodzinne")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(number_of_elements - 20, number_of_elements);
           wielorodzinne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="./projekty/${element.nazwa_projektu}.html
@@ -328,7 +356,9 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
+          if (wielorodzinne_all.length === jednorodzinne_full_length) {
+            // ZMIANA BUTTONA
+          }
           return 0;
         }
         //btn-publiczne  -  publiczne
@@ -337,7 +367,7 @@ $(function () {
         ) {
           publiczne_all = obj
             .filter((element) => element.grupa === "publiczne")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(number_of_elements - 20, number_of_elements);
           publiczne_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="./projekty/${element.nazwa_projektu}.html
@@ -353,7 +383,9 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          number_of_elements += 20;
+          if (publiczne_all.length === publiczne_full_length) {
+            // ZMIANA BUTTONA
+          }
           return 0;
         }
 
@@ -363,7 +395,7 @@ $(function () {
         ) {
           wnetrza_all = obj
             .filter((element) => element.grupa === "wnetrza")
-            .slice(number_of_elements, number_of_elements + 20);
+            .slice(number_of_elements - 20, number_of_elements);
           wnetrza_all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
             <a href="./projekty/${element.nazwa_projektu}.html
@@ -376,7 +408,9 @@ $(function () {
             $grid.masonry("layout");
             console.log("NUMBER_OF: " + number_of_elements);
           });
-          number_of_elements += 20;
+          if (wnetrza_all.length === wnetrza_full_length) {
+            // ZMIANA BUTTONA
+          }
           return 0;
         }
       });
