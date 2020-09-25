@@ -52,64 +52,65 @@ body {
   -webkit-tap-highlight-color: transparent;
   cursor: none;
 }
-@media (min-width: 1023px) {
-  .cursor {
-    position: absolute;
-    background: rgb(0, 0, 0, 0);
-    border: 3px solid white;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    z-index: 99999;
-    transition: 0.2s  transform, 0.1s border;
-    transform: scale(1);
-    margin-left: -8px;
-    margin-top: -8px;
-    user-select: none;
-    pointer-events: none;
-  }
 
-  .cursor::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    opacity: 0;
-  }
-
-  .cursor.active {
-    /* opacity: 1; */
-    border: 2px solid white;
-    transform: scale(0.3);
-    background: rgb(255, 255, 255, 1);
-  }
-
-  .cursor.active::before {
-    /* opacity: 1; */
-  }
-
-  .cursor-follower {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.3);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    z-index: 9999;
-    user-select: none;
-    pointer-events: none;
-    transform: scale(1);
-  }
-
-  .cursor-follower.active {
-    transform: scale(3);
-    transition: 0.5s  transform;
-  }
+/* @media (min-width: 1023px) { */
+.cursor {
+  position: absolute;
+  background: rgb(0, 0, 0, 0);
+  border: 3px solid white;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  z-index: 99999;
+  transition: 0.2s transform, 0.1s border;
+  transform: scale(1);
+  margin-left: -8px;
+  margin-top: -8px;
+  user-select: none;
+  pointer-events: none;
 }
+
+.cursor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.cursor.active {
+  /* opacity: 1; */
+  border: 2px solid white;
+  transform: scale(0.3);
+  background: rgb(255, 255, 255, 1);
+}
+
+.cursor.active::before {
+  /* opacity: 1; */
+}
+
+.cursor-follower {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 9999;
+  user-select: none;
+  pointer-events: none;
+  transform: scale(1);
+}
+
+.cursor-follower.active {
+  transform: scale(3);
+  transition: 0.5s transform;
+}
+/* } */
 
 .bg {
   position: fixed;
@@ -172,6 +173,9 @@ video {
 }
 .displayNone {
   display: none;
+}
+.displayBlock {
+  display: block;
 }
 @keyframes videoAnimation {
   0% {
