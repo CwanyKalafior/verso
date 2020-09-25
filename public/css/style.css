@@ -52,6 +52,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   cursor: none;
 }
+
 @media (min-width: 1023px) {
   .cursor {
     position: absolute;
@@ -61,7 +62,7 @@ body {
     height: 16px;
     border-radius: 50%;
     z-index: 99999;
-    transition: 0.2s  transform, 0.1s border;
+    transition: 0.2s transform, 0.1s border;
     transform: scale(1);
     margin-left: -8px;
     margin-top: -8px;
@@ -107,7 +108,7 @@ body {
 
   .cursor-follower.active {
     transform: scale(3);
-    transition: 0.5s  transform;
+    transition: 0.5s transform;
   }
 }
 
