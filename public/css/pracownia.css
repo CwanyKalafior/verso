@@ -338,5 +338,6 @@ body {
 }
 .pracownia-btn-posnawr:active {
   background-color: #33414e;
-  font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
+  font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760));
+  margin-left: 0.6vw; /* dobrze? centrowanie */
 }
