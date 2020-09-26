@@ -12,6 +12,7 @@
   background-color: #28323b;
   font-family: "Roboto", sans-serif;
   z-index: 1;
+  cursor: none;
 }
 
 .contact-wrapper {
@@ -56,6 +57,7 @@
   /* font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760)); */
   font-weight: 500;
   font-size: var(--font-size-3);
+  cursor: none;
 }
 
 .contact-data {

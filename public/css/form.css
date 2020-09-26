@@ -19,6 +19,7 @@
   top: calc(8vh + 60px);
   color: #eee;
   padding-left: 6%;
+  cursor: none;
 }
 
 .top-nav,
@@ -47,6 +48,7 @@ textarea {
   color: #eee;
   font-weight: 500;
   font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  cursor: none;
 }
 textarea {
   resize: none;
@@ -69,7 +71,7 @@ textarea:focus {
   position: relative;
   top: 5vh;
   display: block;
-  cursor: pointer;
+  cursor: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -81,7 +83,7 @@ textarea:focus {
   height: 0;
   width: 0;
   opacity: 0;
-  cursor: pointer;
+  cursor: none;
 }
 .checkmark {
   position: absolute;
@@ -92,7 +94,7 @@ textarea:focus {
   display: block;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
-  cursor: pointer;
+  cursor: none;
   z-index: 99999;
 }
 .checkmark_white {
@@ -129,7 +131,7 @@ input.form-btn {
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  cursor: pointer;
+  cursor: none;
 }
 input.form-btn:hover {
   font-weight: 500;

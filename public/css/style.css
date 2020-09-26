@@ -320,7 +320,7 @@ video {
 .typewriter {
   color: #eee;
   text-decoration: none;
-  cursor: default;
+  cursor: none;
 }
 
 @media (min-width: 1024px) {
@@ -511,7 +511,6 @@ video {
   text-decoration: none;
   background-color: rgb(0, 0, 0, 0);
   margin-right: calc(1px + 1vh);
-  cursor: context-menu;
   cursor: none;
 }
 .enpopup {
@@ -652,7 +651,6 @@ video {
   transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   text-decoration: none;
   z-index: 99999999;
-  /* cursor: pointer; */
   cursor: none;
   overflow-x: hidden;
 }

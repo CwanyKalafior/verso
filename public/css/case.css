@@ -4,6 +4,7 @@ body {
   max-height: 1000vh;
   overflow: scroll;
   overflow-x: hidden;
+  cursor: none;
 }
 
 .noise {
