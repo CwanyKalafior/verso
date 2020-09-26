@@ -165,6 +165,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots" data-aos="fade-up" data-aos-delay="0"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
@@ -172,7 +173,8 @@ $(function () {
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         }
       });
 
@@ -553,8 +555,8 @@ $(function () {
 
 const tiltFunction = () => {
   $(document).ready(function () {
-    $('.card').tilt({
-      maxTilt: 7.50,
+    $(".card").tilt({
+      maxTilt: 7.5,
       scale: 1.04,
       glare: false,
       speed: 1000,
@@ -614,3 +616,37 @@ window.addEventListener("click", swiperFunction);
 // });
 // data - tilt >
 //   VanillaTilt.init(document.querySelectorAll(`${element.zdjecie_glowne}`));
+
+// parallax
+var winScrollTop = 0;
+
+$.fn.is_on_screen = function () {
+  var win = $(window);
+  var viewport = {
+    top: win.scrollTop(),
+    left: win.scrollLeft(),
+  };
+  viewport.bottom = viewport.top + win.height();
+
+  var bounds = this.offset();
+  bounds.bottom = bounds.top + this.outerHeight();
+
+  return !(viewport.bottom < bounds.top || viewport.top > bounds.bottom);
+};
+
+function parallax() {
+  var scrolled = $(window).scrollTop();
+  $(".projekt-lista").each(function () {
+    if ($(this).is_on_screen()) {
+      var firstTop = $(this).offset().top;
+      var $img = $(this).find(".grid-dots");
+      var moveTop = (firstTop - winScrollTop) * -0.15;
+      $img.css("transform", "translateY(" + -moveTop + "px)");
+    }
+  });
+}
+
+$(window).scroll(function (e) {
+  winScrollTop = $(this).scrollTop();
+  parallax();
+});
