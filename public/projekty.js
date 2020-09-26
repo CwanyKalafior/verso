@@ -165,8 +165,8 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
-                <img data-aos="flip-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -201,7 +201,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
@@ -240,7 +240,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
@@ -279,7 +279,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
@@ -318,7 +318,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
@@ -357,7 +357,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-              <a href="./projekty/${element.nazwa_projektu}.html">
+              <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
@@ -403,7 +403,7 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
+                <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                   <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
@@ -435,7 +435,7 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
+                <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                   <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
@@ -467,7 +467,7 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
+                <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                   <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
@@ -497,7 +497,7 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
+                <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                   <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
@@ -527,7 +527,7 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
-                <a href="./projekty/${element.nazwa_projektu}.html">
+                <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                   <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
@@ -554,14 +554,12 @@ $(function () {
 const tiltFunction = () => {
   $(document).ready(function () {
     $(".card").tilt({
-      maxTilt: 5.0,
-      scale: 1.02,
+      maxTilt: 7.5,
+      scale: 1.03,
       glare: false,
-      speed: 1500,
+      speed: 1000,
       reverse: true,
       perspective: 1000,
-      // reset: false,
-      // maxGlare: 40
     });
   });
 };

@@ -1,3 +1,9 @@
+video {
+  filter: blur(28px);
+  -webkit-filter: blur(28px);
+  /* opacity: 0.4; */
+}
+
 /* Button PosnAwr */
 .btn-posnawr {
   text-align: center;
