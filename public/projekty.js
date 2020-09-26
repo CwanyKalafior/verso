@@ -172,7 +172,8 @@ $(function () {
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+          <div class="grid-dots"></div>`;
         }
       });
 

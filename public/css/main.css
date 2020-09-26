@@ -5,11 +5,14 @@ video {
 }
 
 .grid-dots {
-  position: absolute; /* ! del */
-  top: 0; /* ! del */
-  left: 0; /* ! del */ 
-  margin-top: 60vh; /* ! del */
-  margin-left: 10vw; /* ! del */
+  position: relative;
+  /* top: 0; 
+  left: 0; 
+  margin-top: 60vh; 
+  margin-left: 5vw;  */
+  margin-top: calc(78px * -7);
+  /* left: 0;
+  margin-left: 3vw; */
   height: calc(78px * 7); 
   width: calc(78px * 12);
   transform: scale(1);
@@ -18,6 +21,16 @@ video {
   background-repeat: repeat;
   z-index: 10;
   pointer-events: none;
+}
+
+.grid-dots:nth-of-type(odd) {
+  left: 0;
+  margin-left: 3vw;
+}
+
+.grid-dots:nth-of-type(even) {
+  right: 0;
+  margin-right: 3vw;
 }
 
 /* Button PosnAwr */
