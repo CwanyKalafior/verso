@@ -165,6 +165,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
@@ -173,7 +174,7 @@ $(function () {
               </div>
             </div>
           </div>
-          <div class="grid-dots"></div>`;
+         `;
         }
       });
 
@@ -554,8 +555,8 @@ $(function () {
 
 const tiltFunction = () => {
   $(document).ready(function () {
-    $('.card').tilt({
-      maxTilt: 7.50,
+    $(".card").tilt({
+      maxTilt: 7.5,
       scale: 1.04,
       glare: false,
       speed: 1000,
