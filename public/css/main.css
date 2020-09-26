@@ -23,12 +23,12 @@ video {
   pointer-events: none;
 }
 
-.grid-dots:nth-of-type(odd) {
+.grid-dots:nth-child(odd) {
   left: 0;
   margin-left: 3vw;
 }
 
-.grid-dots:nth-of-type(even) {
+.grid-dots:nth-child(even) {
   right: 0;
   margin-right: 3vw;
 }
