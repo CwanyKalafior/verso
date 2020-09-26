@@ -554,11 +554,14 @@ $(function () {
 const tiltFunction = () => {
   $(document).ready(function () {
     $(".card").tilt({
-      maxTilt: 1,
-      scale: 1.03,
+      maxTilt: 5.0,
+      scale: 1.02,
       glare: false,
+      speed: 1500,
+      reverse: true,
+      perspective: 1000,
       // reset: false,
-      maxGlare: 40,
+      // maxGlare: 40
     });
   });
 };
