@@ -1,22 +1,21 @@
 const cursorFunction = () => {
   var cursor = $(".cursor"),
     follower = $(".cursor-follower");
-
-  const ua = navigator.userAgent;
-  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+  const removeDisplayBlock = () => {
     cursor.removeClass("displayBlock");
     follower.removeClass("displayBlock");
     cursor.addClass("displayNone");
     follower.addClass("displayNone");
+  };
+  const ua = navigator.userAgent;
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    removeDisplayBlock();
   } else if (
     /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
       ua
     )
   ) {
-    cursor.removeClass("displayBlock");
-    follower.removeClass("displayBlock");
-    cursor.addClass("displayNone");
-    follower.addClass("displayNone");
+    removeDisplayBlock();
   } else {
     cursor.removeClass("displayNone");
     follower.removeClass("displayNone");
