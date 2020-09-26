@@ -62,7 +62,6 @@ var wielorodzinne_full_length;
 var publiczne_full_length;
 var wnetrza_full_length;
 
-
 $(function () {
   var obj;
   fetch(
@@ -75,74 +74,80 @@ $(function () {
         return parseFloat(a.kolejnosc) - parseFloat(b.kolejnosc);
       });
 
-
-
-
-
-
       //GRUPOWANIE WSZYSTKICH KATEGORII
       //filter data -> all & zrealizowano
-      all = obj.filter((element) => element.grupa !== "" &&
-        element.zrealizowano_wtrakcie === "zrealizowano");
+      all = obj.filter(
+        (element) =>
+          element.grupa !== "" &&
+          element.zrealizowano_wtrakcie === "zrealizowano"
+      );
       all_full_length = all.length;
 
       //filter data -> jednorodzinne & zrealizowano
       jednorodzinne_all = obj.filter(
         (element) =>
           element.grupa === "jednorodzinne" &&
-          element.zrealizowano_wtrakcie === "zrealizowano");
+          element.zrealizowano_wtrakcie === "zrealizowano"
+      );
       jednorodzinne_full_length += jednorodzinne_all.length;
 
       //filter data -> wielorodzinne & zrealizowano
       wielorodzinne_all = obj.filter(
         (element) =>
           element.grupa === "wielorodzinne" &&
-          element.zrealizowano_wtrakcie === "zrealizowano");
+          element.zrealizowano_wtrakcie === "zrealizowano"
+      );
       wielorodzinne_full_length += wielorodzinne_all.length;
 
       //filter data -> publiczne & zrealizowano
       publiczne_all = obj.filter(
         (element) =>
           element.grupa === "publiczne" &&
-          element.zrealizowano_wtrakcie === "zrealizowano");
+          element.zrealizowano_wtrakcie === "zrealizowano"
+      );
       publiczne_full_length += publiczne_all.length;
 
       //filter data -> wnetrza & zrealizowano
       wnetrza_all = obj.filter(
         (element) =>
           element.grupa === "wnetrza" &&
-          element.zrealizowano_wtrakcie === "zrealizowano");
+          element.zrealizowano_wtrakcie === "zrealizowano"
+      );
       wnetrza_full_length += wnetrza_all.length;
 
       //filter data -> all & zrealizowano
-      all_w = obj.filter((element) => element.grupa !== "" &&
-        element.zrealizowano_wtrakcie === "wtrakcie");
+      all_w = obj.filter(
+        (element) =>
+          element.grupa !== "" && element.zrealizowano_wtrakcie === "wtrakcie"
+      );
 
       //filter data -> jednorodzinne & zrealizowano
       jednorodzinne_all_w = obj.filter(
         (element) =>
           element.grupa === "jednorodzinne" &&
-          element.zrealizowano_wtrakcie === "wtrakcie");
+          element.zrealizowano_wtrakcie === "wtrakcie"
+      );
 
       //filter data -> wielorodzinne & zrealizowano
       wielorodzinne_all_w = obj.filter(
         (element) =>
           element.grupa === "wielorodzinne" &&
-          element.zrealizowano_wtrakcie === "wtrakcie");
+          element.zrealizowano_wtrakcie === "wtrakcie"
+      );
 
       //filter data -> publiczne & zrealizowano
       publiczne_all_w = obj.filter(
         (element) =>
           element.grupa === "publiczne" &&
-          element.zrealizowano_wtrakcie === "wtrakcie");
+          element.zrealizowano_wtrakcie === "wtrakcie"
+      );
 
       //filter data -> wnetrza & zrealizowano
       wnetrza_all_w = obj.filter(
         (element) =>
           element.grupa === "wnetrza" &&
-          element.zrealizowano_wtrakcie === "wtrakcie");
-
-
+          element.zrealizowano_wtrakcie === "wtrakcie"
+      );
 
       //slice data
       all = obj.slice(0, number_of_elements);
@@ -184,14 +189,10 @@ $(function () {
         }
       });
 
-
-
-
       //click "Wszystkie"
       $(document).on("click", "#btn-all", function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
-
 
         number_of_elements = 5;
         //create number of elements
@@ -232,7 +233,6 @@ $(function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
 
-
         number_of_elements = 5;
         //create number of elements
         jednorodzinne_all = jednorodzinne_all.slice(0, number_of_elements);
@@ -271,7 +271,6 @@ $(function () {
       $(document).on("click", "#btn-wielorodzinne", function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
-
 
         number_of_elements = 5;
         //create number of elements
@@ -312,7 +311,6 @@ $(function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
 
-
         number_of_elements = 5;
         //create number of elements
         publiczne_all = publiczne_all.slice(0, number_of_elements);
@@ -352,7 +350,6 @@ $(function () {
         //clear DOM elements
         document.getElementById("gallery").innerHTML = "";
 
-
         number_of_elements = 5;
         //create number of elements
         wnetrza_all = wnetrza_all.slice(0, number_of_elements);
@@ -386,25 +383,6 @@ $(function () {
           // ZMIANA BUTTONA
         }
       });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       //click "wczytaj wiecej"
       $(document).on("click", "#btn", function () {
@@ -446,7 +424,6 @@ $(function () {
             .getElementById("btn-jednorodzinne")
             .classList.contains("active")
         ) {
-
           jednorodzinne_all = obj
             .filter(
               (element) =>
@@ -583,11 +560,9 @@ const tiltFunction = () => {
       speed: 1000,
       reverse: true,
       perspective: 1000,
-    })
-  })
-}
-
-
+    });
+  });
+};
 
 const swiperFunction = () => {
   var swiper = new Swiper(".swiper-container", {
@@ -629,7 +604,7 @@ const swiperFunction = () => {
     updateOnWindowResize: true,
     sensitivity: 0,
   });
-}
+};
 window.addEventListener("click", swiperFunction);
 
 // const tilt = $(`${element.zdjecie_glowne}`).tilt();

@@ -4,6 +4,22 @@ video {
   /* opacity: 0.4; */
 }
 
+.grid-dots {
+  position: absolute; /* ! del */
+  top: 0; /* ! del */
+  left: 0; /* ! del */ 
+  margin-top: 60vh; /* ! del */
+  margin-left: 10vw; /* ! del */
+  height: calc(78px * 7); 
+  width: calc(78px * 12);
+  transform: scale(1);
+  opacity: 0.3;
+  background-image: url("../content/cross.webp");
+  background-repeat: repeat;
+  z-index: 10;
+  pointer-events: none;
+}
+
 /* Button PosnAwr */
 .btn-posnawr {
   text-align: center;

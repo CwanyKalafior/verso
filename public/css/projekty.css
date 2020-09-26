@@ -290,6 +290,7 @@ body {
   transform: translateX(-50%);
   margin-top: 5vh;
   margin-bottom: 7vh;
+  z-index: 991;
   padding: 0 100vw;
 }
 
