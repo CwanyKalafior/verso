@@ -39,6 +39,7 @@ body {
   padding: 5%;
   padding-right: 15%;
   background-color: rgba(0, 0, 0, 0);
+  z-index: 99999999;
 }
 
 .projekty-links span {
