@@ -7,13 +7,7 @@ video {
 .grid-dots {
   position: relative;
   top: 40vh;
-  /* top: 0;
-  left: 0; */
-  /* margin-top: 60vh;  */
-  /* margin-left: 5vw;  */
   margin-top: calc(78px * -7);
-  /* left: 0;
-  margin-left: 3vw; */
   height: calc(78px * 7);
   width: calc(78px * 12);
   transform: scale(1);
@@ -27,7 +21,6 @@ video {
 .projekt-lista:nth-of-type(2n) .grid-dots {
   position: relative;
   left: 30vw;
-  /* margin-right: 3vw; */
 }
 
 /* Button PosnAwr */

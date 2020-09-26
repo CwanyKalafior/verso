@@ -616,3 +616,37 @@ window.addEventListener("click", swiperFunction);
 // });
 // data - tilt >
 //   VanillaTilt.init(document.querySelectorAll(`${element.zdjecie_glowne}`));
+
+// parallax
+var winScrollTop = 0;
+
+$.fn.is_on_screen = function () {
+  var win = $(window);
+  var viewport = {
+    top: win.scrollTop(),
+    left: win.scrollLeft(),
+  };
+  viewport.bottom = viewport.top + win.height();
+
+  var bounds = this.offset();
+  bounds.bottom = bounds.top + this.outerHeight();
+
+  return !(viewport.bottom < bounds.top || viewport.top > bounds.bottom);
+};
+
+function parallax() {
+  var scrolled = $(window).scrollTop();
+  $(".projekt-lista").each(function () {
+    if ($(this).is_on_screen()) {
+      var firstTop = $(this).offset().top;
+      var $img = $(this).find(".grid-dots");
+      var moveTop = (firstTop - winScrollTop) * -0.3;
+      $img.css("transform", "translateY(" + -moveTop + "px)");
+    }
+  });
+}
+
+$(window).scroll(function (e) {
+  winScrollTop = $(this).scrollTop();
+  parallax();
+});
