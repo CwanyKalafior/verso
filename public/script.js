@@ -80,7 +80,7 @@ englishBtn.addEventListener("click", function (e) {
 // PosnAwr Button (index.html)
 
 $(function () {
-  $(".btn-posnawr")
+  $(".btn-posnawr-indx")
     .on("mouseenter", function (e) {
       var parentOffset = $(this).offset(),
         relX = e.pageX - parentOffset.left,
