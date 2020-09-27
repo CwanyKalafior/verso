@@ -65,14 +65,12 @@ body {
 }
 .grupa-img {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30vw;
   max-width: 65vw;
   max-height: 65vh;
   margin-top: 5vh;
   min-height: 300px;
   margin-bottom: 5vh;
-  margin-left: 10vw;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
@@ -82,6 +80,7 @@ body {
   .grupa-img {
     max-width: 90vw;
     max-height: 90vh;
+    left: 5vw;
     margin-left: 0;
     min-height: 0;
   }

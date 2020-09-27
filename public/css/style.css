@@ -148,7 +148,7 @@ body {
   font-weight: 500;
 }
 .cookies-info a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 /* .master-margin {
   position: fixed;
@@ -165,7 +165,7 @@ text-decoration: underline;
 } */
 
 /* Noise */
-.bg { 
+.bg {
   position: fixed;
   top: -50%;
   left: -50%;
@@ -638,7 +638,7 @@ video {
     left: 10vw;
     transform: translateX(0%);
     bottom: auto;
-    top: 50vh
+    top: 50vh;
   }
   .btn-posnawr-indx:active {
     left: calc(10vw + 10px);
