@@ -8,9 +8,9 @@ video {
 
 .grid-dots {
   position: relative;
-  top: 50vh;
-  margin-top: calc(78px * -6);
-  height: calc(78px * 6);
+  top: 70vh;
+  margin-top: calc(78px * -7);
+  height: calc(78px * 7);
   width: calc(78px * 10);
   margin-left: calc(78px * -10 + 40vw);
   opacity: 0.2 !important;

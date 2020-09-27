@@ -37,11 +37,19 @@
 <body onselectstart="return false" onload="checkCookie()" class="home">
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
-  <section class="cookies-info">
-    <p>W celu poprawienia wygody użytkowania, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma możliwość ich wyłączenia bezpośrednio w ustawieniach przeglądarki internetowej. Dalsze korzystanie z naszej strony oznacza ich akceptację.</br>
-      <a href="">Polityka Prywatnosci</a></p>
-  <a href="" class="cookies-btn btn-4"><span>Ok</span></a>
+  <section class="cookies-info" id="cookies-info">
+    <div class="cookies-close" onclick="document.getElementById('cookies-info').style.display='none'">
+      <div class="container">
+        <div class="background"></div>
+        <div class="part-1"></div>
+        <div class="part-2"></div>
+      </div>
+    </div>
+    <p>W celu poprawienia wygody użytkowania, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma możliwość ich wyłączenia bezpośrednio w ustawieniach przeglądarki. Dalsze korzystanie z naszej strony internetowej oznacza ich akceptację.</br>
+      <a href="">Polityka Prywatnosci</a>
+    </p>
   </section>
+  <!-- <div class="master-margin"></div> --> <!-- ! -->
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
     <source src="content\grupaVERSO-background.mp4" type="video/mp4">
   </video>
