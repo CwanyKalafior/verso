@@ -124,6 +124,7 @@ body {
   background-color: rgb(0, 0, 0);
   z-index: 100000;
   padding: 0 20vw;
+  clip-path: polygon(0 2vw, 100% 0, 100% 100%, 0 100%);
 }
 
 @media (orientation: portrait) {
@@ -132,10 +133,14 @@ body {
   }
 }
 
-.cookies-info p {
-  position: relative;
+.cookies-text {
+  margin-top: 5vh;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.cookies-info p {
+  position: relative;
   text-indent: 5vw;
   line-height: 1.3;
   padding-top: calc(1vh + 12px);
