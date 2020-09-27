@@ -449,6 +449,7 @@ video {
   color: #eee;
   overflow: hidden;
   font-weight: 300;
+  cursor: none;
 }
 .btn-posnawr span {
   position: absolute;
