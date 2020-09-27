@@ -45,8 +45,7 @@ body {
 }
 .grupa-img {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
   max-width: 65vw;
   max-height: 65vh;
   margin-top: 5vh;
