@@ -45,7 +45,6 @@ TweenMax.to({}, 0.016, {
 });
 
 // PosnAwr Button (readmore)
-
 $(function() {  
   $('.pracownia-btn-posnawr')
     .on('mouseenter', function(e) {

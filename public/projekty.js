@@ -165,7 +165,7 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
-            <div class="grid-dots" data-aos="fade-up" data-aos-delay="0"></div>
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
                 <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
@@ -640,7 +640,7 @@ function parallax() {
     if ($(this).is_on_screen()) {
       var firstTop = $(this).offset().top;
       var $img = $(this).find(".grid-dots");
-      var moveTop = (firstTop - winScrollTop) * -0.15;
+      var moveTop = (firstTop - winScrollTop) * -0.2;
       $img.css("transform", "translateY(" + -moveTop + "px)");
     }
   });

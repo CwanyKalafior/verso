@@ -1,16 +1,18 @@
 video {
-  filter: blur(28px);
-  -webkit-filter: blur(28px);
-  /* opacity: 0.4; */
+  filter: blur(25px) grayscale(100%);
+  -webkit-filter: blur(25px) grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 
 .grid-dots {
   position: relative;
-  top: 80vh;
+  top: 70vh;
   margin-top: calc(78px * -7);
   height: calc(78px * 7);
-  width: calc(78px * 12);
-  margin-left: calc(78px * -12 + 40vw);
+  width: calc(78px * 10);
+  margin-left: calc(78px * -10 + 40vw);
   opacity: 0.2 !important;
   background-image: url("../content/cross.webp");
   background-repeat: repeat;
@@ -31,7 +33,7 @@ video {
 .projekt-lista:nth-of-type(2n) .grid-dots {
   position: relative;
   margin-left: auto;
-  margin-right: calc(78px * -12 + 40vw);
+  margin-right: calc(78px * -12 + 50vw);
   pointer-events: none;
   /* left: 41vw; */
 }
@@ -53,6 +55,7 @@ video {
   overflow: hidden;
   font-weight: 300;
   cursor: none;
+  border: 2px solid #eee;
 }
 .btn-posnawr span {
   position: absolute;
