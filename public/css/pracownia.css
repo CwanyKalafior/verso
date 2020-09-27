@@ -54,9 +54,9 @@ body {
   margin-bottom: 5vh;
   margin-left: 10vw;
   background-color: rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 1023px) {
   .grupa-img {
@@ -165,14 +165,15 @@ body {
   padding-bottom: 7vh;
   margin-top: 5vh;
   margin-bottom: 10vh;
+  width: 60vw;
 }
 .pracownia-point:nth-of-type(odd) {
-  width: 60vw;
-  margin-left: 0vw;
+  left: 55%;
+  transform: translateX(-50%);
 }
 .pracownia-point:nth-of-type(even) {
-  width: 60vw;
-  margin-left: 40vw;
+  left: 45%;
+  transform: translateX(-50%);
 }
 
 /* .pracownia-point:hover {
