@@ -77,7 +77,7 @@ body {
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
 }
-.pracownia-about_wrapper {
+/* .pracownia-about_wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -93,7 +93,7 @@ body {
     width: 25%;
     margin: 2%;
   }
-}
+} */
 .pracownia-details {
   padding: 5%;
   padding-left: 10vw;
@@ -105,11 +105,14 @@ body {
 }
 @media (min-width: 1023px) {
   .pracownia-details {
-    margin-left: 25vw;
+    margin-left: 26vw;
     margin-bottom: -7vh;
     padding-top: 0vh;
     width: 57vw;
     /* background-color: rosybrown; */
+  }
+  .pracownia-details p {
+    text-indent: 3vw;
   }
 }
 @media (min-width: 1024px) {
@@ -155,14 +158,23 @@ body {
   }
 }
 .pracownia-point {
-  clip-path: polygon(0 3%, 100% 0, 100% 97.5%, 0 100%);
-  background-color: var(--colour-black-t030);
+  position: relative;
+  /* clip-path: polygon(0 3%, 100% 0, 100% 97.5%, 0 100%); */
+  background-color: var(--colour-black-t050);
   padding-top: 5vh;
   padding-bottom: 7vh;
   margin-top: 5vh;
   margin-bottom: 10vh;
-  background-color: rgba(0, 0, 0, 0.2);
 }
+.pracownia-point:nth-of-type(odd) {
+  width: 60vw;
+  margin-left: 0vw;
+}
+.pracownia-point:nth-of-type(even) {
+  width: 60vw;
+  margin-left: 40vw;
+}
+
 /* .pracownia-point:hover {
   clip-path: polygon(0 0, 100% 0.5%, 100% 98.5%, 0 100%);
 } */
@@ -216,7 +228,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media (min-width: 1023px) {
+/* @media (min-width: 1023px) {
   .pracownia-point {
     padding-top: 3vh;
     padding-bottom: 5vh;
@@ -245,7 +257,7 @@ body {
     font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
     font-weight: 300;
   }
-}
+} */
 
 .awards-btn {
   left: 50%;
@@ -279,7 +291,7 @@ body {
 .pracownia-btn {
   position: relative;
   display: inline-block;
-  margin-top: 10vh;
+  margin-top: calc(20px + 6vh);
   /* margin-bottom: 5vh; */
   text-indent: 0vw;
 }
@@ -309,11 +321,15 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-  background-color: #28323b;
+  background-color: rgba(0, 0, 0, 0.35);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
   cursor: none;
+  /* -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3); */
+  /* border: 2px solid #eee; */
 }
 .pracownia-btn-posnawr span {
   position: absolute;
@@ -321,7 +337,7 @@ body {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #33414e;
+  background-color: var(--colour-blue-a);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);

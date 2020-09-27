@@ -9,6 +9,7 @@
   --colour-blue-c: rgb(97, 121, 143);
   --colour-white-t030: rgba(255, 255, 255, 0.3);
   --colour-black-t030: rgba(0, 0, 0, 0.3);
+  --colour-black-t050: rgba(0, 0, 0, 0.5);
   --colour-black-t090: rgba(0, 0, 0, 0.9);
 
   /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
@@ -97,7 +98,7 @@ body {
 
 .cursor-follower {
   position: absolute;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--colour-black-t050);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -120,7 +121,7 @@ body {
   min-height: 240px;
   font-size: calc(14px + (16 - 14) * ((100vw - 320px) / 760));
   font-weight: 300;
-  background-color: var(--colour-black);
+  background-color: rgb(0, 0, 0);
   z-index: 100000;
   padding: 0 20vw;
 }
@@ -146,7 +147,9 @@ body {
   color: var(--colour-blue-c);
   font-weight: 500;
 }
-
+.cookies-info a:hover {
+text-decoration: underline;
+}
 /* .master-margin {
   position: fixed;
   z-index: 100002;
@@ -161,7 +164,8 @@ body {
   box-shadow:inset 0px 0px 0px 5px var(--colour-black);
 } */
 
-.bg {
+/* Noise */
+.bg { 
   position: fixed;
   top: -50%;
   left: -50%;
@@ -173,7 +177,7 @@ body {
     url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation 0.2s infinite;
-  opacity: 0.9;
+  opacity: 1;
   visibility: visible;
 }
 @keyframes bg-animation {
@@ -381,7 +385,7 @@ video {
 
 @media (min-width: 1024px) {
   .slogan {
-    margin-top: calc(40vh - 20px);
+    margin-top: calc(38vh - 20px);
     font-size: calc(16px + (26 - 16) * ((100vw - 320px) / 760)); /* ! */
     /* font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760)); */
   }
@@ -502,11 +506,16 @@ video {
   z-index: 999;
   padding: 12px 20px;
   position: absolute;
-  background-color: #28323b;
+  /* background-color: #28323b; */
+  background-color: var(--colour-blue-b);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  border: 2px solid #eee;
+  /* border: 2px solid #eee; */
+  -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  cursor: none;
 }
 .btn-posnawr-indx span {
   position: absolute;
@@ -514,7 +523,7 @@ video {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #33414e;
+  background-color: #28323b;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -529,7 +538,7 @@ video {
   height: 562.5px;
 }
 .btn-posnawr-indx:active {
-  background-color: #33414e;
+  background-color: #28323b;
   font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }
 
@@ -629,7 +638,13 @@ video {
     left: 10vw;
     transform: translateX(0%);
     bottom: auto;
-    top: 55vh
+    top: 50vh
+  }
+  .btn-posnawr-indx:active {
+    left: calc(10vw + 10px);
+  }
+  .gtpbtn {
+    bottom: calc(5vh + 80px);
   }
 }
 
