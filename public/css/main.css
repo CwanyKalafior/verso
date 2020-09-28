@@ -117,6 +117,7 @@ video {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-weight: 300;
+  cursor: none;
 }
 .about_us-info span {
   display: inline-block;
@@ -143,6 +144,7 @@ video {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 5vw;
   font-weight: 300;
+  cursor: none;
 }
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
