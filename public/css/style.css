@@ -3,7 +3,8 @@
   --base-width: none;
   --colour-white: rgba(255, 255, 255, 1);
   --colour-grey: rgba(155, 155, 155, 1);
-  --colour-grey-c: rgb(63, 63, 63);
+  --colour-grey-c: rgb(48, 48, 48);
+  --colour-grey-d: rgb(63, 63, 63);
   --colour-black: rgba(0, 0, 0, 1);
   --colour-blue-a: rgba(40, 50, 59, 1);
   --colour-blue-b: rgba(51, 65, 78, 1);
