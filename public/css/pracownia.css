@@ -149,208 +149,51 @@ body {
     margin-left: 2vw;
   }
 }
-/* .pracownia-text span {
-  display: inline-block;
-  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
-  font-weight: 300;
-  background-color: rgba(0, 0, 0, 0);
-} */
-/* .pracownia-about_wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-@media (min-width: 700px) and (orientation: landscape) {
-  .pracownia-about_wrapper > * {
-    width: 40%;
-    margin: 2%;
-  }
-}
-@media (min-width: 1024px) and (orientation: landscape) {
-  .pracownia-about_wrapper > * {
-    width: 25%;
-    margin: 2%;
-  }
-} */
 .pracownia-point {
   position: relative;
-  /* clip-path: polygon(0 3%, 100% 0, 100% 97.5%, 0 100%); */
-  /* background-color: var(--colour-black-t050); */
-  /* padding-top: 5vh;
-  padding-bottom: 7vh; */
   margin-top: 10vh;
   margin-bottom: 20vh;
-  height: 30vh;
-  width: 50vw;
+  width: 45vw;
+  /* height: 30vh; */
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  padding: 3vh;
   background: transparent
     url("../content/dotgrid-texture.png") repeat 0 0;
   background-repeat: repeat;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
 }
-
 .pracownia-point:nth-of-type(odd) {
   left: 55%;
   transform: translateX(-50%);
-  background-color: var(--colour-grey-d);
 }
 .pracownia-point:nth-of-type(even) {
   left: 45%;
   transform: translateX(-50%);
-  background-color: var(--colour-grey-c);
 }
-@media (max-width: 1022px) {
-  .pracownia-about {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto;
-    /* position: relative;
-    top: 50%;
-    transform: translateY(-50%); */
-    /* margin-top: 2vh;
-    margin-bottom: 2vh; */
-    /* background-color: rgba(0, 0, 0, 0.3); */
-  }
-  .pracownia-about img {
-    grid-row: 1/2;
-    /* grid-column: 1/-1; */
-    position: relative;
-    max-width: 27vw;
-    max-height: 27vh;
-    /* position: absolute; */
-    /* left: 0; */
-    /* height: 100%; */
-    /* position: relative; */
-    /* top: 50%;
-    transform: translateY(-50%); */
-    /* max-width: 27vw;
-    max-height: 27vh; */
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    /* display: none; */
-  }
-  .pracownia-about span {
-    grid-row: 2/3;
-    /* grid-column: 1/-1; */
-    /* max-width: 60vw; */
-    display: inline-block;
-    text-align: left;
-    font-weight: 500;
-    margin-top: 2vh;
-    /* padding: 0vw; */
-    padding-right: 5vw;
-    padding-left: 5vw;
-    width: 100%;
-    /* font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760)); */
-    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
-    cursor: none;
-  }
-
-  .pracownia-about p {
-    grid-row: 3/4;
-    /* grid-column: 1/-1; */
-    margin-top: 3vh;
-    text-indent: 3vw;
-    padding-bottom: 3vh;
-    padding-left: 5vw;
-    padding-right: 3vw;
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-    font-weight: 300;
-    cursor: none;
-  }
+.pracownia-point .miniature {
+  height: 10%;
+  grid-column: 1/2;
 }
-
-@media (min-width: 1023px) {
-  .pracownia-about {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 2fr;
-  }
-  .pracownia-about img {
-    grid-row: 1/-1;
-    grid-column: 1/-1;
-    position: absolute;
-    height: 100%;
-    /* position: absolute;
-    left: 0;
-    height: 100%; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* max-width: 15vw;
-    max-height: 15vh; */
-    /* margin-top: -30vh; */
-  }
-  .pracownia-about span {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    text-align: left;
-    font-weight: 500;
-    margin-top: 2vh;
-    /* padding: 0vw; */
-    padding-right: 5vw;
-    padding-left: 5vw;
-    width: 100%;
-    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
-    cursor: none;
-    /* margin-left: 3vw; */
-  }
-  .pracownia-about p {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-    font-weight: 300;
-    margin-top: 3vh;
-    text-indent: 3vw;
-    padding-bottom: 3vh;
-    padding-left: 5vw;
-    padding-right: 3vw;
-    /* margin-left: 3vw; */
-  }
+.pracownia-point .miniature img {
 }
-
-.pracownia-link {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  width: 100vw;
-  text-align: right;
-  padding-right: 20vw;
+.pracownia-point .description {
+  grid-column: 2/3;
 }
-.pracownia-link p {
+.pracownia-point .description span {
+  font-weight: 500;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
-  font-weight: 300;
-  background-color: rgba(0, 0, 0, 0.3);
 }
-
-/* @media (min-width: 1023px) {
-  .pracownia-point {
-    padding-top: 3vh;
-    padding-bottom: 5vh;
-    margin-top: 2vh;
-    margin-bottom: 7vh;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  .pracownia-about img {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 15vw;
-    max-height: 15vh;
-  }
-  .pracownia-about span {
-    margin-top: 3vh;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    text-align: left;
-  }
-  .pracownia-about p {
-    text-indent: 3vw;
-    padding-top: 0vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-    font-weight: 300;
-  }
-} */
+.pracownia-point .description p {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-indent: 3vw;
+  font-weight: 300;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+}
 
 .awards-btn {
   left: 50%;
@@ -402,11 +245,7 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-<<<<<<< HEAD
   background-color:var(--colour-grey-d);
-=======
-  background-color: var(--colour-grey-c);
->>>>>>> 444e95857bd3bd2b15956795401a91ba2ef0904f
   color: #eee;
   overflow: hidden;
   font-weight: 300;
@@ -414,7 +253,6 @@ body {
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
-  /* border: 2px solid #eee; */
 }
 .pracownia-btn-posnawr span {
   position: absolute;
