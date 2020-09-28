@@ -197,29 +197,77 @@ body {
   transform: translateX(-50%);
   background-color: var(--colour-grey-c);
 }
-
-.pracownia-about {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  /* margin-top: 2vh;
-  margin-bottom: 2vh; */
-  /* background-color: rgba(0, 0, 0, 0.3); */
-}
-.pracownia-about img {
-  position: absolute;
-    left: 0;
-    height: 100%;
-  /* position: relative; */
-  /* top: 50%;
-  transform: translateY(-50%); */
-  /* max-width: 27vw;
-  max-height: 27vh; */
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  /* display: none; */
-}
-@media (min-width: 1023px) {
+@media (max-width: 1022px) {
+  .pracownia-about {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    /* position: relative;
+    top: 50%;
+    transform: translateY(-50%); */
+    /* margin-top: 2vh;
+    margin-bottom: 2vh; */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  }
   .pracownia-about img {
+    grid-row: 1/2;
+    /* grid-column: 1/-1; */
+    position: relative;
+    max-width: 27vw;
+    max-height: 27vh;
+    /* position: absolute; */
+    /* left: 0; */
+    /* height: 100%; */
+    /* position: relative; */
+    /* top: 50%;
+    transform: translateY(-50%); */
+    /* max-width: 27vw;
+    max-height: 27vh; */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* display: none; */
+  }
+  .pracownia-about span {
+    grid-row: 2/3;
+    /* grid-column: 1/-1; */
+    /* max-width: 60vw; */
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 2vh;
+    /* padding: 0vw; */
+    padding-right: 5vw;
+    padding-left: 5vw;
+    width: 100%;
+    /* font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760)); */
+    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
+    cursor: none;
+  }
+
+  .pracownia-about p {
+    grid-row: 3/4;
+    /* grid-column: 1/-1; */
+    margin-top: 3vh;
+    text-indent: 3vw;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+    font-weight: 300;
+    cursor: none;
+  }
+}
+
+@media (min-width: 1023px) {
+  .pracownia-about {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 2fr;
+  }
+  .pracownia-about img {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    position: absolute;
+    height: 100%;
     /* position: absolute;
     left: 0;
     height: 100%; */
@@ -229,35 +277,32 @@ body {
     max-height: 15vh; */
     /* margin-top: -30vh; */
   }
-  .pracownia-about span,
-  .pracownia-about p {
+  .pracownia-about span {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 2vh;
+    /* padding: 0vw; */
+    padding-right: 5vw;
+    padding-left: 5vw;
+    width: 100%;
+    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
+    cursor: none;
     /* margin-left: 3vw; */
   }
-}
-.pracownia-about span {
-  /* max-width: 60vw; */
-  display: inline-block;
-  text-align: left;
-  font-weight: 500;
-  margin-top: 2vh;
-  /* padding: 0vw; */
-  padding-right: 5vw;
-  padding-left: 5vw;
-  width: 100%;
-  /* font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760)); */
-  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
-  cursor: none;
-}
-
-.pracownia-about p {
-  margin-top: 3vh;
-  text-indent: 3vw;
-  padding-bottom: 3vh;
-  padding-left: 5vw;
-  padding-right: 3vw;
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
-  font-weight: 300;
-  cursor: none;
+  .pracownia-about p {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+    font-weight: 300;
+    margin-top: 3vh;
+    text-indent: 3vw;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    /* margin-left: 3vw; */
+  }
 }
 
 .pracownia-link {
@@ -354,7 +399,7 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-  background-color:var(--colour-grey-c);
+  background-color: var(--colour-grey-c);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
