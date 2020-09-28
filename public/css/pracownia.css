@@ -154,17 +154,12 @@ body {
   margin-top: 10vh;
   margin-bottom: 20vh;
   width: 45vw;
-  /* height: 30vh; */
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   padding: 3vh;
-  background: transparent
-    url("../content/dotgrid-texture.png") repeat 0 0;
+  background: transparent url("../content/dotgrid-texture.png") repeat 0 0;
   background-repeat: repeat;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto;
 }
 .pracownia-point:nth-of-type(odd) {
   left: 55%;
@@ -173,15 +168,6 @@ body {
 .pracownia-point:nth-of-type(even) {
   left: 45%;
   transform: translateX(-50%);
-}
-.pracownia-point .miniature {
-  height: 10%;
-  grid-column: 1/2;
-}
-.pracownia-point .miniature img {
-}
-.pracownia-point .description {
-  grid-column: 2/3;
 }
 .pracownia-point .description span {
   font-weight: 500;
@@ -194,7 +180,55 @@ body {
   font-weight: 300;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
 }
-
+@media (max-width: 1022px) {
+  .pracownia-point {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    width: 65vw;
+  }
+  .pracownia-point .miniature {
+    grid-row: 1/2;
+    width: 100%;
+  }
+  .pracownia-point .miniature img {
+    max-width: 45%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .pracownia-point .description {
+    grid-row: 2/3;
+    text-align: center;
+    margin: 2%;
+  }
+  .pracownia-point .description p {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 1023px) {
+  .pracownia-point {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .pracownia-point .miniature {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+  .pracownia-point .miniature img {
+    max-width: 45%;
+  }
+  .pracownia-point .description {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+}
 .awards-btn {
   left: 50%;
   transform: translateX(-50%);
@@ -245,7 +279,7 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-  background-color:var(--colour-grey-d);
+  background-color: var(--colour-grey-d);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
