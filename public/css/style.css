@@ -881,7 +881,9 @@ video {
 .cookies-close .container:hover .part-2 {
   transform: rotate(0deg);
 }
-
+.cookies-text span {
+  font-weight: 300;
+}
 /* @media (min-width: 1023px) {
   .about_us-info span {
     font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
