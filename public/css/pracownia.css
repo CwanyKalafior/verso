@@ -205,12 +205,18 @@ body {
 }
 @media (min-width: 1023px) {
   .pracownia-about img {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute;
+    left: 0;
+    height: 100%;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     max-width: 15vw;
     max-height: 15vh;
-    margin-top: -30vh;
+    /* margin-top: -30vh; */
+  }
+  .pracownia-about span,
+  .pracownia-about p {
+    margin-left: 3vw;
   }
 }
 .pracownia-about span {
