@@ -428,16 +428,17 @@ body {
 }
 @media (max-width: 1024px) {
   .swiper-slide img {
-    max-width: 25vw;
+    max-width: 22vw;
   }
 }
+
 @media (max-width: 500px) {
   .swiper-slide img {
-    max-width: 35vw;
+    max-width: 40vw;
   }
 }
 @media (max-width: 400px) {
   .swiper-slide img {
-    max-width: 40vw;
+    max-width: 80vw;
   }
 }
