@@ -185,6 +185,9 @@ body {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  background: transparent
+    url("../content/dotgrid-texture.png") repeat 0 0;
+  background-repeat: repeat;
 }
 
 .pracownia-point:nth-of-type(odd) {
@@ -399,7 +402,11 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
+<<<<<<< HEAD
+  background-color:var(--colour-grey-d);
+=======
   background-color: var(--colour-grey-c);
+>>>>>>> 444e95857bd3bd2b15956795401a91ba2ef0904f
   color: #eee;
   overflow: hidden;
   font-weight: 300;
@@ -415,7 +422,7 @@ body {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: var(--colour-grey-d);
+  background-color: var(--colour-grey-c);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -430,6 +437,6 @@ body {
   height: 562.5px;
 }
 .pracownia-btn-posnawr:active {
-  background-color: var(--colour-grey-d);
+  background-color: var(--colour-grey-c);
   font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760));
 }
