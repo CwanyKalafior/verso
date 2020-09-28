@@ -349,7 +349,7 @@ body {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: var(--colour-blue-a);
+  background-color: var(--colour-grey-c);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -364,7 +364,7 @@ body {
   height: 562.5px;
 }
 .pracownia-btn-posnawr:active {
-  background-color: #33414e;
+  background-color: var(--colour-grey-c);
   font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760));
-  margin-left: 0.6vw; /* dobrze? centrowanie */
+  /* margin-left: 0.6vw; dobrze? centrowanie */
 }

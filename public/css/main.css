@@ -50,12 +50,15 @@ video {
   bottom: 0;
   padding: 12px 20px;
   position: absolute;
-  background-color: #28323b;
+  background-color: var(--colour-blue-b);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
   cursor: none;
-  border: 2px solid #eee;
+  /* border: 2px solid #eee; */
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
 }
 .btn-posnawr span {
   position: absolute;
@@ -63,7 +66,7 @@ video {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #33414e;
+  background-color: var(--colour-blue-a);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -78,7 +81,7 @@ video {
   height: 562.5px;
 }
 .btn-posnawr:active {
-  background-color: #33414e;
+  background-color: var(--colour-blue-a);
   font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }
 .gallery-btn {
