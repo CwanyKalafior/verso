@@ -714,13 +714,14 @@ video {
   font-weight: 500;
 }
 /* animacja */
+
 .hamburger-menu-bg li a.home,
 .hamburger-menu-bg li a.projekty,
 .hamburger-menu-bg li a.pracownia,
 .hamburger-menu-bg li a.kontakt {
   position: relative;
   left: -100vw;
-  transition: 0.2s;
+  transition: 0.7s ease-in-out;
 }
 
 .hamburger-menu-bg li a.home.left,
