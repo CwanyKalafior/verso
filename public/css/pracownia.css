@@ -220,7 +220,12 @@ body {
     margin-top: 2vh;
   }
 }
-@media (min-width: 700px) and (orientation: portrait) {
+@media (min-width: 500px) {
+  .pracownia-point .miniature img {
+    max-width: 30%;
+  }
+}
+@media (min-width: 850px) {
   .pracownia-point .miniature img {
     max-width: 25%;
   }
@@ -230,7 +235,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    width: 80vw;
+    width: 70vw;
   }
   .pracownia-point .miniature {
     grid-row: 1/2;
@@ -250,6 +255,10 @@ body {
     grid-column: 2/3;
   }
 }
+@media (min-width: 1600px) {
+  .pracownia-point {
+    width: 50vw;
+  }
 .awards-btn {
   left: 50%;
   transform: translateX(-50%);

@@ -129,7 +129,7 @@ body {
   background-color: rgb(0, 0, 0);
   z-index: 100000;
   padding: 0 20vw;
-  clip-path: polygon(0 2.5vw, 100% 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 2.5vw, 100% 0, 100% 100%, 0 100%); */ /* ! */
 }
 
 @media (orientation: portrait) {
@@ -934,7 +934,7 @@ video {
 }
 .cookies-text span {
   font-weight: 500;
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  font-size: calc(16px + (18 - 14) * ((100vw - 320px) / 760));
 }
 
 /* @media (min-width: 1023px) {
