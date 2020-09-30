@@ -62,13 +62,13 @@ const HamburgerMenuShow = () => {
   homeLink.classList.add("left");
   setTimeout(function () {
     projektLink.classList.add("left");
-  }, 200);
+  }, 60);
   setTimeout(function () {
     pracowniaLink.classList.add("left");
-  }, 400);
+  }, 160);
   setTimeout(function () {
     kontaktLink.classList.add("left");
-  }, 600);
+  }, 240);
 };
 const HamburgerMenuClose = () => {
   hamburgerMenu.classList.remove("hamburger-menu-show");

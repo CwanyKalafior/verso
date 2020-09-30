@@ -12,7 +12,7 @@ var cookie_content = `<div class="cookies-close" onclick="document.getElementByI
 <div class="cookies-text">
 <span>Ciasteczka!</span>
 <p>
-  W celu poprawienia wygody użytkowania, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma
+  W celu poprawienia wygody użytkowania i prowadzenia badań rynkowych, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma
   możliwość ich wyłączenia bezpośrednio w ustawieniach przeglądarki. Dalsze korzystanie ze strony oznacza ich
   akceptację.</br>
   <a href="">Polityka Prywatności</a>
