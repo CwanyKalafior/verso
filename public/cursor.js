@@ -68,8 +68,7 @@ const cursorFunction = () => {
       setCursorActive();
     });
     $(".btn-posnawr-indx").on("mouseenter", function () {
-      cursor.addClass("active");
-      follower.addClass("btn_follower active");
+      setCursorActive();
     });
     $(".languages-buttoms a").on("mouseenter", function () {
       setCursorActive();
@@ -124,8 +123,7 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     $(".btn-posnawr-indx").on("mouseleave", function () {
-      cursor.removeClass("active");
-      follower.removeClass("btn_follower active");
+      removeCursorActive();
     });
     $(".languages-buttoms a").on("mouseleave", function () {
       removeCursorActive();

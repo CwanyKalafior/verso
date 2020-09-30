@@ -109,3 +109,5 @@ const videoClose = () => {
 projBtn.addEventListener("click", videoClose);
 formLink.addEventListener("click", videoClose);
 topNavButtons.addEventListener("click", videoClose);
+
+AOS.init();
