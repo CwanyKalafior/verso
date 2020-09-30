@@ -97,21 +97,21 @@ $(function () {
       jednorodzinne_all = obj.filter(
         (element) => element.grupa === "jednorodzinne"
       );
-      jednorodzinne_full_length += jednorodzinne_all.length;
+      jednorodzinne_full_length = jednorodzinne_all.length;
 
       //filter data -> wielorodzinne
       wielorodzinne_all = obj.filter(
         (element) => element.grupa === "wielorodzinne"
       );
-      wielorodzinne_full_length += wielorodzinne_all.length;
+      wielorodzinne_full_length = wielorodzinne_all.length;
 
       //filter data -> publiczne
       publiczne_all = obj.filter((element) => element.grupa === "publiczne");
-      publiczne_full_length += publiczne_all.length;
+      publiczne_full_length = publiczne_all.length;
 
       //filter data -> wnetrza
       wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
-      wnetrza_full_length += wnetrza_all.length;
+      wnetrza_full_length = wnetrza_all.length;
 
 
       //display first 20
@@ -150,8 +150,11 @@ $(function () {
           $grid.append($elems);
           $grid.masonry("appended", $elems).masonry("layout");
         });
-        if (wszystkie_all.length === wszystkie_full_length) {
-          // ZMIANA BUTTONA
+        console.log(all.length + " - " + all_full_length)
+        if (all.length < 20) {
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -180,8 +183,11 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (jednorodzinne_all.length === jednorodzinne_full_length) {
-          // ZMIANA BUTTONA
+        console.log(jednorodzinne_all.length)
+        if (jednorodzinne_all.length < 20) {
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -210,8 +216,10 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (wielorodzinne_all.length === wielorodzinne_full_length) {
-          // ZMIANA BUTTONA
+        if (wielorodzinne_all.length < 20) {
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -240,8 +248,10 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (publiczne_all.length === publiczne_full_length) {
-          // ZMIANA BUTTONA
+        if (publiczne_all.length < 20) {
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -270,8 +280,10 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (wnetrza_all.length === wnetrza_full_length) {
-          // ZMIANA BUTTONA
+        if (wnetrza_all.length < 20) {
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -297,9 +309,10 @@ $(function () {
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
-          console.log("ALL ROZMIAR" + all.length);
-          if (all.length === all_full_length) {
-            // ZMIANA BUTTONA
+          if (all.length < 20) {
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -327,8 +340,10 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          if (jednorodzinne_all.length === jednorodzinne_full_length) {
-            // ZMIANA BUTTONA
+          if (jednorodzinne_all.length < 20) {
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -356,8 +371,10 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          if (wielorodzinne_all.length === jednorodzinne_full_length) {
-            // ZMIANA BUTTONA
+          if (wielorodzinne_all.length < 20) {
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -383,8 +400,10 @@ $(function () {
           });
 
           console.log("ALL ROZMIAR" + all.length);
-          if (publiczne_all.length === publiczne_full_length) {
-            // ZMIANA BUTTONA
+          if (publiczne_all.length < 20) {
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -408,8 +427,10 @@ $(function () {
             $grid.masonry("layout");
             console.log("NUMBER_OF: " + number_of_elements);
           });
-          if (wnetrza_all.length === wnetrza_full_length) {
-            // ZMIANA BUTTONA
+          if (wnetrza_all.length < 20) {
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
