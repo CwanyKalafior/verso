@@ -721,7 +721,7 @@ video {
 .hamburger-menu-bg li a.kontakt {
   position: relative;
   left: -100vw;
-  transition: 0.7s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .hamburger-menu-bg li a.home.left,
