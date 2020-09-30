@@ -162,12 +162,14 @@ body {
   background-repeat: repeat;
 }
 .pracownia-point:nth-of-type(odd) {
-  left: 55%;
-  transform: translateX(-50%);
+  margin-left:35%;
+  /* left: 55%; */
+  /* transform: translateX(-50%); */
 }
 .pracownia-point:nth-of-type(even) {
-  left: 45%;
-  transform: translateX(-50%);
+  margin-left:25%;
+  /* left: 45%; */
+  /* transform: translateX(-50%); */
 }
 .pracownia-point .description span {
   font-weight: 500;

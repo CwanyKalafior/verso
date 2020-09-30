@@ -63,7 +63,7 @@ $(function () {
     return false;
   });
 });
-
+AOS.init();
 $(".grupa-img").tilt({
   maxTilt: 7.5,
   scale: 1.04,
