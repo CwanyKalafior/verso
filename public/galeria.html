@@ -31,6 +31,7 @@
 </head>
 
 <body>
+  <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
@@ -129,29 +130,30 @@
   <!-- Hamburger menu -->
   <section class="hamburger-menu" id="hamburger-menu">
     <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-    <div class="verso-close" onClick="HamburgerMenuClose()">
-      <div class="container">
-        <div class="background"></div>
-        <div class="part-1"></div>
-        <div class="part-2"></div>
-      </div>
-    </div>
-    <ul class="hamburger-menu-bg">
-      <li>
-        <a href="index.html">Strona główna</a>
-      </li>
-      <li>
-        <a class="active">Projekty</a>
-      </li>
-      <li>
-        <a href="pracownia.html">Pracownia</a>
-      </li>
-      <li>
-        <a href="kontakt.html">Kontakt</a>
-      </li>
-    </ul>
-  </section>
+<div class="cursor-follower"></div>
+<div class="verso-close" onClick="HamburgerMenuClose()">
+  <div class="container">
+    <div class="background"></div>
+    <div class="part-1"></div>
+    <div class="part-2"></div>
+  </div>
+</div>
+<canvas id="c"></canvas>
+<ul class="hamburger-menu-bg">
+  <li>
+    <a class="home" href="index.html">Strona główna</a>
+  </li>
+  <li>
+    <a class="active projekty">Projekty</a>
+  </li>
+  <li>
+    <a href="pracownia.html" class="pracownia">Pracownia</a>
+  </li>
+  <li>
+    <a href="kontakt.html" class="kontakt">Kontakt</a>
+  </li>
+</ul>
+</section>
   <script src="jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
   <script src="cursor.js"></script>

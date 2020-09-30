@@ -5,7 +5,15 @@ video {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
 }
-
+.class-scroll-indicator {
+  position: fixed;
+  top: 0;
+  background: rgb(53, 87, 116);
+  box-shadow: 0px 0px 9px rgb(53, 87, 116);
+  height: 3.5px;
+  width: 0%;
+  z-index: 10000;
+}
 .grid-dots {
   position: relative;
   top: 70vh;
