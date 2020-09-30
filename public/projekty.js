@@ -89,7 +89,7 @@ $(function () {
           element.grupa === "jednorodzinne" &&
           element.zrealizowano_wtrakcie === "zrealizowano"
       );
-      jednorodzinne_full_length += jednorodzinne_all.length;
+      jednorodzinne_full_length = jednorodzinne_all.length;
 
       //filter data -> wielorodzinne & zrealizowano
       wielorodzinne_all = obj.filter(
@@ -97,7 +97,7 @@ $(function () {
           element.grupa === "wielorodzinne" &&
           element.zrealizowano_wtrakcie === "zrealizowano"
       );
-      wielorodzinne_full_length += wielorodzinne_all.length;
+      wielorodzinne_full_length = wielorodzinne_all.length;
 
       //filter data -> publiczne & zrealizowano
       publiczne_all = obj.filter(
@@ -113,7 +113,7 @@ $(function () {
           element.grupa === "wnetrza" &&
           element.zrealizowano_wtrakcie === "zrealizowano"
       );
-      wnetrza_full_length += wnetrza_all.length;
+      wnetrza_full_length = wnetrza_all.length;
 
       //filter data -> all & zrealizowano
       all_w = obj.filter(
@@ -225,8 +225,11 @@ $(function () {
         </div>`;
         });
         tiltFunction();
+        console.log(all.length + " - " + all_full_length)
         if (all.length === all_full_length) {
-          // ZMIANA BUTTONA
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -264,8 +267,11 @@ $(function () {
         </div>`;
         });
         tiltFunction();
+        console.log(jednorodzinne_all.length + " - " + jednorodzinne_full_length)
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
-          // ZMIANA BUTTONA
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -303,8 +309,11 @@ $(function () {
         </div>`;
         });
         tiltFunction();
+        console.log(wielorodzinne_all.length + " - " + wielorodzinne_full_length)
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
-          // ZMIANA BUTTONA
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -342,8 +351,11 @@ $(function () {
         </div>`;
         });
         tiltFunction();
+        console.log(publiczne_all.length + " - " + publiczne_full_length)
         if (publiczne_all.length === publiczne_full_length) {
-          // ZMIANA BUTTONA
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -381,8 +393,11 @@ $(function () {
         </div>`;
         });
         tiltFunction();
+        console.log(wnetrza_all.length + " - " + wnetrza_full_length)
         if (wnetrza_all.length === wnetrza_full_length) {
-          // ZMIANA BUTTONA
+          document.getElementById("btn").style.display = "none";
+        } else {
+          document.getElementById("btn").style.display = "block";
         }
       });
 
@@ -415,8 +430,11 @@ $(function () {
             </div>`;
           });
           tiltFunction();
+          console.log(all.length + " - " + all_full_length)
           if (all.length === all_full_length) {
-            // ZMIANA BUTTONA
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -447,8 +465,11 @@ $(function () {
             </div>`;
           });
           tiltFunction();
+          console.log(jednorodzinne_all.length + " - " + jednorodzinne_full_length)
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
-            // ZMIANA BUTTONA
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -479,8 +500,11 @@ $(function () {
             </div>`;
           });
           tiltFunction();
+          console.log(wielorodzinne_all.length + " - " + wielorodzinne_full_length)
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
-            // ZMIANA BUTTONA
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -509,8 +533,11 @@ $(function () {
             </div>`;
           });
           tiltFunction();
+          console.log(publiczne_all.length + " - " + publiczne_full_length)
           if (publiczne_all.length === publiczne_full_length) {
-            // ZMIANA BUTTONA
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
@@ -539,8 +566,11 @@ $(function () {
             </div>`;
           });
           tiltFunction();
+          console.log(wnetrza_all.length + " - " + wnetrza_full_length)
           if (wnetrza_all.length === wnetrza_full_length) {
-            // ZMIANA BUTTONA
+            document.getElementById("btn").style.display = "none";
+          } else {
+            document.getElementById("btn").style.display = "block";
           }
           return 0;
         }
