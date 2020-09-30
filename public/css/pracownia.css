@@ -220,6 +220,7 @@ body {
     margin-top: 2vh;
   }
 }
+<<<<<<< HEAD
 @media (min-width: 500px) {
   .pracownia-point .miniature img {
     max-width: 30%;
@@ -230,12 +231,18 @@ body {
     max-width: 25%;
   }
 }
+=======
+
+>>>>>>> bce294ed3f7acc5e1e5ddc0ec320d63609129c49
 @media (min-width: 1024px) {
   .pracownia-point {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+<<<<<<< HEAD
     width: 70vw;
+=======
+>>>>>>> bce294ed3f7acc5e1e5ddc0ec320d63609129c49
   }
   .pracownia-point .miniature {
     grid-row: 1/2;

@@ -189,8 +189,7 @@ body {
   bottom: -50%;
   width: 200vw;
   height: 200vh;
-  background: transparent
-    url("../content/noise-transparent.png") repeat 0 0;
+  background: transparent url("../content/noise-transparent.png") repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation 0.2s infinite;
   opacity: 1;
@@ -715,39 +714,22 @@ video {
   font-weight: 500;
 }
 /* animacja */
-.anime {
+.hamburger-menu-bg li a.home,
+.hamburger-menu-bg li a.projekty,
+.hamburger-menu-bg li a.pracownia,
+.hamburger-menu-bg li a.kontakt {
   position: relative;
-  animation: hamAnimation linear 0.6s;
+  left: -100vw;
+  transition: 0.2s;
 }
-.hamburger-menu-bg li a {
-  position: relative;
-  /* left: -100vw; */
+
+.hamburger-menu-bg li a.home.left,
+.hamburger-menu-bg li a.projekty.left,
+.hamburger-menu-bg li a.pracownia.left,
+.hamburger-menu-bg li a.kontakt.left {
+  left: 0;
 }
-/* .hamburger-menu-bg li:nth-of-type(1) a.anime {
-  position: relative;
-  transition: 0.3s;
-  animation: hamAnimation linear 0.4s;
-}
-.hamburger-menu-bg li:nth-of-type(2) a.anime {
-  position: relative;
-  animation: hamAnimation linear 0.6s;
-}
-.hamburger-menu-bg li:nth-of-type(3) a.anime {
-  position: relative;
-  animation: hamAnimation linear 1s;
-}
-.hamburger-menu-bg li:nth-of-type(4) a.anime {
-  position: relative;
-  animation: hamAnimation linear 1.4s;
-} */
-@keyframes hamAnimation {
-  0% {
-    left: -100vw;
-  }
-  100% {
-    left: 0vw;
-  }
-}
+
 .hamburger-menu-bg li {
   cursor: none;
   bottom: 0;
