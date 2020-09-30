@@ -1,105 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="author" content="www.jackowskivisuals.com" />
-    <title>grupaVERSO - Nagradzana pracownia projektowa</title>
-    <meta name="url" content="https://www.grupaverso.pl" />
-    <link rel="shortcut icon" type="image/png" href="https://grupaverso.pl/favicon.webp" />
-    <meta name="keywords"
-      content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso" />
-    <meta name="description"
-      content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-    <meta property="og:title" content="grupaVERSO - Nagradzana pracownia projektowa" />
-    <meta property="og:description"
-      content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-    <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
-    <meta property="og:type" content="article" />
-    <meta name=”robots” content="index, follow">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/form.css" />
-  </head>
-  <body onselectstart="return false">
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-    <canvas id="c"></canvas>
-    <div class="wrapper">
-      <div class="form-wrapper">
-        <nav>
-          <div class="top-nav">
-            <a href="index.html">
-              <div class="brand-name">
-                <img src="./content/grupaVERSO-logo.webp" alt="grupaverso" />
-              </div>
-            </a>
-          </div>
-        </nav>
-        <a href="index.html">
-          <div class="verso-close">
-            <div class="container">
-              <div class="background"></div>
-              <div class="part-1"></div>
-              <div class="part-2"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="www.jackowskivisuals.com" />
+  <title>grupaVERSO - Nagradzana pracownia projektowa</title>
+  <meta name="url" content="https://www.grupaverso.pl" />
+  <link rel="shortcut icon" type="image/png" href="https://grupaverso.pl/favicon.webp" />
+  <meta name="keywords"
+    content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso" />
+  <meta name="description"
+    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:title" content="grupaVERSO - Nagradzana pracownia projektowa" />
+  <meta property="og:description"
+    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
+  <meta property="og:type" content="article" />
+  <meta name=”robots” content="index, follow">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/form.css" />
+</head>
+
+<body onselectstart="return false">
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <section class="cookies-info" id="cookies-info" style="display: none">
+
+  </section>
+  <canvas id="c"></canvas>
+  <div class="wrapper">
+    <div class="form-wrapper">
+      <nav>
+        <div class="top-nav">
+          <a href="index.html">
+            <div class="brand-name">
+              <img src="./content/grupaVERSO-logo.webp" alt="grupaverso" />
             </div>
+          </a>
+        </div>
+      </nav>
+      <a href="index.html">
+        <div class="verso-close">
+          <div class="container">
+            <div class="background"></div>
+            <div class="part-1"></div>
+            <div class="part-2"></div>
           </div>
-        </a>
-        <form method="POST" action="send" id="form">
-          <div>
-            <label>
-              Imię i nazwisko:
-            </label></br>
-            <input type="text" name="name" id="name">
-          </div>
-          <div>
-            <label>
-              Numer kontaktowy:
-            </label></br>
-            <!-- <input type="number" pattern="[+][0-9]*" name="number" id="number" -->
-            <input type="number" pattern="[+][0-9]*" name="number" id="number" inputmode="numeric"
-              onkeydown="javascript: return event.keyCode == 69 ? false : true && event.keyCode == 190 ? false : true && event.keyCode == 109 ? false : true && event.keyCode == 188 ? false : true && event.keyCode == 189 ? false : true ">
-          </div>
-          <div>
-            <label>
-              Adres email:
-            </label></br>
-            <!-- <input type="text" name="email" id="email"> -->
-            <input type="email" name="email" id="email">
-          </div>
-          <div>
-            <label>
-              Twoja wiadomość:
-            </label></br>
-            <textarea type="textarea" name="message" id="message"></textarea>
-          </div>
-          <div class="form-accept">
-            <input type="radio" name="radio" id="radio" />
-            <div class="checkmark"> </div>
-            <div class="checkmark_white"> </div>
-            <p>
-              Akceptuję warunki określone w zapisie dotyczącym prywatności.
-            </p>
-          </div>
-          <div class="form-send_btn">
-            <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
-          </div>
-        </form>
-      </div>
-      <!-- </div> -->
+        </div>
+      </a>
+      <form method="POST" action="send" id="form">
+        <div>
+          <label>
+            Imię i nazwisko:
+          </label></br>
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+          <label>
+            Numer kontaktowy:
+          </label></br>
+          <!-- <input type="number" pattern="[+][0-9]*" name="number" id="number" -->
+          <input type="number" pattern="[+][0-9]*" name="number" id="number" inputmode="numeric"
+            onkeydown="javascript: return event.keyCode == 69 ? false : true && event.keyCode == 190 ? false : true && event.keyCode == 109 ? false : true && event.keyCode == 188 ? false : true && event.keyCode == 189 ? false : true ">
+        </div>
+        <div>
+          <label>
+            Adres email:
+          </label></br>
+          <!-- <input type="text" name="email" id="email"> -->
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label>
+            Twoja wiadomość:
+          </label></br>
+          <textarea type="textarea" name="message" id="message"></textarea>
+        </div>
+        <div class="form-accept">
+          <input type="radio" name="radio" id="radio" />
+          <div class="checkmark"> </div>
+          <div class="checkmark_white"> </div>
+          <p>
+            Akceptuję warunki określone w zapisie dotyczącym prywatności.
+          </p>
+        </div>
+        <div class="form-send_btn">
+          <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
+        </div>
+      </form>
     </div>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="../node_modules/animejs/lib/anime.min.js"></script>
-    <script src="circleAnimation.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="cursor.js"></script>
-    <script src="form.js"></script>
-    <script src="https://kit.fontawesome.com/55221ecb68.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="formjq.js"></script>
-  </body>
+    <!-- </div> -->
+  </div>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="../node_modules/animejs/lib/anime.min.js"></script>
+  <script src="circleAnimation.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script src="cursor.js"></script>
+  <script src="form.js"></script>
+  <script src="https://kit.fontawesome.com/55221ecb68.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="formjq.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="cookies.js"></script>
+</body>
 
 </html>
