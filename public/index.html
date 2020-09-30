@@ -30,14 +30,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <!-- "Strona główna" -->
-<body onselectstart="return false" onload="checkCookie()" class="home">
+
+<body onselectstart="return false" class="home">
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
-  <section class="cookies-info" id="cookies-info">
+  <section class="cookies-info" id="cookies-info" style="display: none">
     <div class="cookies-close" onclick="document.getElementById('cookies-info').style.display='none'">
       <div class="container">
         <div class="background"></div>
@@ -48,12 +49,15 @@
     <div class="cookies-text">
       <span>Ciasteczka!</span>
       <p>
-        W celu poprawienia wygody użytkowania, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma możliwość ich wyłączenia bezpośrednio w ustawieniach przeglądarki. Dalsze korzystanie ze strony oznacza ich akceptację.</br>
+        W celu poprawienia wygody użytkowania, nasza strona wykorzystuje pliki cookies (tzw. ciasteczka). Każdy ma
+        możliwość ich wyłączenia bezpośrednio w ustawieniach przeglądarki. Dalsze korzystanie ze strony oznacza ich
+        akceptację.</br>
         <a href="">Polityka Prywatności</a>
       </p>
     </div>
   </section>
-  <!-- <div class="master-margin"></div> --> <!-- ! -->
+  <!-- <div class="master-margin"></div> -->
+  <!-- ! -->
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
     <source src="content\grupaVERSO-background.mp4" type="video/mp4">
   </video>
@@ -152,7 +156,7 @@
         <li>
           <a href="pracownia.html">Pracownia</a>
         </li>
-        <li >
+        <li>
           <a href="kontakt.html" id="contact-btn">Kontakt</a>
         </li>
       </ul>
@@ -166,6 +170,7 @@
     <script src="cursor.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="cookies.js"></script>
     <!-- Google Analytics -->
 </body>
