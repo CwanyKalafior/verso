@@ -51,11 +51,31 @@ window.onload = function () {
 };
 //hamburger-menu
 const hamburgerMenu = document.getElementById("hamburger-menu");
+const homeLink = document.querySelector(".hamburger-menu-bg li a.home");
+const projektLink = document.querySelector(".hamburger-menu-bg li a.projekty");
+const pracowniaLink = document.querySelector(
+  ".hamburger-menu-bg li a.pracownia"
+);
+const kontaktLink = document.querySelector(".hamburger-menu-bg li a.kontakt");
 const HamburgerMenuShow = () => {
   hamburgerMenu.classList.add("hamburger-menu-show");
+  homeLink.classList.add("left");
+  setTimeout(function () {
+    projektLink.classList.add("left");
+  }, 200);
+  setTimeout(function () {
+    pracowniaLink.classList.add("left");
+  }, 400);
+  setTimeout(function () {
+    kontaktLink.classList.add("left");
+  }, 600);
 };
 const HamburgerMenuClose = () => {
   hamburgerMenu.classList.remove("hamburger-menu-show");
+  homeLink.classList.remove("left");
+  projektLink.classList.remove("left");
+  pracowniaLink.classList.remove("left");
+  kontaktLink.classList.remove("left");
 };
 
 // arrow top
