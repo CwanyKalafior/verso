@@ -1,105 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="author" content="www.jackowskivisuals.com" />
-    <title>grupaVERSO - Nagradzana pracownia projektowa</title>
-    <meta name="url" content="https://www.grupaverso.pl" />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://grupaverso.pl/favicon.webp"
-    />
-    <meta
-      name="keywords"
-      content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso"
-    />
-    <meta
-      name="description"
-      content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
-    />
-    <meta
-      property="og:title"
-      content="grupaVERSO - Nagradzana pracownia projektowa"
-    />
-    <meta
-      property="og:description"
-      content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
-    />
-    <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
-    <meta property="og:type" content="article" />
-    <meta name="”robots”" content="index, follow" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/kontakt.css" />
-  </head>
-  <body onselectstart="return false">
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-    <canvas id="c"></canvas>
-    <div class="wrapper">
-      <div class="contact-wrapper">
-        <nav>
-          <div class="top-nav">
-            <div class="brand-name">
-              <a href="index.html">
-                <img src="./content/grupaVERSO-logo.webp" alt="grupaverso"
-              /></a>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="www.jackowskivisuals.com" />
+  <title>grupaVERSO - Nagradzana pracownia projektowa</title>
+  <meta name="url" content="https://www.grupaverso.pl" />
+  <link rel="shortcut icon" type="image/png" href="https://grupaverso.pl/favicon.webp" />
+  <meta name="keywords"
+    content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso" />
+  <meta name="description"
+    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:title" content="grupaVERSO - Nagradzana pracownia projektowa" />
+  <meta property="og:description"
+    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
+  <meta property="og:type" content="article" />
+  <meta name="”robots”" content="index, follow" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/kontakt.css" />
+</head>
+
+<body onselectstart="return false">
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <section class="cookies-info" id="cookies-info" style="display: none">
+
+  </section>
+  <canvas id="c"></canvas>
+  <div class="wrapper">
+    <div class="contact-wrapper">
+      <nav>
+        <div class="top-nav">
+          <div class="brand-name">
+            <a href="index.html">
+              <img src="./content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
           </div>
-        </nav>
-        <a href="index.html">
-          <div class="verso-close">
-            <div class="container">
-              <div class="background"></div>
-              <div class="part-1"></div>
-              <div class="part-2"></div>
-            </div>
+        </div>
+      </nav>
+      <a href="index.html">
+        <div class="verso-close">
+          <div class="container">
+            <div class="background"></div>
+            <div class="part-1"></div>
+            <div class="part-2"></div>
           </div>
-        </a>
-        <div class="contact-content">
-          <div class="contact-authors">
-            <p>Jakub Cieślik</p>
-            <a href="tel:+48 502 327 654">+48 502 327 654</a>
-            <p>Kamil Cierpioł</p>
-            <!-- Sprawdzić nry -->
-            <a href="tel:+48 667 249 109">+48 667 249 109</a>
-            <p>Email:</p>
-            <a href="mailto:biuro@grupaverso.com.pl" target="blank"
-              >biuro@grupaverso.com.pl</a
-            >
-            <p>Lokalizacja biura:</p>
-            <a
-              href="https://www.google.pl/maps/dir//Aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"
-              target="blank"
-              ><span>Aleja Wolności 27,<br />42-200 Częstochowa</span></a
-            >
-          </div>
-          <div class="contact-data">
-            <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
-            Al. Wolności 27, 42-200 Częstochowa<br />
-            NIP: 9492218091<br />
-            REGON: 367502177<br />
-            KRS: 0000681527<br />
-          </div>
+        </div>
+      </a>
+      <div class="contact-content">
+        <div class="contact-authors">
+          <p>Jakub Cieślik</p>
+          <a href="tel:+48 502 327 654">+48 502 327 654</a>
+          <p>Kamil Cierpioł</p>
+          <!-- Sprawdzić nry -->
+          <a href="tel:+48 667 249 109">+48 667 249 109</a>
+          <p>Email:</p>
+          <a href="mailto:biuro@grupaverso.com.pl" target="blank">biuro@grupaverso.com.pl</a>
+          <p>Lokalizacja biura:</p>
+          <a href="https://www.google.pl/maps/dir//Aleja+Wolno%C5%9Bci+27,+42-217+Cz%C4%99stochowa/@50.80824,19.1165482,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4710b5c4dd706c69:0xa4d2d9641dfd4eb9!2m2!1d19.1187369!2d50.8082366!3e0?hl=pl"
+            target="blank"><span>Aleja Wolności 27,<br />42-200 Częstochowa</span></a>
+        </div>
+        <div class="contact-data">
+          <b>GRUPA VERSO DELTOID Sp. z o. o.</b><br />
+          Al. Wolności 27, 42-200 Częstochowa<br />
+          NIP: 9492218091<br />
+          REGON: 367502177<br />
+          KRS: 0000681527<br />
         </div>
       </div>
     </div>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="cursor.js"></script>
-    <script src="../node_modules/animejs/lib/anime.min.js"></script>
-    <script src="circleAnimation.js"></script>
-  </body>
+  </div>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script src="cursor.js"></script>
+  <script src="../node_modules/animejs/lib/anime.min.js"></script>
+  <script src="circleAnimation.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="cookies.js"></script>
+</body>
+
 </html>

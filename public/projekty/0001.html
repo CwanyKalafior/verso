@@ -14,6 +14,9 @@
 <body>
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
+  <section class="cookies-info" id="cookies-info" style="display: none">
+
+  </section>
   <div class="realizacje-wrapper">
     <canvas id="noise" class="noise"></canvas>
     <nav>
@@ -24,14 +27,14 @@
       </div>
     </nav>
     <a href="../projekty.html">
-    <div class="verso-close">
-      <div class="container">
-        <div class="background"></div>
-        <div class="part-1"></div>
-        <div class="part-2"></div>
+      <div class="verso-close">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
     <div class="pictures-description_container" id="element-container">
       <section id="nazwa_id"></section>
       <div class="picture-description" id="picture">
@@ -70,10 +73,8 @@
       <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
     </div>
     <footer>
-      <p>Designed and developed with  ❤</p>
-      <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank"
-        >Jackowski Visuals</a
-      ></p>
+      <p>Designed and developed with ❤</p>
+      <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a></p>
     </footer>
   </div>
   <script src="../jquery-3.4.1.min.js"></script>
@@ -82,6 +83,8 @@
   <script src="../cursor.js"></script>
   <script src="../case.js"></script>
   <script src="../subpagegenerator.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="../cookies.js"></script>
 </body>
 
 </html>

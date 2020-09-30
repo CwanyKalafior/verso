@@ -13,9 +13,6 @@ const auth = {
 //Transport data to MailGun
 const transporter = nodemailer.createTransport(mailGun(auth));
 
-/* mail: projektgvtest@gmail.com
-   password: grupaversoczestochowa */
-
 //Seending email
 const sendMail = (name, number, email, text, cb) => {
     const mailOptions = {

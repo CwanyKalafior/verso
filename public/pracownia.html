@@ -19,7 +19,7 @@
   <meta property="og:title" content="grupaVERSO • Pracownia" />
   <meta property="og:description"
     content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-  <meta property="og:image" content="./content/grupaVERSO-ogimage.jpg"/>
+  <meta property="og:image" content="./content/grupaVERSO-ogimage.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:determiner" content="the" />
   <meta property="og:locale" content="pl-PL" />
@@ -34,37 +34,43 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/pracownia.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179311127-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179311127-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      gtag('config', 'UA-179311127-1');
-    </script>
+    gtag('config', 'UA-179311127-1');
+  </script>
   <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '628441564520056');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=628441564520056&ev=PageView&noscript=1"
-      />
-    </noscript>
+    fbq('init', '628441564520056');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=628441564520056&ev=PageView&noscript=1" />
+  </noscript>
   <!--  -->
 </head>
 <!-- Pracownia page -->
+
 <body onselectstart="return false">
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
+  <section class="cookies-info" id="cookies-info" style="display: none">
+
+  </section>
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
     <source src="content\grupaVERSO-background.mp4" type="video/mp4">
   </video>
@@ -81,20 +87,17 @@
       <nav>
         <div class="top-nav">
           <div class="brand-name">
-            <a  href="index.html"> <img src="./content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
+            <a href="index.html"> <img src="./content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
           </div>
       </nav>
       <div class="topnav-menu">
         <div class="topnav-buttoms">
           <span class="realizacje">
-          <a  href="projekty.html">Projekty<span></span></a
-            ></span>
-            <span class="pracownia">
-              <a  href="pracownia.html">Pracownia<span></span> </a
-            ></span>
+            <a href="projekty.html">Projekty<span></span></a></span>
+          <span class="pracownia">
+            <a href="pracownia.html">Pracownia<span></span> </a></span>
           <span class="kontakt">
-            <a  href="kontakt.html">Kontakt<span></span> </a
-          ></span>
+            <a href="kontakt.html">Kontakt<span></span> </a></span>
         </div>
       </div>
       <div class="pracownia-name">
@@ -116,7 +119,8 @@
           <span id="readmore">
             <br>
             <span>
-              Realizujemy projekty o różnej skali. Z jednakowo dużym entuzjazmem tworzymy koncepcje osiedli, jak i małych domków jednorodzinnych.
+              Realizujemy projekty o różnej skali. Z jednakowo dużym entuzjazmem tworzymy koncepcje osiedli, jak i
+              małych domków jednorodzinnych.
               Projektując przestrzeń zwracamy szczególną uwagę na jej funkcjonalność i
               ergonomię. Bardzo ważne są dla nas również aspekty wizualno-estetyczne i towarzyszące
               przebywaniu w danym miejscu odczucia.
@@ -130,10 +134,11 @@
           </span>
         </p>
         <div class="pracownia-btn">
-          <div class="pracownia-btn-posnawr" onclick="readmoref()" id="readmorebtn">Dowiedz się więcej<span></span></div>
+          <div class="pracownia-btn-posnawr" onclick="readmoref()" id="readmorebtn">Dowiedz się więcej<span></span>
+          </div>
         </div>
       </div>
-      <div class="pracownia-name" >
+      <div class="pracownia-name">
         <span>Nasze usługi:</span><br>
         <ul class="pracownia-uslugi">
           <li>Architektura</li>
@@ -145,7 +150,7 @@
           <li>Design</li>
         </ul>
       </div>
-      <div class="pracownia-name" >
+      <div class="pracownia-name">
         <span>Co nas wyróżnia?</span><br>
       </div>
       <div class="pracownia-point">
@@ -172,7 +177,7 @@
           </span>
           <p>
             Kształt budynku często zależy od wyników przeprowadzanych przez nas indywidualnych badań ergonomicznych,
-              które następnie ubieramy w estetyczną formę.
+            które następnie ubieramy w estetyczną formę.
           </p>
         </div>
       </div>
@@ -186,8 +191,8 @@
           </span>
           <p>
             Projektując, a potem prowadząc realizację, jesteśmy w stanie zapobiegać problemom z wyprzedzeniem. Dzięki
-              temu Ty zaoszczędzisz swoje pieniądze, czas oraz zdrowie, nie przejmując się naprawianiem błędów
-              nieskoordynowanych wykonawców.
+            temu Ty zaoszczędzisz swoje pieniądze, czas oraz zdrowie, nie przejmując się naprawianiem błędów
+            nieskoordynowanych wykonawców.
           </p>
         </div>
       </div>
@@ -252,10 +257,9 @@
         <a href="tel:+48 667 249 109">+48 667 249 109</a>
         <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
       </div>
-      <footer >
-        <p>Designed and developed with  ❤</p>
-        <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank"
-          >Jackowski Visuals</a>
+      <footer>
+        <p>Designed and developed with ❤</p>
+        <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a>
         </p>
       </footer>
     </div>
@@ -271,35 +275,38 @@
           <div class="part-2"></div>
         </div>
       </div>
-      <canvas id="c"></canvas>
-      <ul class="hamburger-menu-bg">
-        <li>
-          <a href="index.html">Strona główna</a>
-        </li>
-        <li>
-          <a href="projekty.html">Projekty</a>
-        </li>
-        <li>
-          <a class="active">Pracownia</a>
-        </li>
-        <li>
-          <a href="kontakt.html">Kontakt</a>
-        </li>
-      </ul>
-    </section>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="cursor.js"></script>
-    <script src="jquery.scrollTo.min.js"></script>
-    <script src="../node_modules/animejs/lib/anime.min.js"></script>
-    <script src="circleAnimation.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="vanilla-tilt.js"></script>
-    <script src="script.js"></script>
-    <script src="main.js"></script>
-    <script src="pracownia.js"></script>
-    <script>
-    </script>
+    </div>
+    <canvas id="c"></canvas>
+    <ul class="hamburger-menu-bg">
+      <li>
+        <a href="index.html">Strona główna</a>
+      </li>
+      <li>
+        <a href="projekty.html">Projekty</a>
+      </li>
+      <li>
+        <a class="active">Pracownia</a>
+      </li>
+      <li>
+        <a href="kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+  </section>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script src="cursor.js"></script>
+  <script src="jquery.scrollTo.min.js"></script>
+  <script src="../node_modules/animejs/lib/anime.min.js"></script>
+  <script src="circleAnimation.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="vanilla-tilt.js"></script>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+  <script src="pracownia.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="cookies.js"></script>
+  <script>
+  </script>
 </body>
 
 </html>
