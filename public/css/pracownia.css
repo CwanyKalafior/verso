@@ -309,7 +309,8 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-  background-color: rgb(32, 32, 32);
+  /* background-color: rgb(32, 32, 32); */
+  background-color: var(--colour-blue-b);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
@@ -324,7 +325,8 @@ body {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: rgb(16, 16, 16);
+  /* background-color: rgb(16, 16, 16); */
+  background-color: var(--colour-blue-a);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -339,6 +341,7 @@ body {
   height: 562.5px;
 }
 .pracownia-btn-posnawr:active {
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+  background-color: var(--colour-blue-a);
   font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760));
 }
