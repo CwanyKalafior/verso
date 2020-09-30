@@ -721,7 +721,7 @@ video {
 .hamburger-menu-bg li a.kontakt {
   position: relative;
   left: -100vw;
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-out;
 }
 
 .hamburger-menu-bg li a.home.left,
@@ -729,7 +729,7 @@ video {
 .hamburger-menu-bg li a.pracownia.left,
 .hamburger-menu-bg li a.kontakt.left {
   left: 0;
-  animation: opacityAnime 2s ease-in-out;
+  animation: opacityAnime 0.8s ease-out;
 }
 @keyframes opacityAnime {
   0% {
