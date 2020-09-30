@@ -66,6 +66,7 @@
 <!-- Pracownia page -->
 
 <body onselectstart="return false">
+  <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <section class="cookies-info" id="cookies-info" style="display: none">
@@ -267,31 +268,30 @@
     <!-- hamburger -->
     <section class="hamburger-menu" id="hamburger-menu">
       <div class="cursor"></div>
-      <div class="cursor-follower"></div>
-      <div class="verso-close" onClick="HamburgerMenuClose()">
-        <div class="container">
-          <div class="background"></div>
-          <div class="part-1"></div>
-          <div class="part-2"></div>
-        </div>
-      </div>
+  <div class="cursor-follower"></div>
+  <div class="verso-close" onClick="HamburgerMenuClose()">
+    <div class="container">
+      <div class="background"></div>
+      <div class="part-1"></div>
+      <div class="part-2"></div>
     </div>
-    <canvas id="c"></canvas>
-    <ul class="hamburger-menu-bg">
-      <li>
-        <a href="index.html">Strona główna</a>
-      </li>
-      <li>
-        <a href="projekty.html">Projekty</a>
-      </li>
-      <li>
-        <a class="active">Pracownia</a>
-      </li>
-      <li>
-        <a href="kontakt.html">Kontakt</a>
-      </li>
-    </ul>
-  </section>
+  </div>
+  <canvas id="c"></canvas>
+  <ul class="hamburger-menu-bg">
+    <li>
+      <a class="home" href="index.html">Strona główna</a>
+    </li>
+    <li>
+      <a href="projekty.html" class="projekty">Projekty</a>
+    </li>
+    <li>
+      <a href="pracownia.html" class="active pracownia">Pracownia</a>
+    </li>
+    <li>
+      <a href="kontakt.html" class="kontakt">Kontakt</a>
+    </li>
+  </ul>
+</section>
   <script src="jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
   <script src="cursor.js"></script>
