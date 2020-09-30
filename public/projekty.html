@@ -1,29 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pl-PL">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179311127-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-179311127-1');
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '628441564520056');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=628441564520056&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Metadane -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="author" content="www.jackowskivisuals.com" />
-  <title>grupaVERSO - Nagradzana pracownia projektowa</title>
+  <title>grupaVERSO • Projekty</title>
   <meta name="url" content="https://www.grupaverso.pl" />
-  <link rel="shortcut icon" type="image/png" href="https://grupaverso.pl/favicon.webp" />
+  <link rel="shortcut icon" type="image/png" href="./content/favicon.png" />
   <!-- <meta
     name="keywords"
     content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso"
   /> -->
   <!-- ! -->
   <meta name="description"
-    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-  <meta property="og:title" content="grupaVERSO - Nagradzana pracownia projektowa" />
-  <meta property="og:description"
-    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-  <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
-  <meta property="og:type" content="article" />
-  <meta name=”robots” content="index, follow">
+  content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+<meta property="og:title" content="grupaVERSO • Projekty" />
+<meta property="og:description"
+  content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+<meta property="og:image" content="./content/grupaVERSO-ogimage.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:determiner" content="the" />
+<meta property="og:locale" content="pl-PL" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:site_name" content="grupaVERSO" />
+<meta property="og:video" content="content\grupaVERSO-background.mp4" />
+<meta name=”robots” content="index, follow">
   <link rel="stylesheet" type="text/css" href="../node_modules/swiper/swiper-bundle.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -32,13 +64,11 @@
   <link rel="stylesheet" type="text/css" href="css/projekty.css">
 </head>
 <!-- Projekty -->
-
 <body onselectstart="return false">
   <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <section class="cookies-info" id="cookies-info" style="display: none">
-
   </section>
   <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
     <source src="content\grupaVERSO-background.mp4" type="video/mp4">
@@ -104,9 +134,6 @@
           <!-- Lista -->
         </div>
       </section>
-      <!-- <div class="gallery-btn" id="btn">
-        <p>Zobacz więcej</p>
-      </div> -->
       <div class="gallery-btn">
         <div class="btn-posnawr" id="btn">Zobacz więcej<span></span></div>
       </div>
@@ -129,7 +156,6 @@
             <div class="line-3"></div>
           </div>
         </div>
-        <!-- <span>Porozmawiajmy o Twoim projekcie.</span> -->
         <span>Z chęcią zrealizujemy Twoje marzenie. <br>Opowiesz nam o nim? </span>
         <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
         <a href="tel:+48 502 327 654">+48 502 327 654</a></br></br>
@@ -186,5 +212,4 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="cookies.js"></script>
 </body>
-
 </html>

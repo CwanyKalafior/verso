@@ -8,24 +8,24 @@ video {
 .class-scroll-indicator {
   position: fixed;
   top: 0;
-  background: rgb(53, 87, 116);
-  box-shadow: 0px 0px 9px rgb(53, 87, 116);
+  background: var(--colour-blue-d);
+  box-shadow: 0px 0px 9px var(--colour-blue-d);
   height: 3.5px;
   width: 0%;
   z-index: 10000;
 }
 .grid-dots {
   position: relative;
-  top: 70vh;
-  margin-top: calc(78px * -7);
-  height: calc(78px * 7);
-  width: calc(78px * 10);
-  margin-left: calc(78px * -10 + 40vw);
+  top: 76vh;
+  margin-top: calc(78px * -8);
+  height: calc(78px * 8);
+  width: calc(78px * 16);
+  margin-left: calc(78px * -16 + 40vw);
   opacity: 0.2 !important;
   background-image: url("../content/cross.webp");
   background-repeat: repeat;
   z-index: 10;
-  pointer-events: none;
+  pointer-events: none !important;
 }
 
 /* .grid-dots::before {
@@ -41,8 +41,8 @@ video {
 .projekt-lista:nth-of-type(2n) .grid-dots {
   position: relative;
   margin-left: auto;
-  margin-right: calc(78px * -12 + 50vw);
-  pointer-events: none;
+  margin-right: calc(78px * -12 + 25vw);
+  pointer-events: none !important;
   /* left: 41vw; */
 }
 

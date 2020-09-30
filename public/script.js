@@ -62,7 +62,7 @@ const HamburgerMenuShow = () => {
   homeLink.classList.add("left");
   setTimeout(function () {
     projektLink.classList.add("left");
-  }, 80);
+  }, 40);
   setTimeout(function () {
     pracowniaLink.classList.add("left");
   }, 160);
