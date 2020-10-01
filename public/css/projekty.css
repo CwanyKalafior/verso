@@ -285,6 +285,11 @@ body {
 
 .gallery {
   background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.gallery div div a {
+  pointer-events: all;
 }
 
 .projekt-lista {

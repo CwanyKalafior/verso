@@ -670,7 +670,7 @@ function parallax() {
     if ($(this).is_on_screen()) {
       var firstTop = $(this).offset().top;
       var $img = $(this).find(".grid-dots");
-      var moveTop = (firstTop - winScrollTop) * -0.2;
+      var moveTop = (firstTop - winScrollTop) * -0.15;
       $img.css("transform", "translateY(" + -moveTop + "px)");
     }
   });
