@@ -61,6 +61,52 @@ var jednorodzinne_full_length;
 var wielorodzinne_full_length;
 var publiczne_full_length;
 var wnetrza_full_length;
+var swiper_element;
+
+
+var swiper = new Swiper(".swiper-container", {
+  slidesPerView: 1,
+  spaceBetween: 100,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    400: {
+      slidesPerView: 2,
+    },
+    500: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 0,
+    },
+  },
+  lazy: {
+    loadPrevNext: true,
+    preloadImages: false,
+    lazy: true,
+  },
+  autoplay: {
+    delay: 1250,
+    disableOnInteraction: true,
+  },
+  keyboard: {
+    enabled: true,
+  },
+  loop: true,
+  centeredSlides: true,
+  freeMode: false,
+  spaceBetween: 0,
+  speed: 750,
+  updateOnWindowResize: true,
+  sensitivity: 0,
+});
+
+var mySwiper = document.querySelector('.swiper-container').swiper
+
+
 
 $(function () {
   var obj;
@@ -180,15 +226,12 @@ $(function () {
 
       //display all "wtrakcie"
       all_w.forEach((element) => {
-        if (element.zrealizowano_wtrakcie === "wtrakcie") {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+        swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-        }
+        mySwiper.appendSlide(swiper_element);
       });
 
       //click "Wszystkie"
@@ -211,21 +254,20 @@ $(function () {
               </div>
             </div>
           </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
-        document.getElementById("swiper-wrapper").innerHTML = "";
+        swiper_element = '';
+        mySwiper.removeAllSlides();
+
         all_w.forEach((element) => {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+          swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
+          mySwiper.appendSlide(swiper_element);
         });
         tiltFunction();
-        console.log(all.length + " - " + all_full_length)
         if (all.length === all_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
@@ -253,21 +295,20 @@ $(function () {
               </div>
             </div>
           </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
-        document.getElementById("swiper-wrapper").innerHTML = "";
+        swiper_element = '';
+        mySwiper.removeAllSlides();
         jednorodzinne_all_w.forEach((element) => {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+          swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
+          mySwiper.appendSlide(swiper_element);
         });
+        mySwiper.update();
         tiltFunction();
-        console.log(jednorodzinne_all.length + " - " + jednorodzinne_full_length)
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
@@ -295,21 +336,21 @@ $(function () {
               </div>
             </div>
           </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
-        document.getElementById("swiper-wrapper").innerHTML = "";
+        swiper_element = '';
+        mySwiper.removeAllSlides();
         wielorodzinne_all_w.forEach((element) => {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+          swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
+          mySwiper.appendSlide(swiper_element);
         });
+        mySwiper.update();
         tiltFunction();
-        console.log(wielorodzinne_all.length + " - " + wielorodzinne_full_length)
+
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
@@ -337,21 +378,20 @@ $(function () {
               </div>
             </div>
           </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
-        document.getElementById("swiper-wrapper").innerHTML = "";
+        swiper_element = '';
+        mySwiper.removeAllSlides();
         publiczne_all_w.forEach((element) => {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+          swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
+          mySwiper.appendSlide(swiper_element);
         });
+        mySwiper.update();
         tiltFunction();
-        console.log(publiczne_all.length + " - " + publiczne_full_length)
         if (publiczne_all.length === publiczne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
@@ -379,21 +419,20 @@ $(function () {
               </div>
             </div>
           </div>`;
-          console.log("NUMBER_OF: " + number_of_elements);
         });
         //clear DOM elements
-        document.getElementById("swiper-wrapper").innerHTML = "";
+        swiper_element = '';
+        mySwiper.removeAllSlides();
         wnetrza_all_w.forEach((element) => {
-          document.getElementById(
-            "swiper-wrapper"
-          ).innerHTML += `<div class="swiper-slide">
+          swiper_element = `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
+          mySwiper.appendSlide(swiper_element);
         });
+        mySwiper.update();
         tiltFunction();
-        console.log(wnetrza_all.length + " - " + wnetrza_full_length)
         if (wnetrza_all.length === wnetrza_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
@@ -430,7 +469,6 @@ $(function () {
             </div>`;
           });
           tiltFunction();
-          console.log(all.length + " - " + all_full_length)
           if (all.length === all_full_length) {
             document.getElementById("btn").style.display = "none";
           } else {
@@ -465,7 +503,6 @@ $(function () {
             </div>`;
           });
           tiltFunction();
-          console.log(jednorodzinne_all.length + " - " + jednorodzinne_full_length)
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
             document.getElementById("btn").style.display = "none";
           } else {
@@ -500,7 +537,6 @@ $(function () {
             </div>`;
           });
           tiltFunction();
-          console.log(wielorodzinne_all.length + " - " + wielorodzinne_full_length)
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
             document.getElementById("btn").style.display = "none";
           } else {
@@ -533,7 +569,6 @@ $(function () {
             </div>`;
           });
           tiltFunction();
-          console.log(publiczne_all.length + " - " + publiczne_full_length)
           if (publiczne_all.length === publiczne_full_length) {
             document.getElementById("btn").style.display = "none";
           } else {
@@ -566,7 +601,6 @@ $(function () {
             </div>`;
           });
           tiltFunction();
-          console.log(wnetrza_all.length + " - " + wnetrza_full_length)
           if (wnetrza_all.length === wnetrza_full_length) {
             document.getElementById("btn").style.display = "none";
           } else {
@@ -577,7 +611,7 @@ $(function () {
       });
     })
     .finally(function () {
-      swiperFunction();
+      mySwiper.update();
       tiltFunction();
       AOS.init();
     });
@@ -596,48 +630,7 @@ const tiltFunction = () => {
   });
 };
 
-const swiperFunction = () => {
-  var swiper = new Swiper(".swiper-container", {
-    slidesPerView: 1,
-    spaceBetween: 100,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-      },
-      400: {
-        slidesPerView: 2,
-      },
-      500: {
-        slidesPerView: 3,
-        spaceBetween: 0,
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 0,
-      },
-    },
-    lazy: {
-      loadPrevNext: true,
-      preloadImages: false,
-      lazy: true,
-    },
-    autoplay: {
-      delay: 1250,
-      disableOnInteraction: true,
-    },
-    keyboard: {
-      enabled: true,
-    },
-    loop: true,
-    centeredSlides: true,
-    freeMode: false,
-    spaceBetween: 0,
-    speed: 750,
-    updateOnWindowResize: true,
-    sensitivity: 0,
-  });
-};
-window.addEventListener("click", swiperFunction);
+
 
 // const tilt = $(`${element.zdjecie_glowne}`).tilt();
 // VanillaTilt.init(document.querySelector(`${element.zdjecie_glowne}`), {
