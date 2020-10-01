@@ -1,3 +1,6 @@
+body {
+  background-color: #28323b;
+}
 #c {
   display: block;
   width: 100vw;
@@ -71,7 +74,11 @@
   margin-left: 5vw;
   margin-top: 8vh;
 }
-
+@media (max-width: 1022px) {
+  .contact-data {
+    display: none;
+  }
+}
 @media (min-width: 1023px) {
   .contact-authors {
     margin-left: 15vw;
