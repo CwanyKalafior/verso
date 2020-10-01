@@ -611,7 +611,7 @@ $(function () {
       });
     })
     .finally(function () {
-
+      mySwiper.update();
       tiltFunction();
       AOS.init();
     });
