@@ -223,12 +223,15 @@ $(function () {
 
       //display all "wtrakcie"
       all_w.forEach((element) => {
-        swiper_element = `<div class="swiper-slide">
+        if (element.zrealizowano_wtrakcie === "wtrakcie") {
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-        mySwiper.appendSlide(swiper_element);
+        }
       });
 
       //click "Wszystkie"
@@ -256,17 +259,17 @@ $(function () {
         });
         AOS.init();
         //clear DOM elements
-        swiper_element = "";
-        mySwiper.removeAllSlides();
-
+        document.getElementById("swiper-wrapper").innerHTML = "";
         all_w.forEach((element) => {
-          swiper_element = `<div class="swiper-slide">
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-          mySwiper.appendSlide(swiper_element);
         });
+        swiperFunction();
         tiltFunction();
         if (all.length === all_full_length) {
           document.getElementById("btn").style.display = "none";
@@ -300,17 +303,17 @@ $(function () {
         });
         AOS.init();
         //clear DOM elements
-        swiper_element = "";
-        mySwiper.removeAllSlides();
+        document.getElementById("swiper-wrapper").innerHTML = "";
         jednorodzinne_all_w.forEach((element) => {
-          swiper_element = `<div class="swiper-slide">
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-          mySwiper.appendSlide(swiper_element);
         });
-        mySwiper.update();
+        swiperFunction();
         tiltFunction();
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
@@ -344,17 +347,17 @@ $(function () {
         });
         AOS.init();
         //clear DOM elements
-        swiper_element = "";
-        mySwiper.removeAllSlides();
+        document.getElementById("swiper-wrapper").innerHTML = "";
         wielorodzinne_all_w.forEach((element) => {
-          swiper_element = `<div class="swiper-slide">
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-          mySwiper.appendSlide(swiper_element);
         });
-        mySwiper.update();
+        swiperFunction();
         tiltFunction();
 
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
@@ -389,17 +392,17 @@ $(function () {
         });
         AOS.init();
         //clear DOM elements
-        swiper_element = "";
-        mySwiper.removeAllSlides();
+        document.getElementById("swiper-wrapper").innerHTML = "";
         publiczne_all_w.forEach((element) => {
-          swiper_element = `<div class="swiper-slide">
-          <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-            <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
-          </a>
-        </div>`;
-          mySwiper.appendSlide(swiper_element);
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
+           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
+             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+           </a>
+         </div>`;
         });
-        mySwiper.update();
+        swiperFunction();
         tiltFunction();
         if (publiczne_all.length === publiczne_full_length) {
           document.getElementById("btn").style.display = "none";
@@ -433,17 +436,17 @@ $(function () {
         });
         AOS.init();
         //clear DOM elements
-        swiper_element = "";
-        mySwiper.removeAllSlides();
+        document.getElementById("swiper-wrapper").innerHTML = "";
         wnetrza_all_w.forEach((element) => {
-          swiper_element = `<div class="swiper-slide">
+          document.getElementById(
+            "swiper-wrapper"
+          ).innerHTML += `<div class="swiper-slide">
           <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
             <img src="${element.zdjecie_glowne}" alt="${element.nazwa}">
           </a>
         </div>`;
-          mySwiper.appendSlide(swiper_element);
         });
-        mySwiper.update();
+        swiperFunction();
         tiltFunction();
         if (wnetrza_all.length === wnetrza_full_length) {
           document.getElementById("btn").style.display = "none";
@@ -638,11 +641,15 @@ $(function () {
       });
     })
     .finally(function () {
-      mySwiper.update();
+      swiperFunction();
       tiltFunction();
       AOS.init();
     });
 });
+
+const swiperFunction = () => {
+  mySwiper.update();
+};
 
 const tiltFunction = () => {
   $(document).ready(function () {
