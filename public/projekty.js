@@ -243,15 +243,18 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card"  data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         });
+        AOS.init();
         //clear DOM elements
         swiper_element = "";
         mySwiper.removeAllSlides();
@@ -284,15 +287,18 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         });
+        AOS.init();
         //clear DOM elements
         swiper_element = "";
         mySwiper.removeAllSlides();
@@ -325,15 +331,18 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         });
+        AOS.init();
         //clear DOM elements
         swiper_element = "";
         mySwiper.removeAllSlides();
@@ -367,15 +376,18 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         });
+        AOS.init();
         //clear DOM elements
         swiper_element = "";
         mySwiper.removeAllSlides();
@@ -408,15 +420,18 @@ $(function () {
           document.getElementById("gallery").innerHTML += `
           <div class="projekt-lista">
             <div class="${element.grupa}">
+            <div class="grid-dots"></div>
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
               </div>
             </div>
-          </div>`;
+          </div>
+         `;
         });
+        AOS.init();
         //clear DOM elements
         swiper_element = "";
         mySwiper.removeAllSlides();
@@ -456,15 +471,18 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
+              <div class="grid-dots"></div>
                 <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>`;
+            </div>
+           `;
           });
+          AOS.init();
           tiltFunction();
           if (all.length === all_full_length) {
             document.getElementById("btn").style.display = "none";
@@ -490,15 +508,18 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
+              <div class="grid-dots"></div>
                 <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>`;
+            </div>
+           `;
           });
+          AOS.init();
           tiltFunction();
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
             document.getElementById("btn").style.display = "none";
@@ -524,15 +545,18 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
+              <div class="grid-dots"></div>
                 <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>`;
+            </div>
+           `;
           });
+          AOS.init();
           tiltFunction();
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
             document.getElementById("btn").style.display = "none";
@@ -556,15 +580,18 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
+              <div class="grid-dots"></div>
                 <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>`;
+            </div>
+           `;
           });
+          AOS.init();
           tiltFunction();
           if (publiczne_all.length === publiczne_full_length) {
             document.getElementById("btn").style.display = "none";
@@ -588,15 +615,18 @@ $(function () {
             document.getElementById("gallery").innerHTML += `
             <div class="projekt-lista">
               <div class="${element.grupa}">
+              <div class="grid-dots"></div>
                 <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                  <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                  <img data-aos="fade-left" class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
                 </a>
                 <div class="gallery-description">
                   <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
                 </div>
               </div>
-            </div>`;
+            </div>
+           `;
           });
+          AOS.init();
           tiltFunction();
           if (wnetrza_all.length === wnetrza_full_length) {
             document.getElementById("btn").style.display = "none";
