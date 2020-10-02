@@ -48,7 +48,10 @@ body {
   font-weight: 300;
   cursor: none;
 }
-
+.grid-dots {
+  background-attachment: fixed;
+  top: 40vh;
+}
 .grupa-img {
   position: relative;
   left: 30vw;
@@ -61,6 +64,7 @@ body {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
 }
 @media (max-width: 1023px) {
   .grupa-img {
@@ -157,6 +161,7 @@ body {
   padding: 3vh;
   background: transparent url("../content/dotgrid-texture.png") repeat 0 0;
   background-repeat: repeat;
+  z-index: 9999;
 }
 .pracownia-point:nth-of-type(odd) {
   margin-left: 35%;
@@ -228,7 +233,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    width: 64vw;
+    width: 65vw;
   }
   .pracownia-point .miniature {
     grid-row: 1/2;

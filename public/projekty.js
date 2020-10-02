@@ -63,7 +63,6 @@ var publiczne_full_length;
 var wnetrza_full_length;
 var swiper_element;
 
-
 var swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   spaceBetween: 100,
@@ -104,9 +103,7 @@ var swiper = new Swiper(".swiper-container", {
   sensitivity: 0,
 });
 
-var mySwiper = document.querySelector('.swiper-container').swiper
-
-
+var mySwiper = document.querySelector(".swiper-container").swiper;
 
 $(function () {
   var obj;
@@ -247,7 +244,7 @@ $(function () {
           <div class="projekt-lista">
             <div class="${element.grupa}">
               <a href="./projekty/${element.nazwa_projektu}.html" target="_blank">
-                <img class="card" data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
+                <img class="card"  data-tilt src="${element.zdjecie_glowne}" alt="${element.nazwa}">
               </a>
               <div class="gallery-description">
                 <p>${element.nazwa} <br> <span>${element.lokalizacja} • ${element.ukonczono}</span></p>
@@ -256,7 +253,7 @@ $(function () {
           </div>`;
         });
         //clear DOM elements
-        swiper_element = '';
+        swiper_element = "";
         mySwiper.removeAllSlides();
 
         all_w.forEach((element) => {
@@ -297,7 +294,7 @@ $(function () {
           </div>`;
         });
         //clear DOM elements
-        swiper_element = '';
+        swiper_element = "";
         mySwiper.removeAllSlides();
         jednorodzinne_all_w.forEach((element) => {
           swiper_element = `<div class="swiper-slide">
@@ -338,7 +335,7 @@ $(function () {
           </div>`;
         });
         //clear DOM elements
-        swiper_element = '';
+        swiper_element = "";
         mySwiper.removeAllSlides();
         wielorodzinne_all_w.forEach((element) => {
           swiper_element = `<div class="swiper-slide">
@@ -380,7 +377,7 @@ $(function () {
           </div>`;
         });
         //clear DOM elements
-        swiper_element = '';
+        swiper_element = "";
         mySwiper.removeAllSlides();
         publiczne_all_w.forEach((element) => {
           swiper_element = `<div class="swiper-slide">
@@ -421,7 +418,7 @@ $(function () {
           </div>`;
         });
         //clear DOM elements
-        swiper_element = '';
+        swiper_element = "";
         mySwiper.removeAllSlides();
         wnetrza_all_w.forEach((element) => {
           swiper_element = `<div class="swiper-slide">
@@ -629,8 +626,6 @@ const tiltFunction = () => {
     });
   });
 };
-
-
 
 // const tilt = $(`${element.zdjecie_glowne}`).tilt();
 // VanillaTilt.init(document.querySelector(`${element.zdjecie_glowne}`), {
