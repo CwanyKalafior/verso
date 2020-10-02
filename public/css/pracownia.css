@@ -12,6 +12,9 @@ body {
 .topnav-menu {
   margin-top: -11vh;
 }
+.pracownia a {
+  opacity: 1;
+}
 .verso-hamburger {
   display: block;
   z-index: 1;

@@ -20,7 +20,9 @@ body {
     display: none;
   }
 }
-
+.realizacje a {
+  opacity: 1;
+}
 .projekty_container {
   position: relative;
   top: 15vh;

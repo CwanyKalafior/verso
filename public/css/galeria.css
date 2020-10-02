@@ -12,6 +12,9 @@ body {
 .verso-hamburger {
   display: block;
 }
+.realizacje a {
+  opacity: 1;
+}
 .grid {
   position: relative;
   margin-top: 20vh;
