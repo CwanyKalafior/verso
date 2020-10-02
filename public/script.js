@@ -122,10 +122,11 @@ const video = document.getElementById("bgvid");
 const projBtn = document.querySelector(".gtpbtn");
 const formLink = document.querySelector(".btn-posnawr");
 const topNavButtons = document.querySelector(".topnav-buttoms a");
+const logo = document.querySelector(".brand-name");
 const videoClose = () => {
   video.classList.toggle("displayNone");
 };
-
+logo.addEventListener("click", videoClose);
 projBtn.addEventListener("click", videoClose);
 formLink.addEventListener("click", videoClose);
 topNavButtons.addEventListener("click", videoClose);
