@@ -97,6 +97,16 @@ const cursorFunction = () => {
     $(".btn-posnawr").on("mouseenter", function () {
       setCursorLittle();
     });
+    $(".projekt-lista img").on("mouseenter", function () {
+      setCursorLittle();
+    });
+    $(".swiper-container").on("mouseenter", function () {
+      setCursorLittle();
+    });
+    // galeria
+    $(".grid").on("mouseenter", function () {
+      setCursorLittle();
+    });
     // pracownia
     $(".awards-btn").on("mouseenter", function () {
       setCursorActive();
@@ -157,6 +167,16 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     $(".btn-posnawr").on("mouseleave", function () {
+      removeCursorLittle();
+    });
+    $(".projekt-lista img").on("mouseleave", function () {
+      removeCursorLittle();
+    });
+    $(".swiper-container").on("mouseleave", function () {
+      removeCursorLittle();
+    });
+    // galeria
+    $(".grid").on("mouseleave", function () {
       removeCursorLittle();
     });
     // pracownia
