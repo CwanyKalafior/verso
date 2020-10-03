@@ -269,13 +269,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (all.length === all_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Jednorodzinne"
@@ -313,13 +314,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Wielorodzinne"
@@ -357,14 +359,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
-
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Publiczne"
@@ -402,13 +404,14 @@ $(function () {
            </a>
          </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (publiczne_all.length === publiczne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Wnetrza"
@@ -446,13 +449,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (wnetrza_all.length === wnetrza_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "wczytaj wiecej"
@@ -667,7 +671,6 @@ const swiperFunction = () => {
   slideChangeTransitionStart();
   slideChangeTransitionEnd();
   mySwiper.update();
-
 };
 
 const tiltFunction = () => {
