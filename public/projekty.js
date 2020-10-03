@@ -649,6 +649,8 @@ $(function () {
 
 const swiperFunction = () => {
   mySwiper.update();
+  mySwiper.loopDestroy();
+  mySwiper.loopCreate();
 };
 
 const tiltFunction = () => {
