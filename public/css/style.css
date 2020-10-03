@@ -100,6 +100,10 @@ body {
   pointer-events: none;
   transform: scale(1);
 }
+.cursor-follower.little {
+  transform: scale(0);
+  transition: 0.5s transform;
+}
 .cursor-follower.active {
   transform: scale(2);
   transition: 0.5s transform;
@@ -486,7 +490,7 @@ video {
   transform: translateX(-50%);
   bottom: calc(7vh + 23px);
   white-space: nowrap;
-  z-index: 9994;
+  z-index: 9996;
   padding: 12px 20px;
   position: absolute;
   background-color: var(--colour-blue-b);
@@ -524,10 +528,6 @@ video {
   font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }
 
-.btn-posnawr-indx .form_link {
-  position: relative;
-  z-index: 9996;
-}
 /* Bottom bar */
 .social_languages-wrapper {
   position: absolute;

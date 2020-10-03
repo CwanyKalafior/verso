@@ -59,6 +59,14 @@ const cursorFunction = () => {
       cursor.removeClass("active");
       follower.removeClass("active");
     };
+    const setCursorLittle = () => {
+      cursor.addClass("active");
+      follower.addClass("little");
+    };
+    const removeCursorLittle = () => {
+      cursor.removeClass("active");
+      follower.removeClass("little");
+    };
     // ADD
     // strona główna
     $(".topnav-buttoms a").on("mouseenter", function () {
@@ -68,7 +76,7 @@ const cursorFunction = () => {
       setCursorActive();
     });
     $(".btn-posnawr-indx").on("mouseenter", function () {
-      setCursorActive();
+      setCursorLittle();
     });
     $(".languages-buttoms a").on("mouseenter", function () {
       setCursorActive();
@@ -86,10 +94,17 @@ const cursorFunction = () => {
     $(".projekty-links a").on("mouseenter", function () {
       setCursorActive();
     });
+    $(".btn-posnawr").on("mouseenter", function () {
+      setCursorLittle();
+    });
     // pracownia
     $(".awards-btn").on("mouseenter", function () {
       setCursorActive();
     });
+    $(".pracownia-btn").on("mouseenter", function () {
+      setCursorLittle();
+    });
+
     // kontakt
     $(".contact-authors a").on("mouseenter", function () {
       setCursorActive();
@@ -123,7 +138,7 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     $(".btn-posnawr-indx").on("mouseleave", function () {
-      removeCursorActive();
+      removeCursorLittle();
     });
     $(".languages-buttoms a").on("mouseleave", function () {
       removeCursorActive();
@@ -141,9 +156,15 @@ const cursorFunction = () => {
     $(".projekty-links a").on("mouseleave", function () {
       removeCursorActive();
     });
+    $(".btn-posnawr").on("mouseleave", function () {
+      removeCursorLittle();
+    });
     // pracownia
     $(".awards-btn").on("mouseleave", function () {
       removeCursorActive();
+    });
+    $(".pracownia-btn").on("mouseleave", function () {
+      removeCursorLittle();
     });
     // kontakt
     $(".contact-authors a").on("mouseleave", function () {
