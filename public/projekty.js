@@ -68,19 +68,19 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 100,
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 1
     },
     400: {
-      slidesPerView: 2,
+      slidesPerView: 2
     },
     500: {
       slidesPerView: 3,
-      spaceBetween: 0,
+      spaceBetween: 0
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 0,
-    },
+      spaceBetween: 0
+    }
   },
   lazy: {
     loadPrevNext: true,
@@ -101,6 +101,11 @@ var swiper = new Swiper(".swiper-container", {
   speed: 750,
   updateOnWindowResize: true,
   sensitivity: 0,
+  on: {
+    resize: function () {
+      mySwiper.autoplay.start();
+    }
+  }
 });
 
 var mySwiper = document.querySelector(".swiper-container").swiper;
