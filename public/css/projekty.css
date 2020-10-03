@@ -349,6 +349,7 @@ body {
   position: relative;
   margin-top: 3%;
   cursor: none;
+  z-index: 9996;
 }
 
 .gallery-description p {

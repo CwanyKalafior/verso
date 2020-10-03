@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   background-color: #28323b;
   font-family: "Roboto", sans-serif;
-  z-index: 1;
+  /* z-index: 1; */
   cursor: none;
 }
 
@@ -27,14 +27,14 @@ body {
 
 .contact-content {
   position: absolute;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .contact_brand-name {
   position: absolute;
   top: 10vh;
   left: 5vw;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .contact-authors {
@@ -45,8 +45,6 @@ body {
 }
 
 .contact-authors p {
-  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
-  /* font-size: var(--font-size-2); */
   line-height: 2;
   margin-top: 5%;
   font-weight: 300;
@@ -57,7 +55,6 @@ body {
 .contact-authors span {
   text-decoration: none;
   color: #eee;
-  /* font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760)); */
   font-weight: 500;
   font-size: var(--font-size-3);
   cursor: none;
@@ -67,12 +64,12 @@ body {
   position: absolute;
   top: 70vh;
   width: 90vw;
-  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
   font-size: var(--font-size-7);
   font-weight: 100;
   text-decoration: none;
   margin-left: 5vw;
   margin-top: 8vh;
+  z-index: 9996;
 }
 @media (max-width: 1022px) {
   .contact-data {
@@ -82,6 +79,7 @@ body {
 @media (min-width: 1023px) {
   .contact-authors {
     margin-left: 15vw;
+    z-index: 9996;
   }
   .contact-data {
     margin-left: 15vw;

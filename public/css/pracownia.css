@@ -9,6 +9,7 @@ body {
   height: 100vh;
   position: absolute;
 }
+
 .topnav-menu {
   margin-top: -11vh;
 }
@@ -40,6 +41,7 @@ body {
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
+  z-index: 9996;
 }
 
 .pracownia-text {
@@ -50,24 +52,23 @@ body {
   text-indent: 5vw;
   font-weight: 300;
   cursor: none;
+  z-index: 9996;
 }
-.grid-dots {
-  background-attachment: fixed;
-  top: 60vh;
-}
+
 .grupa-img {
   position: relative;
   left: 30vw;
   max-width: 65vw;
   max-height: 65vh;
-  margin-top: 5vh;
+  top: 5vh;
+  /* margin-top: 5vh; */
   min-height: 300px;
   margin-bottom: 5vh;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
-  z-index: 9999;
+  /* z-index: 9994; */
 }
 @media (max-width: 1023px) {
   .grupa-img {
@@ -164,7 +165,7 @@ body {
   padding: 3vh;
   background: transparent url("../content/dotgrid-texture.png") repeat 0 0;
   background-repeat: repeat;
-  z-index: 9999;
+  z-index: 9994;
 }
 .pracownia-point:nth-of-type(odd) {
   margin-left: 35%;
@@ -173,15 +174,19 @@ body {
   margin-left: 25%;
 }
 .pracownia-point .description span {
+  position: relative;
   font-weight: 500;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
+  z-index: 9996;
 }
 .pracownia-point .description p {
+  position: relative;
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-indent: 3vw;
   font-weight: 300;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
+  z-index: 9996;
 }
 @media (max-width: 1023px) {
   .pracownia-point {
@@ -206,6 +211,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 3vh;
+    z-index: 9996;
   }
   .pracownia-point .description {
     grid-row: 2/3;

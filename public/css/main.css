@@ -28,10 +28,6 @@ video {
   pointer-events: none !important;
 }
 
-/* .grid-dots::before {
-  opacity: 0.2;
-} */
-
 @media (max-width: 1023px) {
   .grid-dots {
     display: none;
@@ -49,7 +45,6 @@ video {
   margin-left: auto;
   margin-right: calc(78px * -12 + 25vw);
   pointer-events: none !important;
-  /* left: 41vw; */
 }
 
 /* Button PosnAwr */
@@ -69,7 +64,6 @@ video {
   overflow: hidden;
   font-weight: 300;
   cursor: none;
-  /* border: 2px solid #eee; */
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
@@ -114,11 +108,13 @@ video {
 
 /* Footer */
 .about_us-info {
+  position: relative;
   width: 90vw;
   margin-left: 5vw;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   font-weight: 300;
+  z-index: 9996;
 }
 .about_us-info a:nth-of-type(1) {
   display: inline-block;
@@ -171,6 +167,7 @@ footer {
   width: 100vw;
   margin-top: 10vh;
   margin-bottom: 5vh;
+  z-index: 9996;
 }
 footer p {
   text-align: center;
@@ -182,9 +179,11 @@ footer a {
   cursor: none;
 }
 footer p {
+  position: relative;
   text-decoration: none;
   color: #eee;
   font-weight: 400;
+  z-index: 9996;
 }
 footer p a {
   text-decoration: none;
@@ -192,10 +191,12 @@ footer p a {
   font-weight: 400;
 }
 footer p a:hover {
+  position: relative;
   text-decoration: none;
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
   background-color: #eee;
+  z-index: 9996;
 }
 
 /* Arrow-up */

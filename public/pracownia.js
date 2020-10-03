@@ -92,7 +92,7 @@ $.fn.is_on_screen = function () {
 
 function parallax() {
   var scrolled = $(window).scrollTop();
-  $(".pracownia-point").each(function () {
+  $(".grupa-img").each(function () {
     if ($(this).is_on_screen()) {
       var firstTop = $(this).offset().top;
       var $img = $(this).find(".grid-dots");
