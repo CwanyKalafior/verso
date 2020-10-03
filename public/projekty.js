@@ -269,13 +269,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (all.length === all_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Jednorodzinne"
@@ -313,13 +314,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Wielorodzinne"
@@ -357,14 +359,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
-
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Publiczne"
@@ -402,13 +404,14 @@ $(function () {
            </a>
          </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (publiczne_all.length === publiczne_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "Wnetrza"
@@ -446,13 +449,14 @@ $(function () {
           </a>
         </div>`;
         });
-        swiperFunction();
-        tiltFunction();
         if (wnetrza_all.length === wnetrza_full_length) {
           document.getElementById("btn").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
+        swiperFunction();
+        mySwiper.swipeTo(0);
+        tiltFunction();
       });
 
       //click "wczytaj wiecej"
@@ -647,7 +651,25 @@ $(function () {
     });
 });
 
+const slideChangeTransitionStart = () => {
+  let $wrapperEl = this.swiper.$wrapperEl;
+  let params = this.swiper.params;
+  $wrapperEl.children(('.' + (params.slideClass) + '.' + (params.slideDuplicateClass)))
+    .each(function () {
+      let idx = this.getAttribute('data-swiper-slide-index');
+      this.innerHTML = $wrapperEl.children('.' + params.slideClass + '[data-swiper-slide-index="' + idx + '"]:not(.' + params.slideDuplicateClass + ')').html();
+    });
+}
+
+const slideChangeTransitionEnd = () => {
+  this.swiper.slideToLoop(this.swiper.realIndex, 0, false);
+}
+
 const swiperFunction = () => {
+  mySwiper.loopDestroy();
+  mySwiper.loopCreate();
+  slideChangeTransitionStart();
+  slideChangeTransitionEnd();
   mySwiper.update();
 };
 

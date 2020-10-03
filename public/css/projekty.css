@@ -41,7 +41,7 @@ body {
   padding: 5%;
   padding-right: 15%;
   background-color: rgba(0, 0, 0, 0);
-  z-index: 99999999;
+  z-index: 9996;
 }
 
 .projekty-links span {
@@ -301,7 +301,7 @@ body {
   transform: translateX(-50%);
   margin-top: 5vh;
   margin-bottom: 7vh;
-  z-index: 991;
+  z-index: 9996;
   padding: 0 100vw;
 }
 
@@ -320,7 +320,7 @@ body {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
-  z-index: 991;
+  z-index: 9994;
   cursor: none;
 }
 
@@ -361,7 +361,10 @@ body {
 .gallery-description p span {
   font-weight: 300;
 }
-
+.gallery-swiper{
+  position: relative;
+  z-index:9996;
+}
 /* Gallery button */
 
 /* .gallery-btn {
@@ -405,9 +408,10 @@ body {
 .swiper-container {
   height: 50vh;
   z-index: 991;
-  /* background-color: rosybrown; */
   margin-top: 2vh;
   margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .swiper-slide {

@@ -31,10 +31,12 @@ body {
   overflow-x: hidden;
 }
 .pracownia-name {
+  position: relative;
   width: 100%;
   padding: 5%;
   background-color: rgba(0, 0, 0, 0);
   cursor: none;
+  z-index: 9996;
 }
 .pracownia-name span {
   display: inline-block;
@@ -45,6 +47,7 @@ body {
 }
 
 .pracownia-text {
+  position: relative;
   padding: 5%;
   padding-left: 10vw;
   padding-top: 0vw;
@@ -80,6 +83,7 @@ body {
   }
 }
 .pracownia-details {
+  position: relative;
   padding: 5%;
   padding-left: 10vw;
   padding-top: 0vw;
@@ -87,6 +91,7 @@ body {
   text-indent: 5vw;
   font-weight: 300;
   cursor: none;
+  z-index: 9996;
 }
 
 @media (min-width: 1024px) {
