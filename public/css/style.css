@@ -690,14 +690,14 @@ video {
 .hamburger-menu-bg li a.kontakt {
   position: relative;
   left: -100vw;
-  transition: 0.3s ease-out;
+  transition: 0.4s ease-out;
 }
 .hamburger-menu-bg li a.home.left,
 .hamburger-menu-bg li a.projekty.left,
 .hamburger-menu-bg li a.pracownia.left,
 .hamburger-menu-bg li a.kontakt.left {
   left: 0;
-  animation: opacityAnime 0.3s ease-out;
+  animation: opacityAnime 0.4s ease-out;
 }
 @keyframes opacityAnime {
   0% {
