@@ -647,8 +647,27 @@ $(function () {
     });
 });
 
+const slideChangeTransitionStart = () => {
+  let $wrapperEl = this.swiper.$wrapperEl;
+  let params = this.swiper.params;
+  $wrapperEl.children(('.' + (params.slideClass) + '.' + (params.slideDuplicateClass)))
+    .each(function () {
+      let idx = this.getAttribute('data-swiper-slide-index');
+      this.innerHTML = $wrapperEl.children('.' + params.slideClass + '[data-swiper-slide-index="' + idx + '"]:not(.' + params.slideDuplicateClass + ')').html();
+    });
+}
+
+const slideChangeTransitionEnd = () => {
+  this.swiper.slideToLoop(this.swiper.realIndex, 0, false);
+}
+
 const swiperFunction = () => {
+  mySwiper.loopDestroy();
+  mySwiper.loopCreate();
+  slideChangeTransitionStart();
+  slideChangeTransitionEnd();
   mySwiper.update();
+
 };
 
 const tiltFunction = () => {

@@ -6,7 +6,8 @@ require('dotenv').config();
 const auth = {
     auth: {
         api_key: process.env.API_KEY,
-        domain: 'sandboxc4245783c64a4ce882d7c9d270c8fea8.mailgun.org'
+        //PLACE FOR DOMAIN
+        domain: ''
     }
 }
 
@@ -17,7 +18,8 @@ const transporter = nodemailer.createTransport(mailGun(auth));
 const sendMail = (name, number, email, text, cb) => {
     const mailOptions = {
         from: email,
-        to: 'projektgvtest@gmail.com',
+        //WHERE EMAILS SHOULD BE SENT
+        to: '',
         subject: 'Wiadomość testowa wygenerowana ze strony',
         html: `
         <h2>Dane:</h2>
