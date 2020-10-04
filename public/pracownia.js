@@ -74,3 +74,36 @@ AOS.init();
 //   });
 // }
 // scrollParallax();
+
+var winScrollTop = 0;
+
+$.fn.is_on_screen = function () {
+  var win = $(window);
+  var viewport = {
+    top: win.scrollTop(),
+    left: win.scrollLeft(),
+  };
+  viewport.bottom = viewport.top + win.height();
+
+  var bounds = this.offset();
+  bounds.bottom = bounds.top + this.outerHeight();
+
+  return !(viewport.bottom < bounds.top || viewport.top > bounds.bottom);
+};
+
+function parallax() {
+  var scrolled = $(window).scrollTop();
+  $(".grupa-img").each(function () {
+    if ($(this).is_on_screen()) {
+      var firstTop = $(this).offset().top;
+      var $img = $(this).find(".grid-dots-p");
+      var moveTop = (firstTop - winScrollTop) * -0.15;
+      $img.css("transform", "translateY(" + -moveTop + "px)");
+    }
+  });
+}
+
+$(window).scroll(function (e) {
+  winScrollTop = $(this).scrollTop();
+  parallax();
+});

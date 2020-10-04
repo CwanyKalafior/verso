@@ -72,6 +72,7 @@ body {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9997;
 }
 @media (max-width: 1023px) {
   .grupa-img {
@@ -82,21 +83,21 @@ body {
     min-height: 0;
   }
 }
-.grid-dots {
-  top: 90vh;
-  /* margin-top: -60vh; */
-  /* position: relative; */
-  /* top: 90vh; */
-  /* margin-top: calc(78px * -8);
-  height: calc(78px * 8);
-  width: calc(78px * 16);
-  margin-left: calc(78px * -16 + 40vw);
+
+.grid-dots-p {
+  position: relative;
+  top: 10vh;
+  margin-top: calc(78px * -5);
+  height: calc(78px * 5);
+  width: calc(78px * 12);
+  margin-left: calc(78px * -12 + 40vw);
   opacity: 0.2 !important;
   background-image: url("../content/cross.webp");
   background-repeat: repeat;
-  z-index: 10;
-  pointer-events: none !important; */
+  z-index: 9;
+  pointer-events: none !important;
 }
+
 .pracownia-details {
   position: relative;
   padding: 5%;

@@ -17,7 +17,7 @@ $(function () {
     return false;
   });
 });
-// scroll-indicator
+// Scroll Indicator
 $(window).scroll(function () {
   var wintop = $(window).scrollTop();
   docheight = $(document).height();

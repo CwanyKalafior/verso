@@ -14,38 +14,6 @@ video {
   width: 0%;
   z-index: 10000;
 }
-.grid-dots {
-  position: relative;
-  top: 76vh;
-  margin-top: calc(78px * -8);
-  height: calc(78px * 8);
-  width: calc(78px * 16);
-  margin-left: calc(78px * -16 + 40vw);
-  opacity: 0.2 !important;
-  background-image: url("../content/cross.webp");
-  background-repeat: repeat;
-  z-index: 10;
-  pointer-events: none !important;
-}
-
-@media (max-width: 1023px) {
-  .grid-dots {
-    display: none;
-  }
-}
-
-@media (max-height: 760px) {
-  .grid-dots {
-    display: none;
-  }
-}
-
-.projekt-lista:nth-of-type(2n) .grid-dots {
-  position: relative;
-  margin-left: auto;
-  margin-right: calc(78px * -12 + 25vw);
-  pointer-events: none !important;
-}
 
 /* Button PosnAwr */
 .btn-posnawr {

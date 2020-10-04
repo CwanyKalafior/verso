@@ -3065,7 +3065,7 @@
   },
   {
     "kolejnosc": "111",
-    "zrealizowano_wtrakcie": "wtrakcie",
+    "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wnetrza",
     "nazwa_projektu": "0111",
     "zdjecie_glowne": "./content/0111/0111.webp",
