@@ -65,15 +65,12 @@ $(function () {
 });
 AOS.init();
 
-function scrollParallax() {
-  $(document).on("scroll", function () {
-    var scrollPos = $(this).scrollTop();
-    $(".grupa-img").css({
-      top: scrollPos / 17.5 + "px",
-    });
-    $(".pracownia-point").css({
-      top: scrollPos / 10.5 + "px",
-    });
-  });
-}
-scrollParallax();
+// function scrollParallax() {
+//   $(document).on("scroll", function () {
+//     var scrollPos = $(this).scrollTop();
+//     $(".grid-dots").css({
+//       top: scrollPos / 17.5 + "px",
+//     });
+//   });
+// }
+// scrollParallax();

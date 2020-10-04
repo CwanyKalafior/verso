@@ -13,6 +13,7 @@ body {
 
 .verso-hamburger {
   display: block;
+  z-index: 99999;
 }
 
 @media (min-width: 1023px) {
@@ -361,9 +362,9 @@ body {
 .gallery-description p span {
   font-weight: 300;
 }
-.gallery-swiper{
+.gallery-swiper {
   position: relative;
-  z-index:9996;
+  z-index: 9996;
 }
 /* Gallery button */
 

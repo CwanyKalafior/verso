@@ -641,7 +641,7 @@ video {
   width: 100vw;
   background-color: #28323b;
   overflow: hidden;
-  z-index: 99999999;
+  z-index: 99999999999999999999999999999999;
 }
 #hamburger-menu.hamburger-menu-show {
   top: 0vh;
@@ -669,6 +669,7 @@ video {
 }
 .hamburger-menu-bg {
   margin-top: 12vh;
+  z-index: 9999999999;
 }
 .hamburger-menu-bg li {
   height: 20vh;
