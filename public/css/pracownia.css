@@ -94,6 +94,7 @@ body {
   opacity: 0.2 !important;
   background-image: url("../content/cross.webp");
   background-repeat: repeat;
+  padding: 10px;
   z-index: 9;
   pointer-events: none !important;
 }
@@ -334,6 +335,12 @@ body {
   display: inline-block;
   margin-top: calc(20px + 6vh);
   text-indent: 0vw;
+}
+
+@media (max-height: 720px) {
+  .pracownia-btn {
+    margin-top: 12vh;
+  }
 }
 
 @media (max-height: 530px) {
