@@ -64,45 +64,16 @@ $(function () {
   });
 });
 AOS.init();
-$(".grupa-img").tilt({
-  maxTilt: 7.5,
-  scale: 1.04,
-  glare: false,
-  speed: 1000,
-  reverse: true,
-  perspective: 1000,
-});
 
-// parallax
-var winScrollTop = 0;
-
-$.fn.is_on_screen = function () {
-  var win = $(window);
-  var viewport = {
-    top: win.scrollTop(),
-    left: win.scrollLeft(),
-  };
-  viewport.bottom = viewport.top + win.height();
-
-  var bounds = this.offset();
-  bounds.bottom = bounds.top + this.outerHeight();
-
-  return !(viewport.bottom < bounds.top || viewport.top > bounds.bottom);
-};
-
-function parallax() {
-  var scrolled = $(window).scrollTop();
-  $(".grupa-img").each(function () {
-    if ($(this).is_on_screen()) {
-      var firstTop = $(this).offset().top;
-      var $img = $(this).find(".grid-dots");
-      var moveTop = (firstTop - winScrollTop) * -0.15;
-      $img.css("transform", "translateY(" + -moveTop + "px)");
-    }
+function scrollParallax() {
+  $(document).on("scroll", function () {
+    var scrollPos = $(this).scrollTop();
+    $(".grupa-img").css({
+      top: scrollPos / 17.5 + "px",
+    });
+    $(".pracownia-point").css({
+      top: scrollPos / 10.5 + "px",
+    });
   });
 }
-
-$(window).scroll(function (e) {
-  winScrollTop = $(this).scrollTop();
-  parallax();
-});
+scrollParallax();
