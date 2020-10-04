@@ -23,18 +23,20 @@ $(function () {
                     //working with data and creating elements
 
                     //Add metadata
-                    document.head.innerHTML += `<title>${obj_active.nazwa}</title>
+                    document.head.innerHTML += `<title>grupaVERSO • ${obj_active.nazwa}</title>
                     <meta name="url" content="https://www.grupaverso.pl/projekty/${obj_active.nazwa_projektu}.html" />
-  <link
-    rel="shortcut icon"
-    type="image/png"
-    href="https://grupaverso.pl/public/content/favicon.png"
-  />
+                    <meta property="og:title" content="grupaVERSO • ${obj_active.nazwa}" />
+                    <meta property="og:image" content="../content/${obj_active.nazwa_projektu}/${obj_active.nazwa_projektu}.webp" />
+
 
   <meta
     name="description"
-    content="Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
   />
+  <meta
+    name="og:description"
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
+/>
                     `;
 
                     //Display "nazwa"
@@ -126,3 +128,27 @@ $(function () {
             }
         });
 });
+
+
+//footer
+
+{/* <div class="about_us-info">
+    <div class="verso-arrow-up">
+        <div class="container">
+        <div class="background"></div>
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+        </div>
+    </div>
+    <span>Dowiedz się co możemy zaproponować Tobie.</span>
+    <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
+    <a href="tel:+48 502 327 654">+48 502 327 654</a></br></br>
+    <a href="tel:+48 667 249 109">+48 667 249 109</a>
+    <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
+</div>
+<footer>
+<p>Designed and developed with ❤</p>
+<p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a>
+</p>
+</footer> */}
