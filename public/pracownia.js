@@ -72,7 +72,7 @@ function scrollParallax() {
       top: scrollPos / 17.5 + "px",
     });
     $(".pracownia-point").css({
-      top: scrollPos / 10.5 + "px",
+      top: scrollPos / 25.5 + "px",
     });
   });
 }
