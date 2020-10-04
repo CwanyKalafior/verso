@@ -2,6 +2,7 @@ body {
   height: auto;
   overflow: scroll;
   background-color: #333;
+  overflow-x: hidden;
 }
 
 #c {
@@ -13,7 +14,6 @@ body {
 
 .verso-hamburger {
   display: block;
-  z-index: 99999;
 }
 
 @media (min-width: 1023px) {
