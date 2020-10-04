@@ -26,6 +26,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.not-scroll-body::-webkit-scrollbar {
+  display: none;
+}
 * {
   margin: 0;
   padding: 0;
