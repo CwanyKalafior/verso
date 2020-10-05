@@ -110,14 +110,20 @@ const cursorFunction = () => {
     $(".wszystkie-links a").on("mouseenter", function () {
       setCursorActive();
     });
+    // case
+    $(".pictures img").on("mouseenter", function () {
+      setCursorActive();
+    });
     // pracownia
+    $(".awards-btn").on("mouseenter", function () {
+      setCursorActive();
+    });
     $(".awards-btn").on("mouseenter", function () {
       setCursorActive();
     });
     $(".pracownia-btn").on("mouseenter", function () {
       setCursorLittle();
     });
-
     // kontakt
     $(".contact-authors a").on("mouseenter", function () {
       setCursorActive();
@@ -183,6 +189,10 @@ const cursorFunction = () => {
       removeCursorLittle();
     });
     $(".wszystkie-links a").on("mouseleave", function () {
+      removeCursorActive();
+    });
+    // case
+    $(".pictures img").on("mouseleave", function () {
       removeCursorActive();
     });
     // pracownia
