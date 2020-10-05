@@ -49,7 +49,15 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   background-color: rgba(0, 0, 0, 0);
 }
-
+@media (min-width: 1024px) {
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .description > * {
+    width: 40%;
+  }
+}
 .description span {
   display: inline-block;
   font-weight: 500;
@@ -74,8 +82,6 @@ nav {
   position: relative;
   max-width: 80vw;
   max-height: 80vh;
-  /* max-height: 80vh; */
-  /* margin-left: 5vw; */
   margin-bottom: 5vh;
   z-index: 9999;
   background-color: rgba(0, 0, 0, 0.2);
@@ -89,14 +95,13 @@ nav {
   .pictures a {
     max-width: 75vw;
   }
-  /* dafuq */
-  .pictures:nth-child(odd) img {
-    margin-left: 14vw;
-    margin-right: auto;
+  .pictures img:nth-of-type(n) {
+    margin-left: 20vw;
+    margin-right: 0;
   }
-  .pictures:nth-child(even) img {
+  .pictures img:nth-of-type(2n) {
     margin-right: 14vw;
-    margin-left: auto;
+    margin-left: 5vw;
   }
 }
 
