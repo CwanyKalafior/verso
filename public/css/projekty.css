@@ -81,7 +81,10 @@ body {
     padding-right: 30%;
   }
 }
-
+.gallery-btn {
+  position: relative;
+  z-index: 9996;
+}
 /* Swap gallery btns */
 /* $ */
 .swap-gallery-btns {
