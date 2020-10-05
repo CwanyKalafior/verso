@@ -25,6 +25,7 @@
 .top-nav,
 .verso-close {
   margin-top: -13vh;
+  cursor: none;
 }
 
 label {
@@ -175,7 +176,7 @@ input.form-btn:hover {
   .form-accept p {
     position: relative;
     width: 75vw;
-    left: 45vw;
+    left: 32vw;
     margin-left: -45%;
     font-size: var(--font-size-3);
   }
@@ -196,6 +197,14 @@ input.form-btn:hover {
     top: 5%;
     height: 3.5vh;
     width: 3.5vh;
+  }
+}
+@media (min-width: 1024px) {
+  .form-cont {
+    margin-top: auto;
+    margin-left: 5vw;
+    padding-top: 5vh;
+    width: 60vw;
   }
 }
 /*INPUT TYPE="NUMBER"*/

@@ -54,43 +54,45 @@
         </div>
       </a>
       <form method="POST" action="send" id="form">
-        <div>
-          <label>
-            Imię i nazwisko:
-          </label></br>
-          <input type="text" name="name" id="name">
-        </div>
-        <div>
-          <label>
-            Numer kontaktowy:
-          </label></br>
-          <!-- <input type="number" pattern="[+][0-9]*" name="number" id="number" -->
-          <input type="number" pattern="[+][0-9]*" name="number" id="number" inputmode="numeric"
-            onkeydown="javascript: return event.keyCode == 69 ? false : true && event.keyCode == 190 ? false : true && event.keyCode == 109 ? false : true && event.keyCode == 188 ? false : true && event.keyCode == 189 ? false : true ">
-        </div>
-        <div>
-          <label>
-            Adres email:
-          </label></br>
-          <!-- <input type="text" name="email" id="email"> -->
-          <input type="email" name="email" id="email">
-        </div>
-        <div>
-          <label>
-            Twoja wiadomość:
-          </label></br>
-          <textarea type="textarea" name="message" id="message"></textarea>
-        </div>
-        <div class="form-accept">
-          <input type="radio" name="radio" id="radio" />
-          <div class="checkmark"> </div>
-          <div class="checkmark_white"> </div>
-          <p>
-            Akceptuję warunki określone w zapisie dotyczącym prywatności.
-          </p>
-        </div>
-        <div class="form-send_btn">
-          <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
+        <div class="form-cont">
+          <div>
+            <label>
+              Imię i nazwisko:
+            </label></br>
+            <input type="text" name="name" id="name">
+          </div>
+          <div>
+            <label>
+              Numer kontaktowy:
+            </label></br>
+            <!-- <input type="number" pattern="[+][0-9]*" name="number" id="number" -->
+            <input type="number" pattern="[+][0-9]*" name="number" id="number" inputmode="numeric"
+              onkeydown="javascript: return event.keyCode == 69 ? false : true && event.keyCode == 190 ? false : true && event.keyCode == 109 ? false : true && event.keyCode == 188 ? false : true && event.keyCode == 189 ? false : true ">
+          </div>
+          <div>
+            <label>
+              Adres email:
+            </label></br>
+            <!-- <input type="text" name="email" id="email"> -->
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+            <label>
+              Twoja wiadomość:
+            </label></br>
+            <textarea type="textarea" name="message" id="message"></textarea>
+          </div>
+          <div class="form-accept">
+            <input type="radio" name="radio" id="radio" />
+            <div class="checkmark"> </div>
+            <div class="checkmark_white"> </div>
+            <p>
+              Akceptuję warunki określone w zapisie dotyczącym prywatności.
+            </p>
+          </div>
+          <div class="form-send_btn">
+            <input class="form-btn" type="submit" name="submit" value="Wyślij" id="btn" />
+          </div>
         </div>
       </form>
     </div>
