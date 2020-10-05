@@ -1068,7 +1068,7 @@
   },
   {
     "kolejnosc": "4500",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0035",
     "zdjecie_glowne": "./content/0035/0035.webp",
@@ -1576,7 +1576,7 @@
   },
   {
     "kolejnosc": "6700",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0054",
     "zdjecie_glowne": "./content/0054/0054.webp",
@@ -1975,7 +1975,7 @@
   },
   {
     "kolejnosc": "8200",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0069",
     "zdjecie_glowne": "./content/0069/0069.webp",
@@ -2080,7 +2080,7 @@
   },
   {
     "kolejnosc": "8600",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0073",
     "zdjecie_glowne": "./content/0073/0073.webp",
@@ -2679,7 +2679,7 @@
   },
   {
     "kolejnosc": "6905",
-    "zrealizowano_wtrakcie": "zrealizowano",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0096",
     "zdjecie_glowne": "./content/0096/0096.webp",
