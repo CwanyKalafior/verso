@@ -107,6 +107,9 @@ const cursorFunction = () => {
     $(".grid").on("mouseenter", function () {
       setCursorLittle();
     });
+    $(".wszystkie-links a").on("mouseenter", function () {
+      setCursorActive();
+    });
     // pracownia
     $(".awards-btn").on("mouseenter", function () {
       setCursorActive();
@@ -178,6 +181,9 @@ const cursorFunction = () => {
     // galeria
     $(".grid").on("mouseleave", function () {
       removeCursorLittle();
+    });
+    $(".wszystkie-links a").on("mouseleave", function () {
+      removeCursorActive();
     });
     // pracownia
     $(".awards-btn").on("mouseleave", function () {
