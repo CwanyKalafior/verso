@@ -121,34 +121,39 @@ $(function () {
                         }
                         document.getElementById("element-container").innerHTML += template_fotograf_title += template_fotograf += `</div></div >`;
                     }
+                    //Stopka
+                    document.getElementById('stopka').innerHTML += `<div class="about_us-info">
+                    <div class="verso-arrow-up">
+                        <div class="container">
+                        <div class="background"></div>
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                        </div>
+                    </div>
+                    <span>Dowiedz się co możemy zaproponować Tobie.</span>
+                    <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
+                    <a href="tel:+48 502 327 654">+48 502 327 654</a></br></br>
+                    <a href="tel:+48 667 249 109">+48 667 249 109</a>
+                    <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
+                </div>
+                <footer>
+                <p>Designed and developed with ❤</p>
+                <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a>
+                </p>
+                </footer>
+                <script>
 
-                    //IMPORTANT!! without that fetch will loop
+    jQuery(function ($) {
+      $.scrollTo(0);
+      $(".verso-arrow-up").click(function () {
+        $.scrollTo($("#class-scroll-indicator"), 500);
+      });
+    });
+  </script>`;
+
                     return 0;
                 }
             }
         });
 });
-
-
-//footer
-
-{/* <div class="about_us-info">
-    <div class="verso-arrow-up">
-        <div class="container">
-        <div class="background"></div>
-        <div class="line-1"></div>
-        <div class="line-2"></div>
-        <div class="line-3"></div>
-        </div>
-    </div>
-    <span>Dowiedz się co możemy zaproponować Tobie.</span>
-    <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
-    <a href="tel:+48 502 327 654">+48 502 327 654</a></br></br>
-    <a href="tel:+48 667 249 109">+48 667 249 109</a>
-    <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
-</div>
-<footer>
-<p>Designed and developed with ❤</p>
-<p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a>
-</p>
-</footer> */}
