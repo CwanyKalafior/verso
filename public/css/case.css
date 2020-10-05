@@ -65,6 +65,10 @@ body {
   text-indent: 0vw;
 }
 
+nav {
+  width: 100vw;
+}
+
 .pictures img,
 .pictures a {
   position: relative;
