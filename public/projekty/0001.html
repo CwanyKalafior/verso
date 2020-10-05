@@ -68,54 +68,58 @@
 <!-- Subpage -->
 
 <body onselectstart="return false">
-  <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
-  <div class="cursor"></div>
-  <div class="cursor-follower"></div>
-  <section class="cookies-info" id="cookies-info" style="display: none"></section>
-  <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
-    <source src="../content/grupaVERSO-background.mp4" type="video/mp4">
-  </video>
-  <div class="bg"></div>
-  <a href="../projekty.html">
-    <div class="verso-close">
-      <div class="container">
-        <div class="background"></div>
-        <div class="part-1"></div>
-        <div class="part-2"></div>
-      </div>
-    </div>
-  </a>
-  <div class="realizacje-wrapper">
-    <nav>
-      <div class="top-nav">
-        <div class="brand-name">
-          <a href="../index.html"> <img src="../content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
-        </div>
-    </nav>
-    <!-- Content -->
-    <div class="pictures-description_container" id="element-container">
-      <section id="nazwa_id"></section>
-      <div class="picture-description" id="picture">
-        <div class="description" id="description">
+  <div class="wrapper" id="wrapper">
+    <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <section class="cookies-info" id="cookies-info" style="display: none"></section>
+    <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
+      <source src="../content/grupaVERSO-background.mp4" type="video/mp4">
+    </video>
+    <div class="bg"></div>
+    <a href="../projekty.html">
+      <div class="verso-close">
+        <div class="container">
+          <div class="background"></div>
+          <div class="part-1"></div>
+          <div class="part-2"></div>
         </div>
       </div>
+    </a>
+    <div class="realizacje-wrapper">
+      <nav>
+        <div class="top-nav">
+          <div class="brand-name">
+            <a href="../index.html"> <img src="../content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
+          </div>
+      </nav>
+      <!-- Content -->
+      <div class="pictures-description_container" id="element-container">
+        <section id="nazwa_id"></section>
+        <div class="picture-description" id="picture">
+          <div class="description" id="description">
+          </div>
+        </div>
+      </div>
+      <!-- Case study (if exists) -->
+      <div class="case_study">
+        <span>Case study</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
+          iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
+        </p>
+        <img src="../content/0001/case.webp" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
+          iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
+        </p>
+      </div>
+      <section id="stopka">
+      </section>
     </div>
-    <!-- Case study (if exists) -->
-    <div class="case_study">
-      <span>Case study</span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
-        iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
-      </p>
-      <img src="../content/0001/case.webp" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
-        iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
-      </p>
-    </div>
-    <section id="stopka"></section>
   </div>
   <script src="../jquery-3.4.1.min.js"></script>
   <script src="../jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
   <script src="../cursor.js"></script>
   <script src="../case.js"></script>
   <script src="../subpagegenerator.js"></script>
