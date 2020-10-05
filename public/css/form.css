@@ -29,7 +29,7 @@
 
 label {
   position: relative;
-  font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+  font-size: var(--font-size-7);
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
@@ -47,7 +47,7 @@ textarea {
   margin-bottom: 2vh;
   color: #eee;
   font-weight: 500;
-  font-size: calc(20px + (18 - 20) * ((100vw - 320px) / 760));
+  font-size: var(--font-size-3);
   cursor: none;
 }
 textarea {
@@ -107,7 +107,7 @@ textarea:focus {
   color: rgba(255, 255, 255, 0.7);
   margin-left: -48%;
   margin-right: 5%;
-  font-size: calc(14px + (26 - 14) * ((100vw - 320px) / 760));
+  font-size: var(--font-size-7);
   letter-spacing: 0.5px;
   font-weight: 300;
 }
@@ -124,7 +124,7 @@ input.form-btn {
   width: auto;
   left: 50%;
   transform: translateX(-50%);
-  font-size: calc(18px + (26 - 18) * ((100vw - 320px) / 760));
+  font-size: var(--font-size-3);
   border-bottom: 0;
   color: #eee;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ input.form-btn:hover {
   }
   label {
     position: relative;
-    font-size: calc(8px + (26 - 8) * ((100vw - 320px) / 760));
+    /* font-size: var(--font-size-7); */
   }
   input,
   textarea {
@@ -164,7 +164,7 @@ input.form-btn:hover {
     margin-bottom: 1vh;
     color: #eee;
     font-weight: 500;
-    font-size: calc(12px + (26 - 12) * ((100vw - 320px) / 760));
+    /* font-size: var(--font-size-3); */
   }
   .form-accept {
     position: relative;
@@ -177,7 +177,7 @@ input.form-btn:hover {
     width: 75vw;
     left: 45vw;
     margin-left: -45%;
-    font-size: calc(8px + (26 - 8) * ((100vw - 320px) / 760));
+    font-size: var(--font-size-3);
   }
 
   input.form-btn {
@@ -210,3 +210,9 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+/* @media (min-width: 1024px) {
+  .cookies-info {
+    text-indent: 3vw;
+  }
+} */
