@@ -1,32 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179311127-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179311127-1');
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '628441564520056');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=628441564520056&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Metadane -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/main.css" />
-  <link rel="stylesheet" href="../css/case.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="www.jackowskivisuals.com" />
+  <!-- <title>grupaVERSO • Pracownia</title> -->
+  <meta name="url" content="https://www.grupaverso.pl" />
+  <link rel="shortcut icon" type="image/png" href="../content/favicon.png" />
+  <!-- <meta
+    name="keywords"
+    content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso"
+  /> -->
+  <!-- ! -->
+  <!-- <meta name="description"
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" /> -->
+  <!-- <meta property="og:title" content="grupaVERSO • Pracownia" /> -->
+  <!-- <meta property="og:description"
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" /> -->
+  <!-- <meta property="og:image" content="../content/grupaVERSO-ogimage.jpg" /> -->
+  <meta property="og:type" content="website" />
+  <meta property="og:determiner" content="the" />
+  <meta property="og:locale" content="pl-PL" />
+  <meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:site_name" content="grupaVERSO" />
+  <meta property="og:video" content="content\grupaVERSO-background.mp4" />
+  <meta name=”robots” content="index, follow">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  <link rel="stylesheet" type="text/css" href="../css/case.css" />
 </head>
+<!-- Subpage -->
 
-<body>
-  <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
-  <div class="cursor"></div>
-  <div class="cursor-follower"></div>
-  <section class="cookies-info" id="cookies-info" style="display: none">
-
-  </section>
-  <div class="realizacje-wrapper">
-    <canvas id="noise" class="noise"></canvas>
-    <nav>
-      <div class="top-nav">
-        <div class="brand-name">
-          <a href="../index.html"> <img src="../content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
-        </div>
-      </div>
-    </nav>
+<body onselectstart="return false">
+  <div class="wrapper" id="wrapper">
+    <div class="class-scroll-indicator" id="id-scroll-indicator"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <section class="cookies-info" id="cookies-info" style="display: none"></section>
+    <video autoplay autobuffer preload playsinline nocontrols loop playsinline muted id="bgvid">
+      <source src="../content/grupaVERSO-background.mp4" type="video/mp4">
+    </video>
+    <div class="bg"></div>
     <a href="../projekty.html">
       <div class="verso-close">
         <div class="container">
@@ -36,51 +86,40 @@
         </div>
       </div>
     </a>
-    <div class="pictures-description_container" id="element-container">
-      <section id="nazwa_id"></section>
-      <div class="picture-description" id="picture">
-        <div class="description" id="description">
+    <div class="realizacje-wrapper">
+      <nav>
+        <div class="top-nav">
+          <div class="brand-name">
+            <a href="../index.html"> <img src="../content/grupaVERSO-logo.webp" alt="grupaverso" /></a>
+          </div>
+      </nav>
+      <!-- Content -->
+      <div class="pictures-description_container" id="element-container">
+        <section id="nazwa_id"></section>
+        <div class="picture-description" id="picture">
+          <div class="description" id="description">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="case_study">
-      <span>Case study</span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
-        iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
-        iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.</p>
-      <img src="../content/0001/case.webp" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
-        iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.</p>
-    </div>
-    <a href="#">
-      <div class="realizacja_btn">
-        <p> Dowiedz się więcej</p>
+      <!-- Case study (if exists) -->
+      <div class="case_study">
+        <span>Case study</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
+          iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
+        </p>
+        <img src="../content/grupaVERSO-ogimage.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit, incidunt nam, aliquam illo reiciendis nulla
+          iste pariatur sequi quo hic dolores amet maiores aut dolorem provident, dicta sint cumque.
+        </p>
       </div>
-    </a>
-    <div class="about_us-info">
-      <div class="verso-arrow-up">
-        <div class="container">
-          <div class="background"></div>
-          <div class="line-1"></div>
-          <div class="line-2"></div>
-          <div class="line-3"></div>
-        </div>
-      </div>
-      <span>Porozmawiajmy o Twoim projekcie.</span></br>
-      <a href="mailto:biuro@grupaverso.com.pl">biuro@grupaverso.com.pl</a></br>
-      <a href="tel:+48 502 327 654">+48 502 327 654</a></br>
-      <a href="tel:+48 667 249 109">+48 667 249 109</a></br>
-      <p>Copyright © 2020 grupaVERSO</br>All rights reserved.</p>
+      <section id="stopka">
+      </section>
     </div>
-    <footer>
-      <p>Designed and developed with ❤</p>
-      <p>by <a href="https://www.jackowskivisuals.com/about" target="_blank">Jackowski Visuals</a></p>
-    </footer>
   </div>
   <script src="../jquery-3.4.1.min.js"></script>
   <script src="../jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
   <script src="../cursor.js"></script>
   <script src="../case.js"></script>
   <script src="../subpagegenerator.js"></script>

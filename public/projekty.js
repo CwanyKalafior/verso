@@ -681,12 +681,12 @@ const swiperFunction = () => {
 const tiltFunction = () => {
   $(document).ready(function () {
     $(".card").tilt({
-      maxTilt: 7.5,
+      maxTilt: 5.5,
       scale: 1.04,
       glare: false,
       speed: 1000,
       reverse: true,
-      perspective: 1000,
+      perspective: 1200,
     });
   });
 };

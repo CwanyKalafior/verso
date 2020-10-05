@@ -318,7 +318,7 @@ body {
 
 .projekt-lista img {
   position: relative;
-  max-width: 55vw;
+  max-width: 50vw;
   max-height: 65vh;
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
@@ -457,4 +457,37 @@ body {
   .swiper-slide img {
     max-width: 80vw;
   }
+}
+
+.grid-dots {
+  position: relative;
+  top: 72vh;
+  margin-top: calc(78px * -7);
+  height: calc(78px * 7);
+  width: calc(78px * 12);
+  margin-left: calc(78px * -12 + 40vw);
+  opacity: 0.2 !important;
+  background-image: url("../content/cross.webp");
+  background-repeat: repeat;
+  z-index: 10;
+  pointer-events: none !important;
+}
+
+@media (max-width: 1023px) {
+  .grid-dots {
+    display: none;
+  }
+}
+
+@media (max-height: 760px) {
+  .grid-dots {
+    display: none;
+  }
+}
+
+.projekt-lista:nth-of-type(2n) .grid-dots {
+  position: relative;
+  margin-left: auto;
+  margin-right: calc(78px * -12 + 40vw);
+  pointer-events: none !important;
 }
