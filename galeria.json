@@ -1549,7 +1549,7 @@
   },
   {
     "kolejnosc": "6500",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0053",
     "zdjecie_glowne": "./content/0053/0053.webp",
@@ -1711,7 +1711,7 @@
   },
   {
     "kolejnosc": "7200",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wielorodzinne",
     "nazwa_projektu": "0059",
     "zdjecie_glowne": "./content/0059/0059.webp",
@@ -1737,7 +1737,7 @@
   },
   {
     "kolejnosc": "7300",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0060",
     "zdjecie_glowne": "./content/0060/0060.webp",
@@ -2006,7 +2006,7 @@
   },
   {
     "kolejnosc": "8300",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0070",
     "zdjecie_glowne": "./content/0070/0070.webp",
@@ -2305,7 +2305,7 @@
   },
   {
     "kolejnosc": "10400",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0082",
     "zdjecie_glowne": "./content/0082/0082.webp",
@@ -2384,7 +2384,7 @@
   },
   {
     "kolejnosc": "10700",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "publiczne",
     "nazwa_projektu": "0085",
     "zdjecie_glowne": "./content/0085/0085.webp",
@@ -2404,7 +2404,7 @@
   },
   {
     "kolejnosc": "4301",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0086",
     "zdjecie_glowne": "./content/0086/0086.webp",
@@ -2432,7 +2432,7 @@
   },
   {
     "kolejnosc": "10202",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0087",
     "zdjecie_glowne": "./content/0087/0087.webp",
@@ -2464,7 +2464,7 @@
   },
   {
     "kolejnosc": "8902",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0088",
     "zdjecie_glowne": "./content/0088/0088.webp",
@@ -2486,7 +2486,7 @@
   },
   {
     "kolejnosc": "7902",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0089",
     "zdjecie_glowne": "./content/0089/0089.webp",
@@ -2515,7 +2515,7 @@
   },
   {
     "kolejnosc": "4601",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0090",
     "zdjecie_glowne": "./content/0090/0090.webp",
@@ -2535,7 +2535,7 @@
   },
   {
     "kolejnosc": "8502",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0091",
     "zdjecie_glowne": "./content/0091/0091.webp",
@@ -2701,7 +2701,7 @@
   },
   {
     "kolejnosc": "9701",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0097",
     "zdjecie_glowne": "./content/0097/0097.webp",
@@ -2720,7 +2720,7 @@
   },
   {
     "kolejnosc": "10801",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0098",
     "zdjecie_glowne": "./content/0098/0098.webp",
@@ -2739,7 +2739,7 @@
   },
   {
     "kolejnosc": "6601",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0099",
     "zdjecie_glowne": "./content/0099/0099.webp",
@@ -2794,7 +2794,7 @@
   },
   {
     "kolejnosc": "10301",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0101",
     "zdjecie_glowne": "./content/0101/0101.webp",
@@ -3434,7 +3434,7 @@
   },
   {
     "kolejnosc": "8201",
-    "zrealizowano_wtrakcie": "ukrytyp",
+    "zrealizowano_wtrakcie": "wtrakcie",
     "grupa": "wnetrza",
     "nazwa_projektu": "0126",
     "zdjecie_glowne": "./content/0126/0126.webp",
