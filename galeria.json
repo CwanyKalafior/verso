@@ -18,7 +18,6 @@
       "Marek Laskowski"
     ],
     "zdjecia": [
-      "./content/0001/1.webp",
       "./content/0001/1b.jpg",
       "./content/0001/1c.jpg",
       "./content/0001/1d.jpg",
@@ -33,7 +32,10 @@
       "./content/0001/1m.jpg",
       "./content/0001/1n.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": [
+      "Kacper Ziółkowski",
+      "Michał Jackowski"
+    ]
   },
   {
     "kolejnosc": "3600",
