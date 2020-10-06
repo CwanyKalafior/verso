@@ -138,6 +138,12 @@ const cursorFunction = () => {
     $(".checkmark").on("mouseenter", function () {
       setCursorActive();
     });
+    $("textarea").on("mouseenter", function () {
+      setCursorActive();
+    });
+    $(".form-accept_text").on("mouseenter", function () {
+      setCursorActive();
+    });
     // stopka
     $(".about_us-info a").on("mouseenter", function () {
       setCursorActive();
@@ -214,6 +220,12 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     $(".checkmark").on("mouseleave", function () {
+      removeCursorActive();
+    });
+    $("textarea").on("mouseleave", function () {
+      removeCursorActive();
+    });
+    $(".form-accept_text").on("mouseleave", function () {
       removeCursorActive();
     });
     // stopka

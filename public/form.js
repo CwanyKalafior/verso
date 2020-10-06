@@ -1,3 +1,12 @@
+$(".verso-close").on("click", function (evt) {
+  if (document.referrer.indexOf(window.location.host) !== -1) {
+    evt.preventDefault();
+    history.back();
+  } else {
+    location.href = "index.html";
+  }
+});
+
 //textarea
 var autoExpand = function (field) {
   // Reset field height
