@@ -20,11 +20,15 @@ var cookie_content = `<div class="cookies-close" onclick="document.getElementByI
 </div>`;
 
 
+const addCookieFunction = () => {
+  Cookies.set("cookie_grupaverso", "true", { expires: 30 });
+};
+
 if (myCookie) {
-    document.getElementById("cookies-info").style.display = "none";
-    console.log("COOKIE ISTNIEJE");
+  document.getElementById("cookies-info").style.display = "none";
+  console.log("COOKIE ISTNIEJE");
 } else {
-    document.getElementById("cookies-info").style.display = "block";
-    document.getElementById("cookies-info").innerHTML += cookie_content;
-    Cookies.set("cookie_grupaverso", "true", { expires: 30 });
+  document.getElementById("cookies-info").style.display = "block";
+  document.getElementById("cookies-info").innerHTML += cookie_content;
+  window.addEventListener("click", addCookieFunction);
 }
