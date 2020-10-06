@@ -732,3 +732,4 @@ $(window).scroll(function (e) {
   winScrollTop = $(this).scrollTop();
   parallax();
 });
+

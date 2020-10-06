@@ -207,6 +207,9 @@ input.form-btn {
     padding-top: 5vh;
     width: 60vw;
   }
+  .checkmark {
+    margin-top: 2px;
+  }
   /* .form-accept p {
     position: relative;
     width: 70vw;

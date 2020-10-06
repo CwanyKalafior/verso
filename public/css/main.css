@@ -248,3 +248,79 @@ footer p a:hover {
     padding-left: 7%;
   }
 }
+
+/* Kontakt sbtn */
+.kontakt-sbtn {
+  position: fixed;
+  top: calc(6vh + 20px);
+  right: calc(7vw + 150px);
+}
+.pracownia-btn {
+  position: relative;
+  display: inline-block;
+  text-indent: 0vw;
+}
+.sbtn-posnawr {
+  text-align: center;
+  text-decoration: none;
+  /* font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760)); */
+  font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
+  white-space: nowrap;
+  z-index: 9999999;
+  bottom: 0;
+  padding: 0px 18px;
+  position: absolute;
+  background-color: var(--colour-blue-b);
+  color: #eee;
+  overflow: hidden;
+  font-weight: 300;
+  cursor: none;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto ;
+}
+.sbtn-posnawr p {
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  line-height: 30px;
+  padding: 10px 0px;
+}
+.sbtn-posnawr span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: var(--colour-blue-a);
+  -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.sbtn-posnawr:hover {
+  color: #eee;
+}
+.sbtn-posnawr:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+.sbtn-posnawr:active {
+  background-color: var(--colour-blue-a);
+  /* font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760)); */
+  font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
+  margin-left: 5px;
+}
+.sbtn .kropy {
+  position: relative;
+ height: 100%;
+ width: 50px;
+ background-color: rosybrown;
+ z-index: 99999999999;
+ grid-row: 1/-1;
+ grid-column: 2/3;
+ margin-left: 16px;
+}
