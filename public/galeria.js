@@ -152,7 +152,7 @@ $(function () {
         });
         console.log(all.length + " - " + all_full_length)
         if (all.length < 20) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
@@ -185,7 +185,7 @@ $(function () {
         });
         console.log(jednorodzinne_all.length)
         if (jednorodzinne_all.length < 20) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
@@ -217,7 +217,7 @@ $(function () {
           $grid.masonry("layout");
         });
         if (wielorodzinne_all.length < 20) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
@@ -249,7 +249,7 @@ $(function () {
           $grid.masonry("layout");
         });
         if (publiczne_all.length < 20) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
@@ -281,7 +281,7 @@ $(function () {
           $grid.masonry("layout");
         });
         if (wnetrza_all.length < 20) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("btn").style.display = "block";
         }
@@ -310,7 +310,7 @@ $(function () {
           });
 
           if (all.length < 20) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("btn").style.display = "block";
           }
@@ -341,7 +341,7 @@ $(function () {
 
           console.log("ALL ROZMIAR" + all.length);
           if (jednorodzinne_all.length < 20) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("btn").style.display = "block";
           }
@@ -372,7 +372,7 @@ $(function () {
 
           console.log("ALL ROZMIAR" + all.length);
           if (wielorodzinne_all.length < 20) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("btn").style.display = "block";
           }
@@ -401,7 +401,7 @@ $(function () {
 
           console.log("ALL ROZMIAR" + all.length);
           if (publiczne_all.length < 20) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("btn").style.display = "block";
           }
@@ -428,7 +428,7 @@ $(function () {
             console.log("NUMBER_OF: " + number_of_elements);
           });
           if (wnetrza_all.length < 20) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("btn").style.display = "block";
           }
