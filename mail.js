@@ -5,9 +5,9 @@ require('dotenv').config();
 //API settings
 const auth = {
     auth: {
-        api_key: process.env.API_KEY,
+        api_key: '3cf93ab5e0db3793730e699da8d0c823-0d2e38f7-af7611d2',
         //PLACE FOR DOMAIN
-        domain: ''
+        domain: 'sandbox11a0fb43390a49a59b77090e2f380d09.mailgun'
     }
 }
 
@@ -19,7 +19,7 @@ const sendMail = (name, number, email, text, cb) => {
     const mailOptions = {
         from: email,
         //WHERE EMAILS SHOULD BE SENT
-        to: '',
+        to: 'biuro@grupaverso.com.pl',
         subject: 'Wiadomość testowa wygenerowana ze strony',
         html: `
         <h2>Dane:</h2>
