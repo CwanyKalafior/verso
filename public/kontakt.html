@@ -85,15 +85,13 @@
             </div>
           </div>
         </nav>
-        <a href="index.html">
-          <div class="verso-close">
-            <div class="container">
-              <div class="background"></div>
-              <div class="part-1"></div>
-              <div class="part-2"></div>
-            </div>
+        <div class="verso-close">
+          <div class="container">
+            <div class="background"></div>
+            <div class="part-1"></div>
+            <div class="part-2"></div>
           </div>
-        </a>
+        </div>
         <div class="contact-content">
           <div class="contact-authors">
             <p>Jakub Cieślik</p>
@@ -135,6 +133,15 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="cookies.js"></script>
     <script>
+      $(".verso-close").on("click", function (evt) {
+        if (document.referrer.indexOf(window.location.host) !== -1) {
+          evt.preventDefault();
+          history.back();
+        } else {
+          location.href = "index.html";
+        }
+      });
+
       window.fbAsyncInit = function () {
         FB.init({
           xfbml: true,
