@@ -1,36 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179311127-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-179311127-1');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+          n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '628441564520056');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=628441564520056&ev=PageView&noscript=1" />
+    </noscript>
+  <!-- Metadane -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="author" content="www.jackowskivisuals.com" />
-  <title>grupaVERSO - Nagradzana pracownia projektowa</title>
+  <title>grupaVERSO • Formularz</title>
   <meta name="url" content="https://www.grupaverso.pl" />
-  <link rel="shortcut icon" type="image/png" href="https://grupaverso.pl/favicon.webp" />
-  <meta name="keywords"
-    content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso" />
+  <link rel="shortcut icon" type="image/png" href="./content/favicon.png" />
+  <!-- <meta
+    name="keywords"
+    content="projekty, domów, wnętrz, częstochowa, śląskie, architekci, architekt, najlepsze, nowoczesne, minimalistyczne, funkcjonalne, indywidualne, domy, budynki, mieszkaniowe, biurowce, apartamentowce, grupa, verso, grupaverso"
+  /> -->
+  <!-- ! -->
   <meta name="description"
-    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-  <meta property="og:title" content="grupaVERSO - Nagradzana pracownia projektowa" />
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:title" content="grupaVERSO • Formularz" />
   <meta property="og:description"
-    content="Indywiduale podejście ∘ Wyceny ∘ Minimalistyczne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
-  <meta property="og:image" content="https://grupaverso.pl/og-image.webp" />
-  <meta property="og:type" content="article" />
+    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design" />
+  <meta property="og:image" content="./content/grupaVERSO-ogimage.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:determiner" content="the" />
+  <meta property="og:locale" content="pl-PL" />
+  <meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:site_name" content="grupaVERSO" />
+  <meta property="og:video" content="content\grupaVERSO-background.mp4" />
   <meta name=”robots” content="index, follow">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/form.css" />
 </head>
-
+<!-- Formularz -->
 <body onselectstart="return false">
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <section class="cookies-info" id="cookies-info" style="display: none">
-
   </section>
   <canvas id="c"></canvas>
   <div class="wrapper">
