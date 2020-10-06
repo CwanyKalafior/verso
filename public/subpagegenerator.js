@@ -114,7 +114,7 @@ $(function () {
                         var i = 0;
                         var template_fotograf_title = `<div class="description"></br>
                         <div class="oprawa">
-                        <span>Fotografia: </span>`;
+                        <span>Fotografia: </span></br>`;
                         var template_fotograf = ``;
                         for (i = 0; i < obj_active.fotograf.length; i++) {
                             template_fotograf += ` ${obj_active.fotograf[i]} </br>`
