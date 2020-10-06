@@ -135,6 +135,16 @@ nav {
   }
 }
 
+@media (min-width: 1600px) {
+  .description > div {
+    margin-bottom: 3%;
+    text-indent: 0vw;
+  }
+    .pictures img:nth-of-type(1) {
+      margin-top: 5vh;
+  }
+}
+
 .oprawa {
   position: relative;
   text-align: left;
