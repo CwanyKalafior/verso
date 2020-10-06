@@ -262,6 +262,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -281,7 +282,6 @@ $(function () {
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Jednorodzinne"
@@ -307,6 +307,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -326,7 +327,6 @@ $(function () {
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Wielorodzinne"
@@ -352,6 +352,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -371,7 +372,6 @@ $(function () {
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Publiczne"
@@ -397,6 +397,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -416,7 +417,6 @@ $(function () {
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Wnetrza"
@@ -442,6 +442,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -461,7 +462,6 @@ $(function () {
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "wczytaj wiecej"
