@@ -154,7 +154,7 @@ $(function () {
         if (all.length < 20) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-x").style.display = "block";
         }
       });
 
@@ -187,7 +187,7 @@ $(function () {
         if (jednorodzinne_all.length < 20) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-x").style.display = "block";
         }
       });
 
@@ -219,7 +219,7 @@ $(function () {
         if (wielorodzinne_all.length < 20) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-x").style.display = "block";
         }
       });
 
@@ -251,7 +251,7 @@ $(function () {
         if (publiczne_all.length < 20) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-x").style.display = "block";
         }
       });
 
@@ -283,7 +283,7 @@ $(function () {
         if (wnetrza_all.length < 20) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-x").style.display = "block";
         }
       });
 
@@ -312,7 +312,7 @@ $(function () {
           if (all.length < 20) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-x").style.display = "block";
           }
           return 0;
         }
@@ -343,7 +343,7 @@ $(function () {
           if (jednorodzinne_all.length < 20) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-x").style.display = "block";
           }
           return 0;
         }
@@ -374,7 +374,7 @@ $(function () {
           if (wielorodzinne_all.length < 20) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-x").style.display = "block";
           }
           return 0;
         }
@@ -403,7 +403,7 @@ $(function () {
           if (publiczne_all.length < 20) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-x").style.display = "block";
           }
           return 0;
         }
@@ -430,7 +430,7 @@ $(function () {
           if (wnetrza_all.length < 20) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-x").style.display = "block";
           }
           return 0;
         }

@@ -153,7 +153,7 @@ $(function () {
           element.grupa === "publiczne" &&
           element.zrealizowano_wtrakcie === "zrealizowano"
       );
-      publiczne_full_length += publiczne_all.length;
+      publiczne_full_length = publiczne_all.length;
 
       //filter data -> wnetrza & zrealizowano
       wnetrza_all = obj.filter(
@@ -278,7 +278,7 @@ $(function () {
         if (all.length === all_full_length) {
           document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
@@ -323,7 +323,7 @@ $(function () {
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
           document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
@@ -368,7 +368,7 @@ $(function () {
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
           document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
@@ -413,7 +413,7 @@ $(function () {
         if (publiczne_all.length === publiczne_full_length) {
           document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
@@ -458,7 +458,7 @@ $(function () {
         if (wnetrza_all.length === wnetrza_full_length) {
           document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
@@ -499,7 +499,7 @@ $(function () {
           if (all.length === all_full_length) {
             document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -536,7 +536,7 @@ $(function () {
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
             document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -573,7 +573,7 @@ $(function () {
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
             document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -608,7 +608,7 @@ $(function () {
           if (publiczne_all.length === publiczne_full_length) {
             document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -643,7 +643,7 @@ $(function () {
           if (wnetrza_all.length === wnetrza_full_length) {
             document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
