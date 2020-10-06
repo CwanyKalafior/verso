@@ -34,6 +34,7 @@ label {
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
+  z-index: 9996;
 }
 
 input,
@@ -137,7 +138,6 @@ input.form-btn {
 /* input.form-btn:hover {
   font-weight: 500;
 } */
-
 
 /* @media (min-width: 320px) and (orientation: portrait) {
   .form-send_btn {
