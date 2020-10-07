@@ -354,6 +354,7 @@ body {
   position: relative;
   margin-top: 3%;
   cursor: none;
+  min-width: 60vw;
   z-index: 9996;
 }
 
