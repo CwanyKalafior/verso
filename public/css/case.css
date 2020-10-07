@@ -105,7 +105,7 @@ nav {
   margin-bottom: 15vh;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 9996;
+  z-index: 9994;
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
@@ -140,8 +140,8 @@ nav {
     margin-bottom: 3%;
     text-indent: 0vw;
   }
-    .pictures img:nth-of-type(1) {
-      margin-top: 5vh;
+  .pictures img:nth-of-type(1) {
+    margin-top: 5vh;
   }
 }
 
@@ -151,7 +151,6 @@ nav {
   bottom: 2vh;
   min-height: 6vh;
   background-color: rgba(0, 0, 0, 0);
-  
 }
 
 .case_study {
@@ -214,4 +213,36 @@ nav {
 .about_us-info {
   max-width: 100vw;
   overflow: hidden;
+}
+.grid-dots {
+  position: relative;
+  top: 72vh;
+  margin-top: calc(78px * -7);
+  height: calc(78px * 7);
+  width: calc(78px * 12);
+  margin-left: calc(78px * -12 + 40vw);
+  opacity: 0.2 !important;
+  background-image: url("../content/cross.webp");
+  background-repeat: repeat;
+  z-index: 10;
+  pointer-events: none !important;
+}
+
+@media (max-width: 1023px) {
+  .grid-dots {
+    display: none;
+  }
+}
+
+@media (max-height: 760px) {
+  .grid-dots {
+    display: none;
+  }
+}
+
+.projekt-lista:nth-of-type(2n) .grid-dots {
+  position: relative;
+  margin-left: auto;
+  margin-right: calc(78px * -12 + 40vw);
+  pointer-events: none !important;
 }
