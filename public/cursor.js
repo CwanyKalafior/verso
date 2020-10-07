@@ -121,7 +121,7 @@ const cursorFunction = () => {
     $(".awards-btn").on("mouseenter", function () {
       setCursorActive();
     });
-    $(".awards-btn").on("mouseenter", function () {
+    $(".grupa-img").on("mouseenter", function () {
       setCursorActive();
     });
     $(".pracownia-btn").on("mouseenter", function () {
@@ -209,6 +209,9 @@ const cursorFunction = () => {
     });
     // pracownia
     $(".awards-btn").on("mouseleave", function () {
+      removeCursorActive();
+    });
+    $(".grupa-img").on("mouseleave", function () {
       removeCursorActive();
     });
     $(".pracownia-btn").on("mouseleave", function () {
