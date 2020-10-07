@@ -302,6 +302,11 @@ body {
     margin-left: 25%;
   }
 }
+@media (max-width: 700px) {
+  .pracownia-point:nth-of-type(even) {
+    margin-left: 10%;
+  }
+}
 .awards-btn {
   left: 50%;
   transform: translateX(-50%);
