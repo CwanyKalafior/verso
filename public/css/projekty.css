@@ -325,7 +325,7 @@ body {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
-  z-index: 9994;
+  z-index: 9996;
   cursor: none;
 }
 
