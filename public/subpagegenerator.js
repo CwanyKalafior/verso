@@ -1,3 +1,16 @@
+const tiltFunction = () => {
+    $(document).ready(function () {
+        $(".tiltEffect").tilt({
+            maxTilt: 5.5,
+            scale: 1.04,
+            glare: false,
+            speed: 1000,
+            reverse: true,
+            perspective: 1200,
+        });
+    });
+};
+
 
 //page name (eg. 0001/0002...)
 var page = location.pathname.substring(location.pathname.lastIndexOf("/") + 1).substring(0, 4);;
@@ -102,9 +115,10 @@ $(function () {
                         var i = 0;
                         var template_zdjecia = `<div class="pictures"></br>`;
                         for (i = 0; i < obj_active.zdjecia.length; i++) {
-                            template_zdjecia += `<img src=".${obj_active.zdjecia[i]}" alt=""> </br>`
+                            template_zdjecia += `<img src=".${obj_active.zdjecia[i]}" class="tiltEffect" data-tilt alt="" style="none"> </br>`
                         }
                         document.getElementById("element-container").innerHTML += template_zdjecia += `</div >`;
+                        tiltFunction();
                     }
 
                     //Display "fotograf"
@@ -152,5 +166,5 @@ $(function () {
                     return 0;
                 }
             }
-        });
+        })
 });
