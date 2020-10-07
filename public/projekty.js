@@ -68,19 +68,19 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 100,
   breakpoints: {
     320: {
-      slidesPerView: 1
+      slidesPerView: 1,
     },
     400: {
-      slidesPerView: 2
+      slidesPerView: 2,
     },
     500: {
       slidesPerView: 3,
-      spaceBetween: 0
+      spaceBetween: 0,
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 0
-    }
+      spaceBetween: 0,
+    },
   },
   lazy: {
     loadPrevNext: true,
@@ -104,8 +104,8 @@ var swiper = new Swiper(".swiper-container", {
   on: {
     resize: function () {
       mySwiper.autoplay.start();
-    }
-  }
+    },
+  },
 });
 
 var mySwiper = document.querySelector(".swiper-container").swiper;
@@ -641,9 +641,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (wnetrza_all.length === wnetrza_full_length) {
-            document.getElementById("gallery-btn-y").style.display = "none";
+            document.querySelector(".gallery-btn").style.display = "none";
           } else {
-            document.getElementById("gallery-btn-y").style.display = "block";
+            document.querySelector(".gallery-btn").style.display = "block";
           }
           return 0;
         }
@@ -659,16 +659,27 @@ $(function () {
 const slideChangeTransitionStart = () => {
   let $wrapperEl = this.swiper.$wrapperEl;
   let params = this.swiper.params;
-  $wrapperEl.children(('.' + (params.slideClass) + '.' + (params.slideDuplicateClass)))
+  $wrapperEl
+    .children("." + params.slideClass + "." + params.slideDuplicateClass)
     .each(function () {
-      let idx = this.getAttribute('data-swiper-slide-index');
-      this.innerHTML = $wrapperEl.children('.' + params.slideClass + '[data-swiper-slide-index="' + idx + '"]:not(.' + params.slideDuplicateClass + ')').html();
+      let idx = this.getAttribute("data-swiper-slide-index");
+      this.innerHTML = $wrapperEl
+        .children(
+          "." +
+            params.slideClass +
+            '[data-swiper-slide-index="' +
+            idx +
+            '"]:not(.' +
+            params.slideDuplicateClass +
+            ")"
+        )
+        .html();
     });
-}
+};
 
 const slideChangeTransitionEnd = () => {
   this.swiper.slideToLoop(this.swiper.realIndex, 0, false);
-}
+};
 
 const swiperFunction = () => {
   mySwiper.loopDestroy();
@@ -732,4 +743,3 @@ $(window).scroll(function (e) {
   winScrollTop = $(this).scrollTop();
   parallax();
 });
-

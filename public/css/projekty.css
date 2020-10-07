@@ -84,6 +84,7 @@ body {
 .gallery-btn {
   position: relative;
   z-index: 9996;
+  padding: 2%;
 }
 /* Swap gallery btns */
 /* $ */
@@ -353,6 +354,7 @@ body {
   position: relative;
   margin-top: 3%;
   cursor: none;
+  min-width: 60vw;
   z-index: 9996;
 }
 
