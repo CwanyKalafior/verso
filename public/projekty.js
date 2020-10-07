@@ -153,7 +153,7 @@ $(function () {
           element.grupa === "publiczne" &&
           element.zrealizowano_wtrakcie === "zrealizowano"
       );
-      publiczne_full_length += publiczne_all.length;
+      publiczne_full_length = publiczne_all.length;
 
       //filter data -> wnetrza & zrealizowano
       wnetrza_all = obj.filter(
@@ -262,6 +262,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -275,13 +276,12 @@ $(function () {
         </div>`;
         });
         if (all.length === all_full_length) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Jednorodzinne"
@@ -307,6 +307,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -320,13 +321,12 @@ $(function () {
         </div>`;
         });
         if (jednorodzinne_all.length === jednorodzinne_full_length) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Wielorodzinne"
@@ -352,6 +352,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -365,13 +366,12 @@ $(function () {
         </div>`;
         });
         if (wielorodzinne_all.length === wielorodzinne_full_length) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Publiczne"
@@ -397,6 +397,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -410,13 +411,12 @@ $(function () {
          </div>`;
         });
         if (publiczne_all.length === publiczne_full_length) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "Wnetrza"
@@ -442,6 +442,7 @@ $(function () {
           </div>
          `;
         });
+        tiltFunction();
         AOS.init();
         //clear DOM elements
         document.getElementById("swiper-wrapper").innerHTML = "";
@@ -455,13 +456,12 @@ $(function () {
         </div>`;
         });
         if (wnetrza_all.length === wnetrza_full_length) {
-          document.getElementById("btn").style.display = "none";
+          document.getElementById("gallery-btn-y").style.display = "none";
         } else {
-          document.getElementById("btn").style.display = "block";
+          document.getElementById("gallery-btn-y").style.display = "block";
         }
         swiperFunction();
         mySwiper.swipeTo(0);
-        tiltFunction();
       });
 
       //click "wczytaj wiecej"
@@ -497,9 +497,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (all.length === all_full_length) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -534,9 +534,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (jednorodzinne_all.length === jednorodzinne_full_length) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -571,9 +571,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (wielorodzinne_all.length === wielorodzinne_full_length) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -606,9 +606,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (publiczne_all.length === publiczne_full_length) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }
@@ -641,9 +641,9 @@ $(function () {
           AOS.init();
           tiltFunction();
           if (wnetrza_all.length === wnetrza_full_length) {
-            document.getElementById("btn").style.display = "none";
+            document.getElementById("gallery-btn-y").style.display = "none";
           } else {
-            document.getElementById("btn").style.display = "block";
+            document.getElementById("gallery-btn-y").style.display = "block";
           }
           return 0;
         }

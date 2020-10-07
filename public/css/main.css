@@ -252,8 +252,9 @@ footer p a:hover {
 /* Kontakt sbtn */
 .kontakt-sbtn {
   position: fixed;
-  top: calc(6vh + 20px);
-  right: calc(7vw + 150px);
+  top: calc(50px + 10px);
+  right: calc(2vw + 155px);
+  z-index: 999999999999999999999999999999;
 }
 .pracownia-btn {
   position: relative;
