@@ -216,6 +216,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     width: 80vw;
+    margin-bottom: 10vh;
   }
   .pracownia-point .miniature {
     grid-row: 1/2;
