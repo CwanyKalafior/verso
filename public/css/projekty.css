@@ -306,7 +306,7 @@ body {
   transform: translateX(-50%);
   margin-top: 5vh;
   margin-bottom: 7vh;
-  z-index: 9996;
+  z-index: 9994;
   padding: 0 100vw;
 }
 
@@ -369,7 +369,7 @@ body {
 }
 .gallery-swiper {
   position: relative;
-  z-index: 9996;
+  z-index: 9994;
 }
 /* Gallery button */
 

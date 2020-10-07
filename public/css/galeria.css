@@ -78,7 +78,7 @@ body {
 /* grid masonry */
 .grid {
   position: relative;
-  z-index: 9996;
+  z-index: 9994;
 }
 @media (min-width: 533px) {
   .grid:after {

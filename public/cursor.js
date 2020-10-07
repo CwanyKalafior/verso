@@ -69,6 +69,9 @@ const cursorFunction = () => {
     };
     // ADD
     // strona główna
+    $(".cookies-info").on("mouseenter", function () {
+      setCursorActive();
+    });
     $(".topnav-buttoms a").on("mouseenter", function () {
       setCursorActive();
     });
@@ -98,14 +101,14 @@ const cursorFunction = () => {
       setCursorLittle();
     });
     $(".projekt-lista img").on("mouseenter", function () {
-      setCursorLittle();
+      setCursorActive();
     });
     $(".swiper-container").on("mouseenter", function () {
-      setCursorLittle();
+      setCursorActive();
     });
     // galeria
     $(".grid").on("mouseenter", function () {
-      setCursorLittle();
+      setCursorActive();
     });
     $(".wszystkie-links a").on("mouseenter", function () {
       setCursorActive();
@@ -156,6 +159,9 @@ const cursorFunction = () => {
     });
     // REMOVE
     // strona główna
+    $(".cookies-info").on("mouseleave", function () {
+      removeCursorActive();
+    });
     $(".topnav-buttoms a").on("mouseleave", function () {
       removeCursorActive();
     });
@@ -185,14 +191,14 @@ const cursorFunction = () => {
       removeCursorLittle();
     });
     $(".projekt-lista img").on("mouseleave", function () {
-      removeCursorLittle();
+      removeCursorActive();
     });
     $(".swiper-container").on("mouseleave", function () {
-      removeCursorLittle();
+      removeCursorActive();
     });
     // galeria
     $(".grid").on("mouseleave", function () {
-      removeCursorLittle();
+      removeCursorActive();
     });
     $(".wszystkie-links a").on("mouseleave", function () {
       removeCursorActive();
