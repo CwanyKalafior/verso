@@ -4,7 +4,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0001",
-    "zdjecie_glowne": "./content/0001/0001.jpg",
+    "zdjecie_glowne": "./content/0001/0001x.jpg",
     "nazwa": "Dom Leśny",
     "typ_obiektu": "Budynek mieszkalny jednorodzinny",
     "lokalizacja": "Kuźnica Kiedrzyńska",
@@ -18,7 +18,7 @@
       "Marek Laskowski"
     ],
     "zdjecia": [
-      "./content/0001/0001.jpg",
+      "./content/0001/0001x.jpg",
       "./content/0001/0001a.jpg",
       "./content/0001/0001b.jpg"
     ],
@@ -2636,15 +2636,9 @@
     "powierzchnia_uzytkowa": "",
     "autorzy": ["Jakub Cieślik"],
     "zdjecia": [
-      "./content/0094/8b854a5812c03c5f503f0dd9bda82b4d.jpg",
-      "./content/0094/a.jpg",
-      "./content/0094/b.jpg",
-      "./content/0094/c.jpg",
-      "./content/0094/d.jpg",
-      "./content/0094/e.jpg",
-      "./content/0094/f.jpg",
-      "./content/0094/g.jpg",
-      "./content/0094/h.jpg"
+      "./content/0094/0094.jpg",
+      "./content/0094/0094a.jpg",
+      "./content/0094/0094b.jpg"
     ],
     "fotograf": []
   },
