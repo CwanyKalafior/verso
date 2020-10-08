@@ -113,6 +113,11 @@ nav {
   .oprawa {
     margin-top: -10vh;
   }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1024px) {
