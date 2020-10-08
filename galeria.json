@@ -22,7 +22,7 @@
       "./content/0001/0001a.jpg",
       "./content/0001/0001b.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski"]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "3600",
@@ -192,7 +192,10 @@
       "./content/0006/0006g.jpg",
       "./content/0006/0006h.jpg"
     ],
-    "fotograf": []
+    "fotograf": [
+      "@jackowskivisuals",
+      "Mariusz Lis"
+    ]
   },
   {
     "kolejnosc": "1200",
@@ -219,7 +222,7 @@
       "./content/0007/0007b.jpg",
       "./content/0007/0007c.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "2000",
@@ -265,7 +268,7 @@
       "./content/0009/0009b.jpg",
       "./content/0009/0009c.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "400",
@@ -389,7 +392,7 @@
       "./content/0013/0013b.jpg",
       "./content/0013/0013d.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "1900",
@@ -718,7 +721,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0024/0024.jpg", "./content/0024/0024a.jpg"],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "3800",
@@ -983,7 +986,7 @@
       "Marek Laskowski"
     ],
     "zdjecia": ["./content/0033/0033.jpg", "./content/0033/0033a.jpg"],
-    "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
+    "fotograf": ["Jakub Cieślik", "@jackowskivisuals"]
   },
   {
     "kolejnosc": "6600",
@@ -1197,7 +1200,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0041/0041.jpg", "./content/0041/0041a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "5400",
@@ -1589,7 +1592,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0056/0056.jpg", "./content/0056/0056a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "7000",
@@ -1974,7 +1977,7 @@
     "powierzchnia_uzytkowa": "233m²",
     "autorzy": ["Jakub Cieślik"],
     "zdjecia": ["./content/0071/0071.jpg", "./content/0071/0071a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "8500",
@@ -2994,7 +2997,7 @@
       "./content/0111/0111a.jpg",
       "./content/0111/0111b.jpg"
     ],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "5301",
@@ -3683,7 +3686,7 @@
       "Szymon Chrzanowski"
     ],
     "zdjecia": ["./content/0138/0138.jpg", "./content/0138/0138a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "139",
@@ -4119,7 +4122,7 @@
       "./content/0152/0152a.jpg",
       "./content/0152/0152b.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "300",
