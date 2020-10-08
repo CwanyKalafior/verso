@@ -391,7 +391,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0013",
-    "zdjecie_glowne": "./content/0013/0013.webp",
+    "zdjecie_glowne": "./content/0013/0013.jpg",
     "nazwa": "Dom jednorodzinny",
     "typ_obiektu": "Budynek mieszkalny jednorodzinny",
     "lokalizacja": "Biskupice",
@@ -408,14 +408,11 @@
       "Paula Jaworek"
     ],
     "zdjecia": [
-      "./content/0013/e642a1f583bb8fdae16e86c1e4a5b67f.jpg",
-      "./content/0013/13a.jpg",
-      "./content/0013/13b.jpg",
-      "./content/0013/13c.jpg",
-      "./content/0013/13d.jpg",
-      "./content/0013/13e.jpg",
-      "./content/0013/13f.jpg",
-      "./content/0013/13g.jpg"
+      "./content/0013/0013.jpg",
+      "./content/0013/0013a.jpg",
+      "./content/0013/0013b.jpg",
+      "./content/0013/0013c.jpg",
+      "./content/0013/0013d.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },

@@ -436,7 +436,7 @@ class VanillaTilt {
       easing: "cubic-bezier(.03,.98,.52,.99)",
       scale: 1.04,
       speed: 1000,
-      maxTilt: 5.5,
+      maxTilt: 2.5,
       transition: true,
       axis: null,
       glare: false,
