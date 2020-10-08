@@ -22,7 +22,6 @@ const sendMail = (name, number, email, text, cb) => {
         to: 'projektgvtest@gmail.com',
         subject: `formularz - ${name}`,
         html: `
-        <h2>Dane:</h2>
         <ul>
         <li>Imie i nazwisko: ${name}</li>
         <li>Numer telefonu: ${number}</li>
