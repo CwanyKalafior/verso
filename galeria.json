@@ -189,8 +189,8 @@
       "./content/0006/0006a.jpg",
       "./content/0006/0006b.jpg",
       "./content/0006/0006c.jpg",
-      "./content/0006/0006d.jpg",
       "./content/0006/0006e.jpg",
+      "./content/0006/0006d.jpg",
       "./content/0006/0006f.jpg",
       "./content/0006/0006g.jpg",
       "./content/0006/0006h.jpg"
@@ -202,7 +202,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "publiczne",
     "nazwa_projektu": "0007",
-    "zdjecie_glowne": "./content/0007/0007.webp",
+    "zdjecie_glowne": "./content/0007/0007.jpg",
     "nazwa": "Biuro firmy PROTOS",
     "typ_obiektu": "Budynek biurowy",
     "lokalizacja": "Czarny Las",
@@ -217,12 +217,10 @@
       "Eliza Masek"
     ],
     "zdjecia": [
-      "./content/0007/342260e66c502e00e1c0a50a55e016ba.jpg",
-      "./content/0007/7a.jpg",
-      "./content/0007/7b.jpg",
-      "./content/0007/7c.jpg",
-      "./content/0007/7d.jpg",
-      "./content/0007/e.jpg"
+      "./content/0007/0007.jpg",
+      "./content/0007/0007a.jpg",
+      "./content/0007/0007b.jpg",
+      "./content/0007/0007c.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -270,7 +268,7 @@
       "./content/0009/0009b.jpg",
       "./content/0009/0009c.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
+    "fotograf": ["Michał Jackowski"]
   },
   {
     "kolejnosc": "400",
@@ -2614,8 +2612,7 @@
     "autorzy": ["Jakub Cieślik"],
     "zdjecia": [
       "./content/0094/0094.jpg",
-      "./content/0094/0094a.jpg",
-      "./content/0094/0094b.jpg"
+      "./content/0094/0094a.jpg"
     ],
     "fotograf": []
   },
@@ -3031,7 +3028,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wnetrza",
     "nazwa_projektu": "0111",
-    "zdjecie_glowne": "./content/0111/0111.webp",
+    "zdjecie_glowne": "./content/0111/0111.jpg",
     "nazwa": "Korytarze w budynku mieszkalnym",
     "typ_obiektu": "Korytarze w budynku mieszkalnym",
     "lokalizacja": "Częstochowa",
@@ -3040,19 +3037,9 @@
     "powierzchnia_uzytkowa": "",
     "autorzy": ["Jakub Cieślik", "Kamil Cierpioł", "Michał Wręczycki"],
     "zdjecia": [
-      "./content/0111/a.jpg",
-      "./content/0111/b.jpg",
-      "./content/0111/c.jpg",
-      "./content/0111/d.jpg",
-      "./content/0111/e.jpg",
-      "./content/0111/f.jpg",
-      "./content/0111/g.jpg",
-      "./content/0111/h.jpg",
-      "./content/0111/i.jpg",
-      "./content/0111/j.jpg",
-      "./content/0111/k.jpg",
-      "./content/0111/l.jpg",
-      "./content/0111/m.jpg"
+      "./content/0111/0111.jpg",
+      "./content/0111/0111a.jpg",
+      "./content/0111/0111b.jpg"
     ],
     "fotograf": []
   },
@@ -3743,8 +3730,8 @@
       "Szymon Chrzanowski"
     ],
     "zdjecia": [
-      "./content/0138/0138a.jpg",
-      "./content/0138/0138.jpg"
+      "./content/0138/0138.jpg",
+      "./content/0138/0138a.jpg"
     ],
     "fotograf": []
   },
