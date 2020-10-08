@@ -705,7 +705,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0024",
-    "zdjecie_glowne": "./content/0024/0024.webp",
+    "zdjecie_glowne": "./content/0024/0024.jpg",
     "nazwa": "Bliźniaki Sąsiedzkie B",
     "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
     "lokalizacja": "Częstochowa",
@@ -721,13 +721,8 @@
       "Eliza Masek"
     ],
     "zdjecia": [
-      "./content/0024/cac418add6c9df16c916d0c1fad3bdfa.jpg",
-      "./content/0024/24a.jpg",
-      "./content/0024/24b.jpg",
-      "./content/0024/24c.jpg",
-      "./content/0024/24d.jpg",
-      "./content/0024/24e.jpg",
-      "./content/0024/24f.jpg"
+      "./content/0024/0024.jpg",
+      "./content/0024/0024a.jpg"
     ],
     "fotograf": ["Michał Jackowski"]
   },
@@ -980,7 +975,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0033",
-    "zdjecie_glowne": "./content/0033/0033.webp",
+    "zdjecie_glowne": "./content/0033/0033.jpg",
     "nazwa": "Bliźniaki Sąsiedzkie A",
     "typ_obiektu": "Budynek mieszkaniowy dwurodzinny",
     "lokalizacja": "Częstochowa",
@@ -994,12 +989,8 @@
       "Marek Laskowski"
     ],
     "zdjecia": [
-      "./content/0033/fd04b4bd9ce572895d78089be7ca5cb6.jpg",
-      "./content/0033/33a.jpg",
-      "./content/0033/33b.jpg",
-      "./content/0033/33c.jpg",
-      "./content/0033/33d.jpg",
-      "./content/0033/33e.jpg"
+      "./content/0033/0033.jpg",
+      "./content/0033/0033a.jpg"
     ],
     "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
   },
@@ -1197,7 +1188,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wielorodzinne",
     "nazwa_projektu": "0041",
-    "zdjecie_glowne": "./content/0041/0041.webp",
+    "zdjecie_glowne": "./content/0041/0041.jpg",
     "nazwa": "Apartamenty Staromiejskie",
     "typ_obiektu": "Budynek usługowo-mieszkaniowy",
     "lokalizacja": "Częstochowa",
@@ -1215,13 +1206,8 @@
       "Eliza Masek"
     ],
     "zdjecia": [
-      "./content/0041/c1fbec500b281e5174ea940b752627ef.jpg",
-      "./content/0041/a.jpg",
-      "./content/0041/b.jpg",
-      "./content/0041/c.jpg",
-      "./content/0041/d.jpg",
-      "./content/0041/e.jpg",
-      "./content/0041/f.jpg"
+      "./content/0041/0041.jpg",
+      "./content/0041/0041a.jpg"
     ],
     "fotograf": []
   },
@@ -1600,7 +1586,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "publiczne",
     "nazwa_projektu": "0056",
-    "zdjecie_glowne": "./content/0056/0056.webp",
+    "zdjecie_glowne": "./content/0056/0056.jpg",
     "nazwa": "Domki letniskowe",
     "typ_obiektu": "Domki letniskowe",
     "lokalizacja": "Poraj",
@@ -1615,15 +1601,8 @@
       "Eliza Masek"
     ],
     "zdjecia": [
-      "./content/0056/2686a609adaf9dc90ef5c054e9142fe6.jpg",
-      "./content/0056/a.jpg",
-      "./content/0056/b.jpg",
-      "./content/0056/c.jpg",
-      "./content/0056/d.jpg",
-      "./content/0056/e.jpg",
-      "./content/0056/f.jpg",
-      "./content/0056/g.jpg",
-      "./content/0056/h.jpg"
+      "./content/0056/0056.jpg",
+      "./content/0056/0056a.jpg"
     ],
     "fotograf": []
   },
@@ -2001,7 +1980,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0071",
-    "zdjecie_glowne": "./content/0071/0071.webp",
+    "zdjecie_glowne": "./content/0071/0071.jpg",
     "nazwa": "Dom rodzinny",
     "typ_obiektu": "Budynek mieszkaniowy jednorodzinny",
     "lokalizacja": "Borowianka",
@@ -2010,13 +1989,8 @@
     "powierzchnia_uzytkowa": "233m²",
     "autorzy": ["Jakub Cieślik"],
     "zdjecia": [
-      "./content/0071/1fb77ca6dce689cb22c9cbef0d6ecc6c.jpg",
-      "./content/0071/a.jpg",
-      "./content/0071/b.jpg",
-      "./content/0071/c.jpg",
-      "./content/0071/d.jpg",
-      "./content/0071/e.jpg",
-      "./content/0071/f.jpg"
+      "./content/0071/0071.jpg",
+      "./content/0071/0071a.jpg"
     ],
     "fotograf": []
   },
@@ -4149,7 +4123,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "publiczne",
     "nazwa_projektu": "0152",
-    "zdjecie_glowne": "./content/0152/0152.webp",
+    "zdjecie_glowne": "./content/0152/0152.jpg",
     "nazwa": "Bulwary - Galeria Jurajska",
     "typ_obiektu": "Zagospodarowanie przestrzeni publicznej",
     "lokalizacja": "Częstochowa",
@@ -4165,21 +4139,10 @@
       "Maciej Skrzypczyk"
     ],
     "zdjecia": [
-      "./content/0152/a.jpg",
-      "./content/0152/b.jpg",
-      "./content/0152/c.jpg",
-      "./content/0152/d.jpg",
-      "./content/0152/e.jpg",
-      "./content/0152/f.jpg",
-      "./content/0152/g.jpg",
-      "./content/0152/h.jpg",
-      "./content/0152/i.jpg",
-      "./content/0152/j.jpg",
-      "./content/0152/k.jpg",
-      "./content/0152/l.jpg",
-      "./content/0152/m.jpg",
-      "./content/0152/n.jpg",
-      "./content/0152/o.jpg"
+      "./content/0152/0152.jpg",
+      "./content/0152/0152a.jpg",
+      "./content/0152/0152b.jpg"
+
     ],
     "fotograf": ["Kacper Ziółkowski"]
   },
