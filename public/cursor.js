@@ -91,7 +91,7 @@ const cursorFunction = () => {
       setCursorActive();
     });
     // projekty
-    $(".swap-gallery-btns").on("mouseenter", function () {
+    $(".wszy-active").on("mouseenter", function () {
       setCursorActive();
     });
     $(".projekty-links a").on("mouseenter", function () {
@@ -111,6 +111,9 @@ const cursorFunction = () => {
       setCursorActive();
     });
     $(".wszystkie-links a").on("mouseenter", function () {
+      setCursorActive();
+    });
+    $(".proj-active").on("mouseenter", function () {
       setCursorActive();
     });
     // case
@@ -181,7 +184,7 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     // projekty
-    $(".swap-gallery-btns").on("mouseleave", function () {
+    $(".wszy-active").on("mouseleave", function () {
       removeCursorActive();
     });
     $(".projekty-links a").on("mouseleave", function () {
@@ -201,6 +204,9 @@ const cursorFunction = () => {
       removeCursorActive();
     });
     $(".wszystkie-links a").on("mouseleave", function () {
+      removeCursorActive();
+    });
+    $(".proj-active").on("mouseleave", function () {
       removeCursorActive();
     });
     // case
