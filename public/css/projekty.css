@@ -469,22 +469,25 @@ body {
   font-weight: 300;
 } */
 
-.gallery-swiper p {
+.project-inne {
+  position: relative;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / 760));
   font-weight: 300;
   background-color: rgba(0, 0, 0, 0);
   margin-left: 15%;
   margin-top: 3vh;
   cursor: none;
+  z-index: 9996;
 }
 
 @media (max-width: 1023px) {
-  .gallery-swiper p {
+  .project-inne {
     margin-left: 5%;
   }
 }
 
 .swiper-container {
+  position: relative;
   height: 50vh;
   z-index: 991;
   margin-top: 2vh;
@@ -492,6 +495,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   cursor: none;
+  z-index: 9994;
 }
 
 .swiper-slide {
@@ -510,6 +514,8 @@ body {
   -webkit-align-items: center;
   align-items: center;
   cursor: none;
+  position: relative;
+  z-index: 9994;
 }
 
 .swiper-slide a {
@@ -517,6 +523,8 @@ body {
 }
 
 .swiper-slide img {
+  position: relative;
+  z-index: 9994;
   max-width: 20vw;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
