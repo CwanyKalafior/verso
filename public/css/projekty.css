@@ -135,10 +135,10 @@ body {
 
 .verso-proj .container .bar-1 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 70%;
+  background-color: #eee;
+  width: 75%;
   height: 10%;
-  left: 15%;
+  left: 20%;
   top: 5%;
   transition: 0.2s;
   pointer-events: none;
@@ -146,8 +146,8 @@ body {
 
 .verso-proj .container .bar-2 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 50%;
+  background-color: #eee;
+  width: 60%;
   height: 10%;
   top: 30%;
   right: 45%;
@@ -157,8 +157,8 @@ body {
 
 .verso-proj .container .bar-3 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 50%;
+  background-color: #eee;
+  width: 60%;
   height: 10%;
   top: 55%;
   left: 45%;
@@ -186,6 +186,7 @@ body {
   height: 10vh;
   max-height: 40px;
   min-height: 35px;
+  /* background-color: rgb(37, 49, 34); */
 }
 
 .verso-wszy .container:hover {
@@ -202,64 +203,104 @@ body {
 
 .verso-wszy .container .line-1 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 60%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 10%;
   left: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container:hover .line-1 {
-  width: 20%;
+  opacity: 1;
 }
 
 .verso-wszy .container .line-4 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   width: 20%;
   height: 10%;
   top: 10%;
   right: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container:hover .line-4 {
-  width: 60%;
+  opacity: 1;
+}
+
+.verso-wszy .container .line-9 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 10%;
+  right: 40%;
+  pointer-events: none;
+}
+
+.verso-wszy .container:hover .line-9 {
+  opacity: 1;
 }
 
 .verso-wszy .container .line-2 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 30%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 35%;
   left: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container:hover .line-2 {
-  width: 55%;
+  opacity: 1;
 }
 
 .verso-wszy .container .line-5 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 50%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 35%;
   right: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container:hover .line-5 {
-  width: 25%;
+  opacity: 1;
 }
 
+.verso-wszy .container .line-8 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 35%;
+  right: 40%;
+  pointer-events: none;
+}
+
+.verso-wszy .container:hover .line-8 {
+  opacity: 1;
+}
+
+/* .verso-wszy .container:hover .line-5 {
+  width: 25%;
+} */
+/* 
 .verso-wszy .container .line-3 {
   position: absolute;
   background-color: rgba(156, 156, 156, 0.9);
@@ -269,25 +310,57 @@ body {
   left: 5%;
   transition: 0.2s;
   pointer-events: none;
-}
+} */
 
-.verso-wszy .container:hover .line-3 {
+/* .verso-wszy .container:hover .line-3 {
   width: 60%;
-}
+} */
 
 .verso-wszy .container .line-3 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 60%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 60%;
   left: 5%;
-  transition: 0.2s;
 }
 
 .verso-wszy .container:hover .line-3 {
-  width: 35%;
+  opacity: 1;
 }
+
+.verso-wszy .container .line-7 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 60%;
+  left: 40%;
+}
+
+.verso-wszy .container:hover .line-7 {
+  opacity: 1;
+}
+
+.verso-wszy .container .line-6 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 60%;
+  right: 5%;
+}
+
+.verso-wszy .container:hover .line-6 {
+  opacity: 1;
+}
+
 /* Gallery */
 
 .gallery {
@@ -321,10 +394,10 @@ body {
   position: relative;
   max-width: 50vw;
   max-height: 80vh;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
   z-index: 9996;
   cursor: none;
 }
@@ -445,10 +518,10 @@ body {
 
 .swiper-slide img {
   max-width: 20vw;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.4);
   cursor: none;
 }
 @media (max-width: 1024px) {
@@ -475,8 +548,8 @@ body {
   height: calc(78px * 7);
   width: calc(78px * 12);
   margin-left: calc(78px * -12 + 40vw);
-  opacity: 0.2 !important;
-  background-image: url("../content/cross.webp");
+  opacity: 0.4 !important;
+  background-image: url("../content/cross.png");
   background-repeat: repeat;
   z-index: 10;
   pointer-events: none !important;

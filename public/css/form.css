@@ -139,6 +139,10 @@ input.form-btn {
   text-decoration: none;
   color: #eee;
 }
+.form-accept_text a:hover {
+  text-decoration: underline;
+  color: #eee;
+}
 /* input.form-btn:hover {
   font-weight: 500;
 } */

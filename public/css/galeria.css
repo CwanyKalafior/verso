@@ -80,6 +80,15 @@ body {
   position: relative;
   z-index: 9994;
 }
+
+/* .grid-item img {
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+} */
+
+
 @media (min-width: 533px) {
   .grid:after {
     content: "";
@@ -200,6 +209,8 @@ body {
   margin-left: 13%;
 }
 
+/* Guzik projekty/ */
+
 .verso-proj {
   position: absolute;
   width: 10vh;
@@ -220,10 +231,6 @@ body {
   min-height: 35px;
 }
 
-.verso-proj .container:hover {
-  cursor: none;
-}
-
 .verso-proj .container .background {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
@@ -234,51 +241,53 @@ body {
 
 .verso-proj .container .bar-1 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 70%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 75%;
   height: 10%;
+  left: 20%;
   top: 5%;
-  left: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-proj .container:hover .bar-1 {
-  width: 70%;
-  left: 15%;
+  opacity: 1;
 }
 
 .verso-proj .container .bar-2 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 50%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 60%;
   height: 10%;
   top: 30%;
-  right: 10%;
-  transition: 0.2s;
+  right: 45%;
   pointer-events: none;
 }
 
 .verso-proj .container:hover .bar-2 {
-  right: 45%;
+  opacity: 1;
 }
 
 .verso-proj .container .bar-3 {
   position: absolute;
-  background-color: rgba(156, 156, 156, 0.9);
-  width: 50%;
+  background-color: #eee;
+  opacity: 0.7;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 60%;
   height: 10%;
   top: 55%;
-  left: 15%;
-  transition: 0.2s;
+  left: 45%;
   pointer-events: none;
 }
 
 .verso-proj .container:hover .bar-3 {
-  left: 45%;
+  opacity: 1;
 }
 
-/* Wszystkie */
+/* Guzik wszystkie/ */
 
 .verso-wszy {
   position: absolute;
@@ -298,11 +307,13 @@ body {
   height: 10vh;
   max-height: 40px;
   min-height: 35px;
+  /* background-color: rgb(37, 49, 34); */
 }
 
 .verso-wszy .container:hover {
   cursor: none;
 }
+
 .verso-wszy .container .background {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
@@ -313,67 +324,129 @@ body {
 
 .verso-wszy .container .line-1 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   width: 20%;
   height: 10%;
   top: 10%;
   left: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container .line-4 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 60%;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 10%;
   right: 5%;
-  transition: 0.2s;
+  pointer-events: none;
+}
+
+.verso-wszy .container .line-9 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 10%;
+  right: 40%;
   pointer-events: none;
 }
 
 .verso-wszy .container .line-2 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 55%;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 35%;
   left: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
 .verso-wszy .container .line-5 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 25%;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 35%;
   right: 5%;
-  transition: 0.2s;
   pointer-events: none;
 }
 
+.verso-wszy .container .line-8 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 35%;
+  right: 40%;
+  pointer-events: none;
+}
+
+
+/* .verso-wszy .container:hover .line-5 {
+  width: 25%;
+} */
+/* 
 .verso-wszy .container .line-3 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(156, 156, 156, 0.9);
+  width: 30%;
+  height: 10%;
+  top: 60%;
+  left: 5%;
+  transition: 0.2s;
+  pointer-events: none;
+} */
+
+/* .verso-wszy .container:hover .line-3 {
   width: 60%;
-  height: 10%;
-  top: 60%;
-  left: 5%;
-  transition: 0.2s;
-  pointer-events: none;
-}
+} */
 
 .verso-wszy .container .line-3 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 1);
-  width: 35%;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
   height: 10%;
   top: 60%;
   left: 5%;
-  transition: 0.2s;
+}
+
+
+.verso-wszy .container .line-7 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 60%;
+  left: 40%;
+}
+
+
+.verso-wszy .container .line-6 {
+  position: absolute;
+  background-color: #eee;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  width: 20%;
+  height: 10%;
+  top: 60%;
+  right: 5%;
 }
 
 @media (max-width: 640px) {

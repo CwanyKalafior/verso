@@ -92,7 +92,7 @@ body {
   width: calc(78px * 12);
   margin-left: calc(78px * -12 + 40vw);
   opacity: 0.2 !important;
-  background-image: url("../content/cross.webp");
+  background-image: url("../content/cross.png");
   background-repeat: repeat;
   padding: 10px;
   z-index: 9;
