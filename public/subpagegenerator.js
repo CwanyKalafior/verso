@@ -36,21 +36,7 @@ $(function () {
                     //working with data and creating elements
 
                     //Add metadata
-                    document.head.innerHTML += `<title>grupaVERSO • ${obj_active.nazwa}</title>
-                    <meta name="url" content="https://www.grupaverso.pl/projekty/${obj_active.nazwa_projektu}.html" />
-                    <meta property="og:title" content="grupaVERSO • ${obj_active.nazwa}" />
-                    <meta property="og:image" content="../content/${obj_active.nazwa_projektu}/${obj_active.nazwa_projektu}.webp" />
-
-
-  <meta
-    name="description"
-    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
-  />
-  <meta
-    name="og:description"
-    content="✔️ Indywiduale projekty ∘ Wyceny ∘ Nowoczesne domy jednorodzinne ∘ Biurowce ∘ Apartamentowce ∘ Projektownie wnętrz ∘ Urbanistyka ∘ Planownie krajobrazowe ∘ Nazdór budowlany ∘ Instalacje przestrzenne ∘ Design"
-/>
-                    `;
+                    document.head.innerHTML += `<title>grupaVERSO • ${obj_active.nazwa}</title>`;
 
                     //Display "nazwa"
                     if (obj_active.nazwa === "") {
