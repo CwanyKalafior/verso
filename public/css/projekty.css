@@ -563,6 +563,14 @@ body {
   pointer-events: none !important;
 }
 
+@media (max-width: 1260px) {
+  .grid-dots {
+    top: 58vh;
+  margin-top: calc(78px * -5);
+  height: calc(78px * 5);
+  }
+}
+
 @media (max-width: 1023px) {
   .grid-dots {
     display: none;
