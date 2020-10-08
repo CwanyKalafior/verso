@@ -3748,7 +3748,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wnetrza",
     "nazwa_projektu": "0138",
-    "zdjecie_glowne": "./content/0138/0138.webp",
+    "zdjecie_glowne": "./content/0138/0138.jpg",
     "nazwa": "Wejście wschodnie - Galeria Jurajska",
     "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
     "lokalizacja": "Częstochowa",
@@ -3763,10 +3763,9 @@
       "Szymon Chrzanowski"
     ],
     "zdjecia": [
-      "./content/0138/b.jpg",
-      "./content/0138/a.jpg",
-      "./content/0138/c.jpg",
-      "./content/0138/d.jpg"
+      "./content/0138/0138a.jpg",
+      "./content/0138/0138b.jpg",
+      "./content/0138/0138c.jpg"
     ],
     "fotograf": []
   },

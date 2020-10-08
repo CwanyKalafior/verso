@@ -1,7 +1,7 @@
 const tiltFunction = () => {
     $(document).ready(function () {
         $(".tiltEffect").tilt({
-            maxTilt: 5.5,
+            maxTilt: 3.5,
             scale: 1.04,
             glare: false,
             speed: 1000,
