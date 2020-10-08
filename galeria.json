@@ -167,7 +167,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "wielorodzinne",
     "nazwa_projektu": "0006",
-    "zdjecie_glowne": "./content/0006/0006x.webp",
+    "zdjecie_glowne": "./content/0006/0006x.jpg",
     "nazwa": "Osiedle Nowe Ptasie",
     "typ_obiektu": "Zespół budynków mieszkalnych wielorodzinnych",
     "lokalizacja": "Katowice",
@@ -185,26 +185,15 @@
       "Nina Nowak"
     ],
     "zdjecia": [
-      "./content/0006/999711567cfe7b8c4e2c46d8e04b89e2.jpg",
-      "./content/0006/a.jpg",
-      "./content/0006/b.jpg",
-      "./content/0006/c.jpg",
-      "./content/0006/d.jpg",
-      "./content/0006/e.jpg",
-      "./content/0006/f.jpg",
-      "./content/0006/g.jpg",
-      "./content/0006/h.png",
-      "./content/0006/i.png",
-      "./content/0006/j.png",
-      "./content/0006/k.png",
-      "./content/0006/l.png",
-      "./content/0006/m.png",
-      "./content/0006/n.png",
-      "./content/0006/o.png",
-      "./content/0006/p.png",
-      "./content/0006/r.png",
-      "./content/0006/s.png",
-      "./content/0006/t.png"
+      "./content/0006/0006x.jpg",
+      "./content/0006/0006a.jpg",
+      "./content/0006/0006b.jpg",
+      "./content/0006/0006c.jpg",
+      "./content/0006/0006d.jpg",
+      "./content/0006/0006e.jpg",
+      "./content/0006/0006f.jpg",
+      "./content/0006/0006g.jpg",
+      "./content/0006/0006h.jpg"
     ],
     "fotograf": []
   },
@@ -268,7 +257,7 @@
     "zrealizowano_wtrakcie": "zrealizowano",
     "grupa": "jednorodzinne",
     "nazwa_projektu": "0009",
-    "zdjecie_glowne": "./content/0009/0009.webp",
+    "zdjecie_glowne": "./content/0009/0009.jpg",
     "nazwa": "Dom na łące",
     "typ_obiektu": "Dom jednorodzinny",
     "lokalizacja": "Cisie",
@@ -277,18 +266,9 @@
     "powierzchnia_uzytkowa": "",
     "autorzy": ["Kamil Cierpioł"],
     "zdjecia": [
-      "./content/0009/1405abde90dbd1227484287a4c525a36.jpg",
-      "./content/0009/9a.jpg",
-      "./content/0009/9b.jpg",
-      "./content/0009/9c.jpg",
-      "./content/0009/9d.jpg",
-      "./content/0009/9e.jpg",
-      "./content/0009/9f.jpg",
-      "./content/0009/9g.jpg",
-      "./content/0009/9h.jpg",
-      "./content/0009/9i.jpg",
-      "./content/0009/9j.jpg",
-      "./content/0009/9k.jpg"
+      "./content/0009/0009.jpg",
+      "./content/0009/0009b.jpg",
+      "./content/0009/0009c.jpg"
     ],
     "fotograf": ["Kacper Ziółkowski", "Michał Jackowski", "Artur Gała"]
   },
@@ -3764,8 +3744,7 @@
     ],
     "zdjecia": [
       "./content/0138/0138a.jpg",
-      "./content/0138/0138b.jpg",
-      "./content/0138/0138c.jpg"
+      "./content/0138/0138.jpg"
     ],
     "fotograf": []
   },
