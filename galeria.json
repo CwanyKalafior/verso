@@ -22,7 +22,7 @@
       "./content/0001/0001a.jpg",
       "./content/0001/0001b.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski", "Michał Jackowski"]
+    "fotograf": ["Kacper Ziółkowski"]
   },
   {
     "kolejnosc": "3600",
@@ -192,7 +192,10 @@
       "./content/0006/0006g.jpg",
       "./content/0006/0006h.jpg"
     ],
-    "fotograf": []
+    "fotograf": [
+      "@jackowskivisuals",
+      "Mariusz Lis"
+    ]
   },
   {
     "kolejnosc": "1200",
@@ -219,7 +222,7 @@
       "./content/0007/0007b.jpg",
       "./content/0007/0007c.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "2000",
@@ -265,7 +268,7 @@
       "./content/0009/0009b.jpg",
       "./content/0009/0009c.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "400",
@@ -389,7 +392,7 @@
       "./content/0013/0013b.jpg",
       "./content/0013/0013d.jpg"
     ],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "1900",
@@ -718,7 +721,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0024/0024.jpg", "./content/0024/0024a.jpg"],
-    "fotograf": ["Michał Jackowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "3800",
@@ -983,7 +986,7 @@
       "Marek Laskowski"
     ],
     "zdjecia": ["./content/0033/0033.jpg", "./content/0033/0033a.jpg"],
-    "fotograf": ["Jakub Cieślik", "Michał Jackowski"]
+    "fotograf": ["Jakub Cieślik", "@jackowskivisuals"]
   },
   {
     "kolejnosc": "6600",
@@ -1197,7 +1200,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0041/0041.jpg", "./content/0041/0041a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "5400",
@@ -1589,7 +1592,7 @@
       "Eliza Masek"
     ],
     "zdjecia": ["./content/0056/0056.jpg", "./content/0056/0056a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "7000",
@@ -1974,7 +1977,7 @@
     "powierzchnia_uzytkowa": "233m²",
     "autorzy": ["Jakub Cieślik"],
     "zdjecia": ["./content/0071/0071.jpg", "./content/0071/0071a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "8500",
@@ -2102,8 +2105,8 @@
     "grupa": "publiczne",
     "nazwa_projektu": "0077",
     "zdjecie_glowne": "./content/0077/0077.jpg",
-    "nazwa": "Rozbudowa budynku urzyteczności publicznej",
-    "typ_obiektu": "Budynek urzyteczności publicznej",
+    "nazwa": "Rozbudowa budynku użyteczności publicznej",
+    "typ_obiektu": "Budynek użyteczności publicznej",
     "lokalizacja": "Sandomierz",
     "zakres": "Realizacja",
     "ukonczono": "2011",
@@ -2123,8 +2126,8 @@
     "grupa": "publiczne",
     "nazwa_projektu": "0078",
     "zdjecie_glowne": "./content/0078/0078.jpg",
-    "nazwa": "Termomodernizacja budynku urzyteczności publicznej",
-    "typ_obiektu": "Budynek urzyteczności publicznej",
+    "nazwa": "Termomodernizacja budynku użyteczności publicznej",
+    "typ_obiektu": "Budynek użyteczności publicznej",
     "lokalizacja": "Herby Stare",
     "zakres": "",
     "ukonczono": "2014",
@@ -2312,7 +2315,7 @@
     "nazwa_projektu": "0085",
     "zdjecie_glowne": "./content/0085/0085.jpg",
     "nazwa": "Dworzec PKS",
-    "typ_obiektu": "Budynek urzyteczności publicznej",
+    "typ_obiektu": "Budynek użyteczności publicznej",
     "lokalizacja": "Gorzyce",
     "zakres": "Projekt koncepcyjny",
     "ukonczono": "",
@@ -2498,7 +2501,7 @@
     "nazwa_projektu": "0092",
     "zdjecie_glowne": "./content/0092/0092.jpg",
     "nazwa": "Wnętrze - Nadleśnictwo Lubliniec",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "",
     "zakres": "",
     "ukonczono": "2013",
@@ -2534,7 +2537,7 @@
     "nazwa_projektu": "0093",
     "zdjecie_glowne": "./content/0093/0093.jpg",
     "nazwa": "Wnętrze - Galeria Dobrej Sztuki",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Częstochowa",
     "zakres": "",
     "ukonczono": "2013",
@@ -2597,7 +2600,7 @@
     "nazwa_projektu": "0096",
     "zdjecie_glowne": "./content/0096/0096.jpg",
     "nazwa": "Świetlica w Liceum im. Romualda Traugutta",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Częstochowa",
     "zakres": "",
     "ukonczono": "2013",
@@ -2994,7 +2997,7 @@
       "./content/0111/0111a.jpg",
       "./content/0111/0111b.jpg"
     ],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "5301",
@@ -3312,8 +3315,8 @@
     "grupa": "wnetrza",
     "nazwa_projektu": "0125",
     "zdjecie_glowne": "./content/0125/0125.jpg",
-    "nazwa": "Wnętrze budynku urzyteczności publicznej",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "nazwa": "Wnętrze budynku użyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Herby",
     "zakres": "",
     "ukonczono": "",
@@ -3341,8 +3344,8 @@
     "grupa": "wnetrza",
     "nazwa_projektu": "0126",
     "zdjecie_glowne": "./content/0126/0126.jpg",
-    "nazwa": "Wnętrze budynku urzyteczności publicznej",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "nazwa": "Wnętrze budynku użyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Lubliniec",
     "zakres": "Realizacja",
     "ukonczono": "2015",
@@ -3640,7 +3643,7 @@
     "nazwa_projektu": "0137",
     "zdjecie_glowne": "./content/0137/0137.jpg",
     "nazwa": "Wnętrze budynku Nadleśnictwa Lubliniec",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Lubliniec",
     "zakres": "",
     "ukonczono": "",
@@ -3670,7 +3673,7 @@
     "nazwa_projektu": "0138",
     "zdjecie_glowne": "./content/0138/0138.jpg",
     "nazwa": "Wejście wschodnie - Galeria Jurajska",
-    "typ_obiektu": "Wnętrze budynku urzyteczności publicznej",
+    "typ_obiektu": "Wnętrze budynku użyteczności publicznej",
     "lokalizacja": "Częstochowa",
     "zakres": "Realizacja",
     "ukonczono": "2019",
@@ -3683,7 +3686,7 @@
       "Szymon Chrzanowski"
     ],
     "zdjecia": ["./content/0138/0138.jpg", "./content/0138/0138a.jpg"],
-    "fotograf": []
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "139",
@@ -4119,7 +4122,7 @@
       "./content/0152/0152a.jpg",
       "./content/0152/0152b.jpg"
     ],
-    "fotograf": ["Kacper Ziółkowski"]
+    "fotograf": ["@jackowskivisuals"]
   },
   {
     "kolejnosc": "300",
