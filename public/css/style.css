@@ -496,7 +496,7 @@ video {
   z-index: 9996;
   padding: 12px 20px;
   position: absolute;
-  background-color: var(--colour-blue-b);
+  background-color: rgb(8, 8, 8);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
@@ -511,7 +511,7 @@ video {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #28323b;
+  background-color: rgb(41, 41, 41);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -527,7 +527,7 @@ video {
   height: 562.5px;
 }
 .btn-posnawr-indx:active {
-  background-color: #28323b;
+  background-color: rgb(41, 41, 41);
   font-size: calc(16px + (22 - 18) * ((100vw - 320px) / 760));
 }
 

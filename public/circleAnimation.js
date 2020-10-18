@@ -3,7 +3,7 @@ const circleAnimationFunction = () => {
   var ctx = c.getContext("2d");
   var cH;
   var cW;
-  var bgColor = "#28323b";
+  var bgColor = " rgb(8, 8, 8)";
   var animations = [];
   var circles = [];
 
@@ -11,15 +11,30 @@ const circleAnimationFunction = () => {
 
   var colorPicker = (function () {
     if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-      var colors = ["#28323b", "#28323b", "#33414e", "#33414e"];
+      var colors = [
+        " rgb(8, 8, 8)",
+        " rgb(8, 8, 8)",
+        "rgb(41, 41, 41)",
+        " rgb(41, 41, 41)",
+      ];
     } else if (
       /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
         ua
       )
     ) {
-      var colors = ["#28323b", "#28323b", "#33414e", "#33414e"];
+      var colors = [
+        " rgb(8, 8, 8)",
+        " rgb(8, 8, 8)",
+        "rgb(41, 41, 41)",
+        "rgb(41, 41, 41)",
+      ];
     } else {
-      var colors = ["#28323b", "#33414e", "#28323b", "#33414e"];
+      var colors = [
+        " rgb(8, 8, 8)",
+        "rgb(41, 41, 41)",
+        " rgb(8, 8, 8)",
+        "rgb(41, 41, 41)",
+      ];
     }
 
     var index = 0;
