@@ -64,12 +64,15 @@ body {
   margin-left: 5%;
   font-weight: 300;
   cursor: pointer;
+  opacity: 0.7;
 }
-.wszystkie-links a.active,
-.wszystkie-links a:hover {
+.wszystkie-links a.active {
   font-weight: 500;
+  opacity: 1;
 }
-
+.wszystkie-links a:hover {
+  opacity: 1;
+}
 @media (min-width: 1024px) {
   .verso-hamburger {
     display: none;
