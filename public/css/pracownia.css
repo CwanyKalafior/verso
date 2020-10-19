@@ -36,7 +36,7 @@ body {
   width: 100%;
   padding: 5%;
   background-color: rgba(0, 0, 0, 0);
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 .pracownia-name span {
@@ -55,7 +55,7 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   text-indent: 5vw;
   font-weight: 300;
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 
@@ -107,7 +107,7 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   text-indent: 5vw;
   font-weight: 300;
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 
@@ -322,7 +322,7 @@ body {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   z-index: 999;
   white-space: nowrap;
-  cursor: none;
+  cursor: pointer;
 }
 
 .awards-btn p {
@@ -363,12 +363,11 @@ body {
   bottom: 0;
   padding: 10px 18px;
   position: absolute;
-  /* background-color: rgb(32, 32, 32); */
-  background-color: var(--colour-blue-b);
+  background-color: rgb(8, 8, 8);
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
@@ -379,8 +378,7 @@ body {
   width: 0;
   height: 0;
   border-radius: 50%;
-  /* background-color: rgb(16, 16, 16); */
-  background-color: var(--colour-blue-a);
+  background-color: rgb(41, 41, 41);
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);

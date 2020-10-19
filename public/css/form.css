@@ -9,23 +9,25 @@
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background-color: #28323b;
+  background-color: rgb(8, 8, 8);
   font-family: "Roboto", sans-serif;
   z-index: 1;
 }
-
+.cursor-follower {
+  display: none;
+}
 .form-wrapper {
   position: relative;
   top: calc(8vh + 60px);
   color: #eee;
   padding-left: 6%;
-  cursor: none;
+  cursor: default;
 }
 
 .top-nav,
 .verso-close {
   margin-top: -13vh;
-  cursor: none;
+  cursor: pointer;
 }
 
 label {
@@ -50,7 +52,7 @@ textarea {
   color: #eee;
   font-weight: 500;
   font-size: var(--font-size-3);
-  cursor: none;
+  cursor: pointer;
 }
 textarea {
   resize: none;
@@ -73,7 +75,7 @@ textarea:focus {
   position: relative;
   top: 5vh;
   display: block;
-  cursor: none;
+  cursor: default;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -85,7 +87,7 @@ textarea:focus {
   height: 0;
   width: 0;
   opacity: 0;
-  cursor: none;
+  cursor: pointer;
 }
 .checkmark {
   position: absolute;
@@ -96,7 +98,7 @@ textarea:focus {
   display: block;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
-  cursor: none;
+  cursor: pointer;
   z-index: 99999;
 }
 .checkmark_white {
@@ -107,8 +109,6 @@ textarea:focus {
   width: 70vw;
   left: calc(30px + 2vw);
   color: rgba(255, 255, 255, 0.7);
-  /* margin-left: -48%; */
-  /* margin-right: 5%; */
   font-size: var(--font-size-7);
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -133,7 +133,7 @@ input.form-btn {
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
 }
 .form-accept_text a {
   text-decoration: none;
@@ -143,71 +143,6 @@ input.form-btn {
   text-decoration: underline;
   color: #eee;
 }
-/* input.form-btn:hover {
-  font-weight: 500;
-} */
-
-/* @media (min-width: 320px) and (orientation: portrait) {
-  .form-send_btn {
-    bottom: -23vh;
-  }
-} */
-/* @media (min-width: 533px) and (orientation: landscape) {
-  .form-wrapper {
-    top: 17vh;
-    padding-left: 10%;
-    padding-bottom: 25vh;
-  }
-  label {
-    position: relative;
-    
-  }
-  input,
-  textarea {
-    position: relative;
-    width: 90%;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    font-family: "Roboto", sans-serif;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    color: #eee;
-    font-weight: 500;
-    
-  }
-  .form-accept {
-    position: relative;
-    top: 3vh;
-    padding: 0%;
-  }
-
-  .form-accept p {
-    position: relative;
-    width: 75vw;
-    left: 32vw;
-    margin-left: -45%;
-    font-size: var(--font-size-3);
-  }
-
-  input.form-btn {
-    top: 0vh;
-    padding: 10vh 0;
-  }
-} */
-/* @media (max-height: 525px) {
-  input.form-btn {
-    top: 10vh;
-    padding: 5vh 0;
-  }
-} */
-/* @media (min-width: 1024px) and (orientation: landscape) {
-  .checkmark {
-    top: 5%;
-    height: 3.5vh;
-    width: 3.5vh;
-  }
-} */
 @media (min-width: 1024px) {
   .form-cont {
     margin-top: auto;
@@ -218,17 +153,7 @@ input.form-btn {
   .checkmark {
     margin-top: 2px;
   }
-  /* .form-accept p {
-    position: relative;
-    width: 70vw;
-    left: 35vw;
-    color: rgba(255, 255, 255, 0.7);
-    margin-left: -48%;
-    margin-right: 5%;
-    font-size: var(--font-size-7);
-    letter-spacing: 0.5px;
-    font-weight: 300;
-  } */
+
   .form-accept p {
     width: 45vw;
   }
@@ -245,9 +170,3 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
-/* @media (min-width: 1024px) {
-  .cookies-info {
-    text-indent: 3vw;
-  }
-} */

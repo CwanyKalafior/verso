@@ -1,5 +1,5 @@
 body {
-  background-color: #28323b;
+  background-color: rgb(8, 8, 8);
 }
 #c {
   display: block;
@@ -12,14 +12,13 @@ body {
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background-color: #28323b;
+  background-color: rgb(8, 8, 8);
   font-family: "Roboto", sans-serif;
-  /* z-index: 1; */
-  cursor: none;
+  cursor: default;
 }
 
 .contact-wrapper {
-  background-color: #28323b;
+  background-color: rgb(8, 8, 8);
   height: 100vh;
   overflow: hidden;
   width: 100vw;
@@ -57,7 +56,7 @@ body {
   color: #eee;
   font-weight: 500;
   font-size: var(--font-size-3);
-  cursor: none;
+  cursor: pointer;
 }
 
 .contact-data {
