@@ -55,6 +55,7 @@ body {
 .projekty-links a {
   display: inline-block;
   color: #eee;
+  opacity: 0.7;
   text-decoration: none;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   margin-top: 5%;
@@ -63,9 +64,11 @@ body {
   cursor: pointer;
 }
 
-.projekty-links a.active,
-.projekty-links a:hover {
+.projekty-links a.active {
   font-weight: 500;
+}
+.projekty-links a:hover {
+  opacity: 1;
 }
 
 @media (min-width: 640px) {
