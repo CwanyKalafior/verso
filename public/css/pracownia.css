@@ -36,7 +36,7 @@ body {
   width: 100%;
   padding: 5%;
   background-color: rgba(0, 0, 0, 0);
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 .pracownia-name span {
@@ -55,7 +55,7 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   text-indent: 5vw;
   font-weight: 300;
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 
@@ -107,7 +107,7 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   text-indent: 5vw;
   font-weight: 300;
-  cursor: none;
+  cursor: default;
   z-index: 9996;
 }
 
@@ -322,7 +322,7 @@ body {
   font-size: calc(18px + (22 - 18) * ((100vw - 320px) / 760));
   z-index: 999;
   white-space: nowrap;
-  cursor: none;
+  cursor: pointer;
 }
 
 .awards-btn p {
@@ -367,7 +367,7 @@ body {
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);

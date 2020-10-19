@@ -31,7 +31,7 @@ video {
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
@@ -95,7 +95,7 @@ video {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
 }
 .about_us-info span {
   display: inline-block;
@@ -122,7 +122,7 @@ video {
   color: rgba(255, 255, 255, 0.8);
   text-indent: 5vw;
   font-weight: 300;
-  cursor: none;
+  cursor: default;
 }
 .about_us-info p {
   color: rgba(255, 255, 255, 0.8);
@@ -141,10 +141,10 @@ footer p {
   text-align: center;
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 760));
   color: rgba(255, 255, 255, 0.8);
-  cursor: none;
+  cursor: default;
 }
 footer a {
-  cursor: none;
+  cursor: pointer;
 }
 footer p {
   position: relative;
@@ -186,7 +186,7 @@ footer p a:hover {
   min-height: 35px;
 }
 .verso-arrow-up .container:hover {
-  cursor: none;
+  cursor: pointer;
 }
 .verso-arrow-up .container .background {
   position: absolute;
@@ -275,7 +275,7 @@ footer p a:hover {
   color: #eee;
   overflow: hidden;
   font-weight: 300;
-  cursor: none;
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);

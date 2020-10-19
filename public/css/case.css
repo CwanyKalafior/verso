@@ -4,12 +4,8 @@ body {
   max-height: 1000vh;
   overflow: scroll;
   overflow-x: hidden;
-  cursor: none;
+  cursor: default;
 }
-
-/* .noise {
-  position: fixed;
-} */
 
 .realizacje-wrapper {
   position: absolute;
