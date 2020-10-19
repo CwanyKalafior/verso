@@ -68,6 +68,7 @@ body {
 }
 .wszystkie-links a.active {
   font-weight: 500;
+  opacity: 1;
 }
 .wszystkie-links a:hover {
   opacity: 1;

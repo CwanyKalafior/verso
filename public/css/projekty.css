@@ -62,10 +62,12 @@ body {
   margin-left: 5%;
   font-weight: 300;
   cursor: pointer;
+  transition: 0.2;
 }
 
 .projekty-links a.active {
   font-weight: 500;
+  opacity: 1;
 }
 .projekty-links a:hover {
   opacity: 1;

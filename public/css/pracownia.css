@@ -393,7 +393,6 @@ body {
   height: 562.5px;
 }
 .pracownia-btn-posnawr:active {
-  /* background-color: rgb(0, 0, 0); */
   background-color: var(--colour-blue-a);
   font-size: calc(12px + (18 - 14) * ((100vw - 320px) / 760));
   margin-left: 10px;
