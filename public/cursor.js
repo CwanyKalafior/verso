@@ -67,6 +67,14 @@ const cursorFunction = () => {
       cursor.removeClass("active");
       follower.removeClass("little");
     };
+    const noVisibleCursor = () => {
+      cursor.addClass("novisible");
+      follower.addClass("novisible");
+    };
+    const visibleCursor = () => {
+      cursor.removeClass("novisible");
+      follower.removeClass("novisible");
+    };
     // ADD
     // strona główna
     $(".cookies-info").on("mouseenter", function () {
@@ -101,14 +109,14 @@ const cursorFunction = () => {
       setCursorLittle();
     });
     $(".projekt-lista img").on("mouseenter", function () {
-      setCursorActive();
+      noVisibleCursor();
     });
     $(".swiper-container").on("mouseenter", function () {
-      setCursorActive();
+      noVisibleCursor();
     });
     // galeria
     $(".grid").on("mouseenter", function () {
-      setCursorActive();
+      noVisibleCursor();
     });
     $(".wszystkie-links a").on("mouseenter", function () {
       setCursorActive();
@@ -194,14 +202,14 @@ const cursorFunction = () => {
       removeCursorLittle();
     });
     $(".projekt-lista img").on("mouseleave", function () {
-      removeCursorActive();
+      visibleCursor();
     });
     $(".swiper-container").on("mouseleave", function () {
-      removeCursorActive();
+      visibleCursor();
     });
     // galeria
     $(".grid").on("mouseleave", function () {
-      removeCursorActive();
+      visibleCursor();
     });
     $(".wszystkie-links a").on("mouseleave", function () {
       removeCursorActive();

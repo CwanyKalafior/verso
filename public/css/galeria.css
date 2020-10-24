@@ -84,6 +84,14 @@ body {
   position: relative;
   z-index: 9994;
 }
+@media (min-width: 1024px) {
+  .grid-item img {
+    filter: grayscale(100%);
+  }
+  .grid-item img:hover {
+    filter: grayscale(0%);
+  }
+}
 
 @media (min-width: 533px) {
   .grid:after {
@@ -158,6 +166,7 @@ body {
     width: 33.3%;
   }
 }
+
 @media (min-width: 1024px) and (orientation: portrait) {
   .grid {
     position: relative;

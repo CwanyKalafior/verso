@@ -92,6 +92,11 @@ body {
   transform: scale(0.3);
   background: rgb(255, 255, 255, 1);
 }
+.cursor.novisible,
+.cursor-follower.novisible {
+  opacity: 0;
+}
+
 .cursor-follower {
   position: absolute;
   background: var(--colour-black-t050);
