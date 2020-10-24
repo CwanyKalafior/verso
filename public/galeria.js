@@ -60,9 +60,8 @@ interiorsImages.addEventListener("click", function () {
   interiorsImages.classList.add("active");
 });
 
-
 var starting_slice_point = 0;
-var number_of_elements = 20;
+var number_of_elements = 50;
 var all;
 var jednorodzinne_all;
 var wielorodzinne_all;
@@ -113,7 +112,6 @@ $(function () {
       wnetrza_all = obj.filter((element) => element.grupa === "wnetrza");
       wnetrza_full_length = wnetrza_all.length;
 
-
       //display first 20
       all.slice(0, number_of_elements).forEach((element) => {
         document.getElementById(
@@ -132,7 +130,7 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
-        number_of_elements = 20;
+        number_of_elements = 50;
         //create number of elements
         all = obj
           .filter((element) => element.grupa !== "")
@@ -150,8 +148,8 @@ $(function () {
           $grid.append($elems);
           $grid.masonry("appended", $elems).masonry("layout");
         });
-        console.log(all.length + " - " + all_full_length)
-        if (all.length < 20) {
+        console.log(all.length + " - " + all_full_length);
+        if (all.length < 50) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("gallery-btn-x").style.display = "block";
@@ -165,7 +163,7 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
-        number_of_elements = 20;
+        number_of_elements = 50;
         //create number of elements
         jednorodzinne_all = obj
           .filter((element) => element.grupa === "jednorodzinne")
@@ -183,8 +181,8 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        console.log(jednorodzinne_all.length)
-        if (jednorodzinne_all.length < 20) {
+        console.log(jednorodzinne_all.length);
+        if (jednorodzinne_all.length < 50) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("gallery-btn-x").style.display = "block";
@@ -230,7 +228,7 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
-        number_of_elements = 20;
+        number_of_elements = 50;
         //create number of elements
         publiczne_all = obj
           .filter((element) => element.grupa === "publiczne")
@@ -248,7 +246,7 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (publiczne_all.length < 20) {
+        if (publiczne_all.length < 50) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("gallery-btn-x").style.display = "block";
@@ -262,7 +260,7 @@ $(function () {
           "grid"
         ).innerHTML = `<div class="grid-sizer"></div>`;
 
-        number_of_elements = 20;
+        number_of_elements = 50;
         //create number of elements
         wnetrza_all = obj
           .filter((element) => element.grupa === "wnetrza")
@@ -280,7 +278,7 @@ $(function () {
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
-        if (wnetrza_all.length < 20) {
+        if (wnetrza_all.length < 50) {
           document.getElementById("gallery-btn-x").style.display = "none";
         } else {
           document.getElementById("gallery-btn-x").style.display = "block";
@@ -289,12 +287,12 @@ $(function () {
 
       //click "wczytaj wiecej"
       $(document).on("click", "#btn", function () {
-        number_of_elements += 20;
+        number_of_elements += 50;
         //btn-all  -  wszystkie
         if (document.getElementById("btn-all").classList.contains("active")) {
           all = obj
             .filter((element) => element.grupa !== "")
-            .slice(number_of_elements - 20, number_of_elements);
+            .slice(number_of_elements - 50, number_of_elements);
           console.log("ALL - " + all);
           all.forEach((element) => {
             elems = `<div class="grid-item ${element.grupa}">
@@ -309,7 +307,7 @@ $(function () {
             console.log("NUMBER_OF: " + number_of_elements);
           });
 
-          if (all.length < 20) {
+          if (all.length < 50) {
             document.getElementById("gallery-btn-x").style.display = "none";
           } else {
             document.getElementById("gallery-btn-x").style.display = "block";
